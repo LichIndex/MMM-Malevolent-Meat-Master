@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.4: the wiki
+# Malevolent Meat Master v0.7.5: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -97,6 +97,7 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 
 ### Getting out, and dying
 - **E** calls the food truck. It arrives in 30 s; the fight (and the threat) goes on until it does. Survive and everything comes home.
+- The result screen sums the run up (salvage as a count by tier). **Enter**, **Space** or **E** goes back to the Smokehouse.
 - **If you die** (or abandon the run): the raw meat, fried cuts, salvage and any blueprint are lost, and you lose 10% + 5% per threat level (up to 75%) of the run's materials, ingredients and Mutagen. The smoker's load comes out overcooked (worth ×0.6).
 
 ### Health and armor
@@ -514,6 +515,11 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. A cut sold earns 2 × (fi
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
 - The **Shoggoth Hatch** takes every raw cut at ×0.05 of its value: a dump for leftovers, not a business.
 
+### The chef cat
+- **Production > Kitchen > CHEF** hires a chef cat to run the kitchen. No fee up front: it takes **6% of every meat sale** for as long as it works there, and you can let it go any time.
+- Whenever a pot is free and there's more raw meat than sauce on the way, it brews the best sauce it can from the recipes and ingredients you have, with the taste dials set as close as your dial upgrades reach, for the faction your smoker target names (or where the truck is parked). It sauces raw meat as sauces finish, the best-fitting sauce and the most valuable cuts first.
+- It works on real time like the rest of the kitchen: while you fight and while the game is closed. You can still brew by hand.
+
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
 - A sauce's taste = the recipe's base + its ingredients, then the dials (the Spice Rack, Sugar Press and Stock Pot let you nudge each taste by 1 more per level). Each taste caps at 5 (Flavor Overdrive raises the cap for extreme fads).
@@ -626,6 +632,7 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 - **Expeditions:** send a cat to an open destination at a threat up to your best, for 15 minutes, 1 hour, 4 hours, 8 hours. It fights on its own (also with the game closed) and brings home what a run would: meat, materials, ingredients, salvage (through your loot filter), set pieces and Mutagen. Longer trips bring more, but less a minute.
 - The planner shows the threat the cat's kit should hold, the **odds** of a clean trip (3% to 97%) and the expected haul. A trip that goes wrong brings home 20% to 60% of the haul, and the cat rests for a while (25% of the trip, at least 10 minutes).
 - **RECALL** brings a cat home early with a quarter of the haul. While it's out, its parts stay with it.
+- The **chef cat** is a separate hire, in Production > Kitchen > CHEF (see Meat, sauce and selling).
 
 ## Endgame
 
@@ -659,7 +666,13 @@ Past threat **21** a run turns Infested:
 
 ### Saves
 - Every version keeps its own save, so updating never breaks your game. The main menu offers to **import** the newest older save while the new one has no progress.
-- The game saves after every change. Settings has the window size, fullscreen, fire effects (LIVE HIGH, LIVE LOW or CLASSIC: lower them if it runs slowly) and an FPS counter.
+- The game saves after every change. Settings has the window size, fullscreen, fire effects and an FPS counter.
+
+### Fire effects
+Every setting fires the same flamethrower: damage comes from the cone and the burn rules, never from how the fire is drawn.
+- **LIVE ULTRA** (the default): the fire simulation plus burning fuel (the jet sprays fuel that catches as it flies, so it rolls and billows), fire light on the ground, the pig and the mutants, heat haze, embers and sparks, scorch marks and glowing coals where things burned, and puddles that keep burning with flames on them.
+- **LIVE HIGH**: the fire simulation (the flame splashes off mutants, bends as you sweep, rains burning fuel). **LIVE LOW**: the same, chunkier and lighter on the graphics chip. **CLASSIC**: the old particle flame.
+- If the game can't keep up it steps down by itself (ULTRA to HIGH, HIGH to LOW), says so, and remembers it.
 
 ### Logs (for bug reports)
 - With **Settings > DEBUG LOG** on (the default), each session writes a text file to a **logs** folder next to the game: your kit, every run in detail, hub actions, the crew and any errors. **OPEN LOG FOLDER** opens it.
