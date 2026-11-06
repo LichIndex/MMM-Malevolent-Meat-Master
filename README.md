@@ -4,10 +4,10 @@ A pig with a flamethrower roasts mutants for meat. This page only hosts the Wind
 
 ## Download
 
-**[Download v0.6.9 for Windows](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases/download/v0.6.9/MalevolentMeatMaster_v0.6.9_windows.zip)** (43 MB). Older versions are on the [Releases page](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases).
+**[Download v0.6.10 for Windows](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases/download/v0.6.10/MalevolentMeatMaster_v0.6.10_windows.zip)** (43 MB). Older versions are on the [Releases page](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases).
 
 1. Unzip it anywhere (the Desktop is fine).
-2. Double-click `MalevolentMeatMaster_v0.6.9.exe`. Nothing else to install.
+2. Double-click `MalevolentMeatMaster_v0.6.10.exe`. Nothing else to install.
 3. Windows may say *Windows protected your PC*, because the game isn't code-signed. Click **More info**, then **Run anyway**. It only asks the first time.
 
 It needs 64-bit Windows 10 or 11 and a graphics card with OpenGL 3.3 (almost any from the last ten years). If it opens to a black window or closes at once, update the graphics driver. If it runs slowly, set **Settings > FIRE EFFECTS** to LIVE LOW or CLASSIC.
@@ -30,6 +30,6 @@ Back at the Smokehouse you turn the meat into money. In the Kitchen, brew a sauc
 
 ## Your save
 
-Saves are in `%APPDATA%\MalevolentMeatMaster_v069\` (paste that into the Explorer address bar). Each version keeps its own save: when you get a newer version, press **IMPORT v0.6.9 SAVE** on its main menu before you start to bring your progress along.
+Saves are in `%APPDATA%\MalevolentMeatMaster_v0610\` (paste that into the Explorer address bar). Each version keeps its own save: when you get a newer version, press **IMPORT v0.6.10 SAVE** on its main menu before you start to bring your progress along.
 
 This is a test build: the numbers, art and sounds are placeholders and will change.
