@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.12: the wiki
+# Malevolent Meat Master v0.8.0: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -333,7 +333,7 @@ The top quality. Salvage only rolls it in Infested runs (past threat 21), each l
 - **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality Blueprint Shards. A set's blueprint costs 30 Shards (Workbench > SETS), then you craft its pieces for ◆ and materials. Faction reputation gives some blueprints too, and Hellmouth's needs one found Hellmouth piece first (or the Glow Cult's top reputation).
 
 ### Deep Fryer
-Brawler build · all fuels · drops at the Sewer Delta
+Brawler build · all fuels · drops at the The Flesh Farms
 - **2 pieces:** Kills drop +25% raw meat
 - **3 pieces:** +40% stack damage within 220 px
 - **4 pieces:** BATTERED: mutants within 220 px take +1% per stack on them (up to +60%)
@@ -345,19 +345,19 @@ Brawler build · all fuels · drops at the Smokehouse Outskirts
 - **4 pieces:** GREASE FIRE: burning kills explode for 2 stacks in a wide blast
 
 ### Pit Boss
-Brawler build · all fuels · drops anywhere
+Brawler build · all fuels · drops at the Tank Graveyard
 - **2 pieces:** +15% stack damage within 220 px
 - **3 pieces:** Each hit the pig takes vents 30 heat as a burst around him
 - **4 pieces:** BURNING MAN: with 10+ mutants within 220 px, flow +30% and the pig takes 30% less damage
 
 ### Meltdown
-Lancer build · all fuels · drops at the Glow Crater
+Lancer build · all fuels · drops at the Reactor Row
 - **2 pieces:** +10% burn duration, and aging fuels (Rad Syrup) age 25% faster
 - **3 pieces:** Elites take +10% from every fuel
 - **4 pieces:** CRITICAL MASS: a mutant carrying 120+ stacks of one fuel takes +50% from every burn
 
 ### Steeple Works
-Lancer build · all fuels · drops anywhere
+Lancer build · all fuels · drops at the The Neon Strip
 - **2 pieces:** +10% burn duration
 - **3 pieces:** Mutants beyond 300 px take +5% stack damage
 - **4 pieces:** DEADEYE: the first unit to hit an elite each second applies 2 stacks
@@ -369,7 +369,7 @@ Lancer build · all fuels · drops at the Glow Crater
 - **4 pieces:** ARC: every hit chains to 2 nearby mutants
 
 ### Boiler Room
-Furnace build · all fuels · drops at the Smokehouse Outskirts
+Furnace build · all fuels · drops at the Smelter Pits
 - **2 pieces:** Heat cap +10%
 - **3 pieces:** Above 50% heat, stacks +5% damage
 - **4 pieces:** PRESSURE COOKER: reaching 100% heat starts 3 s with no overheat damage and +50% flow, then heat drops to 0 (once per 45 s)
@@ -393,31 +393,31 @@ Miser build · all fuels · drops at the Sewer Delta
 - **4 pieces:** GLACIER: every fuel runs 40% cooler, and burning mutants slow 10%
 
 ### Slow Cooker
-Miser build · all fuels · drops anywhere
+Miser build · all fuels · drops at the Fungal Bog
 - **2 pieces:** +25% burn duration
 - **3 pieces:** Stacks on mutants outside the cone deal +45% damage
 - **4 pieces:** SIMMER: every 5th unit is free and every 10th applies 2 stacks; all fuels +57% stack damage
 
 ### Thrift Shop
-Miser build · all fuels · drops at the Smokehouse Outskirts
+Miser build · all fuels · drops at the The Junk Bazaar
 - **2 pieces:** Tanks regen +3.5 units/s
 - **3 pieces:** 20% of units cost no fuel
 - **4 pieces:** LEFTOVERS: an empty tank refills 40% at once (once every 20 s); +100% stack damage
 
 ### Bandolier
-Juggler build · all fuels · drops anywhere
+Juggler build · all fuels · drops at the Scrap Mountain
 - **2 pieces:** +1 tank mount on any chassis (up to 4)
 - **3 pieces:** Inactive tanks regen 200% faster
 - **4 pieces:** QUICK DRAW: a swap within 1 s of the last costs no swap time and refunds 10 units to the tank you left
 
 ### Cocktail Hour
-Juggler build · all fuels · drops anywhere
+Juggler build · all fuels · drops at the The Food Court
 - **2 pieces:** Swap time -50%
 - **3 pieces:** Swapping to a different fuel gives +10% stack damage for 4 s, once per distinct fuel (up to +30%)
 - **4 pieces:** MOLOTOV MIX: each swap leaves a 120 px pool of the last fuel, burning 1 stack per tick for 2 s; all fuels +120% stack damage
 
 ### Moonshine Run
-Juggler build · all fuels · drops at the Smokehouse Outskirts
+Juggler build · all fuels · drops at the Dead Drive-In
 - **2 pieces:** Tanks +50% capacity
 - **3 pieces:** Swapping tanks fires +60% flow for 2 s
 - **4 pieces:** STILL HOT: every unit also applies a stack of the fuel fired before it; +60% stack damage
@@ -433,13 +433,13 @@ Three exotic parts for every fuel in every slot (168 in all). Each one **reshape
 
 | Material | Fuel | Drops at | Blueprints from |
 |---|---|---|---|
-| Tallow Brick | Rendered Lard | Smokehouse Outskirts | Sewer Kings |
-| Napalm Amber | Swamp Napalm | Sewer Delta | Sewer Kings |
-| Slag Heart | Thermite Slurry | Rust Flats | Rust Barons |
-| Ion Crystal | Ion Gel | Glow Crater | Glow Cult |
-| Still Copper | Rocket Hooch | Rust Flats | Rust Barons |
-| Isotope Seed | Rad Syrup | Glow Crater | Glow Cult |
-| Crackling | Fryer Oil | Sewer Delta | Sewer Kings |
+| Tallow Brick | Rendered Lard | Bloat Marsh | Sewer Kings |
+| Napalm Amber | Swamp Napalm | Fungal Bog | Sewer Kings |
+| Slag Heart | Thermite Slurry | Smelter Pits | Rust Barons |
+| Ion Crystal | Ion Gel | Static Fields | Glow Cult |
+| Still Copper | Rocket Hooch | Scrap Mountain | Rust Barons |
+| Isotope Seed | Rad Syrup | The Neon Strip | Glow Cult |
+| Crackling | Fryer Oil | The Food Court | Sewer Kings |
 
 | Rank | Reputation | Blueprint | Crafting |
 |---|---|---|---|
@@ -448,7 +448,7 @@ Three exotic parts for every fuel in every slot (168 in all). Each one **reshape
 | III | level 4 | 120 favor | ◆24,000 + 40 Blueprint Shards + 24 exotic material + the slot's T4 material |
 
 ### Rendered Lard
-Blueprints from the Sewer Kings; crafted with Tallow Brick (Smokehouse Outskirts).
+Blueprints from the Sewer Kings; crafted with Tallow Brick (Bloat Marsh).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -478,7 +478,7 @@ Blueprints from the Sewer Kings; crafted with Tallow Brick (Smokehouse Outskirts
 | Tank Mod | III | Schmaltz Reliquary | Primer Cell | A mutant carrying 100+ Lard stacks takes +50% from every burn, and Lard stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Swamp Napalm
-Blueprints from the Sewer Kings; crafted with Napalm Amber (Sewer Delta).
+Blueprints from the Sewer Kings; crafted with Napalm Amber (Fungal Bog).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -508,7 +508,7 @@ Blueprints from the Sewer Kings; crafted with Napalm Amber (Sewer Delta).
 | Tank Mod | III | Swamp-King Reliquary | Primer Cell | A mutant carrying 100+ Napalm stacks takes +50% from every burn, and Napalm stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Thermite Slurry
-Blueprints from the Rust Barons; crafted with Slag Heart (Rust Flats).
+Blueprints from the Rust Barons; crafted with Slag Heart (Smelter Pits).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -538,7 +538,7 @@ Blueprints from the Rust Barons; crafted with Slag Heart (Rust Flats).
 | Tank Mod | III | Forge-Heart Reliquary | Primer Cell | A mutant carrying 100+ Thermite stacks takes +50% from every burn, and Thermite stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Ion Gel
-Blueprints from the Glow Cult; crafted with Ion Crystal (Glow Crater).
+Blueprints from the Glow Cult; crafted with Ion Crystal (Static Fields).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -568,7 +568,7 @@ Blueprints from the Glow Cult; crafted with Ion Crystal (Glow Crater).
 | Tank Mod | III | Storm Reliquary | Primer Cell | A mutant carrying 100+ Ion Gel stacks takes +50% from every burn, and Ion Gel stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Rocket Hooch
-Blueprints from the Rust Barons; crafted with Still Copper (Rust Flats).
+Blueprints from the Rust Barons; crafted with Still Copper (Scrap Mountain).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -598,7 +598,7 @@ Blueprints from the Rust Barons; crafted with Still Copper (Rust Flats).
 | Tank Mod | III | Rocket Reliquary | Primer Cell | A mutant carrying 100+ Hooch stacks takes +50% from every burn, and Hooch stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Rad Syrup
-Blueprints from the Glow Cult; crafted with Isotope Seed (Glow Crater).
+Blueprints from the Glow Cult; crafted with Isotope Seed (The Neon Strip).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -628,7 +628,7 @@ Blueprints from the Glow Cult; crafted with Isotope Seed (Glow Crater).
 | Tank Mod | III | Half-Life Reliquary | Primer Cell | HALF-LIFE: Rad Syrup ages 60% faster, and elites take +50% from it |
 
 ### Fryer Oil
-Blueprints from the Sewer Kings; crafted with Crackling (Sewer Delta).
+Blueprints from the Sewer Kings; crafted with Crackling (The Food Court).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
@@ -667,9 +667,9 @@ Each fuel comes from its own **still** in the Production yard. Rendered Lard's s
 | Swamp Napalm | Bog-Gas Fermenter | Sewer Delta, threat 4 | 1 | ×1.35 / ×0.4 / ×0.5 | ×1.6 | ×0.8 | - | Gelled bog-gas. Burns forever, mostly on meat. |
 | Thermite Slurry | Crucible Furnace | Rust Flats, threat 4 | 1 | ×0.7 / ×0.6 / ×2 | ×0.8 | ×1.2 | - | Eats through scrap plating like it owes money. |
 | Ion Gel | Capacitor Stack | Glow Crater, threat 4 | 1 | ×0.7 / ×2.2 / ×0.6 | ×0.9 | ×1 | - | Crackling blue goop. Pops rad-shields like soap bubbles. |
-| Rocket Hooch | Copper Moonshine Still | Smokehouse Outskirts, threat 8 | 1.4 | ×1.1 / ×1.1 / ×1.1 | ×0.6 | ×1.5 | - | Triple-distilled. Do not drink. Okay, maybe a sip. |
-| Rad Syrup | Glow Vat | Glow Crater, threat 12 | 0.18 | ×1 / ×1 / ×0.8 | ×1.4 | ×0.7 | each stack deals +12% more for every second it has burned (up to +80%) | Sweet, sticky and glowing. The longer it clings, the worse it gets. |
-| Fryer Oil | Deep-Fry Drum | Sewer Delta, threat 12 | 0.85 | ×1.2 / ×0.5 / ×0.6 | ×0.8 | ×1.3 | its kills drop cuts already fried: they skip the smoker and sell for +25% | Ten thousand batches deep. Whatever it kills comes out crispy. |
+| Rocket Hooch | Copper Moonshine Still | The Junk Bazaar, threat 8 | 1.4 | ×1.1 / ×1.1 / ×1.1 | ×0.6 | ×1.5 | - | Triple-distilled. Do not drink. Okay, maybe a sip. |
+| Rad Syrup | Glow Vat | Reactor Row, threat 12 | 0.18 | ×1 / ×1 / ×0.8 | ×1.4 | ×0.7 | each stack deals +12% more for every second it has burned (up to +80%) | Sweet, sticky and glowing. The longer it clings, the worse it gets. |
+| Fryer Oil | Deep-Fry Drum | The Flesh Farms, threat 12 | 0.85 | ×1.2 / ×0.5 / ×0.6 | ×0.8 | ×1.3 | its kills drop cuts already fried: they skip the smoker and sell for +25% | Ten thousand batches deep. Whatever it kills comes out crispy. |
 
 Damage is per stack per tick; burn multiplies the 3 s a stack lasts; heat multiplies the heat each unit makes.
 
@@ -698,11 +698,11 @@ Pools below are at threat 0; they grow with the destination's rates and the diff
 
 | Mutant | Health | Shields | Armor | Speed | Shows up from | Meat | Drops | Common at |
 |---|---|---|---|---|---|---|---|---|
-| Shambler | 16 | - | - | 46 | threat 0 | Shambler Shank | Mutant Bits | - |
-| Skitter | 6 | - | - | 105 | threat 1 | Skitter Drumettes | Mutant Bits | Sewer Delta |
-| Glowbag | 12 | 18 | - | 40 | threat 2 | Glowbag Belly | Chemicals | Glow Crater |
-| Scrapper | 14 | - | 28 | 34 | threat 3 | Scrapper Ribs | Scrap Metal | Rust Flats |
-| Tumor Hulk | 104 | - | 32 | 24 | threat 6 | Hulk Brisket | Scrap Metal, Mutant Bits | Sewer Delta |
+| Shambler | 16 | - | - | 46 | threat 0 | Shambler Shank | Mutant Bits | Dead Drive-In, The Flesh Farms, Fungal Bog |
+| Skitter | 6 | - | - | 105 | threat 1 | Skitter Drumettes | Mutant Bits | The Junk Bazaar, The Food Court, Scrap Mountain, The Neon Strip, Sewer Delta |
+| Glowbag | 12 | 18 | - | 40 | threat 2 | Glowbag Belly | Chemicals | Dead Drive-In, Smelter Pits, Glow Crater, Reactor Row, The Neon Strip, Static Fields, Fungal Bog |
+| Scrapper | 14 | - | 28 | 34 | threat 3 | Scrapper Ribs | Scrap Metal | The Junk Bazaar, Rust Flats, Scrap Mountain, Tank Graveyard, Smelter Pits, Reactor Row, Bloat Marsh |
+| Tumor Hulk | 104 | - | 32 | 24 | threat 6 | Hulk Brisket | Scrap Metal, Mutant Bits | The Food Court, Tank Graveyard, Static Fields, Sewer Delta, The Flesh Farms, Bloat Marsh |
 
 - A destination's favourite mutants show up 2 threat levels early and more often.
 - Shields and armor come off before health, so fuels and parts that break shells (vs shields, vs armor) matter more as those pools grow.
@@ -710,42 +710,144 @@ Pools below are at threat 0; they grow with the destination's rates and the diff
 ## Destinations and factions
 
 ### Destinations
+Sixteen places in four themes, four places each (since v0.8.0). A theme's places grow their mutants at the same rates (the same difficulty), with a different mix of mutants each; every place but the Outskirts is the turf of its own faction, and the new ones open one after another with the reputation of the place before. Each set has one home, each still blueprint and each exotic material drops at one place.
+
+- **Balanced** (Health, armor and shields grow alike): Smokehouse Outskirts, The Junk Bazaar, Dead Drive-In, The Food Court
+- **Armor** (Armor grows fastest: bring something that melts plates): Rust Flats, Scrap Mountain, Tank Graveyard, Smelter Pits
+- **Shield** (Shields grow fastest: bring something that pops them): Glow Crater, Reactor Row, The Neon Strip, Static Fields
+- **Health** (Raw health grows fastest: big meaty mutants): Sewer Delta, The Flesh Farms, Fungal Bog, Bloat Marsh
 
 #### Smokehouse Outskirts
 Home turf. Balanced mutants, a neutral market that pays a flat 0.9x.
 - **Unlock:** open from the start. **Market:** neutral (a flat ×0.9 for any sauce, no reputation).
-- **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
-- **Sets:** Boiler Room, Grease Fire, Moonshine Run, Thrift Shop. **Still blueprints:** Copper Moonshine Still (threat 8).
+- **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
+- **Sets:** Grease Fire. **Still blueprints:** none. **Exotic material:** none.
+
+#### The Junk Bazaar
+Bazaar Hagglers turf. A swap meet under tarps; skitters steal from the stalls.
+- **Unlock:** opens at best threat 6. **Market:** Bazaar Hagglers turf.
+- **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
+- **Common mutants:** Skitter, Scrapper. **Extra drops:** none.
+- **Sets:** Thrift Shop. **Still blueprints:** Copper Moonshine Still (threat 8). **Exotic material:** none.
+
+#### Dead Drive-In
+Reel Cult turf. The last film still loops; shamblers shuffle in for the late show.
+- **Unlock:** needs Bazaar Hagglers reputation 1. **Market:** Reel Cult turf.
+- **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
+- **Common mutants:** Shambler, Glowbag. **Extra drops:** none.
+- **Sets:** Moonshine Run. **Still blueprints:** none. **Exotic material:** none.
+
+#### The Food Court
+Mallrat Gangs turf. A gutted mall; hulks nest in the fry pits.
+- **Unlock:** needs Reel Cult reputation 1. **Market:** Mallrat Gangs turf.
+- **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
+- **Common mutants:** Tumor Hulk, Skitter. **Extra drops:** none.
+- **Sets:** Cocktail Hour. **Still blueprints:** none. **Exotic material:** Crackling (threat 10).
 
 #### Rust Flats
 Rust Barons turf. Armor piles up fast; Scrapper country. Their scrap comes out of the furnace Molten.
 - **Unlock:** opens at best threat 3. **Market:** Rust Barons turf.
-- **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
+- **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
 - **Common mutants:** Scrapper. **Extra drops:** Scrap Metal ×2.
-- **Sets:** Foundry Rig. **Still blueprints:** Crucible Furnace (threat 4).
+- **Sets:** Foundry Rig. **Still blueprints:** Crucible Furnace (threat 4). **Exotic material:** none.
+
+#### Scrap Mountain
+Tin Monks turf. A peak of crushed cars; scrappers and skitters climb it in swarms.
+- **Unlock:** needs Rust Barons reputation 2. **Market:** Tin Monks turf.
+- **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
+- **Common mutants:** Scrapper, Skitter. **Extra drops:** Scrap Metal ×2.
+- **Sets:** Bandolier. **Still blueprints:** none. **Exotic material:** Still Copper (threat 10).
+
+#### Tank Graveyard
+Ironsides turf. Rusted tanks in rows; hulks wear the turrets.
+- **Unlock:** needs Tin Monks reputation 1. **Market:** The Ironsides turf.
+- **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
+- **Common mutants:** Scrapper, Tumor Hulk. **Extra drops:** Scrap Metal ×2.
+- **Sets:** Pit Boss. **Still blueprints:** none. **Exotic material:** none.
+
+#### Smelter Pits
+Slag Brothers turf. Open furnaces; the scrappers come out glowing hot.
+- **Unlock:** needs The Ironsides reputation 1. **Market:** Slag Brothers turf.
+- **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
+- **Common mutants:** Scrapper, Glowbag. **Extra drops:** Scrap Metal ×2.
+- **Sets:** Boiler Room. **Still blueprints:** none. **Exotic material:** Slag Heart (threat 10).
 
 #### Glow Crater
 Glow Cult turf. Shields everywhere; bring Ion Gel.
 - **Unlock:** needs the food truck's engine at level 1. **Market:** Glow Cult turf.
-- **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
+- **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
 - **Common mutants:** Glowbag. **Extra drops:** Chemicals ×2.
-- **Sets:** Meltdown, Tesla Coilworks. **Still blueprints:** Capacitor Stack (threat 4), Glow Vat (threat 12).
+- **Sets:** Tesla Coilworks. **Still blueprints:** Capacitor Stack (threat 4). **Exotic material:** none.
+
+#### Reactor Row
+Reactor Choir turf. Cooling towers hum hymns; glowbags drift between them.
+- **Unlock:** needs Glow Cult reputation 1. **Market:** Reactor Choir turf.
+- **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
+- **Common mutants:** Glowbag, Scrapper. **Extra drops:** Chemicals ×2.
+- **Sets:** Meltdown. **Still blueprints:** Glow Vat (threat 12). **Exotic material:** none.
+
+#### The Neon Strip
+Neon Saints turf. Casino signs that never went dark; skitters under every one.
+- **Unlock:** needs Reactor Choir reputation 1. **Market:** Neon Saints turf.
+- **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
+- **Common mutants:** Glowbag, Skitter. **Extra drops:** Chemicals ×2.
+- **Sets:** Steeple Works. **Still blueprints:** none. **Exotic material:** Isotope Seed (threat 10).
+
+#### Static Fields
+Storm Callers turf. Lightning rods to the horizon; shielded hulks walk through the strikes.
+- **Unlock:** needs Neon Saints reputation 1. **Market:** Storm Callers turf.
+- **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
+- **Common mutants:** Glowbag, Tumor Hulk. **Extra drops:** Chemicals ×2.
+- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** Ion Crystal (threat 10).
 
 #### Sewer Delta
 Sewer Kings turf. Meat-heavy mutants grow huge.
 - **Unlock:** needs Rust Barons reputation 1. **Market:** Sewer Kings turf.
-- **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
+- **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
 - **Common mutants:** Tumor Hulk, Skitter. **Extra drops:** Mutant Bits ×2.
-- **Sets:** Deep Fryer, Glacier Works. **Still blueprints:** Bog-Gas Fermenter (threat 4), Deep-Fry Drum (threat 12).
+- **Sets:** Glacier Works. **Still blueprints:** Bog-Gas Fermenter (threat 4). **Exotic material:** none.
+
+#### The Flesh Farms
+Meat Ranchers turf. Pens of mutant cattle that got loose; the hulks are the bulls.
+- **Unlock:** needs Sewer Kings reputation 1. **Market:** Meat Ranchers turf.
+- **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
+- **Common mutants:** Tumor Hulk, Shambler. **Extra drops:** Mutant Bits ×2.
+- **Sets:** Deep Fryer. **Still blueprints:** Deep-Fry Drum (threat 12). **Exotic material:** none.
+
+#### Fungal Bog
+Spore Mothers turf. Knee-deep mushrooms; shamblers sprout from the mud.
+- **Unlock:** needs Meat Ranchers reputation 1. **Market:** Spore Mothers turf.
+- **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
+- **Common mutants:** Shambler, Glowbag. **Extra drops:** Mutant Bits ×2.
+- **Sets:** Slow Cooker. **Still blueprints:** none. **Exotic material:** Napalm Amber (threat 10).
+
+#### Bloat Marsh
+Gluttons' Court turf. A swamp of rendered fat; the biggest hulks wallow here.
+- **Unlock:** needs Spore Mothers reputation 1. **Market:** Gluttons' Court turf.
+- **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
+- **Common mutants:** Tumor Hulk, Scrapper. **Extra drops:** Mutant Bits ×2.
+- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** Tallow Brick (threat 10).
 
 ### Factions
 Each faction owns a destination's market. They like a taste (spicy / sweet / savory, 0 to 5), pay ×1.25 for their favourite cut, and reward reputation. Reputation comes only from selling them a sauce that fits better than ×1; it doesn't raise prices, it unlocks things.
 
 | Faction | Who | Turf | Ideal taste | Favourite cut | Reputation rewards |
 |---|---|---|---|---|---|
+| Bazaar Hagglers | Swap-meet traders | The Junk Bazaar | 3 / 3 / 2 | Shambler Shank | 1: Shows you the way to the Dead Drive-In<br>2: Recipe: Haggler's Hash Rub<br>3: Sells Marrow Butter<br>4: Thrift Shop blueprints |
+| Reel Cult | Film-loop preachers | Dead Drive-In | 1 / 4 / 3 | Skitter Drumettes | 1: Shows you the way to the Food Court<br>2: Recipe: Buttered Popcorn Glaze<br>3: Sells Glowberry Syrup<br>4: Moonshine Run blueprints |
+| Mallrat Gangs | Escalator raiders | The Food Court | 3 / 2 / 4 | Glowbag Belly | 1: Recipe: Food Court Teriyaki<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Cocktail Hour blueprints |
 | Rust Barons | Scrap warlords | Rust Flats | 4 / 1 / 3 | Scrapper Ribs | 1: Shows you the road into the Sewer Delta<br>2: Recipe: Baron's Brimstone Rub<br>3: Sells Glowberry Syrup (the Glow Cult loves it)<br>4: Foundry Rig blueprints |
+| Tin Monks | Junk-welding hermits | Scrap Mountain | 3 / 1 / 4 | Scrapper Ribs | 1: Shows you the way to the Tank Graveyard<br>2: Recipe: Solder Salt Rub<br>3: Sells Marrow Butter<br>4: Bandolier blueprints |
+| The Ironsides | Tread-riding road warriors | Tank Graveyard | 5 / 1 / 2 | Hulk Brisket | 1: Shows you the way to the Smelter Pits<br>2: Recipe: Diesel Pepper Dust<br>3: Sells Ghost Chili Paste<br>4: Pit Boss blueprints |
+| Slag Brothers | Furnace-stoking cultists | Smelter Pits | 4 / 2 / 3 | Scrapper Ribs | 1: Recipe: Slag Sear<br>2: Sells Ghost Chili Paste<br>3: Sells Marrow Butter<br>4: Boiler Room blueprints |
 | Glow Cult | Radioactive zealots | Glow Crater | 1 / 4 / 2 | Glowbag Belly | 1: Recipe: Halo Honey Glaze<br>2: Sells Marrow Butter (the Sewer Kings love it)<br>3: Tesla Coilworks blueprints<br>4: Hellmouth blueprints |
+| Reactor Choir | Hymn-singing technicians | Reactor Row | 1 / 5 / 1 | Glowbag Belly | 1: Shows you the way to the Neon Strip<br>2: Recipe: Hymnal Honey<br>3: Sells Glowberry Syrup<br>4: Meltdown blueprints |
+| Neon Saints | Casino ghouls | The Neon Strip | 2 / 4 / 3 | Skitter Drumettes | 1: Shows you the way to the Static Fields<br>2: Recipe: Neon Candy Glaze<br>3: Sells Glowberry Syrup<br>4: Steeple blueprints |
+| Storm Callers | Lightning-rod nomads | Static Fields | 4 / 3 / 1 | Shambler Shank | 1: Recipe: Ozone Rub<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Tesla Coilworks blueprints |
 | Sewer Kings | Underground mutant royalty | Sewer Delta | 2 / 1 / 5 | Hulk Brisket | 1: Recipe: Royal Marrow Gravy<br>2: Sells Ghost Chili Paste (the Rust Barons love it)<br>3: Glacier Works blueprints<br>4: Grease Fire blueprints |
+| Meat Ranchers | Mutant cattle barons | The Flesh Farms | 2 / 2 / 5 | Hulk Brisket | 1: Shows you the way to the Fungal Bog<br>2: Recipe: Rancher's Red-Eye Gravy<br>3: Sells Marrow Butter<br>4: Deep Fryer blueprints |
+| Spore Mothers | Mushroom matriarchs | Fungal Bog | 1 / 3 / 4 | Shambler Shank | 1: Shows you the way to Bloat Marsh<br>2: Recipe: Spore Butter Baste<br>3: Sells Marrow Butter<br>4: Slow Cooker blueprints |
+| Gluttons' Court | Swollen swamp nobles | Bloat Marsh | 3 / 4 / 3 | Hulk Brisket | 1: Recipe: Gluttony Glaze<br>2: Sells Glowberry Syrup<br>3: Sells Marrow Butter<br>4: Grease Fire blueprints |
 
 Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **Fighting on their turf:** getting out of a run at a faction's destination earns 0.03 for every mutant killed there (an elite counts 3; an ordinary mutant counts for the ones it stands in for, see Runs). A threat-16 run brings home about 84.
@@ -759,11 +861,11 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 
 | Cut | From | Base value | Favourite of |
 |---|---|---|---|
-| Skitter Drumettes | Skitter | ◆2 | - |
-| Shambler Shank | Shambler | ◆4 | - |
-| Glowbag Belly | Glowbag | ◆6 | Glow Cult |
-| Scrapper Ribs | Scrapper | ◆7 | Rust Barons |
-| Hulk Brisket | Tumor Hulk | ◆18 | Sewer Kings |
+| Skitter Drumettes | Skitter | ◆2 | Reel Cult, Neon Saints |
+| Shambler Shank | Shambler | ◆4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
+| Glowbag Belly | Glowbag | ◆6 | Mallrat Gangs, Glow Cult, Reactor Choir |
+| Scrapper Ribs | Scrapper | ◆7 | Rust Barons, Tin Monks, Slag Brothers |
+| Hulk Brisket | Tumor Hulk | ◆18 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
 - A cut's value is its base × (1 + 0.45 × the threat level it dropped at) (+15% per heat-dial level).
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
@@ -785,6 +887,18 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 | Baron's Brimstone Rub | 2 / 0 / 1 | 3 | ×1.1 | Rust Barons reputation 2 |
 | Halo Honey Glaze | 0 / 2 / 1 | 3 | ×1.1 | Glow Cult reputation 1 |
 | Royal Marrow Gravy | 1 / 0 / 2 | 3 | ×1.1 | Sewer Kings reputation 1 |
+| Haggler's Hash Rub | 1 / 1 / 1 | 3 | ×1.1 | Bazaar Hagglers reputation 2 |
+| Buttered Popcorn Glaze | 0 / 2 / 2 | 3 | ×1.1 | Reel Cult reputation 2 |
+| Food Court Teriyaki | 1 / 1 / 2 | 3 | ×1.1 | Mallrat Gangs reputation 1 |
+| Solder Salt Rub | 1 / 0 / 3 | 3 | ×1.1 | Tin Monks reputation 2 |
+| Diesel Pepper Dust | 3 / 0 / 1 | 3 | ×1.1 | The Ironsides reputation 2 |
+| Slag Sear | 2 / 1 / 1 | 3 | ×1.1 | Slag Brothers reputation 1 |
+| Hymnal Honey | 0 / 3 / 0 | 3 | ×1.1 | Reactor Choir reputation 2 |
+| Neon Candy Glaze | 1 / 2 / 1 | 3 | ×1.1 | Neon Saints reputation 2 |
+| Ozone Rub | 2 / 1 / 0 | 3 | ×1.1 | Storm Callers reputation 1 |
+| Rancher's Red-Eye Gravy | 1 / 1 / 3 | 3 | ×1.1 | Meat Ranchers reputation 2 |
+| Spore Butter Baste | 0 / 1 / 3 | 3 | ×1.1 | Spore Mothers reputation 2 |
+| Gluttony Glaze | 1 / 2 / 2 | 3 | ×1.1 | Gluttons' Court reputation 1 |
 
 | Ingredient | Adds (spicy / sweet / savory) | Where |
 |---|---|---|
@@ -794,9 +908,9 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 | Sludge Molasses | 0 / 2 / 1 | mutants and cats |
 | Bone Marrow | 0 / 0 / 2 | mutants and cats |
 | Mushroom Mash | 0 / 1 / 2 | mutants and cats |
-| Glowberry Syrup | 0 / 4 / 1 | sold for ◆120 by Rust Barons (reputation 3); calico cats |
-| Marrow Butter | 1 / 0 / 4 | sold for ◆120 by Glow Cult (reputation 2); calico cats |
-| Ghost Chili Paste | 4 / 0 / 2 | sold for ◆120 by Sewer Kings (reputation 2); calico cats |
+| Glowberry Syrup | 0 / 4 / 1 | sold for ◆120 by Reel Cult (reputation 3), Mallrat Gangs (reputation 3), Rust Barons (reputation 3), Reactor Choir (reputation 3), Neon Saints (reputation 3), Storm Callers (reputation 3), Gluttons' Court (reputation 2); calico cats |
+| Marrow Butter | 1 / 0 / 4 | sold for ◆120 by Bazaar Hagglers (reputation 3), Tin Monks (reputation 3), Slag Brothers (reputation 3), Glow Cult (reputation 2), Meat Ranchers (reputation 3), Spore Mothers (reputation 3), Gluttons' Court (reputation 3); calico cats |
+| Ghost Chili Paste | 4 / 0 / 2 | sold for ◆120 by Mallrat Gangs (reputation 2), The Ironsides (reputation 3), Slag Brothers (reputation 2), Storm Callers (reputation 2), Sewer Kings (reputation 2); calico cats |
 
 ### Smoking
 - The smoker holds 40 cuts, +40 per Smoker level. In a run it cooks (time survived / 90 s) of its load; if you die, the load comes out overcooked (×0.6).
