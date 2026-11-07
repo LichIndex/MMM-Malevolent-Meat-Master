@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.6: the wiki
+# Malevolent Meat Master v0.7.7: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -57,7 +57,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 ### A first hour
 - Fight at the **Smokehouse Outskirts**, call the truck while you're still comfortable, and bring the meat home. A short run that gets out beats a long one that doesn't.
 - Brew **Basic Rub** or **Backyard Glaze** with whatever ingredients you have, sauce the meat, and let the smoker and counter turn it into ◆.
-- Spend ◆ at the **Workbench** (Production) on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
+- Spend ◆ in the **Craft** tab on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
 - Reach threat 3 anywhere to open the **Rust Flats**; threat 6 opens tier 2 parts.
 - Watch the heat bar. Let it hit 100% and the gun burns you.
 
@@ -65,7 +65,8 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 
 ### Threat
 - The threat rises one level every **30 s**. Each destination grows mutants' health, armor and shields by its own rate a level (see Destinations), and on top of that every pool toughens ×1.19 a level up to threat 11 and ×1.1 a level after it.
-- They also come faster (one every 1.7 s at first, ×0.83 a level, down to one every 0.22 s), in packs (5% more likely a level, up to 55%) and move 2% faster a level (up to ×1.6).
+- They also come faster (a wave every 1.7 s at first, ×0.83 a level, down to one every 0.22 s), in packs (5% more likely a level, up to 55%) and move 2% faster a level (up to ×1.6).
+- **Fewer, tougher mutants:** waves come at 80% of that pace at threat 0, falling to 60% from threat 12 on. Each mutant is tougher for the ones that don't come (×1.07 at threat 0, ×1.17 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
 - Meat is worth **+45% of its base value per threat level**, so staying longer pays, until it doesn't.
 - Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16.
 
@@ -81,6 +82,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutagen | Elites past threat 15: 12% |  |
 | Still blueprint | Reach the threat shown on the Map at that destination, then get out | A new fuel (see Fuels). |
 
+- Since mutants come fewer and tougher, each ordinary one's chances above count for the ones it stands in for (×1.25 at threat 0, ×1.67 from threat 12); elites keep theirs and turn up as often as before.
 - **Gear thins out deeper.** Kills a minute explode as the threat rises, so from threat 6 salvage, set pieces, keystones and elite Mutagen drop ×0.88 as often each level. Meat, materials and ingredients don't thin out.
 - **Salvage tiers** follow the run's threat (T2 from 6, T3 from 12, T4 from 16). Once T3 is open a crate holds one of the top two tiers; past threat 21 (Infested) only T4.
 - **Salvage quality** rises with the threat, but tops out at Mutated until the run is Infested (past threat 21).
@@ -94,6 +96,9 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 Each destination has a dial from 0 to 5 on the Map. Each level:
 - adds 0.03 to every growth rate (tougher mutants, faster);
 - +25% crates, set pieces, blueprints and elites; +15% meat value; +20% material drops.
+
+### Start threat
+- Beside the heat dial, **START THREAT** lets a run begin at a higher threat, skipping the easy opening waves (and their drops). It reaches up to your best threat at that destination minus 7. The smoker still needs 90 s of survival from the start.
 
 ### Getting out, and dying
 - **E** calls the food truck. It arrives in 30 s; the fight (and the threat) goes on until it does. Survive and everything comes home.
@@ -116,6 +121,10 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 - Press **R** (or the Shoggoth button at the bottom left of a run) and the Shoggoth drives: it aims, burns, vents before the heat warning, swaps tanks and calls the truck. Press R again to take over. It's the same pilot that tests every build.
 - **Its fee:** it eats 1 cut of meat in 5 of what drops while it drives. Nothing else.
 - On the Map tab, under the destination: **ON/OFF** (runs start with it driving) and **when it calls the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it at 5 HP or less.
+
+### The Magic 8-Ball
+- Hire it on the Map tab (no fee) and switch it on there or with **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run at the turf of the faction with the **lowest reputation**, with the Shoggoth driving (its truck setting and each place's dials apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again.
+- A death switches it off. B in a run switches it for the runs after this one.
 
 ## The flamethrower
 
@@ -497,7 +506,10 @@ Each faction owns a destination's market. They like a taste (spicy / sweet / sav
 | Glow Cult | Radioactive zealots | Glow Crater | 1 / 4 / 2 | Glowbag Belly | 1: Recipe: Halo Honey Glaze<br>2: Sells Marrow Butter (the Sewer Kings love it)<br>3: Tesla Coilworks blueprints<br>4: Hellmouth blueprints |
 | Sewer Kings | Underground mutant royalty | Sewer Delta | 2 / 1 / 5 | Hulk Brisket | 1: Recipe: Royal Marrow Gravy<br>2: Sells Ghost Chili Paste (the Rust Barons love it)<br>3: Glacier Works blueprints<br>4: Grease Fire blueprints |
 
-Reputation levels 1 to 4 need 20, 60, 150, 400 points. A cut sold earns 2 × (fit - 1) points when the fit is over ×1.
+Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
+- **Fighting on their turf:** getting out of a run at a faction's destination earns 0.03 for every mutant killed there (an elite counts 3; an ordinary mutant counts for the ones it stands in for, see Runs). A threat-16 run brings home about 84.
+- **The crew:** a cat's trip there earns 50% of the same.
+- **Selling there:** a cut sold earns 2 × (fit - 1) points when the fit is over ×1.
 
 ## Meat, sauce and selling
 
@@ -550,6 +562,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. A cut sold earns 2 × (fi
 
 ### Selling
 - Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 10 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
+- **Glut:** when more cooked meat waits than the counter sells in 10 minutes, the crew sells fast enough to bring it down to that in 10 minutes, at a discount: (normal speed / glut speed) ^ 0.7 a cut, so twice as fast sells at ×0.62. Meat never piles up for long.
 - **Price of a cut** = its value × the sauce's value × **fit** × favourite cut (×1.25) × (1 - fatigue).
 - **Fit** runs from ×1.5 (the sauce's taste sits right on the faction's ideal) down to ×0.6 (6 or more taste points away, counted straight-line across the three tastes). The neutral Outskirts market pays a flat ×0.9 and gives no reputation.
 - **Fatigue:** each cut sold adds 1% to that faction's fatigue for the sauce's strongest taste, up to 30%; it wears off at 20% an hour. Rotating sauces pays a little; volume still wins.
@@ -557,7 +570,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. A cut sold earns 2 × (fi
 
 ## The Smokehouse
 
-The hub between runs. Tabs: **Loadout**, **Production**, **Map**, **Crew**; the cat counter is always on the right.
+The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, **Map**, **Crew**; the cat counter is always on the right. **HIDE MAP** in Production folds the yard picture into a short list of the buildings and widens the panel.
 
 ### Loadout
 - The seven part slots, a tank mod for each mounted tank, the fuel in each tank, and armor. The preview pig rebuilds as you swap.
@@ -566,10 +579,10 @@ The hub between runs. Tabs: **Loadout**, **Production**, **Map**, **Crew**; the 
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, teaches you its lane, records its affixes in the **Library**, and gives Mutagen for Mutated (1) and Malevolent (5) parts.
 - **Loot filter** (the LOOT button): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. SALVAGE NOW applies it to the stash.
 
-### Workbench (Production)
-- **CRAFT:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80 for T1 to T4). Workbench levels raise the odds of a better quality.
-- **SETS:** buy set blueprints with Shards and craft the pieces (they roll a lane at your best tier).
-- **REFINE:**
+### Craft and Refine (the Workbench)
+- **CRAFT tab, PARTS:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80 for T1 to T4). Workbench levels raise the odds of a better quality.
+- **CRAFT tab, SET BLUEPRINTS:** buy set blueprints with Shards and craft the pieces (they roll a lane at your best tier). **BENCH & LIBRARY:** Workbench upgrades, quality odds, the lane blueprints you know and the Library.
+- **REFINE tab:** filter the parts on the left (worn, unworn, on the crew, locked, in a loadout, with a behavior, below Malevolent; slot, lane, tier, quality, or an affix the part carries), pick one, and refine it on the right. **REFINE THIS PART** in the Loadout tab opens it there.
   - **Quality up** one step at a time (◆ and materials; Mutated to Malevolent costs ×0.4).
   - **Reroll** one affix (◆; the second affix you touch on a part adds materials, the third Shards). Each try on the same affix costs 30% more, up to ×2.
   - **Optimize** an affix: +10% of its range toward the top, paid in the slot's material.
@@ -667,6 +680,10 @@ Past threat **21** a run turns Infested:
 ### Saves
 - Every version keeps its own save, so updating never breaks your game. The main menu offers to **import** the newest older save while the new one has no progress.
 - The game saves after every change. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
+
+### The BALANCE menu
+- In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, early waves: share of spawns, late waves: share of spawns, toughness make-up for fewer mutants, start threat: levels below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen.
+- **LOCK** a number so a stray drag can't move it (RESET and RESET ALL leave it alone). Changes apply at once (mutant changes from the next wave), are saved with this version, and are written to the debug log at the start of every session, whenever they change, and with every run.
 
 ### Frame rate
 - **VSYNC** on (the default) draws one frame per screen refresh, so on a 60 Hz screen the FPS counter sits at 60 however much room the machine has to spare. Turn it off to see what each fire setting really costs (the picture may tear while it's off).
