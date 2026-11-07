@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.1: the wiki
+# Malevolent Meat Master v0.9.2: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -1049,6 +1049,8 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 ### Builds
 - **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped. Building stills stays yours: the ad's plan marks it YOU.
 - **Custom orders** (v0.8.8). **+ CUSTOM ORDER** on the Showroom tab starts a build of your own from the kit you wear; **CUSTOMIZE** on an ad starts one from that ad. Pick its set (or none), keystone (or none), a lane for every slot, the tank mods, up to 3 affixes, up to 4 fuels (the first is the signature), one exotic for any gun slot, and its home map, then **ORDER IT**: the 8-Ball farms, crafts and puts it on like any ad. **DELETE** throws it away with its orders.
+- **Mix and match sets** (v0.9.2). A custom build picks how many pieces of its set to wear (2, 3 or 4: each turns on one more bonus) and can add a **second set** with its own count, say 4 Grease Fire + 2 Glacier Works, or 2 + 2. Both counts together fit in the slots the keystone leaves (when they don't, the second set's count gives way first). The 8-Ball farms, crafts, re-forges and puts on pieces of both, never taking a slot from one set for the other.
+- **Mutations to seek** (v0.9.2). An order can seek up to 2 mutations (part behaviors: Chilling, Spreading, Toxic, Volatile). One part of the build with each is all a kit uses (they don't stack). Mutated and Malevolent parts roll them; Refine > **MUTATE** rerolls one for Mutagen. The order's plan adds a step for each, PUT IT ON swaps in a part of the build that carries one, an order isn't done until they're worn, and with **CRAFT FOR THE ORDER** on, the 8-Ball mutates a worn part of the build (Mutated or Malevolent, not the keystone or the exotic) one reroll at a time until it has the one sought. Every ad seeks the mutation that helped its build most in the lab.
 - **Order loadouts** (v0.8.8). Every order keeps a saved loadout, **ORDER: <NAME>** on the Loadout tab: the best kit you own for it right now (what the 8-Ball would put on), kept up to date as parts come in, are crafted or go. You can rename it. When the order is matched its loadout stays, as an ordinary one; cancel the order and its loadout goes too, unless you renamed it. Delete it while the order is on and that order keeps none. Like every saved loadout, its parts are never scrapped.
 - **The order list**: every order names **who it's for** (**FOR:** on the Showroom ad and on the goal): you, or a cat on the crew. A build for you goes on the 8-Ball's list, one for a cat on the crew's. An order leaves its list when whoever it's for wears the whole ad (or, with TOP TIER, when every part is at your top tier).
 - **Its loot.** New salvage an order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default; WORKSHOP) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces, its fuels and tank mods): then the ad is **matched**. For each job in an ad (a slot's lane, a set piece's slot, its keystone, its exotic, a tank mod for each fuel) the 8-Ball keeps the best part you have (one per order that needs the job); new loot worse than that isn't locked, and parts it locked that turn obsolete or whose order is gone are **let go** (unlocked, and scrapped with SCRAP WHAT NO ORDER WANTS on, never keystones or exotics). Your own locks are never touched. Parts locked before v0.8.3 don't say who locked them: **UNLOCK n LOCKED PARTS NO ORDER USES** (WORKSHOP) frees them after asking (yours too).
@@ -1101,7 +1103,7 @@ Past threat **21** a run turns Infested:
 
 The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's 60 endgame builds, four for every set, all tested under the same balance (v0.9.0). It stocks 10 at a time, 2 of each style, with **new stock after every run**: it shows every ad of a style before it shows one again, so a new game and five runs show all of them; an ad on order stays listed until the order is done, and the guide below has them all. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE LIST**), **FOR:** (you or a cat on the crew, v0.8.2), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes). **CUSTOMIZE** (v0.8.8) starts a custom order from the ad, and **+ CUSTOM ORDER** one from the kit you wear: your own build, ordered like an ad.
 
-**Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The **exotic upgrade** is the best of the build's three strongest exotics in the lab (any gun slot but the keystone's), worn in place of that slot's piece, and what it added (2 seeds); a build whose exotics added under 0.1 has none.
+**Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The **exotic upgrade** is the best of the build's three strongest exotics in the lab (any gun slot but the keystone's), worn in place of that slot's piece, and what it added (2 seeds); a build whose exotics added under 0.1 has none. The **mutation to seek** (v0.9.2) is the part behavior that added the most to the build in the lab (worn on one part, 2 seeds).
 
 | Build | Style | Set | Fuels | Home | Lab |
 |---|---|---|---|---|---|
@@ -1190,6 +1192,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Crackling Maw (the exotic Fryer Oil nozzle II, in place of the nozzle piece). When a mutant burning with Fryer Oil dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +1.0 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.6 threat.
+
 ### Pit Boss Cage Match
 **Brawler** (up close and in the crowd, Pit Boss). "Step into the cage. Bring three fuels." The more of them crowd in, the meaner you get. Three fuels on the rack: one for flesh, one for armor, one for shields. Nobody leaves the cage.
 
@@ -1213,6 +1217,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Pit Boss pieces. **Fuels:** Rendered Lard, Thermite Slurry, Ion Gel. **Affixes:** Potent, Sticky, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 25.7.
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.0 threat.
+
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +1.1 threat.
 
 ### Swamp Grease Deluxe
 **Brawler** (up close and in the crowd, Grease Fire). "Burns forever. Then explodes." Bog-gas gel that clings for days, in a gun that makes every kill go off. Fill it up, wade in, and let the swamp do the talking.
@@ -1238,6 +1244,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Swamp-King Shroud (the exotic Swamp Napalm shroud & grip III, in place of the shroud & grip piece). Napalm runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.7 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.9 threat.
+
 ### Grease Bomber 3000
 **Brawler** (up close and in the crowd, Grease Fire). "Every kill goes off. So does the next one." Tired of mutants that die quietly? The Grease Bomber turns every kill into a party favor for everyone standing nearby. Neighbors hate it! (The neighbors are mutants.)
 
@@ -1261,6 +1269,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Grease Fire pieces. **Fuels:** Rendered Lard, Rocket Hooch. **Affixes:** Greasy, Potent, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 24.8.
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +0.6 threat.
+
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.5 threat.
 
 ### Static Shock Pit
 **Brawler** (up close and in the crowd, Pit Boss). "Shields down, gloves off." Ion Gel pops shields like soap bubbles, and the Pit Boss makes you meaner every time they crowd in. Built for the Static Fields; works anywhere with a crowd.
@@ -1286,6 +1296,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Tallow Spout (the exotic Rendered Lard nozzle I, in place of the nozzle piece). Every Lard hit also coats 1 nearby mutant. Lab: +0.5 threat.
 
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.7 threat.
+
 ### Greasy Spoon Special
 **Brawler** (up close and in the crowd, Grease Fire). "Fried, splashed and exploded. In that order." Breakfast all day, for everyone within eighty pixels. Fryer Oil does the frying, the Grease Fire does the rest, and you never stop to refuel.
 
@@ -1309,6 +1321,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Grease Fire pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Greasy, Sticky. **Home:** Bloat Marsh. **Lab:** threat 24.1.
 
 **Exotic upgrade:** Schmaltz Throat (the exotic Rendered Lard nozzle III, in place of the nozzle piece). Lard stacks deal +50% on mutants outside the cone and +30% beyond 300 px. Lab: +0.8 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.2 threat.
 
 ### Food Court Fireball
 **Brawler** (up close and in the crowd, Grease Fire). "Table for one? Table for everyone." Rocket Hooch hits hard on anything, and the Grease Fire makes every kill splash. Stay cool, stay close, and tip your server.
@@ -1334,6 +1348,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +2.1 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.5 threat.
+
 ### Bog Brawler
 **Brawler** (up close and in the crowd, Pit Boss). "Hugs that stick." Swamp Napalm burns forever on meat, so get close and stay close. The Pit Boss loves a crowd, and so does the bog.
 
@@ -1357,6 +1373,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Pit Boss pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Boggy, Sticky. **Home:** The Food Court. **Lab:** threat 23.7.
 
 **Exotic upgrade:** Swamp-King Shroud (the exotic Swamp Napalm shroud & grip III, in place of the shroud & grip piece). Napalm runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.6 threat.
+
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +1.1 threat.
 
 ### Lard Lad Fry Station
 **Brawler** (up close and in the crowd, Deep Fryer). "If it moves, batter it." The classic. Lard for the meat, Thermite for the tin cans, and a fry basket that never lets the oil go cold.
@@ -1382,6 +1400,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Drippings Maw (the exotic Rendered Lard nozzle II, in place of the nozzle piece). When a mutant burning with Lard dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +1.0 threat.
 
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.7 threat.
+
 ### Armor Fritter
 **Brawler** (up close and in the crowd, Deep Fryer). "Deep-fries tanks. Yes, the metal ones." Thermite eats through plating like it owes money, and the fryer makes sure what's inside comes out golden. The Tank Graveyard has never smelled better.
 
@@ -1405,6 +1425,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Deep Fryer pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Molten, Pressurized. **Home:** Tank Graveyard. **Lab:** threat 23.1.
 
 **Exotic upgrade:** Tallow Mitt (the exotic Rendered Lard shroud & grip I, in place of the shroud & grip piece). Lard runs 25% cooler, and mutants burning with it slow 6%. Lab: +0.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.2 threat.
 
 ### Drive-In Brawler
 **Brawler** (up close and in the crowd, Pit Boss). "Dinner and a fight. Mostly the fight." Pull up, roll down the window, and cook everything that comes near the car. Every kill is a fried cut for the road.
@@ -1430,6 +1452,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.7 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.7 threat.
+
 ### Glow-Fry Combo
 **Brawler** (up close and in the crowd, Deep Fryer). "Glows in the fryer. Glows in the dark." Rad Syrup gets worse the longer it clings, and in a fryer it clings forever. Two-for-one at the Junk Bazaar, while supplies last.
 
@@ -1453,6 +1477,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Deep Fryer pieces. **Fuels:** Rad Syrup, Rendered Lard. **Affixes:** Potent, Boggy, Recycling. **Home:** The Junk Bazaar. **Lab:** threat 22.2.
 
 **Exotic upgrade:** Half-Life Crown (the exotic Rad Syrup igniter III, in place of the igniter piece; the fuel becomes Hot Syrup). CRITICAL MASS: a mutant carrying 100+ Rad stacks takes +50% from every burn, and Rad Syrup ages 50% faster; Rad Syrup stacks +40% damage. Lab: +1.6 threat.
+
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +1.1 threat.
 
 ### Critical Bog
 **Lancer** (long reach, one target at a time, Meltdown). "Everything at once, all the time." Every tank fires at once, and the bog gel never lets go. Past a hundred and twenty stacks, everything takes half again. Ask about our bulk discount.
@@ -1478,6 +1504,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Swamp-King Shroud (the exotic Swamp Napalm shroud & grip III, in place of the shroud & grip piece). Napalm runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.5 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +2.1 threat.
+
 ### Lard Reactor
 **Lancer** (long reach, one target at a time, Meltdown). "Splits the atom. And the meat." Two tanks, one trigger: Lard and Napalm fire together and pile the stacks high. Critical mass is just a matter of time.
 
@@ -1501,6 +1529,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Meltdown pieces. **Fuels:** Rendered Lard, Swamp Napalm. **Affixes:** Potent, Greasy, Molten. **Home:** Bloat Marsh. **Lab:** threat 26.3.
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +2.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +3.3 threat.
 
 ### Steeple Glowscope
 **Lancer** (long reach, one target at a time, Steeple Works). "Elites first. Questions never." Rad Syrup on every elite, two stacks at a time, from both tanks at once. They get worse the longer they live. They don't live long.
@@ -1526,6 +1556,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Half-Life Crown (the exotic Rad Syrup igniter III, in place of the igniter piece; the fuel becomes Hot Syrup). CRITICAL MASS: a mutant carrying 100+ Rad stacks takes +50% from every burn, and Rad Syrup ages 50% faster; Rad Syrup stacks +40% damage. Lab: +0.7 threat.
 
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.7 threat.
+
 ### Arc Lancer Pro
 **Lancer** (long reach, one target at a time, Tesla Coilworks). "One spark. Three mutants. Zero shields." Professional-grade lightning in a convenient gel. Point it at the shiny one and watch the sparks find its friends.
 
@@ -1549,6 +1581,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Tesla Coilworks pieces. **Fuels:** Ion Gel, Rendered Lard. **Affixes:** Pressurized, Sticky, Recycling. **Home:** Glow Crater. **Lab:** threat 25.9.
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +1.5 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.2 threat.
 
 ### Smelter Spark
 **Lancer** (long reach, one target at a time, Tesla Coilworks). "Melts the plating. Then the lights." Thermite for the armor, lightning for everything standing next to it. Built in the Smelter Pits by people who got tired of scraping.
@@ -1574,6 +1608,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Forge-Heart Shroud (the exotic Thermite Slurry shroud & grip III, in place of the shroud & grip piece). Thermite runs 80% cooler, and mutants burning with it slow 20%. Lab: +0.7 threat.
 
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.7 threat.
+
 ### Electric Fryer
 **Lancer** (long reach, one target at a time, Tesla Coilworks). "Zapped, then crisped." Lightning chains it, the fryer finishes it, and every burn lands the moment it hits. The Flesh Farms supply the meat.
 
@@ -1597,6 +1633,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Tesla Coilworks pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Greasy, Sticky. **Home:** The Flesh Farms. **Lab:** threat 25.3.
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +0.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.8 threat.
 
 ### Bell Tower Bootlegger
 **Lancer** (long reach, one target at a time, Steeple Works). "Rings the bell on every elite." Rocket Hooch hits everything hard, Thermite handles the plating, and the Steeple picks out the big ones. Made in a bathtub on Rust Flats.
@@ -1622,6 +1660,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Forge-Heart Shroud (the exotic Thermite Slurry shroud & grip III, in place of the shroud & grip piece). Thermite runs 80% cooler, and mutants burning with it slow 20%. Lab: +0.4 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.5 threat.
+
 ### Glow Coil 9000
 **Lancer** (long reach, one target at a time, Tesla Coilworks). "One glow to rule the crater." Rad Syrup and Ion Gel in one coil: the shields pop, the syrup lands all at once, and the sparks carry it to the next one.
 
@@ -1645,6 +1685,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Tesla Coilworks pieces. **Fuels:** Rad Syrup, Ion Gel. **Affixes:** Potent, Greasy, Sticky. **Home:** Glow Crater. **Lab:** threat 24.1.
 
 **Exotic upgrade:** Storm Aorta (the exotic Ion Gel fuel line III, in place of the fuel line piece). Ion Gel kills refill 3 units, an empty Ion Gel tank refills 40% at once (every 20 s), and the first 60 Ion Gel units from a full tank deal +40%; Ion Gel stacks +30% damage. Lab: +0.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.6 threat.
 
 ### Neon Deadeye
 **Lancer** (long reach, one target at a time, Steeple Works). "Shoots the lights out." Long reach, shields gone, and every burn lands the moment it hits. Built for the Neon Strip's shiny regulars.
@@ -1717,6 +1759,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Steeple Works pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Molten, Potent, Recycling. **Home:** Rust Flats. **Lab:** threat 23.4.
 
 **Exotic upgrade:** Forge-Heart Crown (the exotic Thermite Slurry igniter III, in place of the igniter piece; the fuel becomes Molten Slag). MOLTEN SLAG: Thermite kills leave a burning pool (2 stacks a tick for 1.5 s, 60 px); Thermite +30% vs armor. Lab: +0.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.8 threat.
 
 ### Meltdown Sniper
 **Lancer** (long reach, one target at a time, Meltdown). "Named for range. Built for hugs." Marketing named it before Engineering finished it: it's a close-range gun now. Rad Syrup's whole burn lands the instant it hits, the stacks pile past a hundred and twenty, and then everything takes half again.
@@ -1814,6 +1858,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Storm Throat (the exotic Ion Gel nozzle III, in place of the nozzle piece). Ion Gel stacks deal +50% on mutants outside the cone and +30% beyond 300 px. Lab: +1.3 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.3 threat.
+
 ### Boiler Room Pressure Cooker
 **Furnace** (runs hot and holds the trigger, Boiler Room). "Whistles when it's ready." Build the heat, hit a hundred percent, and the Pressure Cooker turns it into three seconds of free fire. Then do it again.
 
@@ -1861,6 +1907,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Boiler Room pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Greasy, Cooled. **Home:** The Flesh Farms. **Lab:** threat 24.3.
 
 **Exotic upgrade:** Deep-Fry Aorta (the exotic Fryer Oil fuel line III, in place of the fuel line piece). Fryer Oil kills refill 3 units, an empty Fryer Oil tank refills 40% at once (every 20 s), and the first 60 Fryer Oil units from a full tank deal +40%. Lab: +0.9 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.2 threat.
 
 ### Still Life
 **Furnace** (runs hot and holds the trigger, Foundry Rig). "Pours hot, burns hotter." A copper still bolted to a furnace: Rocket Hooch hits everything, every burn lands at once, and the heat never quite catches up.
@@ -1934,6 +1982,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +2.6 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.3 threat.
+
 ### Isotope Forge
 **Furnace** (runs hot and holds the trigger, Foundry Rig). "Runs hot. Glows hotter." Rad Syrup in a furnace built to run hot: the warmer the gun, the harder every stack hits, and the syrup just keeps getting worse.
 
@@ -1958,6 +2008,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +1.2 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.7 threat.
+
 ### Foundry Furnace
 **Furnace** (runs hot and holds the trigger, Foundry Rig). "Runs hot. Stays hot. Melts everything." Fire the furnace and keep it fed. The hotter it runs, the harder it hits, and Thermite takes the plating off everything in front of it.
 
@@ -1981,6 +2033,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Foundry Rig pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Molten, Potent, Pressurized. **Home:** Rust Flats. **Lab:** threat 23.3.
 
 **Exotic upgrade:** Crucible Rack (the exotic Thermite Slurry tank chassis II, in place of the tank chassis piece). The Thermite tank refills 50% faster. Lab: +1.2 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.8 threat.
 
 ### Pot Boiler
 **Furnace** (runs hot and holds the trigger, Boiler Room). "Lard, pressure, regret (theirs)." Cheap fuel, a big boiler and no patience. Every burn lands at once, and when the gauge hits the red, it pours.
@@ -2054,6 +2108,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Swamp-King Shroud (the exotic Swamp Napalm shroud & grip III, in place of the shroud & grip piece). Napalm runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.4 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +2.5 threat.
+
 ### Sunday Roast
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Low and slow. Mostly slow for them." Lard and Napalm, a wide bloom and every fifth drop on the house. Stacks pile up on everything outside the cone. The Sewer Delta's favorite recipe.
 
@@ -2077,6 +2133,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Slow Cooker pieces. **Fuels:** Rendered Lard, Swamp Napalm. **Affixes:** Boggy, Greasy, Molten. **Home:** Sewer Delta. **Lab:** threat 26.3.
 
 **Exotic upgrade:** Bog Strainer (the exotic Swamp Napalm filter I, in place of the filter piece). Napalm +25% vs shields and armor. Lab: +1.2 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +2.2 threat.
 
 ### Slow Cooker
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Set it and forget it." Put it on, walk away, come back to dinner. Stacks build up on everything outside the cone, and every fifth drop is on the house.
@@ -2102,6 +2160,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Swamp-King Shroud (the exotic Swamp Napalm shroud & grip III, in place of the shroud & grip piece). Napalm runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.4 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.9 threat.
+
 ### Frost Miser
 **Miser** (cheap fuel, long burns, cool head, Glacier Works). "Pennies per mutant. Ice in its veins." Why burn money when you can burn mutants? Cool, cheap and patient, with a filter that doubles the bite of every drop.
 
@@ -2125,6 +2185,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Glacier Works pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Boggy, Potent, Greasy. **Home:** Sewer Delta. **Lab:** threat 25.6.
 
 **Exotic upgrade:** Schmaltz Altar (the exotic Rendered Lard tank chassis III, in place of the tank chassis piece). The first 80 Lard units from a full tank deal +100%, and its tank refills twice as fast while another fires. Lab: +1.1 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.6 threat.
 
 ### Bathtub Special
 **Miser** (cheap fuel, long burns, cool head, Thrift Shop). "Free refills. Some restrictions apply." Rocket Hooch from the bathtub, Thermite for the plating, and a Shoggoth Bladder that refills on every kill. Hit hard, kill often, never run dry.
@@ -2150,6 +2212,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Rocket Crown (the exotic Rocket Hooch igniter III, in place of the igniter piece; the fuel becomes Smuggler's Hooch). STILL HOT: Hooch units also apply a stack of the fuel fired before them; Hooch stacks +60% damage. Lab: +1.2 threat.
 
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +0.7 threat.
+
 ### Cold Forge
 **Miser** (cheap fuel, long burns, cool head, Glacier Works). "Freezes the tank. Melts the armor." Thermite strips the plating, the glacier slows everything down, and the warmer the grip the harder it hits. Built for the Tank Graveyard.
 
@@ -2173,6 +2237,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Glacier Works pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Molten, Sticky. **Home:** Tank Graveyard. **Lab:** threat 24.6.
 
 **Exotic upgrade:** Forge-Heart Aorta (the exotic Thermite Slurry fuel line III, in place of the fuel line piece). Thermite kills refill 3 units, an empty Thermite tank refills 40% at once (every 20 s), and the first 60 Thermite units from a full tank deal +40%; Thermite stacks +30% damage. Lab: +0.5 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +0.6 threat.
 
 ### Thrift Shop Special
 **Miser** (cheap fuel, long burns, cool head, Thrift Shop). "One tank. One trigger. No refunds." Everything in this gun was somebody else's, and now it's yours. One big tank of Lard that refills itself, and a filter that makes every drop count twice.
@@ -2198,6 +2264,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.6 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +0.9 threat.
+
 ### Neon Simmer
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Simmers shields." Ion Gel on a slow simmer: a wide cone, long burns and a Shoggoth that refills on every kill. The Neon Strip's shields go soft by the second.
 
@@ -2221,6 +2289,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Slow Cooker pieces. **Fuels:** Ion Gel, Rendered Lard. **Affixes:** Potent, Boggy, Greasy. **Home:** The Neon Strip. **Lab:** threat 24.2.
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +0.9 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.5 threat.
 
 ### Glacier Glow
 **Miser** (cheap fuel, long burns, cool head, Glacier Works). "Slow, cold and radioactive." Rad Syrup clings longer when nothing can run. The glacier slows them, the syrup gets worse, and the warm grip makes every stack meaner.
@@ -2246,6 +2316,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Aorta (the exotic Rendered Lard fuel line III, in place of the fuel line piece). LEFTOVERS: an empty Lard tank refills 50% at once (every 20 s); Lard stacks +50% damage. Lab: +0.6 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +0.4 threat.
+
 ### Ice Capacitor
 **Miser** (cheap fuel, long burns, cool head, Glacier Works). "Cold. Collected. Crackling." Ion Gel on ice: a wide cone, a cool head, a tank that refills while it fires and a distill that doubles the bite. Reactor Row's shields don't stand a chance.
 
@@ -2269,6 +2341,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Glacier Works pieces. **Fuels:** Ion Gel, Rendered Lard. **Affixes:** Potent, Ionized, Greasy. **Home:** Reactor Row. **Lab:** threat 23.9.
 
 **Exotic upgrade:** Schmaltz Throat (the exotic Rendered Lard nozzle III, in place of the nozzle piece). Lard stacks deal +50% on mutants outside the cone and +30% beyond 300 px. Lab: +1.2 threat.
+
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.8 threat.
 
 ### Secondhand Isotope
 **Miser** (cheap fuel, long burns, cool head, Thrift Shop). "Pre-owned. Still glowing." Somebody's old reactor fuel in a somebody's old gun. Wide cone, long burns, and every fifth drop free. The Junk Bazaar threw in the gloves.
@@ -2294,6 +2368,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +1.4 threat.
 
+**Mutation to seek:** Toxic (kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px)), on any part of the build. Lab: +1.1 threat.
+
 ### Crock-Pot Fryer
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Set it, forget it, sell it." Long, slow burns from a wide cone, a tank that refills while it fires, and a Shoggoth that refills it on every kill. Comes back as fried cuts.
 
@@ -2317,6 +2393,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Slow Cooker pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Pressurized, Sticky. **Home:** Dead Drive-In. **Lab:** threat 22.9.
 
 **Exotic upgrade:** Drippings Sieve (the exotic Rendered Lard filter II, in place of the filter piece). Lard deals at least x1.0 against health, shields and armor, and +25% vs health. Lab: +1.1 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.2 threat.
 
 ### Lardolier
 **Juggler** (many tanks, many swaps, Bandolier). "The fastest draw in the marsh." Lard, Napalm and Thermite across your chest, a swap within a second for free, and a bloom that cooks everything close. It's mostly Lard, and it's very good.
@@ -2342,6 +2420,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Jelly Maw (the exotic Swamp Napalm nozzle II, in place of the nozzle piece). When a mutant burning with Napalm dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.7 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +2.4 threat.
+
 ### Bog Bandolier
 **Juggler** (many tanks, many swaps, Bandolier). "Quick draws from a sticky holster." Napalm, Lard and Thermite in a quick-draw harness, and Blood Line keeps it firing when they all run dry. The Fungal Bog never saw it coming.
 
@@ -2365,6 +2445,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Bandolier pieces. **Fuels:** Swamp Napalm, Rendered Lard, Thermite Slurry. **Affixes:** Pressurized, Greasy, Sticky. **Home:** Fungal Bog. **Lab:** threat 28.3.
 
 **Exotic upgrade:** Jelly Maw (the exotic Swamp Napalm nozzle II, in place of the nozzle piece). When a mutant burning with Napalm dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +1.3 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +2.2 threat.
 
 ### Moonshine Run Express
 **Juggler** (many tanks, many swaps, Moonshine Run). "Three stills. One trigger. No speed limit." Swap fast and every drop drags the last fuel along with it. Hooch hits hard, Lard handles flesh, Thermite handles plating, and the Shoggoth refills on every kill.
@@ -2390,6 +2472,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Forge-Heart Shroud (the exotic Thermite Slurry shroud & grip III, in place of the shroud & grip piece). Thermite runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.9 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +2.4 threat.
+
 ### The Bandolier
 **Juggler** (many tanks, many swaps, Bandolier). "Four fuels. Fastest draw in the wasteland." Four tanks across your chest and a hand that never stops. Swap twice in a second and the second swap is instant and pays you back. There's a fuel for everything out there.
 
@@ -2413,6 +2497,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Bandolier pieces. **Fuels:** Thermite Slurry, Rendered Lard, Ion Gel, Swamp Napalm. **Affixes:** Pressurized, Sticky, Molten. **Home:** Smokehouse Outskirts. **Lab:** threat 27.6.
 
 **Exotic upgrade:** Jelly Maw (the exotic Swamp Napalm nozzle II, in place of the nozzle piece). When a mutant burning with Napalm dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.6 threat.
+
+**Mutation to seek:** Chilling (burning mutants are slowed 20%), on any part of the build. Lab: +1.9 threat.
 
 ### Fryer Run
 **Juggler** (many tanks, many swaps, Moonshine Run). "Every swap a fresh batch." Fryer Oil, Lard and Napalm on a carousel: every drop drags the last fuel along and every kill refills the Shoggoth. Comes back as fried cuts.
@@ -2438,6 +2524,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Swamp-King Crown (the exotic Swamp Napalm igniter III, in place of the igniter piece; the fuel becomes Frost Napalm). FROST NAPALM: Napalm runs cold (no heat) and mutants burning with it slow 15%. Lab: +2.0 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.6 threat.
+
 ### Static Bandolier
 **Juggler** (many tanks, many swaps, Bandolier). "Quick draw, quicker shields-down." Ion Gel first, Lard and Thermite behind it, and a swap within a second is free. Built for the Static Fields' quick draws.
 
@@ -2461,6 +2549,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Bandolier pieces. **Fuels:** Ion Gel, Rendered Lard, Thermite Slurry. **Affixes:** Greasy, Pressurized, Sticky. **Home:** Static Fields. **Lab:** threat 27.3.
 
 **Exotic upgrade:** Capacitor Maw (the exotic Ion Gel nozzle II, in place of the nozzle piece). When a mutant burning with Ion Gel dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.6 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.6 threat.
 
 ### Three-Still Special
 **Juggler** (many tanks, many swaps, Moonshine Run). "Three fuels, one trigger." Lard, Thermite and Ion Gel on a carousel: every drop drags the last fuel along, and a fast swap fires a burst. The Food Court's busiest stall.
@@ -2486,6 +2576,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Crucible Maw (the exotic Thermite Slurry nozzle II, in place of the nozzle piece). When a mutant burning with Thermite dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.3 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.8 threat.
+
 ### Fry-Up Cocktail
 **Juggler** (many tanks, many swaps, Cocktail Hour). "Pools of oil, pools of fire." Fryer Oil, Lard and Thermite in the shaker: every swap leaves a burning pool, and the Shoggoth refills on every kill. Comes back as fried cuts.
 
@@ -2509,6 +2601,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Cocktail Hour pieces. **Fuels:** Fryer Oil, Rendered Lard, Thermite Slurry. **Affixes:** Greasy, Boggy, Sticky. **Home:** The Junk Bazaar. **Lab:** threat 26.5.
 
 **Exotic upgrade:** Forge-Heart Shroud (the exotic Thermite Slurry shroud & grip III, in place of the shroud & grip piece). Thermite runs 80% cooler, and mutants burning with it slow 20%. Lab: +1.1 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.3 threat.
 
 ### Last Call
 **Juggler** (many tanks, many swaps, Cocktail Hour). "Every swap's a round." Rocket Hooch, Lard and Thermite: swap fast, leave pools of fire, and the Hooch hits hard on everything. The Drive-In's last show of the night.
@@ -2534,6 +2628,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Moonshine Maw (the exotic Rocket Hooch nozzle II, in place of the nozzle piece). When a mutant burning with Hooch dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.4 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +1.6 threat.
+
 ### Bog Run
 **Juggler** (many tanks, many swaps, Moonshine Run). "Runs on swamp and spite." Napalm, Lard and Thermite on the run, a burst on every swap, and Blood Line keeps it firing when the tanks are dry. Pay in armor, then in blood.
 
@@ -2557,6 +2653,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 **Set:** 4 Moonshine Run pieces. **Fuels:** Swamp Napalm, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Pressurized, Sticky. **Home:** Smokehouse Outskirts. **Lab:** threat 26.1.
 
 **Exotic upgrade:** Drippings Maw (the exotic Rendered Lard nozzle II, in place of the nozzle piece). When a mutant burning with Lard dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +0.9 threat.
+
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +0.9 threat.
 
 ### Cocktail Hour
 **Juggler** (many tanks, many swaps, Cocktail Hour). "Shaken, stirred, and set on fire." Every swap leaves a pool of the last fuel burning on the floor, and every tank fires at once. Ion for shields, Lard for flesh, Thermite for plating.
@@ -2582,6 +2680,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Capacitor Maw (the exotic Ion Gel nozzle II, in place of the nozzle piece). When a mutant burning with Ion Gel dies, its burn jumps to 2 nearby mutants (a quarter of its stacks). Lab: +2.4 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +3.6 threat.
+
 ### Rust Belt Cocktail
 **Juggler** (many tanks, many swaps, Cocktail Hour). "Shaken, then melted." Thermite first for Rust Flats' plating, Lard and Ion behind it, and every swap leaves a burning pool. Mix well, serve hot.
 
@@ -2606,6 +2706,8 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Exotic upgrade:** Schmaltz Shroud (the exotic Rendered Lard shroud & grip III, in place of the shroud & grip piece). Lard runs 80% cooler, and mutants burning with it slow 20%. Lab: +0.5 threat.
 
+**Mutation to seek:** Spreading (burns jump to 2 nearby mutants when a burning mutant dies), on any part of the build. Lab: +0.5 threat.
+
 *Lab results: a robot pig wearing every part at T4 Malevolent with near-perfect rolls, starting at threat 20 at the build's home map. Your results may vary. Not a toy. Do not refuel near open flame. Do not taste the Lard. Mutants were harmed in the making of this advertisement.
 
 ## Saves, settings and logs
@@ -2616,7 +2718,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 - The game saves after every change, keeping the save before as a backup. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
 
 ### The BALANCE menu
-- In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, early waves: share of spawns, late waves: share of spawns, toughness make-up for fewer mutants, start threat: levels below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen, exotic blueprints: favor price, crafting cost: tallow brick, crafting cost: napalm amber, crafting cost: slag heart, crafting cost: ion crystal, crafting cost: still copper, crafting cost: isotope seed, crafting cost: crackling.
+- In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, wave size at threat 0 (% of a full crowd), wave size from threat 12 on (% of a full crowd), fewer mutants, tougher mutants (how much), start threat dial: how far below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen, exotic blueprints: favor price, crafting cost: tallow brick, crafting cost: napalm amber, crafting cost: slag heart, crafting cost: ion crystal, crafting cost: still copper, crafting cost: isotope seed, crafting cost: crackling.
 - **LOCK** a number (or press **Space** over it) so a stray drag can't move it (RESET and RESET ALL leave it alone). Changes apply at once (mutant changes from the next wave), are saved with this version, and are written to the debug log at the start of every session, whenever they change, and with every run.
 
 ### Frame rate
