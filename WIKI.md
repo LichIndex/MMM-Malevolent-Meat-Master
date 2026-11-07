@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.8.8: the wiki
+# Malevolent Meat Master v0.8.9: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -287,9 +287,9 @@ Numeric rolls on a part. The values are for Tuned quality; multiply by the part'
 | Boggy | Fuel regen | All fuels | +8% to +20% | Junk |
 | Bulging | Tank capacity | All fuels | +8% to +20% | Junk |
 | Cooled | Heat | All fuels | -15% to -6% | Junk |
-| Greasy | Vs health | All fuels | +8% to +20% | Junk |
-| Ionized | Vs shields | All fuels | +8% to +20% | Junk |
-| Molten | Vs armor | All fuels | +8% to +20% | Junk |
+| Greasy | Vs health | All fuels | +5% to +12% | Junk |
+| Ionized | Vs shields | All fuels | +20% to +45% | Junk |
+| Molten | Vs armor | All fuels | +10% to +25% | Junk |
 | Potent | Stack damage | All fuels | +6% to +15% | Junk |
 | Pressurized | Flow | All fuels | +5% to +12% | Junk |
 | Recycling | Fuel regen | All fuels | +0.6 to +1.6 | Junk |
@@ -302,7 +302,7 @@ Numeric rolls on a part. The values are for Tuned quality; multiply by the part'
 |---|---|---|
 | Chilling | Burning mutants are slowed 20% | Mutated |
 | Spreading | Burns jump to 2 nearby mutants when a burning mutant dies | Mutated |
-| Toxic | Kills leave a small toxic cloud that burns for a quarter second | Mutated |
+| Toxic | Kills leave a toxic cloud that burns 2 stacks a tick for 2 s (70 px) | Mutated |
 | Volatile | Burning kills explode, putting 1 stack on mutants nearby | Mutated |
 
 ### Keystones
@@ -310,14 +310,14 @@ Rare T4 parts that break one rule, at a cost. They only drop (from threat 15; mo
 
 | Keystone | Slot | Rule | Cost | Builds | Drops from |
 |---|---|---|---|---|---|
-| Afterburner | Pump | Above 75% heat, flow x1.6 instead of the usual slowdown to x0.7 | Overheat damage x2 | Furnace | threat 15 |
+| Afterburner | Pump | Above 75% heat, flow x1.3 instead of the usual slowdown to x0.7 | Overheat damage x2 | Furnace | threat 15 |
 | Backdraft Ring | Nozzle | A 360-degree ring of fire, 390 px out: no aiming, nothing slips past the sides | +30% heat, and range bonuses from lanes and sets do nothing | Brawler | threat 15 |
-| Blood Line | Fuel Line | With the tank empty, keeps firing at full flow | Every 15 units cost the pig 1 armor, then 1 HP; it will kill you | Furnace, Brawler | threat 15 |
-| Double Distill | Filter | +130% stack damage | Each unit costs 2 fuel and makes 30% more heat | Lancer, Furnace | threat 15 |
+| Blood Line | Fuel Line | With the tank empty, keeps firing at full flow | Every 30 units cost the pig 1 armor, then 1 HP; it will kill you | Furnace, Brawler | threat 15 |
+| Double Distill | Filter | +130% stack damage | Each unit costs 1.5 fuel and makes 15% more heat | Lancer, Furnace | threat 15 |
 | Fever Grip | Shroud & Grip | +1% stack damage per 4% heat | Overheating hits the pig's HP directly, skipping armor | Furnace | threat 15 |
 | Flashpoint | Igniter | A stack's whole burn damage lands the instant it is applied | Nothing lingers: Spreading, Toxic, Hellmouth and burn duration do nothing | Lancer, Brawler | threat 15 |
 | Gatling Drum | Tank Chassis | Each unit fires from every mounted tank at once, each applying its own fuel's stack, and every tank refills like an idle one | Drains every tank together, and each unit makes double heat | Juggler | threat 15 |
-| Shoggoth Bladder | Tank Mod | Refills 1 unit for every kill its fuel makes | No passive regen at all | Brawler | threat 15 |
+| Shoggoth Bladder | Tank Mod | Refills 2 units for every kill its fuel makes | Half the usual passive regen | Brawler | threat 15 |
 
 ### Malevolent parts
 The top quality. Salvage only rolls it in Infested runs (past threat 21), each level past that adding 2 quality steps; until then it tops out at Mutated. You can still craft one, or upgrade a part's quality at the Workbench (the last step, Mutated to Malevolent, costs ×0.4).
@@ -448,29 +448,29 @@ Blueprints from the Sewer Kings; crafted with Tallow Brick (Bloat Marsh).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Tallow Feed | Gusher | +30% Lard tank capacity and +1 Lard regen/s |
-| Fuel Line | II | Drippings Artery | Capillary | 15% of Lard units cost no fuel, and its tank refills at a quarter speed while it fires |
+| Fuel Line | I | Tallow Feed | Gusher | +30% Lard tank capacity and +1 Lard regen/s; Lard stacks +15% damage |
+| Fuel Line | II | Drippings Artery | Capillary | 15% of Lard units cost no fuel, and its tank refills at a quarter speed while it fires; Lard stacks +20% damage |
 | Fuel Line | III | Schmaltz Aorta | Spool-Up Coil | LEFTOVERS: an empty Lard tank refills 50% at once (every 20 s); Lard stacks +50% damage |
 | Nozzle | I | Tallow Spout | Lance | Every Lard hit also coats 1 nearby mutant |
-| Nozzle | II | Drippings Maw | Fan | When a mutant burning with Lard dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Drippings Maw | Fan | When a mutant burning with Lard dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Schmaltz Throat | Bloom | Lard stacks deal +50% on mutants outside the cone and +30% beyond 300 px |
 | Tank Chassis | I | Tallow Cradle | Rack | +45% Lard tank capacity |
 | Tank Chassis | II | Drippings Rack | Saddle Tank | The Lard tank refills 50% faster |
 | Tank Chassis | III | Schmaltz Altar | Carousel | The first 80 Lard units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Tallow Plunger | Booster | Lard stacks +15% damage |
 | Pump | II | Drippings Bellows | Siphon | Lard stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Schmaltz Heart | Accumulator | Swapping to Lard fires +80% flow for 2 s; Lard stacks +35% damage |
-| Igniter | I | Tallow Wick | Smoulder | Lard burns 25% longer |
+| Pump | III | Schmaltz Heart | Accumulator | Swapping to Lard fires +100% flow for 2 s; Lard stacks +50% damage |
+| Igniter | I | Tallow Wick | Smoulder | Lard burns 25% longer, and Lard stacks +20% damage while the gun is above 50% heat |
 | Igniter | II | Drippings Striker | Flash | Burning Lard kills explode for 2 stacks (80 px) |
 | Igniter | III | Schmaltz Crown | Stoker | GREASE BOMB: burning Lard kills explode for 3 stacks in a wide blast (100 px); Lard stacks +40% damage |
 | Filter | I | Tallow Strainer | Distiller | Lard +25% vs shields and armor |
 | Filter | II | Drippings Sieve | Catalyst | Lard deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Schmaltz Kidney | Coarse Mesh | Lard stacks +40% damage, and mutants burning with it die at once under 8% health |
-| Shroud & Grip | I | Tallow Mitt | Heatsink | Lard runs 25% cooler |
+| Shroud & Grip | I | Tallow Mitt | Heatsink | Lard runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Drippings Mantle | Insulated | Lard runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Schmaltz Shroud | Vent Cowl | Lard runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Tallow Jug | Jerrycan | Lard kills drop +20% raw meat |
-| Tank Mod | II | Drippings Keg | Drip Bottle | Elites take +30% from Lard, and the first Lard unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Drippings Keg | Drip Bottle | Elites take +45% from Lard, and the first Lard unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Schmaltz Reliquary | Primer Cell | A mutant carrying 100+ Lard stacks takes +50% from every burn, and Lard stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Swamp Napalm
@@ -478,29 +478,29 @@ Blueprints from the Sewer Kings; crafted with Napalm Amber (Fungal Bog).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Bog Feed | Gusher | +30% Napalm tank capacity and +1 Napalm regen/s |
-| Fuel Line | II | Jelly Artery | Capillary | 15% of Napalm units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Swamp-King Aorta | Spool-Up Coil | Napalm kills refill 3 units, and an empty Napalm tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Bog Feed | Gusher | +30% Napalm tank capacity and +1 Napalm regen/s; Napalm stacks +15% damage |
+| Fuel Line | II | Jelly Artery | Capillary | 15% of Napalm units cost no fuel, and its tank refills at a quarter speed while it fires; Napalm stacks +20% damage |
+| Fuel Line | III | Swamp-King Aorta | Spool-Up Coil | Napalm kills refill 3 units, an empty Napalm tank refills 40% at once (every 20 s), and the first 60 Napalm units from a full tank deal +40%; Napalm stacks +30% damage |
 | Nozzle | I | Bog Spout | Lance | Every Napalm hit also coats 1 nearby mutant |
-| Nozzle | II | Jelly Maw | Fan | When a mutant burning with Napalm dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Jelly Maw | Fan | When a mutant burning with Napalm dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Swamp-King Throat | Bloom | STICKY RAIN: Napalm kills leave a burning puddle (1 stack a tick for 2 s, 70 px); Napalm stacks +40% outside the cone |
 | Tank Chassis | I | Bog Cradle | Rack | +45% Napalm tank capacity |
 | Tank Chassis | II | Jelly Rack | Saddle Tank | The Napalm tank refills 50% faster |
 | Tank Chassis | III | Swamp-King Altar | Carousel | The first 80 Napalm units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Bog Plunger | Booster | Napalm stacks +15% damage |
 | Pump | II | Jelly Bellows | Siphon | Napalm stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Swamp-King Heart | Accumulator | Swapping to Napalm fires +80% flow for 2 s; Napalm stacks +35% damage |
-| Igniter | I | Bog Wick | Smoulder | Napalm burns 25% longer |
+| Pump | III | Swamp-King Heart | Accumulator | Swapping to Napalm fires +100% flow for 2 s; Napalm stacks +50% damage |
+| Igniter | I | Bog Wick | Smoulder | Napalm burns 25% longer, and Napalm stacks +20% damage while the gun is above 50% heat |
 | Igniter | II | Jelly Striker | Flash | Burning Napalm kills explode for 2 stacks (80 px) |
 | Igniter | III | Swamp-King Crown | Stoker | FROST NAPALM: Napalm runs cold (no heat) and mutants burning with it slow 15% |
 | Filter | I | Bog Strainer | Distiller | Napalm +25% vs shields and armor |
 | Filter | II | Jelly Sieve | Catalyst | Napalm deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Swamp-King Kidney | Coarse Mesh | Napalm stacks +40% damage, and mutants burning with it die at once under 8% health |
-| Shroud & Grip | I | Bog Mitt | Heatsink | Napalm runs 25% cooler |
+| Shroud & Grip | I | Bog Mitt | Heatsink | Napalm runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Jelly Mantle | Insulated | Napalm runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Swamp-King Shroud | Vent Cowl | Napalm runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Bog Jug | Jerrycan | Napalm kills drop +20% raw meat |
-| Tank Mod | II | Jelly Keg | Drip Bottle | Elites take +30% from Napalm, and the first Napalm unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Jelly Keg | Drip Bottle | Elites take +45% from Napalm, and the first Napalm unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Swamp-King Reliquary | Primer Cell | A mutant carrying 100+ Napalm stacks takes +50% from every burn, and Napalm stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Thermite Slurry
@@ -508,29 +508,29 @@ Blueprints from the Rust Barons; crafted with Slag Heart (Smelter Pits).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Slag Feed | Gusher | +30% Thermite tank capacity and +1 Thermite regen/s |
-| Fuel Line | II | Crucible Artery | Capillary | 15% of Thermite units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Forge-Heart Aorta | Spool-Up Coil | Thermite kills refill 3 units, and an empty Thermite tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Slag Feed | Gusher | +30% Thermite tank capacity and +1 Thermite regen/s; Thermite stacks +15% damage |
+| Fuel Line | II | Crucible Artery | Capillary | 15% of Thermite units cost no fuel, and its tank refills at a quarter speed while it fires; Thermite stacks +20% damage |
+| Fuel Line | III | Forge-Heart Aorta | Spool-Up Coil | Thermite kills refill 3 units, an empty Thermite tank refills 40% at once (every 20 s), and the first 60 Thermite units from a full tank deal +40%; Thermite stacks +30% damage |
 | Nozzle | I | Slag Spout | Lance | Every Thermite hit also coats 1 nearby mutant |
-| Nozzle | II | Crucible Maw | Fan | When a mutant burning with Thermite dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Crucible Maw | Fan | When a mutant burning with Thermite dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Forge-Heart Throat | Bloom | Thermite stacks deal +50% on mutants outside the cone and +30% beyond 300 px |
 | Tank Chassis | I | Slag Cradle | Rack | +45% Thermite tank capacity |
 | Tank Chassis | II | Crucible Rack | Saddle Tank | The Thermite tank refills 50% faster |
 | Tank Chassis | III | Forge-Heart Altar | Carousel | The first 80 Thermite units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Slag Plunger | Booster | Thermite stacks +15% damage |
 | Pump | II | Crucible Bellows | Siphon | Thermite stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Forge-Heart Heart | Accumulator | Swapping to Thermite fires +80% flow for 2 s; Thermite stacks +35% damage |
-| Igniter | I | Slag Wick | Smoulder | Thermite burns 25% longer |
+| Pump | III | Forge-Heart Heart | Accumulator | Swapping to Thermite fires +100% flow for 2 s; Thermite stacks +50% damage |
+| Igniter | I | Slag Wick | Smoulder | Thermite burns 25% longer, and Thermite stacks +10% damage while the gun is above 50% heat |
 | Igniter | II | Crucible Striker | Flash | Burning Thermite kills explode for 2 stacks (80 px) |
 | Igniter | III | Forge-Heart Crown | Stoker | MOLTEN SLAG: Thermite kills leave a burning pool (2 stacks a tick for 1.5 s, 60 px); Thermite +30% vs armor |
 | Filter | I | Slag Strainer | Distiller | Thermite +25% vs shields and armor |
 | Filter | II | Crucible Sieve | Catalyst | Thermite deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Forge-Heart Kidney | Coarse Mesh | SLAG CUTTER: Thermite +60% vs shields and armor, and mutants burning with it die at once under 10% health |
-| Shroud & Grip | I | Slag Mitt | Heatsink | Thermite runs 25% cooler |
+| Shroud & Grip | I | Slag Mitt | Heatsink | Thermite runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Crucible Mantle | Insulated | Thermite runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Forge-Heart Shroud | Vent Cowl | Thermite runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Slag Jug | Jerrycan | Thermite kills drop +20% raw meat |
-| Tank Mod | II | Crucible Keg | Drip Bottle | Elites take +30% from Thermite, and the first Thermite unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Crucible Keg | Drip Bottle | Elites take +45% from Thermite, and the first Thermite unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Forge-Heart Reliquary | Primer Cell | A mutant carrying 100+ Thermite stacks takes +50% from every burn, and Thermite stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Ion Gel
@@ -538,29 +538,29 @@ Blueprints from the Glow Cult; crafted with Ion Crystal (Static Fields).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Static Feed | Gusher | +30% Ion Gel tank capacity and +1 Ion Gel regen/s |
-| Fuel Line | II | Capacitor Artery | Capillary | 15% of Ion Gel units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Storm Aorta | Spool-Up Coil | Ion Gel kills refill 3 units, and an empty Ion Gel tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Static Feed | Gusher | +30% Ion Gel tank capacity and +1 Ion Gel regen/s; Ion Gel stacks +15% damage |
+| Fuel Line | II | Capacitor Artery | Capillary | 15% of Ion Gel units cost no fuel, and its tank refills at a quarter speed while it fires; Ion Gel stacks +20% damage |
+| Fuel Line | III | Storm Aorta | Spool-Up Coil | Ion Gel kills refill 3 units, an empty Ion Gel tank refills 40% at once (every 20 s), and the first 60 Ion Gel units from a full tank deal +40%; Ion Gel stacks +30% damage |
 | Nozzle | I | Static Spout | Lance | Every Ion Gel hit also coats 1 nearby mutant |
-| Nozzle | II | Capacitor Maw | Fan | When a mutant burning with Ion Gel dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Capacitor Maw | Fan | When a mutant burning with Ion Gel dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Storm Throat | Bloom | Ion Gel stacks deal +50% on mutants outside the cone and +30% beyond 300 px |
 | Tank Chassis | I | Static Cradle | Rack | +45% Ion Gel tank capacity |
 | Tank Chassis | II | Capacitor Rack | Saddle Tank | The Ion Gel tank refills 50% faster |
 | Tank Chassis | III | Storm Altar | Carousel | The first 80 Ion Gel units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Static Plunger | Booster | Ion Gel stacks +15% damage |
 | Pump | II | Capacitor Bellows | Siphon | Ion Gel stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Storm Heart | Accumulator | Swapping to Ion Gel fires +80% flow for 2 s; Ion Gel stacks +35% damage |
-| Igniter | I | Static Wick | Smoulder | Ion Gel burns 25% longer |
+| Pump | III | Storm Heart | Accumulator | Swapping to Ion Gel fires +100% flow for 2 s; Ion Gel stacks +50% damage |
+| Igniter | I | Static Wick | Smoulder | Ion Gel burns 25% longer, and Ion Gel stacks +20% damage while the gun is above 50% heat |
 | Igniter | II | Capacitor Striker | Flash | Burning Ion Gel kills explode for 2 stacks (80 px) |
 | Igniter | III | Storm Crown | Stoker | ARC GEL: every Ion Gel hit chains to 3 nearby mutants, and breaking a shield stuns for 1 s; Ion Gel stacks +40% damage |
 | Filter | I | Static Strainer | Distiller | Ion Gel +25% vs shields and armor |
 | Filter | II | Capacitor Sieve | Catalyst | Ion Gel deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Storm Kidney | Coarse Mesh | OVERLOAD: Ion Gel +80% vs shields, and breaking a shield stuns for 1.5 s |
-| Shroud & Grip | I | Static Mitt | Heatsink | Ion Gel runs 25% cooler |
+| Shroud & Grip | I | Static Mitt | Heatsink | Ion Gel runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Capacitor Mantle | Insulated | Ion Gel runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Storm Shroud | Vent Cowl | Ion Gel runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Static Jug | Jerrycan | Ion Gel kills drop +20% raw meat |
-| Tank Mod | II | Capacitor Keg | Drip Bottle | Elites take +30% from Ion Gel, and the first Ion Gel unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Capacitor Keg | Drip Bottle | Elites take +45% from Ion Gel, and the first Ion Gel unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Storm Reliquary | Primer Cell | A mutant carrying 100+ Ion Gel stacks takes +50% from every burn, and Ion Gel stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Rocket Hooch
@@ -568,29 +568,29 @@ Blueprints from the Rust Barons; crafted with Still Copper (Scrap Mountain).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Mash Feed | Gusher | +30% Hooch tank capacity and +1 Hooch regen/s |
-| Fuel Line | II | Moonshine Artery | Capillary | 15% of Hooch units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Rocket Aorta | Spool-Up Coil | Hooch kills refill 3 units, and an empty Hooch tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Mash Feed | Gusher | +30% Hooch tank capacity and +1 Hooch regen/s; Hooch stacks +15% damage |
+| Fuel Line | II | Moonshine Artery | Capillary | 15% of Hooch units cost no fuel, and its tank refills at a quarter speed while it fires; Hooch stacks +20% damage |
+| Fuel Line | III | Rocket Aorta | Spool-Up Coil | Hooch kills refill 3 units, an empty Hooch tank refills 40% at once (every 20 s), and the first 60 Hooch units from a full tank deal +40%; Hooch stacks +30% damage |
 | Nozzle | I | Mash Spout | Lance | Every Hooch hit also coats 1 nearby mutant |
-| Nozzle | II | Moonshine Maw | Fan | When a mutant burning with Hooch dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Moonshine Maw | Fan | When a mutant burning with Hooch dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Rocket Throat | Bloom | Hooch stacks deal +50% on mutants outside the cone and +30% beyond 300 px |
 | Tank Chassis | I | Mash Cradle | Rack | +45% Hooch tank capacity |
 | Tank Chassis | II | Moonshine Rack | Saddle Tank | The Hooch tank refills 50% faster |
 | Tank Chassis | III | Rocket Altar | Carousel | The first 80 Hooch units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Mash Plunger | Booster | Hooch stacks +15% damage |
 | Pump | II | Moonshine Bellows | Siphon | Hooch stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Rocket Heart | Accumulator | Swapping to Hooch fires +80% flow for 2 s; Hooch stacks +35% damage |
-| Igniter | I | Mash Wick | Smoulder | Hooch burns 25% longer |
+| Pump | III | Rocket Heart | Accumulator | Swapping to Hooch fires +100% flow for 2 s; Hooch stacks +50% damage |
+| Igniter | I | Mash Wick | Smoulder | Hooch burns 25% longer, and Hooch stacks +10% damage while the gun is above 50% heat |
 | Igniter | II | Moonshine Striker | Flash | Burning Hooch kills explode for 2 stacks (80 px) |
 | Igniter | III | Rocket Crown | Stoker | STILL HOT: Hooch units also apply a stack of the fuel fired before them; Hooch stacks +60% damage |
 | Filter | I | Mash Strainer | Distiller | Hooch +25% vs shields and armor |
 | Filter | II | Moonshine Sieve | Catalyst | Hooch deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Rocket Kidney | Coarse Mesh | Hooch stacks +40% damage, and mutants burning with it die at once under 8% health |
-| Shroud & Grip | I | Mash Mitt | Heatsink | Hooch runs 25% cooler |
+| Shroud & Grip | I | Mash Mitt | Heatsink | Hooch runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Moonshine Mantle | Insulated | Hooch runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Rocket Shroud | Vent Cowl | PRESSURE COOKER: with Hooch loaded, reaching 100% heat starts 3 s with no overheat damage and +50% flow, then heat drops to 0 (once per 45 s); Hooch runs 20% cooler |
 | Tank Mod | I | Mash Jug | Jerrycan | Hooch kills drop +20% raw meat |
-| Tank Mod | II | Moonshine Keg | Drip Bottle | Elites take +30% from Hooch, and the first Hooch unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Moonshine Keg | Drip Bottle | Elites take +45% from Hooch, and the first Hooch unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Rocket Reliquary | Primer Cell | A mutant carrying 100+ Hooch stacks takes +50% from every burn, and Hooch stacks deal +1% for every second they've burned (up to +100%) |
 
 ### Rad Syrup
@@ -598,29 +598,29 @@ Blueprints from the Glow Cult; crafted with Isotope Seed (The Neon Strip).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Glowing Feed | Gusher | +30% Rad Syrup tank capacity and +1 Rad Syrup regen/s |
-| Fuel Line | II | Isotope Artery | Capillary | 15% of Rad Syrup units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Half-Life Aorta | Spool-Up Coil | Rad Syrup kills refill 3 units, and an empty Rad Syrup tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Glowing Feed | Gusher | +30% Rad Syrup tank capacity and +1 Rad Syrup regen/s; Rad Syrup stacks +15% damage; while Rad Syrup is loaded the gun's flow +6% |
+| Fuel Line | II | Isotope Artery | Capillary | 15% of Rad Syrup units cost no fuel, and its tank refills at a quarter speed while it fires; Rad Syrup stacks +20% damage; while Rad Syrup is loaded the gun's flow +9% |
+| Fuel Line | III | Half-Life Aorta | Spool-Up Coil | Rad Syrup kills refill 3 units, and an empty Rad Syrup tank refills 40% at once (every 20 s); Rad Syrup stacks +30% damage; while Rad Syrup is loaded the gun's flow +12% |
 | Nozzle | I | Glowing Spout | Lance | Every Rad Syrup hit also coats 1 nearby mutant |
-| Nozzle | II | Isotope Maw | Fan | When a mutant burning with Rad Syrup dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Isotope Maw | Fan | When a mutant burning with Rad Syrup dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Half-Life Throat | Bloom | Rad Syrup stacks deal +50% on mutants outside the cone and +30% beyond 300 px |
 | Tank Chassis | I | Glowing Cradle | Rack | +45% Rad Syrup tank capacity |
 | Tank Chassis | II | Isotope Rack | Saddle Tank | The Rad Syrup tank refills 50% faster |
 | Tank Chassis | III | Half-Life Altar | Carousel | The first 80 Rad Syrup units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Glowing Plunger | Booster | Rad Syrup stacks +15% damage |
-| Pump | II | Isotope Bellows | Siphon | Rad Syrup stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Half-Life Heart | Accumulator | Swapping to Rad Syrup fires +80% flow for 2 s; Rad Syrup stacks +35% damage |
-| Igniter | I | Glowing Wick | Smoulder | Rad Syrup burns 25% longer |
+| Pump | II | Isotope Bellows | Siphon | Rad Syrup stacks +20% damage, and +25% more while the gun is above 50% heat; while Rad Syrup is loaded the gun's flow +9% |
+| Pump | III | Half-Life Heart | Accumulator | Swapping to Rad Syrup fires +100% flow for 2 s; Rad Syrup stacks +50% damage |
+| Igniter | I | Glowing Wick | Smoulder | Rad Syrup burns 40% longer, and its stacks deal +15% damage; while Rad Syrup is loaded the gun's flow +6% |
 | Igniter | II | Isotope Striker | Flash | Burning Rad Syrup kills explode for 2 stacks (80 px) |
 | Igniter | III | Half-Life Crown | Stoker | CRITICAL MASS: a mutant carrying 100+ Rad stacks takes +50% from every burn, and Rad Syrup ages 50% faster; Rad Syrup stacks +40% damage |
-| Filter | I | Glowing Strainer | Distiller | Rad Syrup +25% vs shields and armor |
+| Filter | I | Glowing Strainer | Distiller | Rad Syrup +25% vs shields and armor; while Rad Syrup is loaded the gun's flow +6% |
 | Filter | II | Isotope Sieve | Catalyst | Rad Syrup deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Half-Life Kidney | Coarse Mesh | Rad Syrup stacks +40% damage, and mutants burning with it die at once under 8% health |
-| Shroud & Grip | I | Glowing Mitt | Heatsink | Rad Syrup runs 25% cooler |
+| Shroud & Grip | I | Glowing Mitt | Heatsink | Rad Syrup runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Isotope Mantle | Insulated | Rad Syrup runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Half-Life Shroud | Vent Cowl | Rad Syrup runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Glowing Jug | Jerrycan | Rad Syrup kills drop +20% raw meat |
-| Tank Mod | II | Isotope Keg | Drip Bottle | Elites take +30% from Rad Syrup, and the first Rad Syrup unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Isotope Keg | Drip Bottle | Elites take +45% from Rad Syrup, and the first Rad Syrup unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Half-Life Reliquary | Primer Cell | HALF-LIFE: Rad Syrup ages 60% faster, and elites take +50% from it |
 
 ### Fryer Oil
@@ -628,29 +628,29 @@ Blueprints from the Sewer Kings; crafted with Crackling (The Food Court).
 
 | Slot | Rank | Part | Lane | Effect |
 |---|---|---|---|---|
-| Fuel Line | I | Batter Feed | Gusher | +30% Fryer Oil tank capacity and +1 Fryer Oil regen/s |
-| Fuel Line | II | Crackling Artery | Capillary | 15% of Fryer Oil units cost no fuel, and its tank refills at a quarter speed while it fires |
-| Fuel Line | III | Deep-Fry Aorta | Spool-Up Coil | Fryer Oil kills refill 3 units, and an empty Fryer Oil tank refills 40% at once (every 20 s) |
+| Fuel Line | I | Batter Feed | Gusher | +30% Fryer Oil tank capacity and +1 Fryer Oil regen/s; Fryer Oil stacks +15% damage; while Fryer Oil is loaded the gun's flow +6% |
+| Fuel Line | II | Crackling Artery | Capillary | 15% of Fryer Oil units cost no fuel, and its tank refills at a quarter speed while it fires; Fryer Oil stacks +20% damage |
+| Fuel Line | III | Deep-Fry Aorta | Spool-Up Coil | Fryer Oil kills refill 3 units, an empty Fryer Oil tank refills 40% at once (every 20 s), and the first 60 Fryer Oil units from a full tank deal +40% |
 | Nozzle | I | Batter Spout | Lance | Every Fryer Oil hit also coats 1 nearby mutant |
-| Nozzle | II | Crackling Maw | Fan | When a mutant burning with Fryer Oil dies, its burn jumps to 2 nearby mutants (half its stacks) |
+| Nozzle | II | Crackling Maw | Fan | When a mutant burning with Fryer Oil dies, its burn jumps to 2 nearby mutants (a quarter of its stacks) |
 | Nozzle | III | Deep-Fry Throat | Bloom | SPLATTER: Fryer Oil stacks +80% within 220 px of the muzzle |
 | Tank Chassis | I | Batter Cradle | Rack | +45% Fryer Oil tank capacity |
 | Tank Chassis | II | Crackling Rack | Saddle Tank | The Fryer Oil tank refills 50% faster |
 | Tank Chassis | III | Deep-Fry Altar | Carousel | The first 80 Fryer Oil units from a full tank deal +100%, and its tank refills twice as fast while another fires |
 | Pump | I | Batter Plunger | Booster | Fryer Oil stacks +15% damage |
 | Pump | II | Crackling Bellows | Siphon | Fryer Oil stacks +40% damage while the gun is above 50% heat |
-| Pump | III | Deep-Fry Heart | Accumulator | Swapping to Fryer Oil fires +80% flow for 2 s; Fryer Oil stacks +35% damage |
-| Igniter | I | Batter Wick | Smoulder | Fryer Oil burns 25% longer |
+| Pump | III | Deep-Fry Heart | Accumulator | Swapping to Fryer Oil fires +100% flow for 2 s; Fryer Oil stacks +50% damage |
+| Igniter | I | Batter Wick | Smoulder | Fryer Oil burns 40% longer, and its stacks deal +15% damage; while Fryer Oil is loaded the gun's flow +6% |
 | Igniter | II | Crackling Striker | Flash | Burning Fryer Oil kills explode for 2 stacks (80 px) |
 | Igniter | III | Deep-Fry Crown | Stoker | BATTERED: mutants within 220 px take +1.2% per stack on them (up to +70%), and Fryer Oil's fried cuts sell for +50% (not +25%); Fryer Oil stacks +30% damage |
-| Filter | I | Batter Strainer | Distiller | Fryer Oil +25% vs shields and armor |
+| Filter | I | Batter Strainer | Distiller | Fryer Oil +25% vs shields and armor; while Fryer Oil is loaded the gun's flow +6% |
 | Filter | II | Crackling Sieve | Catalyst | Fryer Oil deals at least x1.0 against health, shields and armor, and +25% vs health |
 | Filter | III | Deep-Fry Kidney | Coarse Mesh | Fryer Oil stacks +40% damage, and mutants burning with it die at once under 8% health |
-| Shroud & Grip | I | Batter Mitt | Heatsink | Fryer Oil runs 25% cooler |
+| Shroud & Grip | I | Batter Mitt | Heatsink | Fryer Oil runs 25% cooler, and mutants burning with it slow 6% |
 | Shroud & Grip | II | Crackling Mantle | Insulated | Fryer Oil runs 40% cooler, and mutants burning with it slow 10% |
 | Shroud & Grip | III | Deep-Fry Shroud | Vent Cowl | Fryer Oil runs 80% cooler, and mutants burning with it slow 20% |
 | Tank Mod | I | Batter Jug | Jerrycan | Fryer Oil kills drop +20% raw meat |
-| Tank Mod | II | Crackling Keg | Drip Bottle | Elites take +30% from Fryer Oil, and the first Fryer Oil unit to hit an elite each second applies 2 stacks |
+| Tank Mod | II | Crackling Keg | Drip Bottle | Elites take +45% from Fryer Oil, and the first Fryer Oil unit to hit an elite each second applies 3 stacks |
 | Tank Mod | III | Deep-Fry Reliquary | Primer Cell | A mutant carrying 100+ Fryer Oil stacks takes +50% from every burn, and Fryer Oil stacks deal +1% for every second they've burned (up to +100%) |
 
 ## Fuels and stills
