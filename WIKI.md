@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.8.1: the wiki
+# Malevolent Meat Master v0.8.2: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -130,9 +130,10 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 - **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build instead (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped.
 - With an order it also buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there. Switch picks off on the Map tab. Building stills and crafting stay yours: the ad's plan marks them YOU.
 - **Its loot.** New salvage the order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces, its fuels and tank mods): then the ad is **matched**.
-- **The queue.** Order more ads (ADD TO THE QUEUE in the Showroom) and the 8-Ball farms them in turn: when one is matched the next takes over. Reorder or drop them on the Map tab.
-- **Crafting for the order** (since v0.8.1; Map tab, CRAFT FOR THE ORDER, off at first). Before and after each 8-Ball run it crafts what the order still lacks: set pieces up to 4 for the slots the build doesn't fill from its set yet (buying a piece's blueprint with shards first), a lane part at your top tier for every slot and tank mod below it (lanes whose blueprint you know), and the exotic upgrade (its blueprint with favor, then the craft). What it makes is locked. It never spends into the share of your Sprinkles it keeps (0, 25%, 50% or 75%; 25% at first), makes at most 6 things a go, and with EQUIP BEST AFTER EACH RUN on puts them on.
-- **The crew's orders** (since v0.8.1). **ORDER FOR THE CREW** on a Showroom ad gives the cat crew a build of its own, with its own queue (ADD TO THE CREW QUEUE; reorder or drop them on the Map tab). With **CREW FARMS TOO** on (Map tab) the 8-Ball sends every idle, rested cat out by itself: it takes the best free parts and goes where the crew's order needs farming next (else where the 8-Ball's order does, so the crew farms the same build side by side with the runs; with no order, where the 8-Ball would fight), at the highest threat it's safe at, for the trip length you pick (15 minutes to 8 hours). Loot an order wants is locked and kept past the loot filter, and loot for the 8-Ball's order is put on when it's the best you have. A crew order is done when everything it can farm is in your stash; then the crew's queue moves on. Cats are only sent while the game runs.
+- **The order list** (v0.8.2: one list for you and the crew). Every order names **who it's for**: you, or a cat on the crew (**FOR:** on the Showroom ad and on each row of the list on the Map tab). Order more ads (ADD TO THE LIST) and the 8-Ball farms them in turn: an order leaves the list when whoever it's for wears the whole ad, and the next takes over. Reorder, re-assign or drop them on the Map tab.
+- **Crafting for the order** (since v0.8.1; Map tab, CRAFT FOR THE ORDER, off at first). Before and after each 8-Ball run it crafts what the first order (for whoever it's for) still lacks: set pieces up to 4 for the slots the build doesn't fill from its set yet (buying a piece's blueprint with shards first), a lane part at your top tier for every slot and tank mod below it (lanes whose blueprint you know), and the exotic upgrade (its blueprint with favor, then the craft). What it makes is locked. It never spends into the share of your Sprinkles it keeps (0, 25%, 50% or 75%; 25% at first), makes at most 6 things a go, and with EQUIP BEST AFTER EACH RUN on puts them on.
+- **Builds for the crew** (v0.8.2). Order an ad **FOR:** a cat and the 8-Ball farms, crafts and equips it for that cat just as for you: the plan counts only parts that cat could wear (nothing you or another cat wears), and the parts go onto the cat whenever it's home. The crew tab shows a cat's order and **WEAR ITS ORDER**. With **CREW FARMS TOO** on (Map tab) the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and they go where the first order for a cat needs farming next (else where the 8-Ball's own order does; with no order, where the 8-Ball would fight), at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
+- **SCRAP WHAT NO ORDER WANTS** (Map tab, off at first). Loot from runs and crew trips that no order on the list wants is scrapped on the way home, in place of the loot filter (keystones and exotics are always kept). **SCRAP n NOW** does the same to your stash (never parts that are worn, locked, on a cat, in a saved loadout, keystones or exotics).
 
 ## The flamethrower
 
@@ -332,7 +333,7 @@ The top quality. Salvage only rolls it in Infested runs (past threat 21), each l
 
 - Every set has a piece for each of the seven slots. Wearing **2, 3 and 4 pieces** turns on its three bonuses, and every bonus works on **every fuel** (since v0.7.8; the fuel transformations moved to exotic parts). A piece is a normal part of its tier and slot (it rolls a lane and affixes too).
 - **Where they drop:** set pieces come from salvage crates (5% of them) and elites (40%). A set piece found at a destination comes 70% of the time from a set that drops there; the rest from any common set, and 5% from a rare one.
-- **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality Blueprint Shards. A set's blueprint costs 30 Shards (Workbench > SETS), then you craft its pieces for ◆ and materials. Faction reputation gives some blueprints too, and Hellmouth's needs one found Hellmouth piece first (or the Glow Cult's top reputation).
+- **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality Blueprint Shards, times (1 - 0.75 × the share of set blueprints you own; v0.8.2), so ×0.25 once you own them all. A set's blueprint costs 30 Shards (Workbench > SETS), then you craft its pieces for ◆ and materials. Faction reputation gives some blueprints too, and Hellmouth's needs one found Hellmouth piece first (or the Glow Cult's top reputation).
 
 ### Deep Fryer
 Brawler build · all fuels · drops at the The Flesh Farms
@@ -918,6 +919,21 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - The smoker holds 40 cuts, +40 per Smoker level. In a run it cooks (time survived / 90 s) of its load; if you die, the load comes out overcooked (×0.6).
 - Between runs (and with the game closed) it smokes at 50% that speed, a batch at a time, loading itself from your sauced meat (the cuts worth most to the faction you sell to first).
 
+### Faction contracts (v0.8.2)
+- Every faction whose turf is open and whose reputation with you is level 1 or more posts one order at a time (Kitchen, **DEALS**): its favourite cut, sauced or smoked (not overcooked) with its strongest taste at its ideal minus one or more, some of one common ingredient, and a fee. Sizes grow with your best threat T (up to 30): 30 + 4 × T cuts, 10 + 2 × T of the ingredient (no more than your Pantry holds), ◆200 × T^1.5.
+- **DELIVER** pays 1 + T/10 **Flux** (for tempering past +5) and 20 + 2 × T reputation (and with it favor). The next order comes 4 hours later. **NEW ORDER NOW** swaps the order for another for 20 of that faction's favor.
+
+### Feasts (v0.8.2)
+
+| Feast | Cut | Ingredients | For the next run |
+|---|---|---|---|
+| Firebelly Chili | Scrapper Ribs | Rad Pepper + Rust Salt | +10% stack damage for the run |
+| Hulk Roast | Hulk Brisket | Bone Marrow + Mushroom Mash | +25% armor for the run |
+| Frosted Shanks | Shambler Shank | Glow Honey + Rust Salt | 15% less heat for the run |
+| Glowbag Pie | Glowbag Belly | Glow Honey + Sludge Molasses | +50% reputation from the run |
+
+- Cooked in the Kitchen (**FEAST**) from 20 + 2 × T cuts of its kind (raw, sauced or smoked), 5 + T/2 of each ingredient and ◆50 × T^1.5 (T: your best threat, up to 30). The next run eats it (not the Gauntlet). **EVERY RUN** cooks the one you pick before each run, yours and the 8-Ball's, whenever you have what it takes.
+
 ### Selling
 - Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 10 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
 - **Glut:** when more cooked meat waits than the counter sells in 10 minutes, the crew sells fast enough to bring it down to that in 10 minutes, at a discount: (normal speed / glut speed) ^ 0.7 a cut, so twice as fast sells at ×0.62. Meat never piles up for long.
@@ -948,30 +964,34 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
   - **Recalibrate** an affix into one your Library has recorded for that slot, at the recorded value (no stronger than the part's quality allows), for twice the reroll price.
   - **Mutate** the behavior (or add one at Mutated quality and up) for Mutagen: 1 (T1 and T2), 2 (T3), 4 (T4).
   - **Re-forge** a part into another lane of its slot that you know, keeping its tier, quality, affixes and behavior, for twice the tier's material and a quarter of the part's price.
+  - **Temper** (v0.8.2) a Malevolent T4 part, +1 to +10: each level lifts its primary stat, its lane's benefit lines and its affix rolls (+2% for the first level, a little less each level after, ×1.16 at +10). Level n costs ◆12,000 × 1.4^(n-1), 60 × n of the slot's material, 4 × n Shards and n Mutagen, and from +6 also (n - 5) **Flux** (from faction contracts). A tempered part shows +n after its name.
 
 ### The yard and the shack
 
 | Upgrade | Where | What it does | Max level | First level |
 |---|---|---|---|---|
 | Workbench | Shack | Crafted parts roll higher qualities. | 8 | ◆250 + 5 Scrap Metal |
-| Sauce Kitchen | Shack | More brewing pots (1 + level/2) and faster brews. | 8 | ◆200 + 6 Mutant Bits |
+| Sauce Kitchen | Shack | More brewing pots (1 + level/2) and faster brews. | 8 (18 with the second band) | ◆200 + 6 Mutant Bits |
 | Freezer | Shack | Each level halves how fast raw meat spoils. | 5 | ◆300 + 8 Scrap Metal + 4 Chemicals |
-| Pantry | Shack | +20 ingredient storage per type per level. | 8 | ◆150 + 4 Mutant Bits |
-| Storage Shed | Yard | +150 storage for each material per level. | 8 | ◆200 + 8 Scrap Metal |
-| Scrap Sifter | Yard | Sifts +6 Scrap Metal per hour per level. | 10 | ◆300 + 6 Scrap Metal |
-| Rendering Vat | Yard | Renders +6 Mutant Bits per hour per level. | 10 | ◆300 + 6 Mutant Bits |
-| Sludge Drip | Yard | Drips +6 Chemicals per hour per level. | 10 | ◆300 + 6 Chemicals |
-| Catnip Plant | Yard | Cats arrive 25% faster per level. | 10 | ◆100 + 3 Mutant Bits |
-| Smoker | Garage | +40 cuts cooked per run per level. | 10 | ◆250 + 6 Scrap Metal |
+| Pantry | Shack | +20 ingredient storage per type per level (+50 a level past 8). | 8 (18 with the second band) | ◆150 + 4 Mutant Bits |
+| Storage Shed | Yard | +150 storage for each material per level (+600 a level past 8). | 8 (18 with the second band) | ◆200 + 8 Scrap Metal |
+| Scrap Sifter | Yard | Sifts +6 Scrap Metal per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Scrap Metal |
+| Rendering Vat | Yard | Renders +6 Mutant Bits per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Mutant Bits |
+| Sludge Drip | Yard | Drips +6 Chemicals per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Chemicals |
+| Catnip Plant | Yard | Cats arrive 25% faster per level. | 10 (20 with the second band) | ◆100 + 3 Mutant Bits |
+| Smoker | Garage | +40 cuts cooked per run per level. | 10 (20 with the second band) | ◆250 + 6 Scrap Metal |
 | Engine | Garage | Range: reach farther destinations. | 5 | ◆500 + 20 Scrap Metal |
-| Serving Counter | Garage | Parked truck sells 50% faster per level. | 10 | ◆200 + 5 Mutant Bits |
+| Serving Counter | Garage | Parked truck sells 50% faster per level. | 10 (20 with the second band) | ◆200 + 5 Mutant Bits |
 | Spice Rack | Kitchen | Lets you dial Spicy up or down by 1 more per level. | 3 | ◆300 + 5 Chemicals |
 | Sugar Press | Kitchen | Lets you dial Sweet up or down by 1 more per level. | 3 | ◆300 + 5 Mutant Bits |
 | Stock Pot | Kitchen | Lets you dial Savory up or down by 1 more per level. | 3 | ◆300 + 5 Scrap Metal |
 | Flavor Overdrive | Kitchen | Raises the taste ceiling past 5 for extreme fads. | 2 | ◆4,000 + 40 Chemicals |
-| Bigger Counter | Cats | +5 cats can wait in line per level. | 6 | ◆150 + 3 Scrap Metal |
+| Bigger Counter | Cats | +5 cats can wait in line per level. | 6 (16 with the second band) | ◆150 + 3 Scrap Metal |
 
-Prices in ◆ rise with each level; materials rise a step each level. Each material holds 150, +150 per Storage Shed level, and each ingredient 20, +20 per Pantry level (run loot can overfill these; vats and cats stop at them).
+Prices in ◆ rise with each level; materials rise a step each level.
+
+- **The second band** (v0.8.2). The Kitchen, Pantry, Storage Shed, the three vats, the Catnip Plant, the Smoker, the Serving Counter and the Bigger Counter go 10 levels past their old top at steep prices: level max+k costs the last old level's ◆ × 2 × 1.25^(k-1), plus 60 × k of the building's material and 5 × k Shards. Each level does what the building's levels always did (the Shed adds 600 storage a level there, the Pantry 50, a vat 18 an hour). The Overseer buys them too.
+- **Storage** (v0.8.2: for everything). Each material holds 150, +150 per Storage Shed level, and each ingredient 20, +20 per Pantry level. Runs, crew trips, scrapping, cats and vats all stop at these: what doesn't fit is **sold** for 0.25 Sprinkles a unit of material and 1 an ingredient (the result screen says STORAGE FULL). What you already hold past a cap is kept.
 
 ### While you're away
 Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all run on real time and catch up when you come back.
@@ -1041,7 +1061,7 @@ Past threat **21** a run turns Infested:
 
 ## The Showroom (tested builds)
 
-The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE QUEUE**), **ORDER FOR THE CREW** (the cat crew farms it, v0.8.1), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes).
+The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE LIST**), **FOR:** (you or a cat on the crew, v0.8.2), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes).
 
 **Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The exotic upgrade is the signature fuel's rank III igniter in place of the igniter piece.
 
