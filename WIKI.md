@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.5: the wiki
+# Malevolent Meat Master v0.7.6: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -666,13 +666,18 @@ Past threat **21** a run turns Infested:
 
 ### Saves
 - Every version keeps its own save, so updating never breaks your game. The main menu offers to **import** the newest older save while the new one has no progress.
-- The game saves after every change. Settings has the window size, fullscreen, fire effects and an FPS counter.
+- The game saves after every change. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
+
+### Frame rate
+- **VSYNC** on (the default) draws one frame per screen refresh, so on a 60 Hz screen the FPS counter sits at 60 however much room the machine has to spare. Turn it off to see what each fire setting really costs (the picture may tear while it's off).
+- **FRAME LIMIT** caps the frames a second (30, 60, 120, 144, 165, 240); **NONE** with VSync off runs flat out. A limit keeps the graphics card cooler and quieter.
+- The FPS counter is green near the limit, yellow below it and red when slow. A graphics driver set to force VSync on keeps the game at the refresh rate whatever the setting says.
 
 ### Fire effects
 Every setting fires the same flamethrower: damage comes from the cone and the burn rules, never from how the fire is drawn.
 - **LIVE ULTRA** (the default): the fire simulation plus burning fuel (the jet sprays fuel that catches as it flies, so it rolls and billows), fire light on the ground, the pig and the mutants, heat haze, embers and sparks, scorch marks and glowing coals where things burned, and puddles that keep burning with flames on them.
 - **LIVE HIGH**: the fire simulation (the flame splashes off mutants, bends as you sweep, rains burning fuel). **LIVE LOW**: the same, chunkier and lighter on the graphics chip. **CLASSIC**: the old particle flame.
-- If the game can't keep up it steps down by itself (ULTRA to HIGH, HIGH to LOW), says so, and remembers it.
+- If the game can't keep up (under 48 frames a second while firing, or under 80% of a lower frame limit) it steps down by itself (ULTRA to HIGH, HIGH to LOW), says so, and remembers it.
 
 ### Logs (for bug reports)
 - With **Settings > DEBUG LOG** on (the default), each session writes a text file to a **logs** folder next to the game: your kit, every run in detail, hub actions, the crew and any errors. **OPEN LOG FOLDER** opens it.
