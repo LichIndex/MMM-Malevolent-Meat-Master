@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.8.6: the wiki
+# Malevolent Meat Master v0.8.7: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -25,9 +25,9 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 
 ### The loop
 1. **Fight.** Pick a destination on the **Map** tab and press **FIGHT**. Hold the left mouse button to burn: every drop of fuel that lands sets a burn on the mutant, and the burns pile up. The threat climbs a level every 30 s, and so does what they drop.
-2. **Get out.** Press **E** to call the food truck. It takes 30 s to arrive; survive until then and everything comes home. Die and the run's meat and parts are lost, with part of its materials.
+2. **Get out.** Press **E** to start the truck. Its engine takes 30 s to catch; survive until then and everything comes home. Die and the run's meat and parts are lost, with part of its materials.
 3. **Sauce.** In **Production > Kitchen**, brew a sauce from a recipe and ingredients and put it on your raw meat. Raw meat spoils over real time; sauced meat doesn't.
-4. **Smoke.** The smoker on the food truck smokes sauced meat: a full load in 90 s of a run, and at half that speed between runs, even with the game closed.
+4. **Smoke.** The smoker on the truck smokes sauced meat: a full load in 90 s of a run, and at half that speed between runs, even with the game closed.
 5. **Sell.** The truck's counter sells cooked meat in real time (also while you fight or the game is closed) to whoever's turf it's parked on. A sauce that suits their taste pays more. This is where **Energy Sprinkles** (◆, the money) come from.
 6. **Build.** Fuel stills, better parts at the Workbench, sets, yard upgrades. Then push deeper.
 
@@ -38,7 +38,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Aim | Mouse (or W/S, arrow keys) |
 | Burn (hold) | Left mouse or Space |
 | Next tank / pick a tank | Q or the mouse wheel / 1 to 4 |
-| Call the food truck | E |
+| Start the truck | E |
 | Shoggoth Remote Control (it plays for you) | R |
 | Flamethrower sheet | Tab or C |
 | This guide | F1 |
@@ -58,7 +58,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutagen | Elites past threat 15; scrapping Mutated and Malevolent parts; radiant cats | Mutating a part's behavior |
 
 ### A first hour
-- Fight at the **Smokehouse Outskirts**, call the truck while you're still comfortable, and bring the meat home. A short run that gets out beats a long one that doesn't.
+- Fight at the **Smokehouse Outskirts**, start the truck while you're still comfortable, and bring the meat home. A short run that gets out beats a long one that doesn't.
 - Brew **Basic Rub** or **Backyard Glaze** with whatever ingredients you have, sauce the meat, and let the smoker and counter turn it into ◆.
 - Spend ◆ in the **Craft** tab on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
 - Reach threat 3 anywhere to open the **Rust Flats**; threat 6 opens tier 2 parts.
@@ -104,7 +104,7 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 - Beside the heat dial, **START THREAT** lets a run begin at a higher threat, skipping the easy opening waves (and their drops). It reaches up to your best threat at that destination minus 7. The smoker still needs 90 s of survival from the start.
 
 ### Getting out, and dying
-- **E** calls the food truck. It arrives in 30 s; the fight (and the threat) goes on until it does. Survive and everything comes home.
+- **E** starts the truck under you. Its engine takes 30 s to catch; the fight (and the threat) goes on until it does, then it drives you home. Survive and everything comes home.
 - The result screen sums the run up (salvage as a count by tier). **Enter**, **Space** or **E** goes back to the Smokehouse.
 - **If you die** (or abandon the run): the raw meat, fried cuts, salvage and any blueprint are lost, and you lose 10% + 5% per threat level (up to 75%) of the run's materials, ingredients and Mutagen. The smoker's load comes out overcooked (worth ×0.6).
 
@@ -121,9 +121,9 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 | Fridge-Door Cuirass | 10 | 0.2/s | ◆2,200 | The maximum. Takes forever to re-seat. |
 
 ### Shoggoth Remote Control
-- Press **R** (or the Shoggoth button at the bottom left of a run) and the Shoggoth drives: it aims, burns, vents before the heat warning, swaps tanks and calls the truck. Press R again to take over. It's the same pilot that tests every build.
+- Press **R** (or the Shoggoth button at the bottom left of a run) and the Shoggoth drives: it aims, burns, vents before the heat warning, swaps tanks and starts the truck. Press R again to take over. It's the same pilot that tests every build.
 - **Its fee:** it eats 1 cut of meat in 5 of what drops while it drives. Nothing else.
-- On the AUTOMATION tab (RUNS): **ON/OFF** (your runs start with it driving; the 8-Ball's always do) and **when it calls the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it at 5 HP or less.
+- On the AUTOMATION tab (RUNS): **ON/OFF** (your runs start with it driving; the 8-Ball's always do) and **when it starts the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it at 5 HP or less.
 
 ### The Magic 8-Ball
 - It runs the pig for you, one Shoggoth run after another, working a list of goals: see **Automation: the 8-Ball and the hands**. Its settings live on the AUTOMATION tab; the Map tab has one line saying what it does next. **B** switches it on and off anywhere.
@@ -770,7 +770,7 @@ Slag Brothers turf. Open furnaces; the scrappers come out glowing hot.
 
 #### Glow Crater
 Glow Cult turf. Shields everywhere; bring Ion Gel.
-- **Unlock:** needs the food truck's engine at level 1. **Market:** Glow Cult turf.
+- **Unlock:** needs the truck's engine at level 1. **Market:** Glow Cult turf.
 - **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
 - **Common mutants:** Glowbag. **Extra drops:** Chemicals ×2.
 - **Sets:** Tesla Coilworks. **Still blueprints:** Capacitor Stack (threat 4). **Exotic material:** none.
@@ -1037,11 +1037,11 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **Goals:** reputation with a faction (or **every open faction** to a level: the one furthest behind first), favor, opening a map (or every map), Scrap, Bits or Chemicals, an exotic part, an exotic blueprint, faction contracts (one faction or all, so many or keep going), a best threat (one place or anywhere), Energy Sprinkles, and builds (orders from the Showroom).
 - **How a goal plans:** reputation and favor are fought for on the faction's turf, and a locked turf is opened first (back along the chain of factions, or by pushing your best threat, or by buying the truck engine). Materials: the open map that yields most of them (with the Shed full, the hands build it up first; past the biggest Shed, a full Shed is as done as it gets). An exotic: the reputation and favor for its blueprint, the blueprint, its material at its home (from threat 10, where your kit holds it), then the craft. Contracts: the cut where its mutant is common (with the chef saucing for that faction), the ingredient where it's found, then the delivery. Sprinkles: meat from the deepest place the kit holds. What the hands can do without a run (buy the truck engine or a blueprint, craft the exotic, deliver a contract) they do between runs.
 - **Budgets** (BUDGET on each goal, going round): until it's done (the default), 5, 10, 25 runs (trips for the crew), 15, 30, 60, 120 minutes of runs, or for a build **until every part it wears is at your top tier**. A goal whose budget is spent leaves the list.
-- **When things go badly:** 2 runs in a row that don't move a goal **pause** it for 20 minutes (or until your kit's power is up 10%), and the next goal takes over. 2 deaths in a row **lower its threat by 1** (where the run starts and where the Shoggoth calls the truck) until the kit's power is up the same way; when it can't go lower the goal pauses. 2 crew trips in a row that go wrong pause a crew goal. II pauses a goal by hand; GO brings a paused one back now.
+- **When things go badly:** 2 runs in a row that don't move a goal **pause** it for 20 minutes (or until your kit's power is up 10%), and the next goal takes over. 2 deaths in a row **lower its threat by 1** (where the run starts and where the Shoggoth starts the truck) until the kit's power is up the same way; when it can't go lower the goal pauses. 2 crew trips in a row that go wrong pause a crew goal. II pauses a goal by hand; GO brings a paused one back now.
 - **When a list is empty** (or every goal waits): the 8-Ball fights where reputation is **lowest**, farms the **missing exotic blueprints** (fuels you've built first, the lowest rank first; it buys them when it can), or **stops**. The crew **helps the 8-Ball** with its goal (the default), or does one of those, or **stays home**. With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
 
 ### Runs
-- **Where its runs start:** **YOUR DIAL** (each map's START THREAT dial), **COMFORTABLE** (5 levels under where the Shoggoth calls the truck, the default) or **PUSH** (as high as the dial may go: your best there minus 7). A best-threat goal always starts as high as it may and calls the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power. Exotic materials start no lower than threat 8.
+- **Where its runs start:** **YOUR DIAL** (each map's START THREAT dial), **COMFORTABLE** (5 levels under where the Shoggoth starts the truck, the default) or **PUSH** (as high as the dial may go: your best there minus 7). A best-threat goal always starts as high as it may and starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power. Exotic materials start no lower than threat 8.
 - **The Shoggoth's settings** (your runs and the 8-Ball's): see Shoggoth Remote Control.
 - With a build to farm it buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there (PICKS).
 - **THE WEEKLY GAUNTLET** (off at first): its first run each week is this week's Gauntlet, once you can enter it. A Gauntlet death doesn't count against it.
