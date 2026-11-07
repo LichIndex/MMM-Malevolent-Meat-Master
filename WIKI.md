@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.8.3: the wiki
+# Malevolent Meat Master v0.8.4: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -14,6 +14,7 @@ Everything in the game, from the game's own data (written by the build you can d
 - [Meat, sauce and selling](#meat-sauce-and-selling)
 - [The Smokehouse](#the-smokehouse)
 - [Cats and the crew](#cats-and-the-crew)
+- [Automation: the 8-Ball and the hands](#automation-the-8-ball-and-the-hands)
 - [Endgame](#endgame)
 - [The Showroom (tested builds)](#the-showroom-tested-builds)
 - [Saves, settings and logs](#saves-settings-and-logs)
@@ -122,18 +123,10 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 ### Shoggoth Remote Control
 - Press **R** (or the Shoggoth button at the bottom left of a run) and the Shoggoth drives: it aims, burns, vents before the heat warning, swaps tanks and calls the truck. Press R again to take over. It's the same pilot that tests every build.
 - **Its fee:** it eats 1 cut of meat in 5 of what drops while it drives. Nothing else.
-- On the Map tab, under the destination: **ON/OFF** (runs start with it driving) and **when it calls the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it at 5 HP or less.
+- On the AUTOMATION tab (RUNS): **ON/OFF** (your runs start with it driving; the 8-Ball's always do) and **when it calls the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it at 5 HP or less.
 
 ### The Magic 8-Ball
-- Hire it on the Map tab (no fee) and switch it on there or with **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run at the turf of the faction with the **lowest reputation**, with the Shoggoth driving (its truck setting and each place's dials apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again.
-- A death switches it off. B in a run switches it for the runs after this one.
-- **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build instead (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped.
-- With an order it also buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there. Switch picks off on the Map tab. Building stills and crafting stay yours: the ad's plan marks them YOU.
-- **Its loot.** New salvage the order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces, its fuels and tank mods): then the ad is **matched**. v0.8.3: for each job in an ad (a slot's lane, a set piece's slot, its keystone, its exotic, a tank mod for each fuel) the 8-Ball keeps the best part you have (one per order that needs the job); new loot worse than that isn't locked, and parts the 8-Ball locked that turn obsolete (a better copy came in) or whose order is gone are **let go** (unlocked, and scrapped with SCRAP WHAT NO ORDER WANTS on, never keystones or exotics). Your own locks are never touched. Parts locked before v0.8.3 don't say who locked them: **UNLOCK n LOCKED PARTS NO ORDER USES** on the Map tab frees them after asking (yours too).
-- **The order list** (v0.8.2: one list for you and the crew). Every order names **who it's for**: you, or a cat on the crew (**FOR:** on the Showroom ad and on each row of the list on the Map tab). Order more ads (ADD TO THE LIST) and the 8-Ball farms them in turn: an order leaves the list when whoever it's for wears the whole ad, and the next takes over. Reorder, re-assign or drop them on the Map tab.
-- **Crafting for the order** (since v0.8.1; Map tab, CRAFT FOR THE ORDER, off at first). Before and after each 8-Ball run it crafts what the first order (for whoever it's for) still lacks: set pieces up to 4 for the slots the build doesn't fill from its set yet (buying a piece's blueprint with shards first), a lane part at your top tier for every slot and tank mod below it (lanes whose blueprint you know), and the exotic upgrade (its blueprint with favor, then the craft). What it makes is locked. It never spends into the share of your Sprinkles it keeps (0, 25%, 50% or 75%; 25% at first), makes at most 6 things a go, and with EQUIP BEST AFTER EACH RUN on puts them on.
-- **Builds for the crew** (v0.8.2). Order an ad **FOR:** a cat and the 8-Ball farms, crafts and equips it for that cat just as for you: the plan counts only parts that cat could wear (nothing you or another cat wears), and the parts go onto the cat whenever it's home. The crew tab shows a cat's order and **WEAR ITS ORDER**. With **CREW FARMS TOO** on (Map tab) the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and they go where the first order for a cat needs farming next (else where the 8-Ball's own order does; with no order, where the 8-Ball would fight), at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
-- **SCRAP WHAT NO ORDER WANTS** (Map tab, off at first). Loot from runs and crew trips that no order on the list wants is scrapped on the way home, in place of the loot filter (keystones and exotics are always kept). **SCRAP n NOW** does the same to your stash (never parts that are worn, locked, on a cat, in a saved loadout, keystones or exotics).
+- It runs the pig for you, one Shoggoth run after another, working a list of goals: see **Automation: the 8-Ball and the hands**. Its settings live on the AUTOMATION tab; the Map tab has one line saying what it does next. **B** switches it on and off anywhere.
 
 ## The flamethrower
 
@@ -932,7 +925,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 | Frosted Shanks | Shambler Shank | Glow Honey + Rust Salt | 15% less heat for the run |
 | Glowbag Pie | Glowbag Belly | Glow Honey + Sludge Molasses | +50% reputation from the run |
 
-- Cooked in the Kitchen (**FEAST**) from 20 + 2 × T cuts of its kind (raw, sauced or smoked), 5 + T/2 of each ingredient and ◆50 × T^1.5 (T: your best threat, up to 30). The next run eats it (not the Gauntlet). **EVERY RUN** cooks the one you pick before each run, yours and the 8-Ball's, whenever you have what it takes.
+- Cooked in the Kitchen (**FEAST**) from 20 + 2 × T cuts of its kind (raw, sauced or smoked), 5 + T/2 of each ingredient and ◆50 × T^1.5 (T: your best threat, up to 30). The next run eats it (not the Gauntlet). **EVERY RUN** (AUTOMATION > KITCHEN) cooks the one you pick before each run, yours and the 8-Ball's, whenever you have what it takes.
 
 ### Selling
 - Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 10 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
@@ -1027,9 +1020,52 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 - The **chef cat** is a separate hire, in Production > Kitchen > CHEF (see Meat, sauce and selling).
 
 ### The Overseer
-- A big floating eye over the Production yard (or THE OVERSEER at the top of the folded list). Click it to wake it (no fee) and it **buys Production upgrades for you**: the cheapest one you can afford first, at most one every 4 s, never touching the share of your Energy Sprinkles it keeps back (0%, 25% (the default), 50% or 75%).
-- You pick what it may buy: **stills** (building a still for a blueprint you own, still and tank levels, levels of attachments you've fitted, yard expansions; never a new attachment), **the shack**, **the yard**, **the garage**, **kitchen dials** (off at first) and **the cat counter**. Its panel shows what it buys next (or saves up for), and what it has bought and spent.
+- A big floating eye over the Production yard (or THE OVERSEER at the top of the folded list). Click it to wake it (no fee) and it **buys Production upgrades for you**: the cheapest one you can afford first, at most one every 4 s, never touching the share of your Energy Sprinkles the hands keep back (AUTOMATION tab).
+- You pick what it may buy (AUTOMATION > YARD): **stills** (building a still for a blueprint you own, still and tank levels, levels of attachments you've fitted, yard expansions; never a new attachment), **the shack**, **the yard**, **the garage**, **kitchen dials** (off at first) and **the cat counter**. Its panel shows what it buys next (or saves up for), and what it has bought and spent.
 - It works while the game runs, runs included (quietly; it's in the debug log), not while the game is closed. Switch it off or close its eye any time.
+
+## Automation: the 8-Ball and the hands
+
+Every automation setting is on the **AUTOMATION** tab. Hands are still hired where they live: the **Magic 8-Ball** on the AUTOMATION tab (or the Map's 8-Ball line), the **chef cat** in Production > Kitchen > CHEF, the **Overseer** by clicking its eye over the yard. **High fives** stay yours.
+
+### The Magic 8-Ball
+- Hire it (no fee) and switch it on with its switch or **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run, with the Shoggoth driving (its truck setting and each place's heat dial apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again. B in a run switches it for the runs after this one.
+- It works **its list of goals**, top first. A goal that can't move now (waiting on a fee, a full Shed, an offer) is skipped and says why. Each goal shows what it does next, a progress bar and its **budget**.
+
+### Two lists
+- **The 8-Ball's list**: its runs work it. **The crew's list**: the cats' trips work it, with **CREW FARMS TOO** on (CREW). **<>** on a goal hands a goal from one list to the other. A best-threat goal can't go on the crew's list: their trips don't raise your best threat.
+- **Goals:** reputation with a faction (or **every open faction** to a level: the one furthest behind first), favor, opening a map (or every map), Scrap, Bits or Chemicals, an exotic part, an exotic blueprint, faction contracts (one faction or all, so many or keep going), a best threat (one place or anywhere), Energy Sprinkles, and builds (orders from the Showroom).
+- **How a goal plans:** reputation and favor are fought for on the faction's turf, and a locked turf is opened first (back along the chain of factions, or by pushing your best threat, or by buying the truck engine). Materials: the open map that yields most of them. An exotic: the reputation and favor for its blueprint, the blueprint, its material at its home (from threat 10, where your kit holds it), then the craft. Contracts: the cut where its mutant is common (with the chef saucing for that faction), the ingredient where it's found, then the delivery. Sprinkles: meat from the deepest place the kit holds. What the hands can do without a run (buy the truck engine or a blueprint, craft the exotic, deliver a contract) they do between runs.
+- **Budgets** (BUDGET on each goal, going round): until it's done (the default), 5, 10, 25 runs (trips for the crew), 15, 30, 60, 120 minutes of runs, or for a build **until every part it wears is at your top tier**. A goal whose budget is spent leaves the list.
+- **When things go badly:** 2 runs in a row that don't move a goal **pause** it for 20 minutes (or until your kit's power is up 10%), and the next goal takes over. 2 deaths in a row **lower its threat by 1** (where the run starts and where the Shoggoth calls the truck) until the kit's power is up the same way; when it can't go lower the goal pauses. 2 crew trips in a row that go wrong pause a crew goal. II pauses a goal by hand; GO brings a paused one back now.
+- **When a list is empty** (or every goal waits): the 8-Ball fights where reputation is **lowest**, farms the **missing exotic blueprints** (fuels you've built first, the lowest rank first; it buys them when it can), or **stops**. The crew **helps the 8-Ball** with its goal (the default), or does one of those, or **stays home**. With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
+
+### Runs
+- **Where its runs start:** **YOUR DIAL** (each map's START THREAT dial), **COMFORTABLE** (5 levels under where the Shoggoth calls the truck, the default) or **PUSH** (as high as the dial may go: your best there minus 7). A best-threat goal always starts as high as it may; exotic materials no lower than threat 8.
+- **The Shoggoth's settings** (your runs and the 8-Ball's): see Shoggoth Remote Control.
+- With a build to farm it buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there (PICKS).
+- **THE WEEKLY GAUNTLET** (off at first): its first run each week is this week's Gauntlet, once you can enter it. A Gauntlet death doesn't count against it.
+
+### Builds
+- **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped. Building stills stays yours: the ad's plan marks it YOU.
+- **The order list**: every order names **who it's for** (**FOR:** on the Showroom ad and on the goal): you, or a cat on the crew. A build for you goes on the 8-Ball's list, one for a cat on the crew's. An order leaves its list when whoever it's for wears the whole ad (or, with TOP TIER, when every part is at your top tier).
+- **Its loot.** New salvage an order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default; WORKSHOP) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces, its fuels and tank mods): then the ad is **matched**. For each job in an ad (a slot's lane, a set piece's slot, its keystone, its exotic, a tank mod for each fuel) the 8-Ball keeps the best part you have (one per order that needs the job); new loot worse than that isn't locked, and parts it locked that turn obsolete or whose order is gone are **let go** (unlocked, and scrapped with SCRAP WHAT NO ORDER WANTS on, never keystones or exotics). Your own locks are never touched. Parts locked before v0.8.3 don't say who locked them: **UNLOCK n LOCKED PARTS NO ORDER USES** (WORKSHOP) frees them after asking (yours too).
+- **Builds for the crew**: an ad ordered **FOR:** a cat is farmed, crafted and equipped for that cat just as for you: the plan counts only parts that cat could wear, and the parts go onto the cat whenever it's home. The crew tab shows a cat's order and **WEAR ITS ORDER**.
+
+### Workshop
+- **Crafting for the order** (CRAFT FOR THE ORDERS, off at first): Before and after each 8-Ball run it crafts what the 8-Ball's first order still lacks: set pieces up to 4 (buying a piece's blueprint with shards first), a lane part at your top tier for every slot and tank mod below it (lanes whose blueprint you know), and the exotic upgrade (its blueprint with favor, then the craft). What it makes is locked. It makes at most 6 things a go, and with EQUIP BEST AFTER EACH RUN on puts them on.
+- **TEMPER WORN PARTS** (off at first): before each 8-Ball run it tempers the Malevolent T4 parts you wear, the least tempered first.
+- **SCRAP WHAT NO ORDER WANTS** (off at first). Loot from runs and crew trips that no order on either list wants is scrapped on the way home, in place of the loot filter (keystones and exotics are always kept). **SCRAP n NOW** does the same to your stash (never parts that are worn, locked, on a cat, in a saved loadout, keystones or exotics).
+- **The stash** has no limit, but past 500 parts the Smokehouse's lists slow down: you're warned when it goes over.
+
+### One reserve
+- **THE HANDS KEEP** 0%%, 10%%, 25%% (the default), 50%% or 75%% of your Energy Sprinkles: the 8-Ball (crafting, blueprints, the truck engine, tempering) and the Overseer never spend into it.
+
+### The crew, the kitchen and the yard
+- **CREW FARMS TOO** (CREW): the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and they go where the crew's list says, at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
+- **KITCHEN:** the chef cat's status (a contract goal points it at that faction), and **EVERY RUN**: a feast cooked before every run whenever you have what it takes.
+- **YARD:** the Overseer's switch, what it may buy and what it buys next (see Cats and the crew).
+- **LOG:** what the hands did lately, newest first.
 
 ## Endgame
 
