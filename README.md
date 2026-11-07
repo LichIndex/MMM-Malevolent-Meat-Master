@@ -6,10 +6,10 @@ A pig with a flamethrower roasts mutants for meat. This page only hosts the Wind
 
 ## Download
 
-**[Download v0.7.6 for Windows](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases/download/v0.7.6/MalevolentMeatMaster_v0.7.6_windows.zip)** (40 MB). Older versions are on the [Releases page](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases).
+**[Download v0.7.7 for Windows](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases/download/v0.7.7/MalevolentMeatMaster_v0.7.7_windows.zip)** (40 MB). Older versions are on the [Releases page](https://github.com/LichIndex/MMM-Malevolent-Meat-Master/releases).
 
 1. Unzip it anywhere (the Desktop is fine).
-2. Double-click `MalevolentMeatMaster_v0.7.6.exe`. Nothing else to install.
+2. Double-click `MalevolentMeatMaster_v0.7.7.exe`. Nothing else to install.
 3. Windows may say *Windows protected your PC*, because the game isn't code-signed. Click **More info**, then **Run anyway**. It only asks the first time.
 
 It needs 64-bit Windows 10 or 11 and a graphics card with OpenGL 3.3 (almost any from the last ten years). If it opens to a black window or closes at once, update the graphics driver. If it runs slowly, set **Settings > FIRE EFFECTS** to LIVE HIGH, LIVE LOW or CLASSIC (it starts on LIVE ULTRA, the richest fire, and steps down by itself if your computer can't keep up). To see your real frame rate, turn **VSYNC** off in Settings (with it on, the FPS counter stops at your screen's refresh rate).
@@ -27,6 +27,7 @@ Back at the Smokehouse you turn the meat into money. In the Kitchen, brew a sauc
 | Swap tanks | Q, mouse wheel, 1–4 |
 | Call the truck (extract) | E |
 | Let the Shoggoth drive (it eats 1 cut of meat in 5) / take the controls back | R |
+| The Magic 8-Ball on / off (back-to-back Shoggoth runs; hire it on the Map tab) | B |
 | Pause / menu | Esc |
 | Flamethrower sheet | Tab |
 | Fullscreen | F11 or Alt+Enter |
@@ -34,7 +35,7 @@ Back at the Smokehouse you turn the meat into money. In the Kitchen, brew a sauc
 
 ## Your save
 
-Saves are in `%APPDATA%\MalevolentMeatMaster_v076\` (paste that into the Explorer address bar). Each version keeps its own save: when you get a newer version, press its main menu's **IMPORT** button (it offers your newest older save) before you start, to bring your progress along.
+Saves are in `%APPDATA%\MalevolentMeatMaster_v077\` (paste that into the Explorer address bar). Each version keeps its own save: when you get a newer version, press its main menu's **IMPORT** button (it offers your newest older save) before you start, to bring your progress along.
 
 ## Sending a debug log
 
