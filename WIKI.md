@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.9: the wiki
+# Malevolent Meat Master v0.7.10: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -1276,8 +1276,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 ## Saves, settings and logs
 
 ### Saves
-- Every version keeps its own save, so updating never breaks your game. The main menu offers to **import** the newest older save while the new one has no progress.
-- The game saves after every change. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
+- **3 save slots.** The main menu's **SAVE SLOTS** shows what each holds (runs, best threat, Energy Sprinkles, time played, cats, parts, when it was saved) and has **PLAY**, **NEW GAME**, **IMPORT** and **DELETE** for each. Starting over or deleting a slot that holds a game asks first; deleting takes its backup and career journal too. The game opens on the slot you played last, and the Esc menu names it. Settings and the BALANCE menu are shared by every slot.
+- Every version keeps its own saves, so updating never breaks your game. **IMPORT** brings the newest older version's save into a slot (that save itself isn't changed); the main menu also offers it while the slot in use has no progress.
+- The game saves after every change, keeping the save before as a backup. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
 
 ### The BALANCE menu
 - In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, early waves: share of spawns, late waves: share of spawns, toughness make-up for fewer mutants, start threat: levels below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen, exotic blueprints: favor price, crafting cost: tallow brick, crafting cost: napalm amber, crafting cost: slag heart, crafting cost: ion crystal, crafting cost: still copper, crafting cost: isotope seed, crafting cost: crackling.
