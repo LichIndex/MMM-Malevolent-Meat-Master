@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.10: the wiki
+# Malevolent Meat Master v0.7.11: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -127,6 +127,8 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 ### The Magic 8-Ball
 - Hire it on the Map tab (no fee) and switch it on there or with **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run at the turf of the faction with the **lowest reputation**, with the Shoggoth driving (its truck setting and each place's dials apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again.
 - A death switches it off. B in a run switches it for the runs after this one.
+- **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build instead (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped.
+- With an order it also buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there. Switch picks off on the Map tab. Building stills and crafting stay yours: the ad's plan marks them YOU. It fights with the loadout you wear.
 
 ## The flamethrower
 
@@ -915,7 +917,7 @@ Past threat **21** a run turns Infested:
 
 ## The Showroom (tested builds)
 
-The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash and links to the set blueprints and the fuel's exotics.
+The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes).
 
 **Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The exotic upgrade is the signature fuel's rank III igniter in place of the igniter piece.
 
