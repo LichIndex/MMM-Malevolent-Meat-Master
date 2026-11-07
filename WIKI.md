@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.11: the wiki
+# Malevolent Meat Master v0.7.12: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -128,7 +128,9 @@ Each destination has a dial from 0 to 5 on the Map. Each level:
 - Hire it on the Map tab (no fee) and switch it on there or with **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run at the turf of the faction with the **lowest reputation**, with the Shoggoth driving (its truck setting and each place's dials apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again.
 - A death switches it off. B in a run switches it for the runs after this one.
 - **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build instead (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 4 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped.
-- With an order it also buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there. Switch picks off on the Map tab. Building stills and crafting stay yours: the ad's plan marks them YOU. It fights with the loadout you wear.
+- With an order it also buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there. Switch picks off on the Map tab. Building stills and crafting stay yours: the ad's plan marks them YOU.
+- **Its loot.** New salvage the order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces, its fuels and tank mods): then the ad is **matched**.
+- **The queue.** Order more ads (ADD TO THE QUEUE in the Showroom) and the 8-Ball farms them in turn: when one is matched the next takes over. Reorder or drop them on the Map tab.
 
 ## The flamethrower
 
@@ -817,6 +819,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 - **Loadouts:** save the gun under a name and put it back on later; copy or import a build code to share one.
 - **Stash:** filter by worn, unworn, locked, tier, slot or lane. **Lock** a part to protect it (**Space** locks or unlocks the selected part, here and in the Refine tab). **Scrap** a part (or SCRAP SHOWN for everything the filters show, or SCRAP JUNK) for materials; a set piece is broken down for Blueprint Shards instead. Parts you or a cat wear, locked parts and parts in a saved loadout are never scrapped.
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, teaches you its lane, records its affixes in the **Library**, and gives Mutagen for Mutated (1) and Malevolent (5) parts.
+- **EQUIP BEST** (top left of the Loadout tab): with the Magic 8-Ball holding an order, the best you have for that ad (its keystone, its lanes highest tier first, 4 of its set's pieces, its exotic upgrade, its fuels and tank mods); otherwise the parts and tank mods that give the kit the most **power** (the estimate the crew and the Shoggoth use), keeping a keystone you wear and any set bonus you've reached, leaving your fuels alone. It never takes a part off a cat. A Showroom ad's **PUT IT ON** does the same for that ad.
 - **Loot filter** (the LOOT button): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. SALVAGE NOW applies it to the stash.
 
 ### Craft and Refine (the Workbench)
@@ -887,6 +890,11 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 - **RECALL** brings a cat home early with a quarter of the haul. While it's out, its parts stay with it.
 - The **chef cat** is a separate hire, in Production > Kitchen > CHEF (see Meat, sauce and selling).
 
+### The Overseer
+- A big floating eye over the Production yard (or THE OVERSEER at the top of the folded list). Click it to wake it (no fee) and it **buys Production upgrades for you**: the cheapest one you can afford first, at most one every 4 s, never touching the share of your Energy Sprinkles it keeps back (0%, 25% (the default), 50% or 75%).
+- You pick what it may buy: **stills** (building a still for a blueprint you own, still and tank levels, levels of attachments you've fitted, yard expansions; never a new attachment), **the shack**, **the yard**, **the garage**, **kitchen dials** (off at first) and **the cat counter**. Its panel shows what it buys next (or saves up for), and what it has bought and spent.
+- It works while the game runs, runs included (quietly; it's in the debug log), not while the game is closed. Switch it off or close its eye any time.
+
 ## Endgame
 
 ### Infested runs
@@ -917,7 +925,7 @@ Past threat **21** a run turns Infested:
 
 ## The Showroom (tested builds)
 
-The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes).
+The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE QUEUE**), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes).
 
 **Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The exotic upgrade is the signature fuel's rank III igniter in place of the igniter piece.
 
