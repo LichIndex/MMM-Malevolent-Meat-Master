@@ -575,7 +575,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 ### Loadout
 - The seven part slots, a tank mod for each mounted tank, the fuel in each tank, and armor. The preview pig rebuilds as you swap.
 - **Loadouts:** save the gun under a name and put it back on later; copy or import a build code to share one.
-- **Stash:** filter by worn, unworn, locked, tier, slot or lane. **Lock** a part to protect it. **Scrap** a part (or SCRAP SHOWN for everything the filters show, or SCRAP JUNK) for materials; a set piece is broken down for Blueprint Shards instead. Parts you or a cat wear, locked parts and parts in a saved loadout are never scrapped.
+- **Stash:** filter by worn, unworn, locked, tier, slot or lane. **Lock** a part to protect it (**Space** locks or unlocks the selected part, here and in the Refine tab). **Scrap** a part (or SCRAP SHOWN for everything the filters show, or SCRAP JUNK) for materials; a set piece is broken down for Blueprint Shards instead. Parts you or a cat wear, locked parts and parts in a saved loadout are never scrapped.
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, teaches you its lane, records its affixes in the **Library**, and gives Mutagen for Mutated (1) and Malevolent (5) parts.
 - **Loot filter** (the LOOT button): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. SALVAGE NOW applies it to the stash.
 
@@ -683,7 +683,7 @@ Past threat **21** a run turns Infested:
 
 ### The BALANCE menu
 - In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, early waves: share of spawns, late waves: share of spawns, toughness make-up for fewer mutants, start threat: levels below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen.
-- **LOCK** a number so a stray drag can't move it (RESET and RESET ALL leave it alone). Changes apply at once (mutant changes from the next wave), are saved with this version, and are written to the debug log at the start of every session, whenever they change, and with every run.
+- **LOCK** a number (or press **Space** over it) so a stray drag can't move it (RESET and RESET ALL leave it alone). Changes apply at once (mutant changes from the next wave), are saved with this version, and are written to the debug log at the start of every session, whenever they change, and with every run.
 
 ### Frame rate
 - **VSYNC** on (the default) draws one frame per screen refresh, so on a 60 Hz screen the FPS counter sits at 60 however much room the machine has to spare. Turn it off to see what each fire setting really costs (the picture may tear while it's off).
