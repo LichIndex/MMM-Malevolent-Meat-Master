@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.7.8: the wiki
+# Malevolent Meat Master v0.7.9: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -15,6 +15,7 @@ Everything in the game, from the game's own data (written by the build you can d
 - [The Smokehouse](#the-smokehouse)
 - [Cats and the crew](#cats-and-the-crew)
 - [Endgame](#endgame)
+- [The Showroom (tested builds)](#the-showroom-tested-builds)
 - [Saves, settings and logs](#saves-settings-and-logs)
 
 ## Start here
@@ -911,6 +912,366 @@ Past threat **21** a run turns Infested:
 ### Where to push
 - Compare destinations by their growth: the Rust Flats piles on armor, the Glow Crater shields, the Sewer Delta health. Bring fuels and parts that answer the pool that grows fastest there.
 - The Shoggoth's AUTO truck setting and the crew planner both use the same estimate of what your kit holds at a destination: a good guide to how deep to go.
+
+## The Showroom (tested builds)
+
+The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's fifteen endgame builds, one for each set. In the game each ad also checks its parts list against your stash and links to the set blueprints and the fuel's exotics.
+
+**Reading an ad.** A build is a lane for every slot, a keystone (most builds have one), a tank mod, 4 pieces of its set in any slots (each piece rolls a lane of its slot, so keep the ones on the build's lanes), its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part T4 Malevolent and affixes at 90% of their range (3 seeds). The exotic upgrade is the signature fuel's rank III igniter in place of the igniter piece.
+
+| Build | Style | Set | Fuels | Home | Lab |
+|---|---|---|---|---|---|
+| Grease Bomber 3000 | Brawler | Grease Fire | Rendered Lard, Rocket Hooch | Smokehouse Outskirts | 23.2 |
+| Fry Cook Deluxe | Brawler | Deep Fryer | Fryer Oil, Rendered Lard | Sewer Delta | 22.8 |
+| Pit Boss Ring of Fire | Brawler | Pit Boss | Rendered Lard, Thermite Slurry, Ion Gel | Smokehouse Outskirts | 22.4 |
+| Arc Lancer Pro | Lancer | Tesla Coilworks | Ion Gel, Rendered Lard | Glow Crater | 22.7 |
+| Meltdown Sniper | Lancer | Meltdown | Rad Syrup, Ion Gel | Glow Crater | 22.0 |
+| Steeple Marksman | Lancer | Steeple Works | Thermite Slurry, Rendered Lard | Rust Flats | 23.0 |
+| Foundry Furnace | Furnace | Foundry Rig | Thermite Slurry, Rendered Lard | Rust Flats | 22.8 |
+| Hellmouth Home Edition | Furnace | Hellmouth | Rocket Hooch, Thermite Slurry | Smokehouse Outskirts | 22.0 |
+| Boiler Room Pressure Cooker | Furnace | Boiler Room | Rocket Hooch, Rendered Lard | Smokehouse Outskirts | 23.5 |
+| Frost Miser | Miser | Glacier Works | Swamp Napalm, Rendered Lard | Sewer Delta | 21.8 |
+| Thrift Shop Special | Miser | Thrift Shop | Rendered Lard | Smokehouse Outskirts | 22.0 |
+| Slow Cooker | Miser | Slow Cooker | Swamp Napalm, Rendered Lard | Sewer Delta | 22.1 |
+| Moonshine Run Express | Juggler | Moonshine Run | Rocket Hooch, Rendered Lard, Thermite Slurry | Smokehouse Outskirts | 21.9 |
+| The Bandolier | Juggler | Bandolier | Thermite Slurry, Rendered Lard, Ion Gel, Swamp Napalm | Smokehouse Outskirts | 21.4 |
+| Cocktail Hour | Juggler | Cocktail Hour | Ion Gel, Rendered Lard, Thermite Slurry | Glow Crater | 22.2 |
+
+### Grease Bomber 3000
+**Brawler** (up close and in the crowd, Grease Fire). "Lets them come close. Then lets them go everywhere." Tired of mutants that die quietly? The Grease Bomber turns every kill into a party favor for everyone standing nearby. Neighbors hate it! (The neighbors are mutants.)
+
+- Bloom nozzle: a cone twice as wide that hits hardest on what is already close. Walk into the crowd.
+- Grease Fire set: +60% stack damage, burning kills splash a stack nearby, and with 4 pieces they explode for 2 stacks in a wide blast. One kill lights the next.
+- Blood Line keystone: with the tank empty it keeps firing at full flow, so the chain doesn't stop to refuel.
+- Gusher, Booster and Flash pour on flow, pressure and +50% stack damage. Vent Cowl dumps your heat as a burst when you let go above half.
+- A Rack mounts a Rocket Hooch tank for the big ones.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Blood Line (keystone) |
+| Nozzle | Bloom |
+| Tank Chassis | Rack |
+| Pump | Booster |
+| Igniter | Flash |
+| Filter | Distiller |
+| Shroud & Grip | Vent Cowl |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Grease Fire pieces. **Fuels:** Rendered Lard, Rocket Hooch. **Affixes:** Greasy, Potent, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 23.2.
+
+**Exotic upgrade:** Schmaltz Crown (the Rendered Lard igniter III; the fuel becomes Grease Bomb). GREASE BOMB: burning Lard kills explode for 3 stacks in a wide blast (100 px); Lard stacks +40% damage. Lab: +1.3 threat.
+
+### Fry Cook Deluxe
+**Brawler** (up close and in the crowd, Deep Fryer). "Whatever it kills comes out crispy." Ten thousand batches deep and still bubbling. Get up close, get them battered, and sell the leftovers by the crate. Ask about our family-size tank!
+
+- Deep Fryer set: kills drop more raw meat, +40% stack damage within 220 px, and with 4 pieces BATTERED: every stack on a close mutant makes it take more (up to +60%).
+- Fryer Oil kills drop fried cuts, which sell for more. Lard rides along on a Rack for when the oil runs out.
+- Afterburner keystone: above 75% heat the flow goes up instead of down. Run hot and stay close.
+- Bloom, Gusher, Booster, Flash and Distiller: everything for the close fight. Vent Cowl turns your heat into a burst when you let go.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Gusher |
+| Nozzle | Bloom |
+| Tank Chassis | Rack |
+| Pump | Afterburner (keystone) |
+| Igniter | Flash |
+| Filter | Distiller |
+| Shroud & Grip | Vent Cowl |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Deep Fryer pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Sticky, Recycling. **Home:** Sewer Delta. **Lab:** threat 22.8.
+
+**Exotic upgrade:** Deep-Fry Crown (the Fryer Oil igniter III; the fuel becomes Batter). BATTERED: mutants within 220 px take +1.2% per stack on them (up to +70%), and Fryer Oil's fried cuts sell for +50% (not +25%); Fryer Oil stacks +30% damage. Lab: +0.2 threat.
+
+### Pit Boss Ring of Fire
+**Brawler** (up close and in the crowd, Pit Boss). "No aiming. No escape. No refunds." Why aim when you can surround? The Ring puts a wall of fire all the way around you, and the more of them crowd in, the meaner you get.
+
+- Backdraft Ring keystone: a 360-degree ring of fire 390 px out. No aiming, and nothing slips past the sides.
+- Pit Boss set: more stack damage close in, every hit you take vents heat as a burst around you, and with 4 pieces BURNING MAN: with 10 or more mutants close, +30% flow and 30% less damage taken.
+- Three fuels on a Rack: Lard for flesh, Thermite for armor, Ion Gel for shields. Swap to whatever is in front of you.
+- Gusher, Booster, Flash and Distiller for raw output; Vent Cowl for the heat.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Gusher |
+| Nozzle | Backdraft Ring (keystone) |
+| Tank Chassis | Rack |
+| Pump | Booster |
+| Igniter | Flash |
+| Filter | Distiller |
+| Shroud & Grip | Vent Cowl |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Pit Boss pieces. **Fuels:** Rendered Lard, Thermite Slurry, Ion Gel. **Affixes:** Potent, Sticky, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 22.4.
+
+### Arc Lancer Pro
+**Lancer** (long reach, one target at a time, Tesla Coilworks). "One needle. Three mutants. Zero shields." Professional-grade lightning in a convenient gel. Point it at the shiny one and watch the sparks find its friends.
+
+- Lance nozzle: long reach in a narrow cone. Pick a target.
+- Tesla Coilworks set: longer burns, breaking a shield stuns for a second, and with 4 pieces every hit chains to 2 nearby mutants.
+- Ion Gel pops shields (the Glow Crater is full of them), and Ionized affixes push it further.
+- Capillary, Distiller and Stoker make every drop count, and big targets take more the longer you stay on them. Accumulator saves pressure for a strong first burst.
+- Fever Grip keystone: the hotter the gun, the harder it hits. Keep it warm.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Lance |
+| Tank Chassis | Rack |
+| Pump | Accumulator |
+| Igniter | Stoker |
+| Filter | Distiller |
+| Shroud & Grip | Fever Grip (keystone) |
+| Tank Mod | Primer Cell on every tank |
+
+**Set:** 4 Tesla Coilworks pieces. **Fuels:** Ion Gel, Rendered Lard. **Affixes:** Ionized, Potent, Recycling. **Home:** Glow Crater. **Lab:** threat 22.7.
+
+**Exotic upgrade:** Storm Crown (the Ion Gel igniter III; the fuel becomes Arc Gel). ARC GEL: every Ion Gel hit chains to 3 nearby mutants, and breaking a shield stuns for 1 s; Ion Gel stacks +40% damage. Lab: -0.1 threat.
+
+### Meltdown Sniper
+**Lancer** (long reach, one target at a time, Meltdown). "Sweet, sticky, and worse by the second." Rad Syrup barely tickles at first. Give it time. Give it a hundred and twenty stacks. Then wave goodbye from a safe distance.
+
+- Rad Syrup hits softly but its stacks grow the longer they cling. Meltdown makes them age faster and burn longer.
+- Meltdown set: elites take +10% from every fuel, and with 4 pieces CRITICAL MASS: a mutant carrying 120+ stacks of one fuel takes +50% from every burn.
+- Gatling Drum keystone: every unit fires from every tank at once, each with its own fuel, and every tank refills like an idle one. Ion Gel rides along.
+- Lance, Capillary, Stoker and Distiller: long reach, meaner drops, more on big targets.
+- It does run dry. Call it anticipation.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Lance |
+| Tank Chassis | Gatling Drum (keystone) |
+| Pump | Accumulator |
+| Igniter | Stoker |
+| Filter | Distiller |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Primer Cell on every tank |
+
+**Set:** 4 Meltdown pieces. **Fuels:** Rad Syrup, Ion Gel. **Affixes:** Potent, Sticky, Recycling. **Home:** Glow Crater. **Lab:** threat 22.0.
+
+**Exotic upgrade:** Half-Life Crown (the Rad Syrup igniter III; the fuel becomes Hot Syrup). CRITICAL MASS: a mutant carrying 100+ Rad stacks takes +50% from every burn, and Rad Syrup ages 50% faster; Rad Syrup stacks +40% damage. Lab: +0.0 threat.
+
+### Steeple Marksman
+**Lancer** (long reach, one target at a time, Steeple Works). "Reach out and melt someone." For the discerning pig who prefers to meet mutants at a respectful distance. Elites especially. Elites most of all.
+
+- Steeple Works set: longer burns, more damage beyond 300 px, and with 4 pieces DEADEYE: the first unit to hit an elite each second applies 2 stacks.
+- Thermite Slurry eats armor, which the Rust Flats wear a lot of, and Molten affixes add more.
+- Lance, Capillary, Distiller and Stoker for the long, precise shot; Accumulator for the opening burst.
+- Fever Grip keystone: the hotter the gun, the harder it hits.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Lance |
+| Tank Chassis | Rack |
+| Pump | Accumulator |
+| Igniter | Stoker |
+| Filter | Distiller |
+| Shroud & Grip | Fever Grip (keystone) |
+| Tank Mod | Primer Cell on every tank |
+
+**Set:** 4 Steeple Works pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Molten, Potent, Recycling. **Home:** Rust Flats. **Lab:** threat 23.0.
+
+**Exotic upgrade:** Forge-Heart Crown (the Thermite Slurry igniter III; the fuel becomes Molten Slag). MOLTEN SLAG: Thermite kills leave a burning pool (2 stacks a tick for 1.5 s, 60 px); Thermite +30% vs armor. Lab: +0.9 threat.
+
+### Foundry Furnace
+**Furnace** (runs hot and holds the trigger, Foundry Rig). "Starts slow. Ends molten." Hold the trigger. Keep holding it. The Foundry rewards commitment with a stream so hot it leaves puddles.
+
+- Spool-Up Coil: flow climbs from slow to very fast over 3 s of held fire, and drops back when you let go. So don't.
+- Insulated shroud holds a lot of heat; Booster adds pressure; Smoulder makes burns last much longer.
+- Double Distill keystone: +130% stack damage.
+- Foundry Rig set: longer burns, more stack damage, and with 4 pieces SLAG POOLS: kills leave a brief burning pool.
+- Thermite for the armored Rust Flats, with Lard as a spare.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Spool-Up Coil |
+| Nozzle | Lance |
+| Tank Chassis | Rack |
+| Pump | Booster |
+| Igniter | Smoulder |
+| Filter | Double Distill (keystone) |
+| Shroud & Grip | Insulated |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Foundry Rig pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Molten, Potent, Recycling. **Home:** Rust Flats. **Lab:** threat 22.8.
+
+### Hellmouth Home Edition
+**Furnace** (runs hot and holds the trigger, Hellmouth). "If they stay in the fire, the fire stays in them." The rare one, now available for the home! Hellmouth stacks don't burn out while the mutant stays in your cone, so give them a wide cone and a long afternoon.
+
+- Hellmouth set (rare, drops anywhere): all fuels +90% stack damage, longer burns and less heat, and with 4 pieces stacks stop expiring while the mutant stays in the cone.
+- Fan nozzle: a wide cone that keeps them in it. Spool-Up Coil and Smoulder reward a long, steady hold.
+- Afterburner keystone: above 75% heat the flow goes up instead of down, and the Insulated shroud lets you sit there.
+- Rocket Hooch hits hardest of any fuel but runs hot; Thermite comes along for armor.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Spool-Up Coil |
+| Nozzle | Fan |
+| Tank Chassis | Rack |
+| Pump | Afterburner (keystone) |
+| Igniter | Smoulder |
+| Filter | Distiller |
+| Shroud & Grip | Insulated |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Hellmouth pieces. **Fuels:** Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Sticky, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 22.0.
+
+**Exotic upgrade:** Rocket Crown (the Rocket Hooch igniter III; the fuel becomes Smuggler's Hooch). STILL HOT: Hooch units also apply a stack of the fuel fired before them; Hooch stacks +60% damage. Lab: +1.5 threat.
+
+### Boiler Room Pressure Cooker
+**Furnace** (runs hot and holds the trigger, Boiler Room). "For the pig who likes it at exactly 100%." Most flamethrowers fear overheating. The Boiler Room schedules it. Hit 100% heat and the next three seconds are free, faster and fine.
+
+- Boiler Room set: a bigger heat cap, more damage above half heat, and with 4 pieces PRESSURE COOKER: reaching 100% heat starts 3 s with no overheat damage and +50% flow, then the heat drops to zero (once every 45 s).
+- Flashpoint keystone: a stack's whole burn lands the instant it hits. No waiting for the sizzle.
+- Spool-Up Coil, Booster and Insulated shroud get you to 100% on purpose; Lance and Distiller aim it.
+- Rocket Hooch for the heat and the damage; Lard to cool off on.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Spool-Up Coil |
+| Nozzle | Lance |
+| Tank Chassis | Rack |
+| Pump | Booster |
+| Igniter | Flashpoint (keystone) |
+| Filter | Distiller |
+| Shroud & Grip | Insulated |
+| Tank Mod | Jerrycan on every tank |
+
+**Set:** 4 Boiler Room pieces. **Fuels:** Rocket Hooch, Rendered Lard. **Affixes:** Potent, Pressurized, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 23.5.
+
+### Frost Miser
+**Miser** (cheap fuel, long burns, cool head, Glacier Works). "Cool, calm and cheap." Why pay for heat? The Frost Miser runs every fuel 40% cooler, slows whatever is burning, and makes one tank last all night.
+
+- Glacier Works set: longer burns, burning mutants slow down, and with 4 pieces every fuel runs 40% cooler.
+- Swamp Napalm burns longest of any fuel; Smoulder makes it longer still.
+- Siphon refills the tank while you fire, Coarse Mesh makes one unit in five free, and Drip Bottles top the tanks up.
+- Capillary and Fan: fewer, meaner drops over a wide cone. Heatsink sheds what heat is left.
+- No keystone needed: the lab wore Glacier in all seven slots.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Fan |
+| Tank Chassis | Rack |
+| Pump | Siphon |
+| Igniter | Smoulder |
+| Filter | Coarse Mesh |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Drip Bottle on every tank |
+
+**Set:** 4 Glacier Works pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Boggy, Potent, Recycling. **Home:** Sewer Delta. **Lab:** threat 21.8.
+
+**Exotic upgrade:** Swamp-King Crown (the Swamp Napalm igniter III; the fuel becomes Frost Napalm). FROST NAPALM: Napalm runs cold (no heat) and mutants burning with it slow 15%. Lab: +1.7 threat.
+
+### Thrift Shop Special
+**Miser** (cheap fuel, long burns, cool head, Thrift Shop). "One tank. One fuel. One very good deal." Everything you need and nothing you don't: one enormous tank of Lard that mostly refills itself and quite often fires for free.
+
+- Saddle Tank chassis: one mount with triple the capacity and triple the regen.
+- Thrift Shop set: faster regen, one unit in five free, and with 4 pieces LEFTOVERS: an empty tank refills 40% at once (every 20 s), and +100% stack damage.
+- Coarse Mesh makes another unit in five free; Siphon refills while you fire.
+- Capillary, Smoulder and Fan: long, cheap burns over a wide cone. Fever Grip keystone: hotter hits harder.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Fan |
+| Tank Chassis | Saddle Tank |
+| Pump | Siphon |
+| Igniter | Smoulder |
+| Filter | Coarse Mesh |
+| Shroud & Grip | Fever Grip (keystone) |
+| Tank Mod | Drip Bottle on every tank |
+
+**Set:** 4 Thrift Shop pieces. **Fuels:** Rendered Lard. **Affixes:** Greasy, Potent, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 22.0.
+
+### Slow Cooker
+**Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Set it and forget it. They won't." Sweep the cone, walk away, let it simmer. The stacks keep cooking long after the nozzle has moved on.
+
+- Slow Cooker set: +25% burn duration, stacks on mutants outside the cone deal +45%, and with 4 pieces SIMMER: every 5th unit is free, every 10th applies 2 stacks, and all fuels deal +57%.
+- Swamp Napalm and Smoulder make the longest burns in the game. Coat them and move on.
+- Double Distill keystone: +130% stack damage.
+- Siphon, Coarse Mesh and Drip Bottles keep it cheap; Fan, Capillary and Heatsink keep it calm.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Capillary |
+| Nozzle | Fan |
+| Tank Chassis | Rack |
+| Pump | Siphon |
+| Igniter | Smoulder |
+| Filter | Double Distill (keystone) |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Drip Bottle on every tank |
+
+**Set:** 4 Slow Cooker pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Sticky, Recycling. **Home:** Sewer Delta. **Lab:** threat 22.1.
+
+### Moonshine Run Express
+**Juggler** (many tanks, many swaps, Moonshine Run). "Three fuels, one trigger, no designated driver." Every pull of the trigger fires all three tanks at once, and every stack brings a friend from the fuel before it. Please drink responsibly.
+
+- Gatling Drum keystone: each unit fires from every tank at once, each with its own fuel, and every tank refills like an idle one.
+- Moonshine Run set: tanks +50% capacity, swapping fires +60% flow for 2 s, and with 4 pieces STILL HOT: every unit also applies a stack of the fuel fired before it, and +60% stack damage.
+- Rocket Hooch, Lard and Thermite: one for every kind of hide. Catalyst breaks shields and armor.
+- Gusher, Accumulator, Flash and Fan for volume; Heatsink and Drip Bottles to keep up.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Gusher |
+| Nozzle | Fan |
+| Tank Chassis | Gatling Drum (keystone) |
+| Pump | Accumulator |
+| Igniter | Flash |
+| Filter | Catalyst |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Drip Bottle on every tank |
+
+**Set:** 4 Moonshine Run pieces. **Fuels:** Rocket Hooch, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Sticky, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 21.9.
+
+### The Bandolier
+**Juggler** (many tanks, many swaps, Bandolier). "Four fuels, because three felt like settling." Lard for meat, Thermite for armor, Ion Gel for shields, Napalm for the long goodbye. Swap fast enough and the swaps pay for themselves.
+
+- Bandolier set: an extra tank mount (up to 4), idle tanks refill much faster, and with 4 pieces QUICK DRAW: a swap within a second of the last is instant and refunds 10 units.
+- A Rack plus the set's extra mount carries all four fuels. Fire whichever one the mutant in front of you hates.
+- Shoggoth Bladder keystone on the first tank: every kill its fuel makes refills a unit.
+- Catalyst breaks shells; Gusher, Accumulator and Flash hit hard on each swap; Heatsink and Drip Bottles keep up.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Gusher |
+| Nozzle | Fan |
+| Tank Chassis | Rack |
+| Pump | Accumulator |
+| Igniter | Flash |
+| Filter | Catalyst |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Shoggoth Bladder (keystone) on the first tank, Drip Bottle on the rest |
+
+**Set:** 4 Bandolier pieces. **Fuels:** Thermite Slurry, Rendered Lard, Ion Gel, Swamp Napalm. **Affixes:** Potent, Sticky, Recycling. **Home:** Smokehouse Outskirts. **Lab:** threat 21.4.
+
+### Cocktail Hour
+**Juggler** (many tanks, many swaps, Cocktail Hour). "Mix three. Shake well. Serve on fire." Never fire the same thing twice in a row. Every swap leaves a burning pool behind and stirs the damage up.
+
+- Cocktail Hour set: swaps take half the time, each different fuel you swap to adds +10% (up to +30%), and with 4 pieces MOLOTOV MIX: each swap leaves a pool of the last fuel, and all fuels deal +120%.
+- Carousel chassis: swaps take a tenth of a second, and hit harder for a second after.
+- Blood Line keystone: an empty tank keeps firing at full flow, so you swap when you choose to.
+- Ion Gel for the Glow Crater's shields, plus Lard and Thermite. Catalyst, Gusher, Accumulator, Flash and Fan round it out.
+
+| Slot | Part |
+|---|---|
+| Fuel Line | Blood Line (keystone) |
+| Nozzle | Fan |
+| Tank Chassis | Carousel |
+| Pump | Accumulator |
+| Igniter | Flash |
+| Filter | Catalyst |
+| Shroud & Grip | Heatsink |
+| Tank Mod | Primer Cell on every tank |
+
+**Set:** 4 Cocktail Hour pieces. **Fuels:** Ion Gel, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Sticky, Recycling. **Home:** Glow Crater. **Lab:** threat 22.2.
+
+*Lab results: a robot pig wearing every part at T4 Malevolent with near-perfect rolls, starting at threat 20 at the build's home map. Your results may vary. Not a toy. Do not refuel near open flame. Do not taste the Lard. Mutants were harmed in the making of this advertisement.
 
 ## Saves, settings and logs
 
