@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.9: the wiki
+# Malevolent Meat Master v0.9.10: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -70,7 +70,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 ### Threat
 - The threat rises one level every **30 s**. Each destination grows mutants' health, armor and shields by its own rate a level (see Destinations), and on top of that every pool toughens ×1.19 a level up to threat 11 and ×1.1 a level after it.
 - They also come faster (a wave every 1.7 s at first, ×0.83 a level, down to one every 0.22 s), in packs (5% more likely a level, up to 55%) and move 2% faster a level (up to ×1.6).
-- **Fewer, tougher mutants:** waves come at 80% of that pace at threat 0, falling to 60% from threat 12 on. Each mutant is tougher for the ones that don't come (×1.07 at threat 0, ×1.17 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
+- **Fewer, tougher mutants:** waves come at 100% of that pace at threat 0, falling to 35% from threat 12 on. Each mutant is tougher for the ones that don't come (×1 at threat 0, ×2.44 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
 - Meat is worth **+45% of its base value per threat level**, so staying longer pays, until it doesn't.
 - Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16.
 
@@ -86,7 +86,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutagen | Elites past threat 15: 12% |  |
 | Still blueprint | Reach the threat shown on the Map at that destination, then get out | A new fuel (see Fuels). |
 
-- Since mutants come fewer and tougher, each ordinary one's chances above count for the ones it stands in for (×1.25 at threat 0, ×1.67 from threat 12); elites keep theirs and turn up as often as before.
+- Since mutants come fewer and tougher, each ordinary one's chances above count for the ones it stands in for (×1 at threat 0, ×2.86 from threat 12); elites keep theirs and turn up as often as before.
 - **Gear thins out deeper.** Kills a minute explode as the threat rises, so from threat 6 salvage, set pieces, keystones and elite Mutagen drop ×0.88 as often each level. Meat, materials and ingredients don't thin out.
 - **Salvage tiers** follow the run's threat (T2 from 6, T3 from 12, T4 from 16). Once T3 is open a crate holds one of the top two tiers; past threat 21 (Infested) only T4.
 - **Salvage quality** rises with the threat, but tops out at Mutated until the run is Infested (past threat 21).
@@ -429,7 +429,7 @@ Juggler build · all fuels · drops at the Dead Drive-In
 One exotic part for every fuel in every slot (49 in all; v0.9.9 cut the three ranks to one). Each one **reshapes its fuel wherever that fuel is loaded**. The igniter transforms the fuel (Grease Bomb, Frost Napalm, Molten Slag, Arc Gel, Smuggler's Hooch, Hot Syrup, Batter).
 
 ### Getting one
-- **Blueprint:** bought from the faction that deals in the fuel (CRAFT tab > EXOTICS) with **favor**. Every reputation point you earn also earns a point of favor; spending favor never lowers your reputation level. Every blueprint needs reputation level 4 and costs 120 favor.
+- **Blueprint:** bought from the faction that deals in the fuel (CRAFT tab > EXOTICS) with **favor**. Every reputation point you earn also earns a point of favor; spending favor never lowers your reputation level. Every blueprint needs reputation level 4 and costs 360 favor.
 - **Crafting:** Energy Sprinkles, Blueprint Shards, the slot's T4 material and the fuel's **exotic material**. It's always T4, built on whichever of the slot's lanes you choose when you craft it, and rolls quality, affixes and a behavior like a set piece. It costs ◆24,000, 40 Blueprint Shards, 24 exotic material and the slot's T4 material. Exotics can be refined, but not re-forged into another lane, and SCRAP SHOWN leaves them alone; scrapping one gives back half its exotic material.
 - **Exotic materials** drop only at their destination, from threat 10: 1.5% a kill (an ordinary mutant counts its loot weight), 30% from elites; one each, +1 for every 5 threat levels past 10. Crew trips bring them home too.
 
@@ -551,13 +551,13 @@ Each fuel comes from its own **still** in the Production yard. Rendered Lard's s
 Damage is per stack per tick; burn multiplies the 3 s a stack lasts; heat multiplies the heat each unit makes.
 
 ### Stills
-- The yard has 8 still plots; 2 are open at the start and the rest open in pairs:
+- The yard has 7 still plots, one for each fuel; 2 are open at the start and the yard expansions open the rest (the eighth plot is the Mystery Meat Farm, below):
 
 |  | Opens | Cost |
 |---|---|---|
 | Expansion 1 | plots 3 and 4 | ◆400 + 15 Scrap Metal |
 | Expansion 2 | plots 5 and 6 | ◆2,000 + 50 Scrap Metal + 25 Chemicals |
-| Expansion 3 | plots 7 and 8 | ◆7,000 + 140 Scrap Metal + 70 Chemicals + 70 Mutant Bits |
+| Expansion 3 | plot 7 | ◆7,000 + 140 Scrap Metal + 70 Chemicals + 70 Mutant Bits |
 - **Still level** (up to 10): +1.5 fuel regen a second each. **Tank level** (up to 10): +25% tank capacity each. Both cost ◆ (rising each level) and materials.
 - **Attachments:** each still has 4 sub-slots (2 regen, 2 tuning) that open at still levels 1 to 4. An attachment only affects that still's fuel, levels up to 5, and swapping one resets that slot to level 1.
 
@@ -802,20 +802,22 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 
 | Cut | From | Base value | Favourite of |
 |---|---|---|---|
-| Skitter Drumettes | Skitter | ◆2 | Reel Cult, Neon Saints |
-| Shambler Shank | Shambler | ◆4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
-| Glowbag Belly | Glowbag | ◆6 | Mallrat Gangs, Glow Cult, Reactor Choir |
-| Scrapper Ribs | Scrapper | ◆7 | Rust Barons, Tin Monks, Slag Brothers |
-| Hulk Brisket | Tumor Hulk | ◆18 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
+| Skitter Drumettes | Skitter | ◆0.2 | Reel Cult, Neon Saints |
+| Shambler Shank | Shambler | ◆0.4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
+| Glowbag Belly | Glowbag | ◆0.6 | Mallrat Gangs, Glow Cult, Reactor Choir |
+| Scrapper Ribs | Scrapper | ◆0.7 | Rust Barons, Tin Monks, Slag Brothers |
+| Hulk Brisket | Tumor Hulk | ◆1.8 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
 - A cut's value is its base × (1 + 0.45 × the threat level it dropped at) (+15% per heat-dial level).
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
 - The **Shoggoth Hatch** takes every raw cut at ×0.05 of its value: a dump for leftovers, not a business.
+- **The Mystery Meat Farm** (v0.9.10, the yard's eighth plot): bought any time for ◆500, it grows **100 raw cuts every 5 minutes**, a random mix of every cut worth what a threat-0 drop is, while you fight and while the game is closed. The BALANCE menu sets both numbers (MEAT FARM).
 
 ### The chef cat
 - **Production > Kitchen > CHEF** hires a chef cat to run the kitchen. No fee up front: it takes **6% of every meat sale** for as long as it works there, and you can let it go any time.
 - Whenever a pot is free and there's more raw meat than sauce on the way, it brews the best sauce it can from the recipes and ingredients you have, with the taste dials set as close as your dial upgrades reach, for the faction your smoker target names (or where the truck is parked). It sauces raw meat as sauces finish, the best-fitting sauce and the most valuable cuts first.
 - It works on real time like the rest of the kitchen: while you fight and while the game is closed. You can still brew by hand.
+- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there. The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
 
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
@@ -873,7 +875,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - Cooked in the Kitchen (**FEAST**) from 20 + 2 × T cuts of its kind (raw, sauced or smoked), 5 + T/2 of each ingredient and ◆50 × T^1.5 (T: your best threat, up to 30). The next run eats it (not the Gauntlet). **EVERY RUN** (AUTOMATION > KITCHEN) cooks the one you pick before each run, yours and the 8-Ball's, whenever you have what it takes.
 
 ### Selling
-- Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 10 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
+- Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 0.4 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
 - **Glut:** when more cooked meat waits than the counter sells in 10 minutes, the crew sells fast enough to bring it down to that in 10 minutes, at a discount: (normal speed / glut speed) ^ 0.7 a cut, so twice as fast sells at ×0.62. Meat never piles up for long.
 - **Price of a cut** = its value × the sauce's value × **fit** × favourite cut (×1.25) × (1 - fatigue).
 - **Fit** runs from ×1.5 (the sauce's taste sits right on the faction's ideal) down to ×0.6 (6 or more taste points away, counted straight-line across the three tastes). The neutral Outskirts market pays a flat ×0.9 and gives no reputation.
@@ -987,7 +989,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **How a goal plans:** reputation and favor are fought for on the faction's turf, and a locked turf is opened first (back along the chain of factions, or by pushing your best threat, or by buying the truck engine). Materials: the open map that yields most of them (with the Shed full, the hands build it up first; past the biggest Shed, a full Shed is as done as it gets). Exotic materials: the material's home map (it drops there from threat 10, where your kit holds it, more a drop the deeper the run starts, and the map's boss drops a pile), opening the map first if it's shut. A new fuel's still: its blueprint (reach its threat at its map and get out: the run pushes there and starts the truck at it), then the still (opening two plots first if the yard is full; Sprinkles farmed first if they're short). Blueprint Shards: the hands break down **spare set pieces** (a copy of a piece you have as good or better that nobody wears, no order or loadout wants and isn't locked), then farm the deepest place the kit holds, where elites drop set pieces. An exotic part: the reputation and favor for its blueprint, the blueprint, its material at its home (as above), then the craft (farming Sprinkles first if they're short; Blueprint Shards come from breaking down set pieces and from tuxedo cats). Contracts: the cut where its mutant is common (with the chef saucing for that faction), the ingredient where it's found, then the delivery. Sprinkles: meat from the deepest place the kit holds. What the hands can do without a run (buy the truck engine or a blueprint, craft the exotic, deliver a contract) they do between runs.
 - **Budgets** (BUDGET on each goal, going round): until it's done (the default), 5, 10, 25 runs (trips for the crew), 15, 30, 60, 120 minutes of runs, or for a build **until every part it wears is at your top tier**. A goal whose budget is spent leaves the list.
 - **When things go badly:** 2 runs in a row that don't move a goal **pause** it for 20 minutes (or until your kit's power is up 10%), and the next goal takes over. 2 deaths in a row **lower its threat by 1** (where the run starts and where the Shoggoth starts the truck) until the kit's power is up the same way; when it can't go lower the goal pauses. 2 crew trips in a row that go wrong pause a crew goal. II pauses a goal by hand; GO brings a paused one back now.
-- **When a list is empty** (or every goal waits): the 8-Ball fights where reputation is **lowest**, farms the **missing exotic blueprints** (fuels you've built first; it buys them when it can), or **stops**. The crew **helps the 8-Ball** with its goal (the default), or does one of those, or **stays home**. With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
+- **When a list is empty** (or every goal waits): the 8-Ball fights where reputation is **lowest**, farms the **missing exotic blueprints** (fuels you've built first; it buys them when it can), **helps the crew** (its runs farm the crew's first unmet order, a build for a cat), or **stops**. The crew **helps the 8-Ball** with its goal or order (the default), or fights where reputation is lowest, farms the blueprints, or **stays home**. With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
 
 ### Runs
 - **Where its runs start:** **YOUR DIAL** (each map's START THREAT dial), **COMFORTABLE** (5 levels under where the Shoggoth starts the truck, the default) or **PUSH** (as high as the dial may go: your best there minus 7). A best-threat goal always starts as high as it may and starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power. Exotic materials start no lower than threat 8.
@@ -2624,7 +2626,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 - The game saves after every change, keeping the save before as a backup. Settings has the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
 
 ### The BALANCE menu
-- In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, boss chance (0 = no bosses), boss toughness, fuel reactions (0 = off), wave size at threat 0 (% of a full crowd), wave size from threat 12 on (% of a full crowd), fewer mutants, tougher mutants (how much), start threat dial: how far below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen, exotic blueprints: favor price, crafting cost: tallow brick, crafting cost: napalm amber, crafting cost: slag heart, crafting cost: ion crystal, crafting cost: still copper, crafting cost: isotope seed, crafting cost: crackling.
+- In the Esc menu and on the main menu: a slider for each of these, to try the game tuned your way: enemy density, enemy toughness, enemy speed, elite chance, boss chance (0 = no bosses), boss toughness, fuel reactions (0 = off), wave size at threat 0 (% of a full crowd), wave size from threat 12 on (% of a full crowd), fewer mutants, tougher mutants (how much), start threat dial: how far below your best, reputation rate, counter speed, meat price, glut after (minutes of selling), mystery meat farm: cuts a harvest, mystery meat farm: minutes a harvest, crafting cost: energy sprinkles, crafting cost: scrap metal, crafting cost: mutant bits, crafting cost: chemicals, crafting cost: blueprint shards, crafting cost: mutagen, exotic blueprints: favor price, crafting cost: tallow brick, crafting cost: napalm amber, crafting cost: slag heart, crafting cost: ion crystal, crafting cost: still copper, crafting cost: isotope seed, crafting cost: crackling.
 - **LOCK** a number (or press **Space** over it) so a stray drag can't move it (RESET and RESET ALL leave it alone). Changes apply at once (mutant changes from the next wave), are saved with this version, and are written to the debug log at the start of every session, whenever they change, and with every run.
 
 ### Frame rate
