@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.12: the wiki
+# Malevolent Meat Master v0.9.13: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -70,7 +70,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 ### Threat
 - The threat rises one level every **30 s**. Each destination grows mutants' health, armor and shields by its own rate a level (see Destinations), and on top of that every pool toughens ×1.19 a level up to threat 11 and ×1.1 a level after it.
 - They also come faster (a wave every 1.7 s at first, ×0.83 a level, down to one every 0.22 s), in packs (5% more likely a level, up to 55%) and move 2% faster a level (up to ×1.6).
-- **Fewer, tougher mutants:** waves come at 100% of that pace at threat 0, falling to 35% from threat 12 on. Each mutant is tougher for the ones that don't come (×1 at threat 0, ×2.44 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
+- **Fewer, tougher mutants:** waves come at 80% of that pace at threat 0, falling to 60% from threat 12 on. Each mutant is tougher for the ones that don't come (×1.07 at threat 0, ×1.17 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
 - Meat is worth **+45% of its base value per threat level**, so staying longer pays, until it doesn't.
 - Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16.
 
@@ -86,7 +86,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutagen | Elites past threat 15: 12% |  |
 | Still blueprint | Reach the threat shown on the Map at that destination, then get out | A new fuel (see Fuels). |
 
-- Since mutants come fewer and tougher, each ordinary one's chances above count for the ones it stands in for (×1 at threat 0, ×2.86 from threat 12); elites keep theirs and turn up as often as before.
+- Since mutants come fewer and tougher (the waves, and half the crowd since v0.9.10), each ordinary one's chances above count for the ones it stands in for (×2.5 at threat 0, ×3.33 from threat 12); elites keep theirs and turn up as often as before. (v0.9.13: the half crowd counts too; before, half the mutants dropped half the loot.)
 - **Gear thins out deeper.** Kills a minute explode as the threat rises, so from threat 6 salvage, set pieces, keystones and elite Mutagen drop ×0.88 as often each level. Meat, materials and ingredients don't thin out.
 - **Salvage tiers** follow the run's threat (T2 from 6, T3 from 12, T4 from 16). Once T3 is open a crate holds one of the top two tiers; past threat 21 (Infested) only T4.
 - **Salvage quality** rises with the threat, but tops out at Mutated until the run is Infested (past threat 21).
@@ -797,11 +797,11 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 
 | Cut | From | Base value | Favourite of |
 |---|---|---|---|
-| Skitter Drumettes | Skitter | ◆0.2 | Reel Cult, Neon Saints |
-| Shambler Shank | Shambler | ◆0.4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
-| Glowbag Belly | Glowbag | ◆0.6 | Mallrat Gangs, Glow Cult, Reactor Choir |
-| Scrapper Ribs | Scrapper | ◆0.7 | Rust Barons, Tin Monks, Slag Brothers |
-| Hulk Brisket | Tumor Hulk | ◆1.8 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
+| Skitter Drumettes | Skitter | ◆2 | Reel Cult, Neon Saints |
+| Shambler Shank | Shambler | ◆4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
+| Glowbag Belly | Glowbag | ◆6 | Mallrat Gangs, Glow Cult, Reactor Choir |
+| Scrapper Ribs | Scrapper | ◆7 | Rust Barons, Tin Monks, Slag Brothers |
+| Hulk Brisket | Tumor Hulk | ◆18 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
 - A cut's value is its base × (1 + 0.45 × the threat level it dropped at).
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
@@ -814,8 +814,8 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - It works on real time like the rest of the kitchen: while you fight and while the game is closed. You can still brew by hand.
 - **PARKS THE TRUCK** (v0.9.11, on at first): the chef picks where the truck sells. A reputation or favor goal's faction comes first (sales earn reputation); otherwise the open faction that pays the most for what's cooked and coming, after taste fit, its favourite cut and fatigue. It moves for 10% more, at most once a minute, and brews for whoever the truck sells to, with the fatigue on a taste counted, so it rotates tastes.
 - **Ingredient care** (v0.9.11): it never brews with rare ingredients, or with what an open contract or your every-run feast needs, and it says once when it has nothing left it may use.
-- **FEEDS THE SURPLUS TO THE SHOGGOTH** (v0.9.11, on at first): raw meat past what the pots can sauce before it reaches its spoilage floor goes to the Shoggoth Hatch, the least valuable first.
-- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there. The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
+- **FEEDS THE SURPLUS TO THE SHOGGOTH** (v0.9.11, on at first): raw meat past what the pots can sauce in an hour (v0.9.13; before, before it reached its spoilage floor, about 8 hours' worth) goes to the Shoggoth Hatch, the least valuable first.
+- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there, as long as the fee leaves 20% of your Sprinkles (v0.9.13). The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
 
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
