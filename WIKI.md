@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.10: the wiki
+# Malevolent Meat Master v0.9.11: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -93,16 +93,11 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 - Each destination **features one slot a day**: its parts drop ×4 as often there (the Map shows which; 60 Blueprint Shards picks another for the rest of the day).
 
 ### Elites
-- 1% chance a spawn, +0.2% a threat level and +1% a heat-dial level. They have ×3 the pools and an ELITE tag.
+- 1% chance a spawn, +0.2% a threat level. They have ×3 the pools and an ELITE tag.
 - They always drop 2 cuts, triple materials and a part: 40% of the time a set piece, otherwise salvage from 2 threat levels higher (gear thinning applies).
 
-### The heat dial
-Each destination has a dial from 0 to 5 on the Map. Each level:
-- adds 0.03 to every growth rate (tougher mutants, faster);
-- +25% crates, set pieces, blueprints and elites; +15% meat value; +20% material drops.
-
 ### Start threat
-- Beside the heat dial, **START THREAT** lets a run begin at a higher threat, skipping the easy opening waves (and their drops). It reaches up to your best threat at that destination minus 7. The smoker still needs 90 s of survival from the start.
+- On the Map, **START THREAT** lets a run begin at a higher threat, skipping the easy opening waves (and their drops). It reaches up to your best threat at that destination minus 7. The smoker still needs 90 s of survival from the start.
 
 ### Getting out, and dying
 - **E** starts the truck under you. Its engine takes 30 s to catch; the fight (and the threat) goes on until it does, then it drives you home. Survive and everything comes home.
@@ -808,7 +803,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 | Scrapper Ribs | Scrapper | ◆0.7 | Rust Barons, Tin Monks, Slag Brothers |
 | Hulk Brisket | Tumor Hulk | ◆1.8 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
-- A cut's value is its base × (1 + 0.45 × the threat level it dropped at) (+15% per heat-dial level).
+- A cut's value is its base × (1 + 0.45 × the threat level it dropped at).
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
 - The **Shoggoth Hatch** takes every raw cut at ×0.05 of its value: a dump for leftovers, not a business.
 - **The Mystery Meat Farm** (v0.9.10, the yard's eighth plot): bought any time for ◆500, it grows **100 raw cuts every 5 minutes**, a random mix of every cut worth what a threat-0 drop is, while you fight and while the game is closed. The BALANCE menu sets both numbers (MEAT FARM).
@@ -817,6 +812,9 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **Production > Kitchen > CHEF** hires a chef cat to run the kitchen. No fee up front: it takes **6% of every meat sale** for as long as it works there, and you can let it go any time.
 - Whenever a pot is free and there's more raw meat than sauce on the way, it brews the best sauce it can from the recipes and ingredients you have, with the taste dials set as close as your dial upgrades reach, for the faction your smoker target names (or where the truck is parked). It sauces raw meat as sauces finish, the best-fitting sauce and the most valuable cuts first.
 - It works on real time like the rest of the kitchen: while you fight and while the game is closed. You can still brew by hand.
+- **PARKS THE TRUCK** (v0.9.11, on at first): the chef picks where the truck sells. A reputation or favor goal's faction comes first (sales earn reputation); otherwise the open faction that pays the most for what's cooked and coming, after taste fit, its favourite cut and fatigue. It moves for 10% more, at most once a minute, and brews for whoever the truck sells to, with the fatigue on a taste counted, so it rotates tastes.
+- **Ingredient care** (v0.9.11): it never brews with rare ingredients, or with what an open contract or your every-run feast needs, and it says once when it has nothing left it may use.
+- **FEEDS THE SURPLUS TO THE SHOGGOTH** (v0.9.11, on at first): raw meat past what the pots can sauce before it reaches its spoilage floor goes to the Shoggoth Hatch, the least valuable first.
 - **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there. The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
 
 ### Sauce
@@ -980,11 +978,11 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 Every automation setting is on the **AUTOMATION** tab. Hands are still hired where they live: the **Magic 8-Ball** on the AUTOMATION tab (or the Map's 8-Ball line), the **chef cat** in Production > Kitchen > CHEF, the **Overseer** by clicking its eye over the yard. **High fives** are yours, or the **High-Five Machine**'s at the cat counter (v0.9.7).
 
 ### The Magic 8-Ball
-- Hire it (no fee) and switch it on with its switch or **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run, with the Shoggoth driving (its truck setting and each place's heat dial apply; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again. B in a run switches it for the runs after this one.
+- Hire it (no fee) and switch it on with its switch or **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run, with the Shoggoth driving (its truck setting applies; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again. B in a run switches it for the runs after this one.
 - It works **its list of goals**, top first. A goal that can't move now (waiting on a fee, a full Shed, an offer) is skipped and says why. Each goal shows what it does next, a progress bar and its **budget**.
 
 ### Two lists
-- **The 8-Ball's list**: its runs work it. **The crew's list**: the cats' trips work it, with **CREW FARMS TOO** on (CREW). **<>** on a goal hands a goal from one list to the other. A best-threat goal or a still goal can't go on the crew's list: their trips don't raise your best threat or bring still blueprints.
+- **The 8-Ball's list**: its runs work it. **Every cat has its own list** (v0.9.11): that cat's trips work it, with **CREW FARMS TOO** on (CREW), and an order for a cat goes on that cat's list. **<>** on a goal hands it to the next list (the 8-Ball's, then each cat's). A best-threat goal or a still goal can't go on a cat's list: trips don't raise your best threat or bring still blueprints.
 - **Goals:** reputation with a faction (or **every open faction** to a level: the one furthest behind first), favor, opening a map (or every map), **a new fuel's still** (v0.9.6), Scrap, Bits or Chemicals, **exotic materials** (a stockpile of one: v0.9.6), **Blueprint Shards** (v0.9.6), an exotic part, an exotic blueprint, faction contracts (one faction or all, so many or keep going), a best threat (one place or anywhere), Energy Sprinkles, and builds (orders from the Showroom).
 - **How a goal plans:** reputation and favor are fought for on the faction's turf, and a locked turf is opened first (back along the chain of factions, or by pushing your best threat, or by buying the truck engine). Materials: the open map that yields most of them (with the Shed full, the hands build it up first; past the biggest Shed, a full Shed is as done as it gets). Exotic materials: the material's home map (it drops there from threat 10, where your kit holds it, more a drop the deeper the run starts, and the map's boss drops a pile), opening the map first if it's shut. A new fuel's still: its blueprint (reach its threat at its map and get out: the run pushes there and starts the truck at it), then the still (opening two plots first if the yard is full; Sprinkles farmed first if they're short). Blueprint Shards: the hands break down **spare set pieces** (a copy of a piece you have as good or better that nobody wears, no order or loadout wants and isn't locked), then farm the deepest place the kit holds, where elites drop set pieces. An exotic part: the reputation and favor for its blueprint, the blueprint, its material at its home (as above), then the craft (farming Sprinkles first if they're short; Blueprint Shards come from breaking down set pieces and from tuxedo cats). Contracts: the cut where its mutant is common (with the chef saucing for that faction), the ingredient where it's found, then the delivery. Sprinkles: meat from the deepest place the kit holds. What the hands can do without a run (buy the truck engine or a blueprint, craft the exotic, deliver a contract) they do between runs.
 - **Budgets** (BUDGET on each goal, going round): until it's done (the default), 5, 10, 25 runs (trips for the crew), 15, 30, 60, 120 minutes of runs, or for a build **until every part it wears is at your top tier**. A goal whose budget is spent leaves the list.
@@ -992,7 +990,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **When a list is empty** (or every goal waits): the 8-Ball fights where reputation is **lowest**, farms the **missing exotic blueprints** (fuels you've built first; it buys them when it can), **helps the crew** (its runs farm the crew's first unmet order, a build for a cat), or **stops**. The crew **helps the 8-Ball** with its goal or order (the default), or fights where reputation is lowest, farms the blueprints, or **stays home**. With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
 
 ### Runs
-- **Where its runs start:** **YOUR DIAL** (each map's START THREAT dial), **COMFORTABLE** (5 levels under where the Shoggoth starts the truck, the default) or **PUSH** (as high as the dial may go: your best there minus 7). A best-threat goal always starts as high as it may and starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power. Exotic materials start no lower than threat 8.
+- **Where its runs start** (v0.9.11): as high as the map's START THREAT dial may go, your best there minus 7, whatever it farms. A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
 - **The Shoggoth's settings** (your runs and the 8-Ball's): see Shoggoth Remote Control.
 - With a build to farm it buys that place's **targeted-loot pick** (60 shards) for the slot the build needs most, unless that's already today's featured slot there (PICKS).
 - **THE WEEKLY GAUNTLET** (off at first): its first run each week is this week's Gauntlet, once you can enter it. A Gauntlet death doesn't count against it.
@@ -1018,7 +1016,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **THE HANDS KEEP** 0%%, 10%%, 25%% (the default), 50%% or 75%% of your Energy Sprinkles: the 8-Ball (crafting, blueprints, the truck engine, tempering) and the Overseer never spend into it.
 
 ### The crew, the kitchen and the yard
-- **CREW FARMS TOO** (CREW): the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and they go where the crew's list says, at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
+- **CREW FARMS TOO** (CREW): the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and each goes where its own list says, at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
 - **KITCHEN:** the chef cat's status (a contract goal points it at that faction), and **EVERY RUN**: a feast cooked before every run whenever you have what it takes.
 - **YARD:** the Overseer's switch, what it may buy and what it buys next (see Cats and the crew).
 - **LOG:** what the hands did lately, newest first.
