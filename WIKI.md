@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.20: the wiki
+# Malevolent Meat Master v0.9.21: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -17,6 +17,7 @@ Everything in the game, from the game's own data (written by the build you can d
 - [Cats and the crew](#cats-and-the-crew)
 - [Automation: the 8-Ball and the hands](#automation-the-8-ball-and-the-hands)
 - [Endgame](#endgame)
+- [A New Truck (the prestige)](#a-new-truck-the-prestige)
 - [The Showroom (tested builds)](#the-showroom-tested-builds)
 - [Saves, settings and logs](#saves-settings-and-logs)
 
@@ -150,6 +151,7 @@ These are the tier baselines (Scavenged quality, ×1, before the lane). Quality 
 - Firing heats the gun; the shroud sets how much heat it holds and how fast it cools. Cooling starts 0.5 s after you let go.
 - At **80%** the gun hisses and flow drops to ×0.7. At **100%** it **locks out** (v0.9.9): no firing for 2 s while it vents to 0. It doesn't hurt the pig any more. Afterburner and Fever Grip double the lockout.
 - **Nobody holds the trigger forever** (v0.9.9). Firing heats the gun at least 1/15 of its heat cap a second, so a hold from cold reaches 100% within 15 s whatever the build. Heat cuts (affixes, sets, exotics, a cold fuel) stack to at most 70% less heat. The Loadout and the flamethrower sheet (Tab) show how long your gun holds fire.
+- **Hard caps** (v0.9.21). Every multiplier has a ceiling for the total from every source (parts, sets, keystones, tempers, feasts and the Emporium): flow +150%, stack damage +200%, each conditional stack line (hot, far, close, elites) +100%, burn duration +200%, tank capacity +300%, fuel regen +300%, cooling +150%, heat cap +100%, range 2x the nozzle's own, a cone 150 degrees (a ring nozzle is its own thing), swap time never under 0.25 s, and the economy's multipliers (meat value, counter price, reputation, drops, Shards, hauls) x3, with Flux from one contract or boss at most 10. A stat sitting on its cap says **CAPPED** on the flamethrower sheet and the Loadout tab: more of it from any source does nothing, like the heat floor.
 - Heat a unit = the fuel's heat × 0.4 × (1 + 15% for each tank past the first) × your heat modifiers × 2 × (30 / flow)^0.5. So heat a second grows with the square root of flow: a typical kit overheats after 5 to 8 s of solid fire at any tier.
 
 ### Fuel and tanks
@@ -1053,6 +1055,26 @@ Past threat **21** a run turns Infested:
 ### Where to push
 - Compare destinations by their growth: the Rust Flats piles on armor, the Glow Crater shields, the Sewer Delta health. Bring fuels and parts that answer the pool that grows fastest there.
 - The Shoggoth's AUTO truck setting and the crew planner both use the same estimate of what your kit holds at a destination: a good guide to how deep to go.
+
+## A New Truck (the prestige)
+
+v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping what you've learned and paying **Harry Berries** for how deep this truck went. Berries buy lasting buffs in the **Needless Complexity Emporium**. Each New Truck is a **Spicy Level**.
+
+### Selling the truck
+- **Esc > NEW TRUCK**, offered from best threat 20 (and not during a run). The sheet lists exactly what goes and what stays, with counts, and the Berries it pays; you type SELL to confirm. There's no undo (the slot's backup is the save before).
+- **It pays** 1 Berry a threat level past 10 at your best map, 1 per 2 levels past 10 at every other map, and this week's Gauntlet score's levels past 20. A 26 / 18 / 14 career pays 22. The same career pays the same every time: the Emporium's rising prices are the brake.
+- **What stays:** your recipes, the lane blueprints you've learned, your still blueprints (the stills themselves are rebuilt), the first 5 saved loadouts **as custom orders** (their lanes, set, keystone, affixes, mutations and fuels; no parts cross: a new truck starts from an empty stash), your custom orders, the cats **bare** (their names and coats; their gear and fuel go), every setting (the loot filter, THE HANDS KEEP, the idle modes, the Shoggoth's truck setting, the every-run feast, the High-Five Machine's coats; the 8-Ball's settings come back when it's hired again), the journal, the milestones, the Gauntlet board and the tabs you had open.
+- **What goes:** every part, Sprinkles, Shards, Mutagen, Flux, favor, reputation, best threat and map unlocks, set and exotic blueprints, the buildings and plots, the stills, the meat, the goal lists, and the 8-Ball, the chef and the Overseer (hired again, free).
+
+### The Needless Complexity Emporium
+- On the Esc menu, and on the Smokehouse's top bar once you've sold a truck. Two trees, each line with 10 levels, a cost that climbs x1.5 a level (the first level of most lines is 1 Berry) and a **hard cap** shared with every other source (above). Every line is a multiplier on top of your parts, sets, keystones and feasts; the flamethrower sheet shows the lines you own as a HARRY BERRIES line. The whole Emporium is 824 Berries.
+- **The flamethrower**, at the top of each line: Flow (+15% flow); Stack damage (+15% stack damage); Burn duration (+20% burn duration); Heat (-15% heat per unit); Cooling (+20% cooling); Heat cap (+20% heat cap); Tank capacity (+30% tank capacity); Fuel regen (+20% fuel regen); Range (+15% range); Swap time (-20% swap time); Hit points (+10 HP).
+- **The economy**, at the top of each line: Meat value (+20% meat value); Counter price (+10% counter price); Reputation (+30% reputation and favor); Material drops (+20% material drops); Blueprint Shards (+40% Blueprint Shards); Pot speed (+20% pot speed); The chef's cut (-5% chef's cut); Crew hauls (+30% crew hauls); Flux (+5 Flux); A fuller wallet (start with ◆10,000).
+- **One-offs**, applied when a new truck starts: The farm comes along (20 Berries); The 8-Ball comes along (10 Berries); The chef comes along (15 Berries); The Rust Flats are open (10 Berries); A head start in the yard (15 Berries); One more loadout kept (20 Berries, 3 times).
+- **RESPEC**, free once a Spicy Level: every line back to 0 and the Berries back in hand (the one-offs stay).
+
+### The Eldritch cat
+- v0.9.21: it brings keystones you don't own yet; with every keystone in the stash it brings a double haul of exotic material instead.
 
 ## The Showroom (tested builds)
 
