@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.15: the wiki
+# Malevolent Meat Master v0.9.16: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -63,7 +63,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 - Brew **Basic Rub** or **Backyard Glaze** with whatever ingredients you have, sauce the meat, and let the smoker and counter turn it into ◆.
 - Spend ◆ in the **Craft** tab on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
 - Reach threat 3 anywhere to open the **Rust Flats**; threat 6 opens tier 2 parts.
-- Watch the heat bar. Let it hit 100% and the gun burns you.
+- Watch the heat bar. At 100% the gun locks out for 2 s while it vents; a hold from cold lasts about 15 s.
 
 ## Runs, threat and drops
 
@@ -815,7 +815,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **PARKS THE TRUCK** (v0.9.11, on at first): the chef picks where the truck sells. A reputation or favor goal's faction comes first (sales earn reputation); otherwise the open faction that pays the most for what's cooked and coming, after taste fit, its favourite cut and fatigue. It moves for 10% more, at most once a minute, and brews for whoever the truck sells to, with the fatigue on a taste counted, so it rotates tastes.
 - **Ingredient care** (v0.9.11): it never brews with rare ingredients, or with what an open contract or your every-run feast needs, and it says once when it has nothing left it may use.
 - **FEEDS THE SURPLUS TO THE SHOGGOTH** (v0.9.11, on at first): raw meat past what the pots can sauce in an hour (v0.9.13; before, before it reached its spoilage floor, about 8 hours' worth) goes to the Shoggoth Hatch, the least valuable first.
-- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there, as long as the fee leaves 20% of your Sprinkles (v0.9.13). A faction at the top reputation level is left to you (v0.9.14), unless the kit you wear needs more Flux for its next temper than you have (v0.9.15). The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
+- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there, as long as the fee leaves what THE HANDS KEEP (v0.9.13; v0.9.16: the one reserve, 25% today). A faction at the top reputation level is left to you (v0.9.14), unless the kit you wear needs more Flux for its next temper than you have (v0.9.15). The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
 
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
@@ -873,7 +873,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - Cooked in the Kitchen (**FEAST**) from 20 + 2 × T cuts of its kind (raw, sauced or smoked), 5 + T/2 of each ingredient and ◆50 × T^1.5 (T: your best threat, up to 30). The next run eats it (not the Gauntlet). **EVERY RUN** (AUTOMATION > KITCHEN) cooks the one you pick before each run, yours and the 8-Ball's, whenever you have what it takes.
 
 ### Selling
-- Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 0.4 s, 50% faster per Serving Counter level, in real time, also while you fight or the game is closed.
+- Park the truck on a destination (Map tab) to sell to its faction. The counter sells one cut every 0.4 s, in real time, also while you fight or the game is closed; each Serving Counter level adds +5% to every cut's price (v0.9.16; its levels used to sell faster, which bought nothing once the pots, not the counter, set the pace).
 - **Glut:** when more cooked meat waits than the counter sells in 10 minutes, the crew sells fast enough to bring it down to that in 10 minutes, at a discount: (normal speed / glut speed) ^ 0.7 a cut, so twice as fast sells at ×0.62. Meat never piles up for long.
 - **Price of a cut** = its value × the sauce's value × **fit** × favourite cut (×1.25) × (1 - fatigue).
 - **Fit** runs from ×1.5 (the sauce's taste sits right on the faction's ideal) down to ×0.6 (6 or more taste points away, counted straight-line across the three tastes). The neutral Outskirts market pays a flat ×0.9 and gives no reputation.
@@ -919,7 +919,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 | Catnip Plant | Yard | Cats arrive 25% faster per level. | 10 (20 with the second band) | ◆100 + 3 Mutant Bits |
 | Smoker | Garage | +40 cuts cooked per run per level. | 10 (20 with the second band) | ◆250 + 6 Scrap Metal |
 | Engine | Garage | Range: reach farther destinations. | 5 | ◆500 + 20 Scrap Metal |
-| Serving Counter | Garage | Parked truck sells 50% faster per level. | 10 (20 with the second band) | ◆200 + 5 Mutant Bits |
+| Serving Counter | Garage | Every cut sells for 5% more per level. | 10 (20 with the second band) | ◆200 + 5 Mutant Bits |
 | Spice Rack | Kitchen | Lets you dial Spicy up or down by 1 more per level. | 3 | ◆300 + 5 Chemicals |
 | Sugar Press | Kitchen | Lets you dial Sweet up or down by 1 more per level. | 3 | ◆300 + 5 Mutant Bits |
 | Stock Pot | Kitchen | Lets you dial Savory up or down by 1 more per level. | 3 | ◆300 + 5 Scrap Metal |
@@ -1013,7 +1013,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **The stash** has no limit, but past 500 parts the Smokehouse's lists slow down: you're warned when it goes over.
 
 ### One reserve
-- **THE HANDS KEEP** 0%%, 10%%, 25%% (the default), 50%% or 75%% of your Energy Sprinkles: the 8-Ball (crafting, blueprints, the truck engine, tempering) and the Overseer never spend into it.
+- **THE HANDS KEEP** 0%, 10%, 25% (the default), 50% or 75% of your Energy Sprinkles: the 8-Ball (crafting, blueprints, the truck engine, tempering), the Overseer and the chef's contracts (v0.9.16) never spend into it.
 
 ### The crew, the kitchen and the yard
 - **CREW FARMS TOO** (CREW): the 8-Ball sends every idle, rested cat out by itself: a cat with an order wears it first, the others take the best free parts (never ones another order wants), and each goes where its own list says, at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
