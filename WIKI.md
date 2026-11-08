@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.18: the wiki
+# Malevolent Meat Master v0.9.19: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -2639,7 +2639,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 ### Fire effects
 Every setting fires the same flamethrower: damage comes from the cone and the burn rules, never from how the fire is drawn.
-- **LIVE ULTRA** (the default): the fire simulation plus burning fuel (the jet sprays fuel that catches as it flies, so it rolls and billows), fire light on the ground, the pig and the mutants, heat haze, embers and sparks, scorch marks and glowing coals where things burned, and puddles that keep burning with flames on them.
+- **LIVE ULTRA** (the default): the fire simulation plus burning fuel (the jet sprays fuel that catches as it flies, so it rolls and billows), fire light on the ground, the pig and the mutants, heat haze, embers and sparks, scorch marks and glowing coals where things burned, and puddles that keep burning with flames on them. v0.9.15 gave it a torch root, a deeper tonal range and smoke lit by the fire; v0.9.19 (the flame build) a **drawn flame core** (a tapered torch along the aim for the first third of the range, licking at its edges and blending into the simulation's billow, so the jet leaves the gun as one flame instead of a thin fed line), **soot** (burnt-out heat with no vapour left reads darker orange, so the body of the flame has structure that moves with the flow), **smoke puffs** (pixel-art puffs with edges, rising off burning mutants, pools, blasts and the end of the jet, over a thinner wash), an **impact splash** where the cone first touches a mutant (a flash on the body and a spray of sparks back toward the gun) with a brighter, pulsing glow on a mutant carrying 20 or more stacks, and a **rim light** on mutants within 150 px of the jet, a burning pool or a burning mutant, on the side facing the fire.
 - **LIVE HIGH**: the fire simulation (the flame splashes off mutants, bends as you sweep, rains burning fuel). **LIVE LOW**: the same, chunkier and lighter on the graphics chip. **CLASSIC**: the old particle flame.
 - If the game can't keep up (under 48 frames a second while firing, or under 80% of a lower frame limit) it steps down by itself (ULTRA to HIGH, HIGH to LOW), says so, and remembers it.
 
