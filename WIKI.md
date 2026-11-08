@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.7: the wiki
+# Malevolent Meat Master v0.9.8: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -982,7 +982,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, teaches you its lane and gives Mutagen for Mutated (1) and Malevolent (5) parts.
 - **EQUIP BEST** (top left of the Loadout tab): with the Magic 8-Ball holding an order, the best you have for that ad (its keystone, its lanes highest tier first, 4 of its set's pieces, its exotic upgrade and its fuels); otherwise the parts that give the kit the most **power** (the estimate the crew and the Shoggoth use), keeping a keystone you wear and any set bonus you've reached, leaving your fuels alone. It never takes a part off a cat. A Showroom ad's **PUT IT ON** does the same for that ad. Both say which of the build's parts someone else is wearing (v0.9.7).
 - **A blocked change says why** (v0.9.7): a part out with a cat on an expedition, a cat's kit while it's away, the part you wear for a cat, a fuel with no still, a mount the chassis doesn't have. A red message names it.
-- **Loot filter** (the LOOT button): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. SALVAGE NOW applies it to the stash.
+- **Loot filter** (the LOOT FILTER row on the Loadout tab): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. SALVAGE NOW applies it to the stash.
 
 ### Craft and Refine (the Workbench)
 - **CRAFT tab, PARTS:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80 for T1 to T4). Workbench levels raise the odds of a better quality.
@@ -1031,7 +1031,7 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 ### The cat counter
 - Stray cats line up at the counter, one every 20 s (25% faster per Catnip Plant level). Up to 10 wait in line, +5 per Bigger Counter level.
 - **High five** the cat at the front for what it brings, or **hire** it for your crew.
-- **High-Five Machine** (v0.9.7; ◆3,000 + 40 Scrap Metal + 20 Mutant Bits, at the counter): high-fives the cat at the front by itself, at 50% the rate cats arrive, offline too. Switch it off at the counter to keep cats in line for hiring.
+- **High-Five Machine** (v0.9.7; ◆3,000 + 40 Scrap Metal + 20 Mutant Bits, at the counter): high-fives the cat at the front by itself, at 50% the rate cats arrive, offline too. Switch it off at the counter to keep cats in line for hiring, or pick the coats it **stops at** (v0.9.8): it waits while one is at the front of the line, so you can hire it, and says so.
 
 | Cat | High five brings | How often | Knack on the crew |
 |---|---|---|---|
