@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.13: the wiki
+# Malevolent Meat Master v0.9.14: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -789,7 +789,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **Fighting on their turf:** getting out of a run at a faction's destination earns 0.03 for every mutant killed there (an elite counts 3; an ordinary mutant counts for the ones it stands in for, see Runs). A threat-16 run brings home about 84.
 - **The crew:** a cat's trip there earns 50% of the same.
 - **Selling there:** a cut sold earns 2 × (fit - 1) points when the fit is over ×1.
-- Every point also earns a point of **favor** with that faction, to spend on exotic blueprints (see Exotic parts) without losing reputation.
+- Every point also earns a point of **favor** with that faction, to spend on exotic blueprints (see Exotic parts) and on re-rolls at the Refine tab (v0.9.14, with the truck parked on its turf) without losing reputation.
 
 ## Meat, sauce and selling
 
@@ -797,11 +797,11 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 
 | Cut | From | Base value | Favourite of |
 |---|---|---|---|
-| Skitter Drumettes | Skitter | ◆2 | Reel Cult, Neon Saints |
-| Shambler Shank | Shambler | ◆4 | Bazaar Hagglers, Storm Callers, Spore Mothers |
-| Glowbag Belly | Glowbag | ◆6 | Mallrat Gangs, Glow Cult, Reactor Choir |
-| Scrapper Ribs | Scrapper | ◆7 | Rust Barons, Tin Monks, Slag Brothers |
-| Hulk Brisket | Tumor Hulk | ◆18 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
+| Skitter Drumettes | Skitter | ◆0.6 | Reel Cult, Neon Saints |
+| Shambler Shank | Shambler | ◆1.2 | Bazaar Hagglers, Storm Callers, Spore Mothers |
+| Glowbag Belly | Glowbag | ◆1.8 | Mallrat Gangs, Glow Cult, Reactor Choir |
+| Scrapper Ribs | Scrapper | ◆2.1 | Rust Barons, Tin Monks, Slag Brothers |
+| Hulk Brisket | Tumor Hulk | ◆5.4 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
 - A cut's value is its base × (1 + 0.45 × the threat level it dropped at).
 - **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
@@ -815,7 +815,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **PARKS THE TRUCK** (v0.9.11, on at first): the chef picks where the truck sells. A reputation or favor goal's faction comes first (sales earn reputation); otherwise the open faction that pays the most for what's cooked and coming, after taste fit, its favourite cut and fatigue. It moves for 10% more, at most once a minute, and brews for whoever the truck sells to, with the fatigue on a taste counted, so it rotates tastes.
 - **Ingredient care** (v0.9.11): it never brews with rare ingredients, or with what an open contract or your every-run feast needs, and it says once when it has nothing left it may use.
 - **FEEDS THE SURPLUS TO THE SHOGGOTH** (v0.9.11, on at first): raw meat past what the pots can sauce in an hour (v0.9.13; before, before it reached its spoilage floor, about 8 hours' worth) goes to the Shoggoth Hatch, the least valuable first.
-- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there, as long as the fee leaves 20% of your Sprinkles (v0.9.13). The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
+- **COOK AND DELIVER CONTRACTS** (v0.9.10, off at first): for every faction's open contract it brews a sauce that meets the contract's taste, sauces that faction's cut with it, keeps those cuts out of the smoker and the contract's ingredient out of its other brews, and delivers the contract (paying its fee) as soon as everything is there, as long as the fee leaves 20% of your Sprinkles (v0.9.13). A faction at the top reputation level is left to you (v0.9.14). The cuts have to come from somewhere: runs, the crew or the Mystery Meat Farm.
 
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
@@ -896,7 +896,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 ### Craft and Refine (the Workbench)
 - **CRAFT tab, PARTS:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80 for T1 to T4). Workbench levels raise the odds of a better quality.
 - **CRAFT tab, SET BLUEPRINTS:** buy set blueprints with Shards and craft the pieces (they roll a lane at your best tier). **BENCH:** Workbench upgrades, quality odds and the lane blueprints you know.
-- **REFINE tab:** filter the parts on the left (worn, unworn, on the crew, locked, in a loadout, with a behavior, below Malevolent; slot, lane, tier, quality, or an affix the part carries), pick one, and refine it on the right. **REFINE THIS PART** in the Loadout tab opens it there.
+- **REFINE tab:** filter the parts on the left (worn, unworn, on the crew, locked, in a loadout, with a behavior, below Malevolent; slot, lane, tier, quality, or an affix the part carries), pick one, and refine it on the right. **REFINE THIS PART** in the Loadout tab opens it there. **Favor re-rolls** (v0.9.14): next to REROLL and MUTATE, the same roll for the favor of the faction whose turf the truck is parked on: 100 × (1 + tier) favor for an affix (a T4 one: 500), twice that for the behavior; flat, with no escalation.
   - **Quality up** one step at a time (◆ and materials; Mutated to Malevolent costs ×0.4).
   - **Reroll** one affix (◆; the second affix you touch on a part adds materials, the third Shards). Each try on the same affix costs 30% more, up to ×2.
   - **Optimize** an affix: +10% of its range toward the top, paid in the slot's material.
