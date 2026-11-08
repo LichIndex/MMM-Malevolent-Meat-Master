@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.19: the wiki
+# Malevolent Meat Master v0.9.20: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -59,6 +59,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutagen | Elites past threat 15; scrapping Mutated and Malevolent parts; radiant cats | Mutating a part's behavior |
 
 ### A first hour
+- **The tabs open in order with what you've done** (v0.9.20): LOADOUT and MAP from the start; **CRAFT** at your first salvage; **PRODUCTION** at your first raw meat; **REFINE** at your first Mutated part; **CREW** at your first hire; the **SHOWROOM** at threat 6; **AUTOMATION** when you hire the Magic 8-Ball (the Map tab's line). A line beside the tabs says what opens the next, with the note below it in its tooltip. A tab once open stays open, a link into a tab opens it, and a game with 12 runs or best threat 8 has them all (an older save loses nothing).
 - Fight at the **Smokehouse Outskirts**, start the truck while you're still comfortable, and bring the meat home. A short run that gets out beats a long one that doesn't.
 - Brew **Basic Rub** or **Backyard Glaze** with whatever ingredients you have, sauce the meat, and let the smoker and counter turn it into ◆.
 - Spend ◆ in the **Craft** tab on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
