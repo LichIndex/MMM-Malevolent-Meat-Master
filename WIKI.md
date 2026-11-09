@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.28: the wiki
+# Malevolent Meat Master v0.9.29: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -870,7 +870,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 - **Stash:** filter by worn, unworn, on the crew, locked, unlocked, exotics, keystones (v0.9.7), tier, slot or lane. **Lock** a part to protect it (**Space** locks or unlocks the selected part, here and in the Refine tab). **Scrap** a part (or **SCRAP SHOWN** for everything the filters show: the one bulk scrap since v0.9.17, with FAILS LOOT FILTER and NO ORDER WANTS among the filters) for materials; a set piece is broken down for its faction's favor instead. Parts you or a cat wear, locked parts and parts in a saved loadout are never scrapped. SCRAP SHOWN takes keystones the list shows too (v0.9.12; lock one to keep it), but not exotics; the loot filter and the 8-Ball never scrap a keystone.
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, teaches you its lane and gives Chemicals for Mutated (1) and Malevolent (5) parts.
 - **EQUIP BEST** (top left of the Loadout tab): with the Magic 8-Ball holding an order, the best you have for that ad (its keystone, its lanes highest tier first, 4 of its set's pieces, its exotic upgrade and its fuels); otherwise the parts that give the kit the most **power** (the estimate the crew and the Shoggoth use), keeping a keystone you wear and any set bonus you've reached, leaving your fuels alone. It never takes a part off a cat. It is the one dressing button (v0.9.17): a Showroom ad's **EQUIP BEST: THIS BUILD** is it for that ad and whoever the ad is for, the Crew tab's **EQUIP BEST: ITS ORDER** and **EQUIP BEST: FREE PARTS** are it for a cat. They say which of the build's parts someone else is wearing (v0.9.7).
-- **A blocked change says why** (v0.9.7): a part out with a cat on an expedition, a cat's kit while it's away, the part you wear for a cat, a fuel with no still, a mount the chassis doesn't have. A red message names it.
+- **A blocked change says why** (v0.9.7): a fuel with no still, a mount the chassis doesn't have (v0.9.29: cats wear no parts, so none of a cat's). A red message names it.
 - **Loot filter** (the LOOT FILTER row on the Loadout tab): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. **SHOW THOSE n IN THE STASH** lists what it would take (FAILS LOOT FILTER), for SCRAP SHOWN (v0.9.17). A new game's filter is on and keeps upgrades over what you wear, sets, Malevolent parts, keystones and exotics (v0.9.16).
 
 ### Craft and Refine (the Workbench)
@@ -898,6 +898,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 | Smoker | Garage | +40 cuts cooked per run per level. | 10 (16 with the second band) | ◆250 + 6 Scrap Metal |
 | Engine | Garage | Range: reach farther destinations. | 5 | ◆500 + 20 Scrap Metal |
 | Serving Counter | Garage | Every cut sells for 5% more per level. | 10 (16 with the second band) | ◆200 + 5 Mutant Bits |
+| Crew Training | Cats | Every crew cat holds 2 threat levels more on its expeditions per level. | 10 | ◆400 + 6 Mutant Bits + 4 Scrap Metal |
 | Bigger Counter | Cats | +5 cats can wait in line per level. | 6 (12 with the second band) | ◆150 + 3 Scrap Metal |
 | High-Five Machine | Cats | A spring-loaded paw high-fives the cat on the counter by itself, at half the rate cats arrive (offline too). Switch it off at the counter to keep cats for hiring. | 1 | ◆3,000 + 40 Scrap Metal + 20 Mutant Bits |
 
@@ -914,8 +915,9 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 
 ### The cat counter
 - Stray cats line up at the counter, one every 20 s (25% faster per Catnip Plant level). Up to 10 wait in line, +5 per Bigger Counter level.
+- **Coming next** (v0.9.29). The counter shows the next 3 coats on their way, rolled ahead, so a Tuxedo or an Eldritch cat coming up is something to wait for (RARE!). Switching lures re-rolls them.
 - **High five** the cat at the front for what it brings, or **hire** it for your crew.
-- **High-Five Machine** (v0.9.7; ◆3,000 + 40 Scrap Metal + 20 Mutant Bits, at the counter): high-fives the cat at the front by itself, at 50% the rate cats arrive, offline too. Switch it off at the counter to keep cats in line for hiring, or pick the coats it **stops at** (v0.9.8): it waits while one is at the front of the line, so you can hire it, and says so.
+- **High-Five Machine** (v0.9.7; ◆3,000 + 40 Scrap Metal + 20 Mutant Bits, at the counter): high-fives the cat at the front by itself, at 50% the rate cats arrive, offline too. Its one setting (v0.9.29: there is no off switch) is the coats it **stops at** (v0.9.8): it waits while one is at the front of the line, so you can hire it, and says so.
 
 | Cat | High five brings | How often | Knack on the crew |
 |---|---|---|---|
@@ -937,15 +939,24 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 
 ### The crew
 - Hire up to **3 cats** off the counter: ◆300, ◆2,000, ◆8,000 for the first, second and third. Its coat is its knack (table above).
-- **Kit them** on the Crew tab with your spare parts and fuels: the same seven slots and tanks. A part is worn by one fighter at a time, you or one cat. EQUIP BEST: FREE PARTS fills a kit from parts nobody wears (a cat with an order dresses for it instead).
+- **Cats wear no parts** (v0.9.29). A cat's strength on its trips is three things: the **Crew Training** building at the cat counter (every cat holds threat 4 + 2 a level, to 24 at level 10; the Overseer's cat counter group buys it), its coat's knack, and a **trait** it rolls when hired, shown on its card and the Crew tab:
+  - **Brave**: Holds 2 threat levels more.
+  - **Glutton**: Brings home 50% more meat, holds 1 level less.
+  - **Scrounger**: Finds 50% more salvage crates.
+  - **Sprinter**: Short trips (15 and 60 minutes) get half again as many kills.
+  - **Nightcat**: Long trips (4 and 8 hours) get a third more kills.
+  - **Plated**: Holds 3 levels more on the Armor maps.
+  - **Shielded**: Holds 3 levels more on the Shield maps.
+  - **Wader**: Holds 3 levels more on the Health maps.
+  Builds are yours alone: an order is never for a cat, and parts an older save's cats wore are back in the stash.
 - **Expeditions:** send a cat to an open destination at a threat up to your best, for 15 minutes, 1 hour, 4 hours, 8 hours. It fights on its own (also with the game closed) and brings home what a run would: meat, materials, ingredients, salvage (through your loot filter), set pieces and elite Chemicals. Longer trips bring more, but less a minute.
-- The planner shows the threat the cat's kit should hold, the **odds** of a clean trip (3% to 97%) and the expected haul. A trip that goes wrong brings home 20% to 60% of the haul, and the cat rests for a while (25% of the trip, at least 10 minutes).
-- **RECALL** brings a cat home early with a quarter of the haul. While it's out, its parts stay with it.
+- The planner shows the threat the cat should hold there, the **odds** of a clean trip (3% to 97%) and the expected haul. A trip that goes wrong brings home 20% to 60% of the haul, and the cat rests for a while (25% of the trip, at least 10 minutes).
+- **RECALL** brings a cat home early with a quarter of the haul.
 - The **chef cat** is a separate hire, in Production > Kitchen > CHEF (see Meat, sauce and selling).
 
 ### The Overseer
 - A big floating eye over the Production yard (or THE OVERSEER at the top of the folded list). Click it to wake it (no fee) and it **buys Production upgrades for you**: the cheapest one you can afford first, at most one every 4 s, never touching the share of your Energy Sprinkles the hands keep back (AUTOMATION tab).
-- You pick what it may buy (AUTOMATION > YARD): **stills** (building a still for a blueprint you own, still and tank levels, levels of attachments you've fitted, yard expansions; never a new attachment), **the shack**, **the yard**, **the garage**, **kitchen dials** (off at first) and **the cat counter**. Its panel shows what it buys next (or saves up for), and what it has bought and spent.
+- You pick what it may buy (AUTOMATION > YARD): **stills** (building a still for a blueprint you own, still and tank levels, levels of attachments you've fitted, yard expansions; never a new attachment), **the shack**, **the yard**, **the garage** and **the cat counter** (v0.9.27: the kitchen dials folded into the kitchen). Its panel shows what it buys next (or saves up for), and what it has bought and spent.
 - It works while the game runs, runs included (quietly; it's in the debug log), not while the game is closed. Switch it off or close its eye any time.
 
 ## Automation: the 8-Ball and the hands
@@ -967,7 +978,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **When things go badly:** 2 runs in a row that don't move a goal (an order farming parts excepted, v0.9.24) **pause** it for 20 minutes (or until your kit's power is up 10%), and the next goal takes over. 2 deaths in a row **lower its threat by 1** (where the run starts and where the Shoggoth starts the truck) until the kit's power is up the same way; when it can't go lower the goal pauses. 2 crew trips in a row that go wrong pause a crew goal. II pauses a goal by hand; GO brings a paused one back now.
 - **When a list is empty** (or every goal waits), v0.9.18: one idle for both, **HELP** or **STOP**. HELP: the 8-Ball farms the crew's first unmet order (a build for a cat) and a cat works the 8-Ball's goal; with nothing to help, either fights where reputation is **lowest**. STOP (STAY HOME for the cats) does nothing. Reputation, favor and exotic blueprints are goals you add (an older save's EXOTIC BLUEPRINTS idle becomes the **one of every exotic** goal). With no goal, 2 deaths in a row lower the 8-Ball's threat too, and when it can't go lower it switches off.
 - **One of every exotic** (v0.9.18): a goal that works through every exotic part you don't own one of, start to finish. It picks the **nearest to crafted** (fewest stages left: reputation, favor, blueprint, exotic material, other materials, Sprinkles), with exotics for the **fuels you and the crew have loaded** before the rest, and runs that one as an exotic goal (farm the reputation and favor, buy the blueprint, farm the material, craft it), then the next. It ends when one of each is in the stash, on you or on a cat.
-- **THE HANDS** row (v0.9.18, top of AUTOMATION): every hand's hire and switch in one place: the 8-Ball (hire, on / off), the chef (hire), the Overseer (hire, on / off), the High-Five Machine (on / off once built at the cat counter) and HIRE A CAT (the next in the counter's line). The Map line, the Kitchen's CHEF panel, the eye and the counter still work as shortcuts.
+- **THE HANDS** row (v0.9.18, top of AUTOMATION): every hand's hire and switch in one place: the 8-Ball (hire, on / off), the chef (hire), the Overseer (hire, on / off), the High-Five Machine (once built at the cat counter; its stops are set there) and HIRE A CAT (the next in the counter's line). The Map line, the Kitchen's CHEF panel, the eye and the counter still work as shortcuts.
 
 ### Runs
 - **Where its runs start** (v0.9.11): as high as the map's START THREAT dial may go, your best there minus 3, whatever it farms. A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
@@ -981,7 +992,7 @@ Every automation setting is on the **AUTOMATION** tab. Hands are still hired whe
 - **CRAFT WHAT I CAN** (v0.9.7), on an ad and on an order card in AUTOMATION: one click crafts everything the build still lacks that you can make and afford now (set pieces and their blueprints, lane parts at your top tier, re-forges onto its lanes, the exotic upgrade, the mutations it seeks). It spends freely and locks what it makes.
 - **Mix and match sets** (v0.9.2). A custom build picks how many pieces of its set to wear (2, 3 or 4: each turns on one more bonus) and can add a **second set** with its own count, say 4 Grease Fire + 2 Glacier Works, or 2 + 2. Both counts together fit in the slots the keystone leaves (when they don't, the second set's count gives way first). The 8-Ball farms, crafts, re-forges and puts on pieces of both, never taking a slot from one set for the other.
 - **Behaviors to seek** (v0.9.2 as mutations; v0.9.24: one layer, one word). An order can seek up to 7 behaviors (v0.9.18: one a slot) (Backfire, Chilling, Fixated, Marked, Overkill, Pent-Up, Spreading, Toxic, Volatile). One part of the build with each is all a kit uses (they don't stack). Every part has one behavior slot: Mutated and Malevolent parts roll one 30% of the time, and Refine > **BEHAVIOR** rolls or changes one on any part for Chemicals. The order's plan adds a step for each, PUT IT ON swaps in a part of the build that carries one, an order isn't done until they're worn, and with **CRAFT FOR THE ORDER** on, the 8-Ball rolls a worn part of the build (not the keystone or the exotic) one roll at a time until it has the one sought. Every ad seeks the behavior that helped its build most in the lab.
-- **Order loadouts** (v0.8.8). Every order for you keeps a saved loadout (v0.9.12: an order for a cat keeps none, so its parts aren't held back from scrapping), **ORDER: <NAME>** on the Loadout tab: the best kit you own for it right now (what the 8-Ball would put on), kept up to date as parts come in, are crafted or go. You can rename it. When the order is matched its loadout stays, as an ordinary one; cancel the order and its loadout goes too, unless you renamed it. Delete it while the order is on and that order keeps none. Like every saved loadout, its parts are never scrapped.
+- **Order loadouts** (v0.8.8). Every order keeps a saved loadout (v0.9.29: every order is yours), **ORDER: <NAME>** on the Loadout tab: the best kit you own for it right now (what the 8-Ball would put on), kept up to date as parts come in, are crafted or go. You can rename it. When the order is matched its loadout stays, as an ordinary one; cancel the order and its loadout goes too, unless you renamed it. Delete it while the order is on and that order keeps none. Like every saved loadout, its parts are never scrapped.
 - **The order list**: every order names **who it's for** (**FOR:** on the Showroom ad before you order): you, or a cat on the crew. A build for you goes on the 8-Ball's list, one for a cat on that cat's; **<>** on the goal moves it to the next list and with it to that list's cat (v0.9.17: FOR: on the goal was the same move). An order leaves its list when whoever it's for wears the whole ad (or, with TOP TIER, when every part is at your top tier).
 - **Its loot.** New salvage an order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and **put on** when it's the best you have for the ad. With **EQUIP BEST AFTER EACH RUN** on (the default; WORKSHOP) it re-equips the whole kit for the ad after every run until you wear it all (every slot on its lane at your top tier, its keystone, 4 set pieces and its fuels): then the ad is **matched**. For each job in an ad (a slot's lane, a set piece's slot, its keystone, its exotic) the 8-Ball keeps the best part you have (one per order that needs the job); new loot worse than that isn't locked, and parts it locked that turn obsolete or whose order is gone are **let go** (unlocked, and scrapped with SCRAP WHAT NO ORDER WANTS on, never keystones or exotics). Your own locks are never touched. Parts locked before v0.8.3 don't say who locked them: **UNLOCK n LOCKED PARTS NO ORDER USES** (WORKSHOP) frees them after asking (yours too).
 - **Builds for the crew**: an ad ordered **FOR:** a cat is farmed, crafted and equipped for that cat just as for you: the plan counts only parts that cat could wear, and the parts go onto the cat whenever it's home. The crew tab shows a cat's order and **EQUIP BEST: ITS ORDER**.
@@ -1027,7 +1038,7 @@ Past threat **21** a run turns Infested:
 
 ### Where to push
 - Compare destinations by their growth: the Rust Flats piles on armor, the Glow Crater shields, the Sewer Delta health. Bring fuels and parts that answer the pool that grows fastest there.
-- The Shoggoth's AUTO truck setting and the crew planner both use the same estimate of what your kit holds at a destination: a good guide to how deep to go.
+- The Shoggoth's AUTO truck setting uses an estimate of what your kit holds at a destination: a good guide to how deep to go.
 
 ## A New Truck (the prestige)
 
@@ -1035,6 +1046,7 @@ v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping
 
 ### Selling the truck
 - **Esc > NEW TRUCK**, offered from best threat 20 (and not during a run). The sheet lists exactly what goes and what stays, with counts, and the Berries it pays; you type SELL to confirm. There's no undo (the slot's backup is the save before).
+- **The first truck comes early** (v0.9.29). Your first new truck is offered from best threat 15, with a smaller purse while you're below 20: 1 Berry per 2 levels past 5 at your best map (5 at 15, 7 at 19) and nothing from the other maps, so the first reset is a decision an hour or two in and the Emporium's first lines get tried. From best threat 20 the first truck pays the full price like any other.
 - **It pays** 1 Berry a threat level past 10 at your best map, 1 per 2 levels past 10 at every other map, and this week's Gauntlet score's levels past 20. A 26 / 18 / 14 career pays 22. The same career pays the same every time: the Emporium's rising prices are the brake.
 - **What stays:** your recipes, the lane blueprints you've learned, your still blueprints (the stills themselves are rebuilt), the first 5 saved loadouts **as custom orders** (their lanes, set, keystone, affixes, mutations and fuels; no parts cross: a new truck starts from an empty stash), your custom orders, the cats **bare** (their names and coats; their gear and fuel go), every setting (the loot filter, THE HANDS KEEP, the idle modes, the Shoggoth's truck setting, the every-run feast, the High-Five Machine's coats; the 8-Ball's settings come back when it's hired again), the journal, the milestones, the Gauntlet board and the tabs you had open.
 - **What goes:** every part, Sprinkles, favor, reputation, best threat and map unlocks, set and exotic blueprints, the buildings and plots, the stills, the meat, the goal lists, and the 8-Ball, the chef and the Overseer (hired again, free).
