@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.26: the wiki
+# Malevolent Meat Master v0.9.27: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -52,9 +52,9 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Resource | Where it comes from | What it's for |
 |---|---|---|
 | Energy Sprinkles (◆) | Selling smoked meat; long-haired cats | Nearly everything |
-| Scrap Metal | Mutants with armor; scrapping parts; the Scrap Sifter | Chassis, pumps, shrouds, the truck |
-| Mutant Bits | Mutants with only health; the Rendering Vat | Fuel lines, nozzles, the kitchen |
-| Chemicals | Mutants with shields; the Sludge Drip | Igniters, filters, stills |
+| Scrap Metal | Mutants with armor; scrapping parts; the Salvage Yard | Chassis, pumps, shrouds, the truck |
+| Mutant Bits | Mutants with only health; the Salvage Yard | Fuel lines, nozzles, the kitchen |
+| Chemicals | Mutants with shields; the Salvage Yard | Igniters, filters, stills |
 | Sauce ingredients | Mutants (12% a kill), cats, faction shops | Sauces |
 | Favor (a faction's) | Fighting on its turf; its contracts; its map's boss; breaking down its set's pieces; tuxedo cats | Its exotic blueprints, its set's blueprints, its map's featured slot, affix and behavior re-rolls while parked there |
 | Harry Berries | Selling the truck (a New Truck) | The Needless Complexity Emporium |
@@ -781,7 +781,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 | Hulk Brisket | Tumor Hulk | ◆5.4 | The Ironsides, Sewer Kings, Meat Ranchers, Gluttons' Court |
 
 - A cut's value is its base × (1 + 0.45 × the threat level it dropped at).
-- **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each Freezer level halves that. Sauce it to stop the clock.
+- **Raw meat spoils:** it loses 10% of its value an hour, down to 20%. Each of the Pantry's first 5 levels halves that. Sauce it to stop the clock.
 - The **Shoggoth Hatch** takes every raw cut at ×0.05 of its value: a dump for leftovers, not a business.
 - **The Mystery Meat Farm** (v0.9.10, the yard's eighth plot): bought any time for ◆500, it grows **up to 100 raw cuts every 5 minutes**, a random mix of every cut worth what a threat-0 drop is, while you fight and while the game is closed. The BALANCE menu sets both numbers (MEAT FARM). v0.9.18: a harvest is never more than the pots can sauce in that time (one pot at kitchen 0: about 100 cuts), so the farm follows the kitchen instead of piling raw meat for the Shoggoth.
 
@@ -797,7 +797,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 
 ### Sauce
 - **Brew** (Production > Kitchen): pick a recipe, fill its ingredient slots (one of each slotted ingredient per batch) and set the taste dials. A batch makes **60 portions** and takes 3 minutes (faster with Kitchen levels, which also add pots). One portion sauces one cut.
-- A sauce's taste = the recipe's base + its ingredients, then the dials (the Spice Rack, Sugar Press and Stock Pot let you nudge each taste by 1 more per level). Each taste caps at 5 (Flavor Overdrive raises the cap for extreme fads).
+- A sauce's taste = the recipe's base + its ingredients, then the dials (v0.9.27: every 2 Sauce Kitchen levels let you nudge each taste by 1 more, to 3). Each taste caps at 5 (the Kitchen's levels 9 and 10 raise it, to 7).
 
 | Recipe | Base taste (spicy / sweet / savory) | Ingredient slots | Value | Where |
 |---|---|---|---|---|
@@ -885,27 +885,21 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 | Upgrade | Where | What it does | Max level | First level |
 |---|---|---|---|---|
 | Workbench | Shack | Crafted parts roll higher qualities. | 8 | ◆250 + 5 Scrap Metal |
-| Sauce Kitchen | Shack | More brewing pots (1 + level/2) and faster brews. | 8 (18 with the second band) | ◆200 + 6 Mutant Bits |
-| Freezer | Shack | Each level halves how fast raw meat spoils. | 5 | ◆300 + 8 Scrap Metal + 4 Chemicals |
-| Pantry | Shack | +20 ingredient storage per type per level (+50 a level past 8). | 8 (18 with the second band) | ◆150 + 4 Mutant Bits |
-| Storage Shed | Yard | +150 storage for each material per level (+600 a level past 8). | 8 (18 with the second band) | ◆200 + 8 Scrap Metal |
-| Scrap Sifter | Yard | Sifts +6 Scrap Metal per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Scrap Metal |
-| Rendering Vat | Yard | Renders +6 Mutant Bits per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Mutant Bits |
-| Sludge Drip | Yard | Drips +6 Chemicals per hour per level (+18 a level past 10). | 10 (20 with the second band) | ◆300 + 6 Chemicals |
-| Catnip Plant | Yard | Cats arrive 25% faster per level. | 10 (20 with the second band) | ◆100 + 3 Mutant Bits |
-| Smoker | Garage | +40 cuts cooked per run per level. | 10 (20 with the second band) | ◆250 + 6 Scrap Metal |
+| Sauce Kitchen | Shack | More brewing pots (1 + level/2), faster brews, and the taste dials reach 1 further every 2 levels (to 3). Levels 9 and 10 raise the taste ceiling past 5. | 8 (14 with the second band) | ◆250 + 6 Mutant Bits + 3 Chemicals |
+| Pantry | Shack | +20 ingredient storage per type per level (+50 a level past 8), and each of the first 5 levels halves how fast raw meat spoils. | 8 (14 with the second band) | ◆200 + 4 Mutant Bits + 2 Chemicals |
+| Storage Shed | Yard | +150 storage for each material per level (+600 a level past 8). | 8 (14 with the second band) | ◆200 + 8 Scrap Metal |
+| Salvage Yard | Yard | Sifts, renders and drips +6 of every material per hour per level (+18 a level past 10). | 10 (16 with the second band) | ◆700 + 5 Scrap Metal + 5 Mutant Bits + 5 Chemicals |
+| Catnip Plant | Yard | Cats arrive 25% faster per level. | 10 (16 with the second band) | ◆100 + 3 Mutant Bits |
+| Smoker | Garage | +40 cuts cooked per run per level. | 10 (16 with the second band) | ◆250 + 6 Scrap Metal |
 | Engine | Garage | Range: reach farther destinations. | 5 | ◆500 + 20 Scrap Metal |
-| Serving Counter | Garage | Every cut sells for 5% more per level. | 10 (20 with the second band) | ◆200 + 5 Mutant Bits |
-| Spice Rack | Kitchen | Lets you dial Spicy up or down by 1 more per level. | 3 | ◆300 + 5 Chemicals |
-| Sugar Press | Kitchen | Lets you dial Sweet up or down by 1 more per level. | 3 | ◆300 + 5 Mutant Bits |
-| Stock Pot | Kitchen | Lets you dial Savory up or down by 1 more per level. | 3 | ◆300 + 5 Scrap Metal |
-| Flavor Overdrive | Kitchen | Raises the taste ceiling past 5 for extreme fads. | 2 | ◆4,000 + 40 Chemicals |
-| Bigger Counter | Cats | +5 cats can wait in line per level. | 6 (16 with the second band) | ◆150 + 3 Scrap Metal |
+| Serving Counter | Garage | Every cut sells for 5% more per level. | 10 (16 with the second band) | ◆200 + 5 Mutant Bits |
+| Bigger Counter | Cats | +5 cats can wait in line per level. | 6 (12 with the second band) | ◆150 + 3 Scrap Metal |
 | High-Five Machine | Cats | A spring-loaded paw high-fives the cat on the counter by itself, at half the rate cats arrive (offline too). Switch it off at the counter to keep cats for hiring. | 1 | ◆3,000 + 40 Scrap Metal + 20 Mutant Bits |
 
 Prices in ◆ rise with each level; materials rise a step each level.
 
-- **The second band** (v0.8.2). The Kitchen, Pantry, Storage Shed, the three vats, the Catnip Plant, the Smoker, the Serving Counter and the Bigger Counter go 10 levels past their old top at steep prices: level max+k costs the last old level's ◆ × 2 × 1.25^(k-1), plus 60 × k of the building's material and 5 × k Shards. Each level does what the building's levels always did (the Shed adds 600 storage a level there, the Pantry 50, a vat 18 an hour). The Overseer buys them too.
+- **The second band** (v0.8.2; v0.9.27: six levels, was ten, and no Shards). The Kitchen, Pantry, Storage Shed, the Salvage Yard, the Catnip Plant, the Smoker, the Serving Counter and the Bigger Counter go 6 levels past their old top at steep prices: level max+k costs the last old level's ◆ × 2 × 1.25^(k-1), plus 60 × k of each of the building's materials. Each level does what the building's levels always did (the Shed adds 600 storage a level there, the Pantry 50, the Salvage Yard 18 of each material an hour; the Kitchen's levels 9 and 10 raise the taste ceiling). The Overseer buys them too.
+- **Folded buildings** (v0.9.27). The Freezer is the Pantry's first 5 levels (each halves how fast raw meat spoils); the Spice Rack, Sugar Press, Stock Pot and Flavor Overdrive are the Sauce Kitchen's levels; the Scrap Sifter, Rendering Vat and Sludge Drip are one Salvage Yard that makes all three materials. An older save gets the Sprinkles it spent on them back, and its vats' highest level as the Yard's.
 - **Storage** (v0.8.2: for everything). Each material holds 150, +150 per Storage Shed level, and each ingredient 20, +20 per Pantry level. Runs, crew trips, scrapping, cats and vats all stop at these: what doesn't fit is **sold** for 0.25 Sprinkles a unit of material and 1 an ingredient (the result screen says STORAGE FULL). What you already hold past a cap is kept.
 
 ### While you're away
