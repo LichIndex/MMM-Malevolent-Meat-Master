@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.27: the wiki
+# Malevolent Meat Master v0.9.28: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -76,7 +76,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 - They also come faster (a wave every 1.7 s at first, ×0.83 a level, down to one every 0.22 s), in packs (5% more likely a level, up to 55%) and move 2% faster a level (up to ×1.6).
 - **Fewer, tougher mutants:** waves come at 80% of that pace at threat 0, falling to 60% from threat 12 on. Each mutant is tougher for the ones that don't come (×1.07 at threat 0, ×1.17 from threat 12), and as many elites still turn up, so they're a bigger share of a wave deeper in. An ordinary mutant's drops count for the ones it stands in for, so a run brings home about as much as before.
 - Meat is worth **+45% of its base value per threat level**, so staying longer pays, until it doesn't.
-- Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16.
+- Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16, and T5 (crafted only; v0.9.28) at 24.
 
 ### What mutants drop
 
@@ -140,15 +140,15 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 
 ### The seven slots
 
-| Slot | What it does | T1 | T2 | T3 | T4 |
-|---|---|---|---|---|---|
-| Fuel Line | Flow: fuel units a second (more stacks, more heat) | 12 flow/s | 18 flow/s | 27 flow/s | 40 flow/s |
-| Nozzle | Cone width and range | 40° cone, 380 range | 42° cone, 395 range | 44° cone, 410 range | 46° cone, 425 range |
-| Tank Chassis | Tank mounts (how many fuels you carry) and every tank's capacity | 1 tank mount, +30% capacity | 2 tank mounts, +60% capacity | 2 tank mounts, +100% capacity | 3 tank mounts, +160% capacity |
-| Pump | Pressure: more flow | +12% flow | +18% flow | +25% flow | +35% flow |
-| Igniter | Burn duration | +15% burn duration | +20% burn duration | +28% burn duration | +38% burn duration |
-| Filter | Stack damage | +12% stack damage | +18% stack damage | +24% stack damage | +32% stack damage |
-| Shroud & Grip | Heat cap and cooling | 130 heat cap, cools 32/s | 150 heat cap, cools 36/s | 170 heat cap, cools 42/s | 200 heat cap, cools 50/s |
+| Slot | What it does | T1 | T2 | T3 | T4 | T5 |
+|---|---|---|---|---|---|---|
+| Fuel Line | Flow: fuel units a second (more stacks, more heat) | 12 flow/s | 18 flow/s | 27 flow/s | 40 flow/s | 52 flow/s |
+| Nozzle | Cone width and range | 40° cone, 380 range | 42° cone, 395 range | 44° cone, 410 range | 46° cone, 425 range | 48° cone, 440 range |
+| Tank Chassis | Tank mounts (how many fuels you carry) and every tank's capacity | 1 tank mount, +30% capacity | 2 tank mounts, +60% capacity | 2 tank mounts, +100% capacity | 3 tank mounts, +160% capacity | 3 tank mounts, +210% capacity |
+| Pump | Pressure: more flow | +12% flow | +18% flow | +25% flow | +35% flow | +46% flow |
+| Igniter | Burn duration | +15% burn duration | +20% burn duration | +28% burn duration | +38% burn duration | +49% burn duration |
+| Filter | Stack damage | +12% stack damage | +18% stack damage | +24% stack damage | +32% stack damage | +42% stack damage |
+| Shroud & Grip | Heat cap and cooling | 130 heat cap, cools 32/s | 150 heat cap, cools 36/s | 170 heat cap, cools 42/s | 200 heat cap, cools 50/s | 240 heat cap, cools 60/s |
 
 These are the tier baselines (Scavenged quality, ×1, before the lane). Quality multiplies the main stat (Junk ×1 up to Malevolent ×1), and the lane reshapes it (see Parts).
 
@@ -160,9 +160,9 @@ These are the tier baselines (Scavenged quality, ×1, before the lane). Quality 
 - Heat a unit = the fuel's heat × 0.4 × (1 + 15% for each tank past the first) × your heat modifiers × 2 × (30 / flow)^0.5. So heat a second grows with the square root of flow: a typical kit overheats after 5 to 8 s of solid fire at any tier.
 
 ### Fuel and tanks
-- Each mounted tank holds one fuel. A tank holds 120 units, +25% per tank level of its still, then the chassis (T1 +30% up to T4 +160%, × its quality and temper; v0.9.7, in place of the old tank mods) and bonuses.
+- Each mounted tank holds one fuel. A tank holds 120 units, +25% per tank level of its still, then the chassis (T1 +30% up to T4 +160% and T5 +210%, × its quality and temper; v0.9.7, in place of the old tank mods) and bonuses.
 - It refills at 5 units/s, +1.5 per still level. The tank you're firing from only refills 0.75 s after you stop; the others always refill.
-- **Mounts:** the chassis sets them (T1 1, T2 and T3 2, T4 3); the Rack lane and the Bandolier set add one, up to 4. Each tank past the first costs 15% flow (less on a better chassis) and 15% heat. Swapping takes 0.4 s.
+- **Mounts:** the chassis sets them (T1 1, T2 and T3 2, T4 and T5 3); the Rack lane and the Bandolier set add one, up to 4. Each tank past the first costs 15% flow (less on a better chassis) and 15% heat. Swapping takes 0.4 s.
 - Carry fuels that cover each other: one for health, one for shields and armor, and swap as the wave changes.
 
 ### Stats parts and sets can raise
@@ -196,8 +196,9 @@ These are the tier baselines (Scavenged quality, ×1, before the lane). Quality 
 ## Parts and loot lanes
 
 ### Tiers
-- Parts come in **T0** (the starter parts) to **T4**. Their names are coloured by tier: T1 white, T2 green, T3 purple, T4 gold; set pieces teal. Pips show the tier too.
+- Parts come in **T0** (the starter parts) to **T5**. Their names are coloured by tier: T1 white, T2 green, T3 purple, T4 gold, T5 gold-red; set pieces teal. Pips show the tier too.
 - You can craft (and find) a tier once your best threat reaches it: T2 at 6, T3 at 12, T4 at 16.
+- **T5** (v0.9.28). A fifth tier opens at best threat 24, the same ×1.3 step the tiers take (a T5 line flows 52 a second to a T4's 40; a T5 shroud holds 240 heat to a T4's 200). It is **crafted only**: salvage never rolls past T4, and every T5 part is a lane part or a set piece from the Workbench, at ◆36,000 and 180 of its slot's material. Keystones and exotics stay T4.
 - **The half-step** (v0.9.24). A part's power is its tier, and a tier has two rungs: T3 and **T3+**, the "+" worth half the step to the next tier on the main stat and the lane's benefit lines (××1.24 on a fuel line, less where a tier's step is smaller; a "+" after the pips, and in the name). Salvage rolls it from 3 levels past the tier's unlock (certain 6 levels past); the Workbench rolls it by its level (25% at level 0, 85% at 8); Refine's **FORGE TO T+** adds it to a part for a craft and a half. A T3+ sits between T3 and T4; a plain T4 always beats it.
 
 ### Qualities
@@ -625,10 +626,12 @@ v0.9.3. A run brings the map's boss: one of its mutants grown huge (1.9x the siz
 ### Destinations
 Sixteen places in four themes, four places each (since v0.8.0). A theme's places grow their mutants at the same rates (the same difficulty), with a different mix of mutants each; every place but the Outskirts is the turf of its own faction, and the new ones open one after another with the reputation of the place before. Each set has one home, each still blueprint and each exotic material drops at one place.
 
-- **Balanced** (Health, armor and shields grow alike): Smokehouse Outskirts, The Junk Bazaar, Dead Drive-In, The Food Court
-- **Armor** (Armor grows fastest: bring something that melts plates): Rust Flats, Scrap Mountain, Tank Graveyard, Smelter Pits
-- **Shield** (Shields grow fastest: bring something that pops them): Glow Crater, Reactor Row, The Neon Strip, Static Fields
-- **Health** (Raw health grows fastest: big meaty mutants): Sewer Delta, The Flesh Farms, Fungal Bog, Bloat Marsh
+- **Balanced** (Health, armor and shields grow alike): Smokehouse Outskirts, The Junk Bazaar, Dead Drive-In, The Food Court. Its rule in the run, **Two fronts**: Waves come high and low at once: half a pack along the top of the field, half along the bottom.
+- **Armor** (Armor grows fastest: bring something that melts plates): Rust Flats, Scrap Mountain, Tank Graveyard, Smelter Pits. Its rule in the run, **Plates**: Armored mutants wear a plate (+50% armor). Burning it off stuns them for a moment and drops Scrap Metal.
+- **Shield** (Shields grow fastest: bring something that pops them): Glow Crater, Reactor Row, The Neon Strip, Static Fields. Its rule in the run, **Radiation**: A shield that pops leaks radiation: the gun's heat jumps 8% of its cap.
+- **Health** (Raw health grows fastest: big meaty mutants): Sewer Delta, The Flesh Farms, Fungal Bog, Bloat Marsh. Its rule in the run, **Flood**: The field floods but for one lane a wave: packs funnel into it, a mutant bigger.
+
+**Map rules** (v0.9.28). Every theme fights a little differently; the Map tab names a place's rule and the HUD shows it for the run's first seconds. Plates: an armored mutant's armor is ××1.5; when it burns off the mutant is stunned 1.2 s and drops 2 Scrap Metal (× its loot share). Radiation: a popped shield adds 8% of the heat cap to the gun. Flood: each wave takes one of three lanes (14 px either way, where a wave spreads 50 elsewhere) and a pack has 1 mutant more. Two fronts: a pack splits between the top and bottom of the field (30 px in from the edges); a lone mutant takes the edges in turn.
 
 #### Smokehouse Outskirts
 Home turf. Balanced mutants, a neutral market that pays a flat 0.9x.
@@ -744,23 +747,25 @@ Gluttons' Court turf. A swamp of rendered fat; the biggest hulks wallow here.
 ### Factions
 Each faction owns a destination's market. They like a taste (spicy / sweet / savory, 0 to 5), pay ×1.25 for their favourite cut, and reward reputation. Reputation comes only from selling them a sauce that fits better than ×1; it doesn't raise prices, it unlocks things.
 
-| Faction | Who | Turf | Ideal taste | Favourite cut | Reputation rewards |
-|---|---|---|---|---|---|
-| Bazaar Hagglers | Swap-meet traders | The Junk Bazaar | 3 / 3 / 2 | Shambler Shank | 1: Shows you the way to the Dead Drive-In<br>2: Recipe: Haggler's Hash Rub<br>3: Sells Marrow Butter<br>4: Slow Cooker blueprints |
-| Reel Cult | Film-loop preachers | Dead Drive-In | 1 / 4 / 3 | Skitter Drumettes | 1: Shows you the way to the Food Court<br>2: Recipe: Buttered Popcorn Glaze<br>3: Sells Glowberry Syrup<br>4: Moonshine Run blueprints |
-| Mallrat Gangs | Escalator raiders | The Food Court | 3 / 2 / 4 | Glowbag Belly | 1: Recipe: Food Court Teriyaki<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Moonshine Run blueprints |
-| Rust Barons | Scrap warlords | Rust Flats | 4 / 1 / 3 | Scrapper Ribs | 1: Shows you the road into the Sewer Delta<br>2: Recipe: Baron's Brimstone Rub<br>3: Sells Glowberry Syrup (the Glow Cult loves it)<br>4: Boiler Room blueprints |
-| Tin Monks | Junk-welding hermits | Scrap Mountain | 3 / 1 / 4 | Scrapper Ribs | 1: Shows you the way to the Tank Graveyard<br>2: Recipe: Solder Salt Rub<br>3: Sells Marrow Butter<br>4: Bandolier blueprints |
-| The Ironsides | Tread-riding road warriors | Tank Graveyard | 5 / 1 / 2 | Hulk Brisket | 1: Shows you the way to the Smelter Pits<br>2: Recipe: Diesel Pepper Dust<br>3: Sells Ghost Chili Paste<br>4: Grease Fire blueprints |
-| Slag Brothers | Furnace-stoking cultists | Smelter Pits | 4 / 2 / 3 | Scrapper Ribs | 1: Recipe: Slag Sear<br>2: Sells Ghost Chili Paste<br>3: Sells Marrow Butter<br>4: Boiler Room blueprints |
-| Glow Cult | Radioactive zealots | Glow Crater | 1 / 4 / 2 | Glowbag Belly | 1: Recipe: Halo Honey Glaze<br>2: Sells Marrow Butter (the Sewer Kings love it)<br>3: Tesla Coilworks blueprints<br>4: Hellmouth blueprints |
-| Reactor Choir | Hymn-singing technicians | Reactor Row | 1 / 5 / 1 | Glowbag Belly | 1: Shows you the way to the Neon Strip<br>2: Recipe: Hymnal Honey<br>3: Sells Glowberry Syrup<br>4: Meltdown blueprints |
-| Neon Saints | Casino ghouls | The Neon Strip | 2 / 4 / 3 | Skitter Drumettes | 1: Shows you the way to the Static Fields<br>2: Recipe: Neon Candy Glaze<br>3: Sells Glowberry Syrup<br>4: Meltdown blueprints |
-| Storm Callers | Lightning-rod nomads | Static Fields | 4 / 3 / 1 | Shambler Shank | 1: Recipe: Ozone Rub<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Tesla Coilworks blueprints |
-| Sewer Kings | Underground mutant royalty | Sewer Delta | 2 / 1 / 5 | Hulk Brisket | 1: Recipe: Royal Marrow Gravy<br>2: Sells Ghost Chili Paste (the Rust Barons love it)<br>3: Glacier Works blueprints<br>4: Grease Fire blueprints |
-| Meat Ranchers | Mutant cattle barons | The Flesh Farms | 2 / 2 / 5 | Hulk Brisket | 1: Shows you the way to the Fungal Bog<br>2: Recipe: Rancher's Red-Eye Gravy<br>3: Sells Marrow Butter<br>4: Deep Fryer blueprints |
-| Spore Mothers | Mushroom matriarchs | Fungal Bog | 1 / 3 / 4 | Shambler Shank | 1: Shows you the way to Bloat Marsh<br>2: Recipe: Spore Butter Baste<br>3: Sells Marrow Butter<br>4: Slow Cooker blueprints |
-| Gluttons' Court | Swollen swamp nobles | Bloat Marsh | 3 / 4 / 3 | Hulk Brisket | 1: Recipe: Gluttony Glaze<br>2: Sells Glowberry Syrup<br>3: Sells Marrow Butter<br>4: Grease Fire blueprints |
+| Faction | Who | Turf | Ideal taste | Favourite cut | Rival | Reputation rewards |
+|---|---|---|---|---|---|---|
+| Bazaar Hagglers | Swap-meet traders | The Junk Bazaar | 3 / 3 / 2 | Shambler Shank | Mallrat Gangs | 1: Shows you the way to the Dead Drive-In<br>2: Recipe: Haggler's Hash Rub<br>3: Sells Marrow Butter<br>4: Slow Cooker blueprints |
+| Reel Cult | Film-loop preachers | Dead Drive-In | 1 / 4 / 3 | Skitter Drumettes | none | 1: Shows you the way to the Food Court<br>2: Recipe: Buttered Popcorn Glaze<br>3: Sells Glowberry Syrup<br>4: Moonshine Run blueprints |
+| Mallrat Gangs | Escalator raiders | The Food Court | 3 / 2 / 4 | Glowbag Belly | Bazaar Hagglers | 1: Recipe: Food Court Teriyaki<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Moonshine Run blueprints |
+| Rust Barons | Scrap warlords | Rust Flats | 4 / 1 / 3 | Scrapper Ribs | The Ironsides | 1: Shows you the road into the Sewer Delta<br>2: Recipe: Baron's Brimstone Rub<br>3: Sells Glowberry Syrup (the Glow Cult loves it)<br>4: Boiler Room blueprints |
+| Tin Monks | Junk-welding hermits | Scrap Mountain | 3 / 1 / 4 | Scrapper Ribs | Slag Brothers | 1: Shows you the way to the Tank Graveyard<br>2: Recipe: Solder Salt Rub<br>3: Sells Marrow Butter<br>4: Bandolier blueprints |
+| The Ironsides | Tread-riding road warriors | Tank Graveyard | 5 / 1 / 2 | Hulk Brisket | Rust Barons | 1: Shows you the way to the Smelter Pits<br>2: Recipe: Diesel Pepper Dust<br>3: Sells Ghost Chili Paste<br>4: Grease Fire blueprints |
+| Slag Brothers | Furnace-stoking cultists | Smelter Pits | 4 / 2 / 3 | Scrapper Ribs | Tin Monks | 1: Recipe: Slag Sear<br>2: Sells Ghost Chili Paste<br>3: Sells Marrow Butter<br>4: Boiler Room blueprints |
+| Glow Cult | Radioactive zealots | Glow Crater | 1 / 4 / 2 | Glowbag Belly | Reactor Choir | 1: Recipe: Halo Honey Glaze<br>2: Sells Marrow Butter (the Sewer Kings love it)<br>3: Tesla Coilworks blueprints<br>4: Hellmouth blueprints |
+| Reactor Choir | Hymn-singing technicians | Reactor Row | 1 / 5 / 1 | Glowbag Belly | Glow Cult | 1: Shows you the way to the Neon Strip<br>2: Recipe: Hymnal Honey<br>3: Sells Glowberry Syrup<br>4: Meltdown blueprints |
+| Neon Saints | Casino ghouls | The Neon Strip | 2 / 4 / 3 | Skitter Drumettes | Storm Callers | 1: Shows you the way to the Static Fields<br>2: Recipe: Neon Candy Glaze<br>3: Sells Glowberry Syrup<br>4: Meltdown blueprints |
+| Storm Callers | Lightning-rod nomads | Static Fields | 4 / 3 / 1 | Shambler Shank | Neon Saints | 1: Recipe: Ozone Rub<br>2: Sells Ghost Chili Paste<br>3: Sells Glowberry Syrup<br>4: Tesla Coilworks blueprints |
+| Sewer Kings | Underground mutant royalty | Sewer Delta | 2 / 1 / 5 | Hulk Brisket | Meat Ranchers | 1: Recipe: Royal Marrow Gravy<br>2: Sells Ghost Chili Paste (the Rust Barons love it)<br>3: Glacier Works blueprints<br>4: Grease Fire blueprints |
+| Meat Ranchers | Mutant cattle barons | The Flesh Farms | 2 / 2 / 5 | Hulk Brisket | Sewer Kings | 1: Shows you the way to the Fungal Bog<br>2: Recipe: Rancher's Red-Eye Gravy<br>3: Sells Marrow Butter<br>4: Deep Fryer blueprints |
+| Spore Mothers | Mushroom matriarchs | Fungal Bog | 1 / 3 / 4 | Shambler Shank | Gluttons' Court | 1: Shows you the way to Bloat Marsh<br>2: Recipe: Spore Butter Baste<br>3: Sells Marrow Butter<br>4: Slow Cooker blueprints |
+| Gluttons' Court | Swollen swamp nobles | Bloat Marsh | 3 / 4 / 3 | Hulk Brisket | Spore Mothers | 1: Recipe: Gluttony Glaze<br>2: Sells Glowberry Syrup<br>3: Sells Marrow Butter<br>4: Grease Fire blueprints |
+
+**Rival factions** (v0.9.28). Factions pair off within a theme (the Reel Cult stands alone): the Bazaar Hagglers and the Mallrat Gangs; the Rust Barons and the Ironsides; the Tin Monks and the Slag Brothers; the Glow Cult and the Reactor Choir; the Neon Saints and the Storm Callers; the Sewer Kings and the Meat Ranchers; the Spore Mothers and the Gluttons' Court. Reputation earned by fighting on a turf (runs and crew trips; not sales or contracts) costs the rival 34% of it, though a rival never drops below the threshold of the level it holds, and its favor is untouched. A faction at level 4 sells its rival's exotic blueprints at ×2 the favor, paid in its own favor.
 
 Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 - **Fighting on their turf:** getting out of a run at a faction's destination earns 0.03 for every mutant killed there (an elite counts 3; an ordinary mutant counts for the ones it stands in for, see Runs). A threat-16 run brings home about 84.
@@ -869,7 +874,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 - **Loot filter** (the LOOT FILTER row on the Loadout tab): choose which salvage to keep (tiers, lanes, qualities, slots, only upgrades over what you wear, behaviors; sets, Malevolent parts and keystones can always be kept). The rest is scrapped on the way home, from your runs and the crew's. **SHOW THOSE n IN THE STASH** lists what it would take (FAILS LOOT FILTER), for SCRAP SHOWN (v0.9.17). A new game's filter is on and keeps upgrades over what you wear, sets, Malevolent parts, keystones and exotics (v0.9.16).
 
 ### Craft and Refine (the Workbench)
-- **CRAFT tab, PARTS:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80 for T1 to T4). Workbench levels raise the odds of a better quality.
+- **CRAFT tab, PARTS:** pick a slot and a tier, then any lane you know. A part costs ◆ plus its slot's material (6, 15, 35, 80, 180 for T1 to T5). Workbench levels raise the odds of a better quality.
 - **CRAFT tab, SET BLUEPRINTS:** buy set blueprints with the set's faction's favor and craft the pieces (they roll a lane at your best tier). **BENCH:** Workbench upgrades, quality odds and the lane blueprints you know.
 - **REFINE tab:** filter the parts on the left (worn, unworn, on the crew, locked, in a loadout, with a behavior, below Malevolent; slot, lane, tier, quality, or an affix the part carries), pick one, and refine it on the right. **REFINE THIS PART** in the Loadout tab opens it there. **Favor re-rolls** (v0.9.14): next to REROLL and MUTATE, the same roll for the favor of the faction whose turf the truck is parked on: 100 × (1 + tier) favor for an affix (a T4 one: 500), twice that for the behavior; flat, with no escalation.
   - **Quality up** one step at a time (◆ and materials; Mutated to Malevolent costs ×0.4).
