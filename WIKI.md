@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.38: the wiki
+# Malevolent Meat Master v0.9.39: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -337,7 +337,9 @@ The top quality. Salvage only rolls it in Infested runs (past threat 21), each l
 
 ## Sets
 
-- **Ten sets** (v0.9.24; fifteen from v0.6.10: Pit Boss, Steeple Works, Foundry Rig, Thrift Shop and Cocktail Hour are retired, each into the other set of its style, which took its best line; their pieces, blueprints and ads in an old save become the survivor's, and their homes are the survivors' second homes). Every set has a piece for each of the seven slots. Wearing **2, 3 and 4 pieces** turns on its three bonuses, and every bonus works on **every fuel** (since v0.7.8). A piece is a normal part of its tier and slot with affixes of its own, and **its lane is fixed** (v0.9.24; it rolled a random lane before, which left a build's set and its lanes at odds): the Showroom's builds wear their set pieces on the lanes the pieces are.
+- **Eight sets outside the styles** (v0.9.39), eighteen sets in all. Hot Plate, Nutcracker, Walk-In Freezer, Potluck, Test Kitchen, Oven Mitts, Whole Hog and Last Call belong to no style and have no T5 effect: any build can wear them, each does one thing no other set does, and two of them (Whole Hog, Last Call) add no damage at all. They are listed after the style sets below. A build has six set slots beside its keystone, so a second set is paid for in pieces of the first: in the lab, giving up 2, 3 or 4 of a finished T5 build's own six pieces cost it about 0.7, 1.8 or 2.7 threat levels, and the six that deal damage were sized to give about that back on the builds they suit. Whole Hog and Last Call give back less, and pay in what comes home.
+- **Three of them need something burning** (v0.9.39): Oven Mitts' Cooked, Potluck and Test Kitchen count stacks on a mutant or fuel reactions, so they do nothing under the Flashpoint igniter, which lands a stack's whole burn at once. Hot Plate, Nutcracker and the Freezer work with it (Nutcracker best of all).
+- **Ten sets for the five styles** (v0.9.24; fifteen from v0.6.10: Pit Boss, Steeple Works, Foundry Rig, Thrift Shop and Cocktail Hour are retired, each into the other set of its style, which took its best line; their pieces, blueprints and ads in an old save become the survivor's, and their homes are the survivors' second homes). Every set has a piece for each of the seven slots. Wearing **2, 3 and 4 pieces** turns on its three bonuses, and every bonus works on **every fuel** (since v0.7.8). A piece is a normal part of its tier and slot with affixes of its own, and **its lane is fixed** (v0.9.24; it rolled a random lane before, which left a build's set and its lanes at odds): the Showroom's builds wear their set pieces on the lanes the pieces are.
 - **The 4-piece mechanics carry the set** (v0.9.24). The lab found a set worth about 0.6 threat levels and its stat lines no lever at all (doubling them moved a build 0.1), so the mechanics were raised instead: Grease Fire's kills explode for 6 stacks in a 120 px blast, Battered is +8% a stack up to +300% (and +150% close), Arc chains to 6 and chained stacks hit double, Critical Mass needs 30 stacks, Cold Start charges +60% a second to +200% and its chill is 30%, Still Hot is every other unit, and a Bandolier swap is +50% for 3 s. Mind that **Flashpoint** lands a stack's whole burn at once, so anything that counts the stacks *on* a mutant (Battered, Critical Mass, Hellmouth's endless burn, stacks outside the cone) does nothing with it; the Showroom says so on the ads it applies to.
 - **Where they drop:** set pieces come from salvage crates (5% of them) and elites (40%). A set piece found at a destination comes 70% of the time from a set that drops there; the rest from any common set, and 5% from a rare one.
 - **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality favor with the set's faction (Blueprint Shards before v0.9.26), times (1 - 0.75 × the share of set blueprints you own; v0.8.2), so ×0.25 once you own them all. A set's blueprint costs 30 Shards (Workbench > SETS), then you craft its pieces for ◆ and materials. Faction reputation gives some blueprints too, and Hellmouth's needs one found Hellmouth piece first (or the Glow Cult's top reputation).
@@ -419,6 +421,58 @@ Juggler build · all fuels · drops at the Dead Drive-In
 - **4 pieces:** STILL HOT: every other unit also applies a stack of the fuel fired before it; +30% stack damage
 - **T5 pieces:** Fresh Tank: each T5 piece adds 1.5%. Within 2.5 s of a swap, a volley that takes it hits x2 and costs no fuel.
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 0.9% / 1.5% / 2.4% / 3.3% / 4.2%.
+
+### Walk-In Freezer
+Any build · all fuels · drops at the Static Fields
+- **2 pieces:** Burning mutants slow by 6% a second, up to 40%
+- **3 pieces:** At full chill a mutant freezes for 2 s, once every 6 s (a boss 1 s)
+- **4 pieces:** SHATTER: a frozen mutant that dies bursts for 25% of its health onto mutants within 100 px; a frozen mutant under 15% health breaks
+
+### Hot Plate
+Any build · all fuels · drops at the Smelter Pits
+- **2 pieces:** The far end of your flame leaves a burning patch (4 s): 32 stacks a second on mutants in it
+- **3 pieces:** The patch burns 64 stacks a second and slows mutants on it 30%
+- **4 pieces:** FIREBREAK: 96 stacks a second, and patches that touch last as long as any one is fed
+- **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
+
+### Last Call
+Any build · all fuels · drops at the Dead Drive-In
+- **2 pieces:** The horn sounds 15 s before the truck (not 10), and kills in its window pay x4 (not x3)
+- **3 pieces:** The gun makes no heat while the truck is starting
+- **4 pieces:** ENCORE: when the truck arrives the horn sounds once more: another wave, another window, another 30 s
+- **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
+
+### Nutcracker
+Any build · all fuels · drops at the Tank Graveyard
+- **2 pieces:** A broken shield drops Chemicals and broken armor drops Scrap; +40% vs shields and armor
+- **3 pieces:** A shell that breaks bursts: 60% of it comes off the same shell of mutants within 120 px
+- **4 pieces:** CRACK: the burst is 120%, and a shell a burst breaks bursts too
+- **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 1.5% / 2.5% / 4% / 5.5% / 7%.
+
+### Oven Mitts
+Any build · all fuels · drops at the Rust Flats
+- **2 pieces:** The pig heals 1 HP each time the threat level rises
+- **3 pieces:** COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you
+- **4 pieces:** SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck
+
+### Potluck
+Any build · all fuels · drops at the Bloat Marsh
+- **2 pieces:** A burning mutant passes 5 stacks a second to each mutant touching it
+- **3 pieces:** 10 stacks a second, to mutants within 40 px
+- **4 pieces:** PATIENT ZERO: the mutant carrying the most stacks shares half of them each second with everything within 150 px (a shared stack isn't shared again)
+
+### Test Kitchen
+Any build · all fuels · drops at the The Food Court
+- **2 pieces:** A fuel reaction lands 5% of everything burning on the mutant at once
+- **3 pieces:** 14%; reactions wait half as long, and each pair of fuels has its own wait (never Spatter)
+- **4 pieces:** CHAIN REACTION: 23%, and a reaction goes off on the 2 nearest burning mutants too (never Spatter)
+
+### Whole Hog
+Any build · all fuels · drops at the The Flesh Farms
+- **2 pieces:** Every kill drops its materials
+- **3 pieces:** Elites and bosses drop their hoard twice (not the meat)
+- **4 pieces:** NOSE TO TAIL: a run that gets out brings one more crate for every boss killed, at a better quality
+- **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
 
 ## Exotic parts
 
@@ -674,21 +728,21 @@ Reel Cult turf. The last film still loops; shamblers shuffle in for the late sho
 - **Unlock:** needs Bazaar Hagglers reputation 1. **Market:** Reel Cult turf.
 - **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
 - **Common mutants:** Shambler, Glowbag. **Extra drops:** none.
-- **Sets:** Moonshine Run. **Still blueprints:** none. **Exotic material:** none.
+- **Sets:** Last Call, Moonshine Run. **Still blueprints:** none. **Exotic material:** none.
 
 #### The Food Court
 Mallrat Gangs turf. A gutted mall; hulks nest in the fry pits.
 - **Unlock:** needs Reel Cult reputation 1. **Market:** Mallrat Gangs turf.
 - **Theme:** Balanced. **Growth a level:** health ×1.17, armor ×1.17, shields ×1.17.
 - **Common mutants:** Tumor Hulk, Skitter. **Extra drops:** none.
-- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** Crackling (threat 10).
+- **Sets:** Test Kitchen. **Still blueprints:** none. **Exotic material:** Crackling (threat 10).
 
 #### Rust Flats
 Rust Barons turf. Armor piles up fast; Scrapper country. Their scrap comes out of the furnace still glowing.
 - **Unlock:** opens at best threat 3. **Market:** Rust Barons turf.
 - **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
 - **Common mutants:** Scrapper. **Extra drops:** Scrap Metal ×2.
-- **Sets:** none of its own. **Still blueprints:** Crucible Furnace (threat 4). **Exotic material:** none.
+- **Sets:** Oven Mitts. **Still blueprints:** Crucible Furnace (threat 4). **Exotic material:** none.
 
 #### Scrap Mountain
 Tin Monks turf. A peak of crushed cars; scrappers and skitters climb it in swarms.
@@ -702,14 +756,14 @@ Ironsides turf. Rusted tanks in rows; hulks wear the turrets.
 - **Unlock:** needs Tin Monks reputation 1. **Market:** The Ironsides turf.
 - **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
 - **Common mutants:** Scrapper, Tumor Hulk. **Extra drops:** Scrap Metal ×2.
-- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** none.
+- **Sets:** Nutcracker. **Still blueprints:** none. **Exotic material:** none.
 
 #### Smelter Pits
 Slag Brothers turf. Open furnaces; the scrappers come out glowing hot.
 - **Unlock:** needs The Ironsides reputation 1. **Market:** Slag Brothers turf.
 - **Theme:** Armor. **Growth a level:** health ×1.12, armor ×1.28, shields ×1.1.
 - **Common mutants:** Scrapper, Glowbag. **Extra drops:** Scrap Metal ×2.
-- **Sets:** Boiler Room. **Still blueprints:** none. **Exotic material:** Slag Heart (threat 10).
+- **Sets:** Boiler Room, Hot Plate. **Still blueprints:** none. **Exotic material:** Slag Heart (threat 10).
 
 #### Glow Crater
 Glow Cult turf. Shields everywhere; bring Ion Gel.
@@ -737,7 +791,7 @@ Storm Callers turf. Lightning rods to the horizon; shielded hulks walk through t
 - **Unlock:** needs Neon Saints reputation 1. **Market:** Storm Callers turf.
 - **Theme:** Shield. **Growth a level:** health ×1.18, armor ×1.1, shields ×1.24.
 - **Common mutants:** Glowbag, Tumor Hulk. **Extra drops:** Chemicals ×2.
-- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** Ion Crystal (threat 10).
+- **Sets:** Walk-In Freezer. **Still blueprints:** none. **Exotic material:** Ion Crystal (threat 10).
 
 #### Sewer Delta
 Sewer Kings turf. Meat-heavy mutants grow huge.
@@ -751,7 +805,7 @@ Meat Ranchers turf. Pens of mutant cattle that got loose; the hulks are the bull
 - **Unlock:** needs Sewer Kings reputation 1. **Market:** Meat Ranchers turf.
 - **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
 - **Common mutants:** Tumor Hulk, Shambler. **Extra drops:** Mutant Bits ×2.
-- **Sets:** Deep Fryer. **Still blueprints:** Deep-Fry Drum (threat 12). **Exotic material:** none.
+- **Sets:** Deep Fryer, Whole Hog. **Still blueprints:** Deep-Fry Drum (threat 12). **Exotic material:** none.
 
 #### Fungal Bog
 Spore Mothers turf. Knee-deep mushrooms; shamblers sprout from the mud.
@@ -765,7 +819,7 @@ Gluttons' Court turf. A swamp of rendered fat; the biggest hulks wallow here.
 - **Unlock:** needs Spore Mothers reputation 1. **Market:** Gluttons' Court turf.
 - **Theme:** Health. **Growth a level:** health ×1.2, armor ×1.12, shields ×1.1.
 - **Common mutants:** Tumor Hulk, Scrapper. **Extra drops:** Mutant Bits ×2.
-- **Sets:** none of its own. **Still blueprints:** none. **Exotic material:** Tallow Brick (threat 10).
+- **Sets:** Potluck. **Still blueprints:** none. **Exotic material:** Tallow Brick (threat 10).
 
 ### Factions
 Each faction owns a destination's market. They like a taste (spicy / sweet / savory, 0 to 5), pay ×1.25 for their favourite cut, and reward reputation. Reputation comes only from selling them a sauce that fits better than ×1; it doesn't raise prices, it unlocks things.
