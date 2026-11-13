@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.39: the wiki
+# Malevolent Meat Master v0.9.40: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -675,6 +675,7 @@ Pools below are at threat 0; they grow with the destination's rates and the diff
 ### Map bosses
 v0.9.3. A run brings the map's boss: one of its mutants grown huge (1.9x the size, 55% of the speed), with 14 times an elite's pools, shared out by the map's theme. v0.9.18: bosses come on a beat: at every threat level a run reaches that is a multiple of 5 (from threat 4 up), with a warning line 10 s before, one at a time (a boss still alive at the next beat holds it until it dies; the BALANCE menu's bosses knob scales the beat, 0 turns them off). It counts as an elite. At the truck it doesn't vanish like a mutant: it stays and hits for **3** armor or HP every 2.5 s until it dies. It drops **Flux** like a contract: 1 + threat / 10 (v0.9.18), so a fighter who never deals can still temper.
 
+- **How they look** (v0.9.40). Every mutant is a different creature on each map theme: mutated flesh wearing the junk that lies around that kind of place. Each theme has its own boss body (The Regular on Balanced maps, The Wreck on Armor, The Lantern on Shield, The Bloat on Health), and each map's boss wears its own piece on its head. An elite carries a radiation sign over its bars; a boss carries a burning skull. Its size to hit is as before.
 - **Its pools follow the map's theme.** Health maps: 90% health. Armor maps: 72% armor. Shield maps: 72% shields. Balanced maps: a third each. Bring the fuel that answers the theme.
 - **Its hoard:** 4 of the map's exotic material, +1 every 4 threat levels (at a place with none of its own, one of its theme-mates'), from any threat, and a 50% chance of a keystone, on top of an elite's drops.
 - The BALANCE menu's **Boss chance** (0 turns them off) and **Boss toughness** change both.
