@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.49: the wiki
+# Malevolent Meat Master v0.9.50: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -1010,7 +1010,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 | Serving Counter | Garage | Every cut sells for 5% more per level. | 10 (16 with the second band) | ◆200 + 5 Mutant Bits |
 | Crew Training | Cats | Every crew cat holds 2 threat levels more on its expeditions per level. | 10 | ◆400 + 6 Mutant Bits + 4 Scrap Metal |
 | Bigger Counter | Cats | +5 cats can wait in line per level. | 6 (12 with the second band) | ◆150 + 3 Scrap Metal |
-| High-Five Machine | Cats | A spring-loaded paw high-fives the cat on the counter by itself, at half the rate cats arrive (offline too). Pick the coats it stops at, to hire them. | 1 | ◆3,000 + 40 Scrap Metal + 20 Mutant Bits |
+| High-Five Machine | Cats | A spring-loaded paw high-fives the cat on the counter by itself (offline too): at half the rate cats arrive, three quarters at level 2, as fast as they come at level 3. Its high fives pay the plain amount; yours pay half again as much. Coats you pick are set aside on a shelf for you. | 3 | ◆3,000 + 40 Scrap Metal + 20 Mutant Bits |
 
 Prices in ◆ rise with each level; materials rise a step each level.
 
@@ -1025,27 +1025,52 @@ Brewing, the vats, spoilage, fatigue, cats, the smoker, sales and crew trips all
 
 ### The cat counter
 - Stray cats line up at the counter, one every 20 s (25% faster per Catnip Plant level). Up to 10 wait in line, +5 per Bigger Counter level.
-- **Coming next** (v0.9.29). The counter shows the next 3 coats on their way, rolled ahead, so a Tuxedo or an Eldritch cat coming up is something to wait for (RARE!). Switching lures re-rolls them.
+- **Coming next** (v0.9.29). The counter shows the next 3 coats on their way, rolled ahead, so a Blue or a Cinder cat coming up is something to wait for (RARE!). Switching lures re-rolls them.
 - **High five** the cat at the front for what it brings, or **hire** it for your crew.
-- **High-Five Machine** (v0.9.7; ◆3,000 + 40 Scrap Metal + 20 Mutant Bits, at the counter): high-fives the cat at the front by itself, at 50% the rate cats arrive, offline too. Its one setting (v0.9.29: there is no off switch) is the coats it **stops at** (v0.9.8): it waits while one is at the front of the line, so you can hire it, and says so.
+- **High-Five Machine** (◆3,000 + 40 Scrap Metal + 20 Mutant Bits for the first level, three levels, at the counter): high-fives the cat at the front by itself, offline too: at half the rate cats arrive, three quarters at level 2, as fast as they come at level 3. Its high fives pay the plain amount; yours pay 50% more. Coats you pick are **set aside on its shelf** (3; v0.9.50), where a click sends one to the front of the line to high-five or hire; it stops only when the shelf is full. There is no off switch.
+- **What a high five pays** (v0.9.50, from scratch). Every coat has a small table and pays one line of it. A common cat pays about 3% of what a run brings: Sprinkles against what your runs' meat sells for, materials against what your runs bank (a moving average of your runs, at its highest so far, so it keeps pace with you and never drops). Ingredients, favor, Blueprint Shards and exotic material grow with your best threat. Material over the Shed's cap is sold, as everywhere.
+  - **Persian cat** (23%): sprinkles / meat boost.
+  - **Tabby cat** (14%): scrap metal / sprinkles.
+  - **Moss cat** (12%): chemicals / ingredients.
+  - **Six-eyed cat** (12%): mutant bits / scrap metal.
+  - **Sphynx cat** (12%): ingredients / rare ingredients.
+  - **Siamese cat** (6%): rare ingredients / favor.
+  - **Blue cat** (4%, rare): favor / shards.
+  - **Crimson cat** (4%, rare): a part / shards.
+  - **Veined cat** (4%, rare): chemicals / salvage boost.
+  - **Cyclops cat** (4%, rare): salvage boost / exotic material.
+  - **Spirit cat** (3%, rare): exotic material / a part.
+  - **Cinder cat** (1%, rare): pick of three.
+- **Rare coats** grow likelier with your best threat: twice as likely at threat 30, three times at 60. **A part** from a cat is salvage rolled at your best threat and goes through the loot filter you set for PARTS FROM CATS (Loadout tab). **Boosts** are for your next run that gets out, up to 5: MEAT is +20% value on that run's raw meat, SALVAGE is one more part in its haul. The **Cinder cat** offers three: a keystone you don't own, a pile of exotic material, or a random Malevolent part. Now and then a **golden cat** stops at the counter for a minute, worth 10 high fives; the machine leaves it for you.
 
 | Cat | High five brings | How often | Knack on the crew |
 |---|---|---|---|
-| Long-haired cat | Energy Sprinkles (2 + 0.5 per best threat level) | 25% | Brings home 25% more meat |
-| Short-haired cat | Scrap Metal | 15% | +50% Scrap Metal |
-| Glowing cat | Chemicals | 13% | +50% Chemicals |
-| Mutant cat | Mutant Bits | 13% | +50% Mutant Bits |
-| Hairless cat | a sauce ingredient | 13% | Twice the sauce ingredients |
-| Calico cat | a rare ingredient | 7% | 1 in 4 ingredients it finds is a rare one |
-| Tuxedo cat | 1 to 2 favor with the parked faction | 5% | Finds set pieces twice as often |
-| Radiant cat | 10 Chemicals | 4% | Elite Chemicals from threat 10 (not 15), twice as often |
-| Hoarder cat | 1 to 3 of a random exotic material | 3% | Exotic materials drop twice as often on its trips |
-| Eldritch cat | a keystone, rolled like salvage at threat 15 or your best | 1% | Finds keystones twice as often |
+| Persian cat | sprinkles / meat boost | 23% | Brings home 25% more meat |
+| Tabby cat | scrap metal / sprinkles | 14% | +50% Scrap Metal |
+| Moss cat | chemicals / ingredients | 12% | +50% Chemicals |
+| Six-eyed cat | mutant bits / scrap metal | 12% | +50% Mutant Bits |
+| Sphynx cat | ingredients / rare ingredients | 12% | Twice the sauce ingredients |
+| Siamese cat | rare ingredients / favor | 6% | 1 in 4 ingredients it finds is a rare one |
+| Blue cat | favor / shards | 4% | Finds set pieces twice as often |
+| Crimson cat | a part / shards | 4% | Finds 50% more salvage crates |
+| Veined cat | chemicals / salvage boost | 4% | Elite Chemicals from threat 10 (not 15), twice as often |
+| Cyclops cat | salvage boost / exotic material | 4% | 25% more meat and 25% more salvage crates |
+| Spirit cat | exotic material / a part | 3% | Exotic materials drop twice as often on its trips |
+| Cinder cat | pick of three | 1% | Finds keystones twice as often |
 
-**Lures** (bought once, one active at a time) make a group of cats show up ×3 as often:
-- **Brushed Yarn** (◆250): Long-haired cats (Energy Sprinkles) show up 3x as often.
-- **Laser Pointer** (◆250): Material cats (short-haired, glowing and mutant) show up 3x as often.
-- **Glowing Fish** (◆250): Ingredient cats (hairless and calico) show up 3x as often.
+**Lures** (bought once, one active at a time) make one coat show up ×3 as often; a coat's lure is sold once you have high-fived that coat (v0.9.50):
+- **Brushed Yarn** (◆250): Persian cats show up 3x as often.
+- **Laser Pointer** (◆250): Tabby cats show up 3x as often.
+- **Moss lure** (◆250): Moss cats show up 3x as often.
+- **Six-eyed lure** (◆250): Six-eyed cats show up 3x as often.
+- **Glowing Fish** (◆250): Sphynx cats show up 3x as often.
+- **Siamese lure** (◆250): Siamese cats show up 3x as often.
+- **Blue lure** (◆250): Blue cats show up 3x as often.
+- **Crimson lure** (◆250): Crimson cats show up 3x as often.
+- **Veined lure** (◆250): Veined cats show up 3x as often.
+- **Cyclops lure** (◆250): Cyclops cats show up 3x as often.
+- **Spirit lure** (◆250): Spirit cats show up 3x as often.
+- **Cinder lure** (◆250): Cinder cats show up 3x as often.
 
 ### The crew
 - Hire up to **3 cats** off the counter: ◆300, ◆2,000, ◆8,000 for the first, second and third. Its coat is its knack (table above).
@@ -1174,7 +1199,7 @@ v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping
 - **One-offs**, applied when a new truck starts: The farm comes along (20 Berries); The 8-Ball comes along (10 Berries); The chef comes along (15 Berries); The Rust Flats are open (10 Berries); A head start in the yard (15 Berries); One more loadout kept (20 Berries, 3 times).
 - **RESPEC**, free once a Spicy Level: every line back to 0 and the Berries back in hand (the one-offs stay).
 
-### The Eldritch cat
+### The Cinder cat
 - v0.9.21: it brings keystones you don't own yet; with every keystone in the stash it brings a double haul of exotic material instead.
 
 ## The Showroom (tested builds)
