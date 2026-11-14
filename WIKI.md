@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.43: the wiki
+# Malevolent Meat Master v0.9.44: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -682,6 +682,8 @@ Swap fuels and they **react**. When stacks of one fuel land on a mutant that's s
 ## Mutants
 
 Pools below are at threat 0; they grow with the destination's rates and the difficulty curve every level. Elites have ×3.
+
+**New mutants (v0.9.44).** Every mutant and boss is redrawn from the hand-drawn sheets and walks in eight frames. A type is a different creature on each kind of map (Balanced, Armor, Shield, Health), and twelve of those have a second look that two spawns in five wear. Looks only: a type's health, speed and size on screen are what they were.
 
 | Mutant | Health | Shields | Armor | Speed | Shows up from | Meat | Drops | Common at |
 |---|---|---|---|---|---|---|---|---|
