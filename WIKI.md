@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.42: the wiki
+# Malevolent Meat Master v0.9.43: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -126,6 +126,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 ### Shoggoth Remote Control
 - Press **R** (or the Shoggoth button under the top-left panel of a run) and the Shoggoth drives: it aims, burns, vents before the heat warning, swaps tanks and starts the truck. Press R again to take over. It's the same pilot that tests every build.
 - **Its fee:** it eats 1 cut of meat in 5 of what drops while it drives. Nothing else.
+- **v0.9.43, its logic gone over** (2,900 lab runs of the same builds with one habit changed at a time). It no longer twitches between two knots of mutants that score alike (it changed its mind 7 times a second; now 2). In a panic it pushes the gun past the heat warning only when your kit gets more fuel out that way: a cool, fast-venting gun used to sit pinned at 100% heat at half flow, burning its own armor, with a boss at the truck. **It starts the truck for a boss it can't stop:** it watches how fast the boss is going down, and if the boss will outlast the pig it leaves while the truck (30 s) can still make it, quietly. And hurt means hurt: a hurt setting at or above the pig's full health no longer starts the truck in the first second.
 - On the AUTOMATION tab (RUNS): **ON/OFF** (your runs start with it driving; the 8-Ball's always do) and **when it starts the truck**: AUTO (2 threat levels under what your kit should hold there), only when hurt, or at a threat you pick. It always calls it when the pig is hurt: at 5 HP or less, or 3, 10 or 20 (v0.9.38: a setting there; it was fixed at 5).
 
 ### The Magic 8-Ball
