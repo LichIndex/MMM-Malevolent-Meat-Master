@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.51: the wiki
+# Malevolent Meat Master v0.9.52: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
