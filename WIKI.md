@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.67: the wiki
+# Malevolent Meat Master v0.9.68: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -553,7 +553,7 @@ Blueprints from the Rust Barons; crafted with Slag Heart (Smelter Pits).
 | Tank Chassis | Forge-Heart Altar | HEAT SINK: Above half heat Thermite burns the gun's heat instead of fuel, and hits +50% |
 | Pump | Crucible Bellows | FORGE BLAST: The hotter the gun, the harder Thermite hits: up to +200% at full heat. It heats the gun 20% faster |
 | Igniter | Forge-Heart Crown | SPRAY: Armor Thermite breaks sprays 150% of its weight onto the armor of everything within 130 px |
-| Filter | Crucible Sieve | CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s |
+| Filter | Crucible Sieve | CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s and cracks 30% of their armor off (half that on a boss), and that mutant takes +200% from everything for 6 s |
 | Shroud & Grip | Slag Mitt | TEMPERED: Each armor Thermite breaks makes the next 160 units of any fuel hit +220% |
 
 ### Ion Gel
@@ -1244,7 +1244,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Bandolier Tar Pit | Juggler | Bandolier | Swamp Napalm, Thermite Slurry, Ion Gel | Scrap Mountain | 23.3 | 33.3 |
 | Bandolier Spray | Juggler | Bandolier | Thermite Slurry, Swamp Napalm, Rocket Hooch | Scrap Mountain | 22.4 | 29.4 |
 | Last Call Fried Stiff | Juggler | Last Call | Fryer Oil, Rocket Hooch, Thermite Slurry | Dead Drive-In | 23.5 | 30.7 |
-| Last Call Critical Mass | Juggler | Last Call | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 20.6 | 26.0 |
+| Last Call Radiation Sickness | Juggler | Last Call | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 22.2 | 29.7 |
 | Moonshine Run Slick | Juggler | Moonshine Run | Rendered Lard, Rocket Hooch, Thermite Slurry | Dead Drive-In | 23.6 | 33.4 |
 | Moonshine Run Radiation Sickness | Juggler | Moonshine Run | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 22.5 | 31.1 |
 | Potluck Fried Stiff | Juggler | Potluck | Fryer Oil, Rendered Lard, Thermite Slurry | Bloat Marsh | 25.7 | 30.3 |
@@ -1418,7 +1418,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 - Whole Hog set, five pieces: Every kill drops its materials; Elites and bosses drop their hoard twice (not the meat); NOSE TO TAIL: a run that gets out brings one more crate for every boss killed, at a better quality.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Toxic and Hellmouth do nothing (burn duration still counts: a longer burn lands more).
-- Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s.
+- Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s and cracks 30% of their armor off (half that on a boss), and that mutant takes +200% from everything for 6 s.
 - Thermite Slurry runs hot and eats armor. With it, Rendered Lard. Home: the The Flesh Farms.
 - The pieces sit on: Gusher fuel line (Flow x1.35), Bloom nozzle (Cone x2, +220% stack damage within 280 px, -20% heat), Saddle Tank chassis (One mount with +200% capacity and +200% regen), Booster pump (Pressure x1.5, +10% range), Distiller filter (Stack damage x1.5), Vent Cowl shroud (Letting go above 50% heat vents it, burning everything within 120 px).
 
@@ -1434,7 +1434,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **Set:** 5 Whole Hog pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.6 at T4, 31.9 at T5.
 
-**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +1.1 threat.
+**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s and cracks 30% of their armor off (half that on a boss), and that mutant takes +200% from everything for 6 s. Lab: +1.1 threat.
 
 ### Meltdown Kick
 **Lancer** (long reach, one target at a time, Meltdown). "Mind the recoil. They won't." Long barrel, short temper. Two fuels meet on one mutant and the argument is loud. This one runs Rocket Hooch and is built around the Rocket Altar.
@@ -1919,28 +1919,28 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 
 **The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +4.6 threat.
 
-### Last Call Critical Mass
-**Juggler** (many tanks, many swaps, Last Call). "Sixty stacks and counting down." The bottom of the tank is where it does its best work. This one runs Rad Syrup and is built around the Half-Life Crown.
+### Last Call Radiation Sickness
+**Juggler** (many tanks, many swaps, Last Call). "They slow down. You don't." The bottom of the tank is where it does its best work. This one runs Rad Syrup and is built around the Half-Life Altar.
 
 - Last Call set, five pieces: The horn sounds 15 s before the truck (not 10), and kills in its window pay x4 (not x3); The gun makes no heat while the truck is starting; ENCORE: when the truck arrives the horn sounds once more: another wave, another window, another 30 s.
-- Gatling Drum keystone (chassis): Each unit fires from every mounted tank at once, each applying its own fuel's stack, and every tank refills like an idle one. Drains every tank together, each unit makes double heat, and every stack lands at 60%.
-- Half-Life Crown, the exotic (igniter): CRITICAL MASS. At 60 Rad stacks a mutant goes critical, once: 100% of what its Rad had left hits everything within 120 px, and each gets 15 stacks.
+- Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Toxic and Hellmouth do nothing (burn duration still counts: a longer burn lands more).
+- Half-Life Altar, the exotic (chassis): RADIATION SICKNESS. From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%.
 - Rad Syrup hits harder the longer it clings. With it, Rocket Hooch and Thermite Slurry. Home: the Dead Drive-In.
-- The pieces sit on: Gusher fuel line (Flow x1.35), Fan nozzle (Cone x1.5, and +90% on every stack (a plain bonus, outside the stack damage cap)), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Flash igniter (+55% on every stack (a plain bonus, outside the stack damage cap)), Catalyst filter (+35% vs shields and armor), Heatsink shroud (Cooling x1.6).
+- The pieces sit on: Gusher fuel line (Flow x1.35), Fan nozzle (Cone x1.5, and +90% on every stack (a plain bonus, outside the stack damage cap)), Rack chassis (+1 tank mount), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Catalyst filter (+35% vs shields and armor), Heatsink shroud (Cooling x1.6).
 
 | Slot | Part |
 |---|---|
 | Fuel Line | Gusher |
 | Nozzle | Fan |
-| Tank Chassis | Gatling Drum (keystone) |
+| Tank Chassis | Rack |
 | Pump | Accumulator |
-| Igniter | Flash |
+| Igniter | Flashpoint (keystone) |
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Last Call pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 20.6 at T4, 26.0 at T5.
+**Set:** 5 Last Call pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 22.2 at T4, 29.7 at T5.
 
-**The exotic:** Half-Life Crown (the exotic Rad Syrup igniter III, in the igniter slot; the fuel becomes Critical Mass). CRITICAL MASS: At 60 Rad stacks a mutant goes critical, once: 100% of what its Rad had left hits everything within 120 px, and each gets 15 stacks. Lab: -0.1 threat.
+**The exotic:** Half-Life Altar (the exotic Rad Syrup tank chassis III, in the tank chassis slot). RADIATION SICKNESS: From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%. Lab: +0.4 threat.
 
 ### Moonshine Run Slick
 **Juggler** (many tanks, many swaps, Moonshine Run). "Everything it touches loses its footing." A fresh tank is a fresh start, and this one starts fresh every two seconds. This one runs Rendered Lard and is built around the Tallow Mitt.
