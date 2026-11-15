@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.66: the wiki
+# Malevolent Meat Master v0.9.67: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -378,7 +378,7 @@ Brawler build · all fuels · drops at the Smokehouse Outskirts
 ### Meltdown
 Lancer build · all fuels · drops at the Reactor Row
 - **2 pieces:** Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px
-- **3 pieces:** Elites and bosses take +25% more from every fuel
+- **3 pieces:** Elites and bosses take +25% more from every fuel, and every stack the gun lands on them hits twice as hard
 - **4 pieces:** CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn
 - **Five pieces:** Long Shot. Each T5 piece of the five adds 10.8%. A volley that takes it hits x2 and reaches 25% further.
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3.6% / 6% / 9.6% / 13.2% / 16.8%.
@@ -387,7 +387,7 @@ Lancer build · all fuels · drops at the Reactor Row
 Lancer build · all fuels · drops at the Glow Crater
 - **2 pieces:** +30% vs shields
 - **3 pieces:** Breaking a shield stuns for 1 s
-- **4 pieces:** ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%
+- **4 pieces:** ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. A link with no mutant to jump to arcs back onto the one that was hit, at half strength
 - **Five pieces:** Long Shot. Each T5 piece of the five adds 10.8%. A volley that takes it hits x2 and reaches 25% further.
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 6% / 10% / 16% / 22% / 28%.
 
@@ -472,7 +472,7 @@ Any build · all fuels · drops at the Tank Graveyard
 ### Oven Mitts
 Any build · all fuels · drops at the Rust Flats
 - **2 pieces:** The pig heals 1 HP each time the threat level rises
-- **3 pieces:** COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you
+- **3 pieces:** COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you, at most one every 3 s. A boss carrying them misses three bites in five
 - **4 pieces:** SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck
 - **Five pieces:** Hot Handle. Each T5 piece of the five adds 20%. A volley that takes it hits x2 on everything close (the six nearest mutants, or within 220 px) and stuns them for 0.3 s.
 
@@ -1211,46 +1211,46 @@ v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping
 
 The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's 36 finished builds, two for every set, all tested under the same balance (v0.9.41: rebuilt from scratch as five set pieces, a keystone and an exotic). It stocks 10 at a time, 2 of each style, with **new stock after every run**: it shows every ad of a style before it shows one again, so a new game and five runs show all of them; an ad on order stays listed until the order is done, and the guide below has them all. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE LIST**), **FOR:** (you or a cat on the crew, v0.8.2), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes). **CUSTOMIZE** (v0.8.8) starts a custom order from the ad, and **+ CUSTOM ORDER** one from the kit you wear: your own build, ordered like an ad.
 
-**Reading an ad** (v0.9.41: rebuilt from scratch). A finished build is **5 pieces of one set, one keystone and one exotic**: a lane for every slot (the set pieces sit on the build's lanes), a keystone (the Miser builds borrow one), the exotic in the slot the ad names, its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 20, with every part Malevolent and near-perfect rolls (2 seeds), at T4 and at T5. **The exotic** line says what the build's exotic does and what the lab measured it adding, against the same build with a plain part in that slot.
+**Reading an ad** (v0.9.41: rebuilt from scratch). A finished build is **5 pieces of one set, one keystone and one exotic**: a lane for every slot (the set pieces sit on the build's lanes), a keystone (the Miser builds borrow one), the exotic in the slot the ad names, its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 16, with every part Malevolent and near-perfect rolls (2 seeds), at T4 and at T5. **The exotic** line says what the build's exotic does and what the lab measured it adding, against the same build with a plain part in that slot.
 
 | Build | Style | Set | Fuels | Home | Lab T4 | Lab T5 |
 |---|---|---|---|---|---|---|
-| Fry Station Fried Stiff | Brawler | Deep Fryer | Fryer Oil, Rendered Lard | The Flesh Farms | 28.1 | 31.3 |
-| Fry Station Rendering | Brawler | Deep Fryer | Rendered Lard, Fryer Oil | The Flesh Farms | 28.0 | 31.3 |
-| Grease Monkey Ferment | Brawler | Grease Fire | Swamp Napalm, Rocket Hooch | Smokehouse Outskirts | 27.5 | 29.4 |
-| Grease Monkey Heat Sink | Brawler | Grease Fire | Thermite Slurry, Rocket Hooch | Smokehouse Outskirts | 26.2 | 28.1 |
-| Oven Mitts Greased Feed | Brawler | Oven Mitts | Rendered Lard, Thermite Slurry | Rust Flats | 28.0 | 30.3 |
-| Oven Mitts Radiation Sickness | Brawler | Oven Mitts | Rad Syrup, Thermite Slurry | Rust Flats | 27.5 | 30.5 |
-| Whole Hog Ferment | Brawler | Whole Hog | Swamp Napalm, Rendered Lard | The Flesh Farms | 28.2 | 32.8 |
-| Whole Hog Cracked Open | Brawler | Whole Hog | Thermite Slurry, Rendered Lard | The Flesh Farms | 28.6 | 32.1 |
-| Meltdown Kick | Lancer | Meltdown | Rocket Hooch, Ion Gel | Reactor Row | 25.3 | 28.9 |
-| Meltdown Overload | Lancer | Meltdown | Ion Gel, Rocket Hooch | Reactor Row | 26.7 | 30.9 |
-| Nutcracker Static Field | Lancer | Nutcracker | Ion Gel, Thermite Slurry | Tank Graveyard | 25.8 | 28.5 |
-| Nutcracker Lance | Lancer | Nutcracker | Thermite Slurry, Rocket Hooch | Tank Graveyard | 27.4 | 29.0 |
-| Coilworks Fireball | Lancer | Tesla Coilworks | Rocket Hooch, Ion Gel | Glow Crater | 25.3 | 28.7 |
-| Coilworks EMP | Lancer | Tesla Coilworks | Ion Gel, Rocket Hooch | Glow Crater | 28.6 | 31.7 |
-| Boiler Room Fireball | Furnace | Boiler Room | Rocket Hooch, Thermite Slurry | Smelter Pits | 25.0 | 27.2 |
-| Boiler Room Rendering | Furnace | Boiler Room | Rendered Lard, Thermite Slurry | Smelter Pits | 25.3 | 27.8 |
-| Hellmouth Fireball | Furnace | Hellmouth | Rocket Hooch, Thermite Slurry | The Junk Bazaar | 29.4 | 35.6 |
-| Hellmouth Tar Pit | Furnace | Hellmouth | Swamp Napalm, Rocket Hooch | The Junk Bazaar | 26.4 | 26.5 |
-| Hot Plate Seeps Through | Furnace | Hot Plate | Swamp Napalm, Thermite Slurry | Smelter Pits | 30.5 | 34.4 |
-| Hot Plate Cracked Open | Furnace | Hot Plate | Thermite Slurry, Rocket Hooch | Smelter Pits | 26.0 | 28.2 |
-| Walk-In Freezer Static Field | Miser | Walk-In Freezer | Ion Gel, Rocket Hooch | Static Fields | 29.3 | 37.0 |
-| Walk-In Freezer Tar Pit | Miser | Walk-In Freezer | Swamp Napalm, Ion Gel | Static Fields | 29.6 | 36.2 |
-| Glacier Works Ferment | Miser | Glacier Works | Swamp Napalm, Rendered Lard | Sewer Delta | 26.6 | 29.2 |
-| Glacier Works Cracked Open | Miser | Glacier Works | Thermite Slurry, Rendered Lard | Sewer Delta | 26.5 | 30.2 |
-| Slow Cooker Slick | Miser | Slow Cooker | Rendered Lard, Fryer Oil | Fungal Bog | 26.8 | 30.4 |
-| Slow Cooker Heat Sink | Miser | Slow Cooker | Thermite Slurry, Rendered Lard | Fungal Bog | 26.8 | 31.1 |
-| Bandolier Tar Pit | Juggler | Bandolier | Swamp Napalm, Thermite Slurry, Ion Gel | Scrap Mountain | 23.3 | 27.2 |
-| Bandolier Cracked Open | Juggler | Bandolier | Thermite Slurry, Rocket Hooch, Ion Gel | Scrap Mountain | 23.0 | 26.0 |
-| Last Call Fried Stiff | Juggler | Last Call | Fryer Oil, Rocket Hooch, Thermite Slurry | Dead Drive-In | 25.0 | 28.7 |
-| Last Call Critical Mass | Juggler | Last Call | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 23.8 | 26.1 |
-| Moonshine Run Slick | Juggler | Moonshine Run | Rendered Lard, Rocket Hooch, Thermite Slurry | Dead Drive-In | 26.2 | 29.0 |
-| Moonshine Run Radiation Sickness | Juggler | Moonshine Run | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 24.8 | 28.1 |
-| Potluck Fried Stiff | Juggler | Potluck | Fryer Oil, Rendered Lard, Thermite Slurry | Bloat Marsh | 28.1 | 33.7 |
-| Potluck Redline | Juggler | Potluck | Rocket Hooch, Rendered Lard, Thermite Slurry | Bloat Marsh | 25.8 | 29.1 |
-| Test Kitchen Fried Stiff | Juggler | Test Kitchen | Fryer Oil, Rocket Hooch, Thermite Slurry | The Food Court | 28.4 | 33.1 |
-| Test Kitchen Dirty Bomb | Juggler | Test Kitchen | Rad Syrup, Rocket Hooch, Thermite Slurry | The Food Court | 27.1 | 30.5 |
+| Fry Station Fried Stiff | Brawler | Deep Fryer | Fryer Oil, Rendered Lard | The Flesh Farms | 32.1 | 35.5 |
+| Fry Station Rendering | Brawler | Deep Fryer | Rendered Lard, Fryer Oil | The Flesh Farms | 33.6 | 37.0 |
+| Grease Monkey Ferment | Brawler | Grease Fire | Swamp Napalm, Rocket Hooch | Smokehouse Outskirts | 31.2 | 32.5 |
+| Grease Monkey Heat Sink | Brawler | Grease Fire | Thermite Slurry, Rocket Hooch | Smokehouse Outskirts | 27.8 | 32.2 |
+| Oven Mitts Greased Feed | Brawler | Oven Mitts | Rendered Lard, Thermite Slurry | Rust Flats | 28.5 | 29.7 |
+| Oven Mitts Radiation Sickness | Brawler | Oven Mitts | Rad Syrup, Thermite Slurry | Rust Flats | 25.1 | 28.9 |
+| Whole Hog Ferment | Brawler | Whole Hog | Swamp Napalm, Rendered Lard | The Flesh Farms | 32.3 | 33.8 |
+| Whole Hog Cracked Open | Brawler | Whole Hog | Thermite Slurry, Rendered Lard | The Flesh Farms | 28.6 | 31.9 |
+| Meltdown Kick | Lancer | Meltdown | Rocket Hooch, Ion Gel | Reactor Row | 26.9 | 31.5 |
+| Meltdown Pulse | Lancer | Meltdown | Ion Gel, Rocket Hooch | Reactor Row | 29.7 | 31.8 |
+| Nutcracker Static Field | Lancer | Nutcracker | Ion Gel, Thermite Slurry | Tank Graveyard | 23.1 | 29.6 |
+| Nutcracker Lance | Lancer | Nutcracker | Thermite Slurry, Rocket Hooch | Tank Graveyard | 22.8 | 32.7 |
+| Coilworks Kick | Lancer | Tesla Coilworks | Rocket Hooch, Ion Gel | Glow Crater | 26.9 | 32.2 |
+| Coilworks EMP | Lancer | Tesla Coilworks | Ion Gel, Rocket Hooch | Glow Crater | 29.4 | 31.9 |
+| Boiler Room Fireball | Furnace | Boiler Room | Rocket Hooch, Thermite Slurry | Smelter Pits | 23.4 | 29.7 |
+| Boiler Room Rendering | Furnace | Boiler Room | Rendered Lard, Thermite Slurry | Smelter Pits | 28.1 | 31.1 |
+| Hellmouth Fireball | Furnace | Hellmouth | Rocket Hooch, Thermite Slurry | The Junk Bazaar | 29.1 | 35.0 |
+| Hellmouth Tar Pit | Furnace | Hellmouth | Swamp Napalm, Rocket Hooch | The Junk Bazaar | 28.4 | 30.9 |
+| Hot Plate Seeps Through | Furnace | Hot Plate | Swamp Napalm, Thermite Slurry | Smelter Pits | 32.8 | 33.3 |
+| Hot Plate Lance | Furnace | Hot Plate | Thermite Slurry, Rocket Hooch | Smelter Pits | 28.6 | 30.7 |
+| Walk-In Freezer Static Field | Miser | Walk-In Freezer | Ion Gel, Rocket Hooch | Static Fields | 33.1 | 35.4 |
+| Walk-In Freezer Tar Pit | Miser | Walk-In Freezer | Swamp Napalm, Ion Gel | Static Fields | 31.8 | 36.9 |
+| Glacier Works Ferment | Miser | Glacier Works | Swamp Napalm, Rendered Lard | Sewer Delta | 25.8 | 32.7 |
+| Glacier Works Tempered | Miser | Glacier Works | Thermite Slurry, Rendered Lard | Sewer Delta | 26.0 | 32.4 |
+| Slow Cooker Slick | Miser | Slow Cooker | Rendered Lard, Fryer Oil | Fungal Bog | 30.3 | 33.2 |
+| Slow Cooker Heat Sink | Miser | Slow Cooker | Thermite Slurry, Rendered Lard | Fungal Bog | 26.6 | 32.6 |
+| Bandolier Tar Pit | Juggler | Bandolier | Swamp Napalm, Thermite Slurry, Ion Gel | Scrap Mountain | 23.3 | 33.3 |
+| Bandolier Spray | Juggler | Bandolier | Thermite Slurry, Swamp Napalm, Rocket Hooch | Scrap Mountain | 22.4 | 29.4 |
+| Last Call Fried Stiff | Juggler | Last Call | Fryer Oil, Rocket Hooch, Thermite Slurry | Dead Drive-In | 23.5 | 30.7 |
+| Last Call Critical Mass | Juggler | Last Call | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 20.6 | 26.0 |
+| Moonshine Run Slick | Juggler | Moonshine Run | Rendered Lard, Rocket Hooch, Thermite Slurry | Dead Drive-In | 23.6 | 33.4 |
+| Moonshine Run Radiation Sickness | Juggler | Moonshine Run | Rad Syrup, Rocket Hooch, Thermite Slurry | Dead Drive-In | 22.5 | 31.1 |
+| Potluck Fried Stiff | Juggler | Potluck | Fryer Oil, Rendered Lard, Thermite Slurry | Bloat Marsh | 25.7 | 30.3 |
+| Potluck Rocket Vent | Juggler | Potluck | Rocket Hooch, Swamp Napalm, Thermite Slurry | Bloat Marsh | 28.2 | 28.5 |
+| Test Kitchen Fried Stiff | Juggler | Test Kitchen | Fryer Oil, Rocket Hooch, Thermite Slurry | The Food Court | 26.6 | 33.6 |
+| Test Kitchen Dirty Bomb | Juggler | Test Kitchen | Rad Syrup, Rocket Hooch, Thermite Slurry | The Food Court | 23.8 | 31.1 |
 
 ### Fry Station Fried Stiff
 **Brawler** (up close and in the crowd, Deep Fryer). "Golden brown and going nowhere." Get close, get them battered, and sell what's left by the crate. This one runs Fryer Oil and is built around the Batter Mitt.
@@ -1271,7 +1271,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Deep Fryer pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.1 at T4, 31.3 at T5.
+**Set:** 5 Deep Fryer pieces. **Fuels:** Fryer Oil, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 32.1 at T4, 35.5 at T5.
 
 **The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +5.4 threat.
 
@@ -1294,9 +1294,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Deep Fryer pieces. **Fuels:** Rendered Lard, Fryer Oil. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.0 at T4, 31.3 at T5.
+**Set:** 5 Deep Fryer pieces. **Fuels:** Rendered Lard, Fryer Oil. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 33.6 at T4, 37.0 at T5.
 
-**The exotic:** Schmaltz Aorta (the exotic Rendered Lard fuel line III, in the fuel line slot). RENDERING: Lard bites armor at x2 and shields at x1. A mutant that dies with Lard on it puts fuel back in the tank, more from a big one. Lab: +4.6 threat.
+**The exotic:** Schmaltz Aorta (the exotic Rendered Lard fuel line III, in the fuel line slot). RENDERING: Lard bites armor at x2 and shields at x1. A mutant that dies with Lard on it puts fuel back in the tank, more from a big one. Lab: +6.1 threat.
 
 ### Grease Monkey Ferment
 **Brawler** (up close and in the crowd, Grease Fire). "Aged in the tank. Bites through plating." It starts as a spill and ends as a block party. Every kill is the next one's fuse. This one runs Swamp Napalm and is built around the Swamp-King Altar.
@@ -1317,9 +1317,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Grease Fire pieces. **Fuels:** Swamp Napalm, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smokehouse Outskirts. **Lab:** threat 27.5 at T4, 29.4 at T5.
+**Set:** 5 Grease Fire pieces. **Fuels:** Swamp Napalm, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smokehouse Outskirts. **Lab:** threat 31.2 at T4, 32.5 at T5.
 
-**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +2.6 threat.
+**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +3.0 threat.
 
 ### Grease Monkey Heat Sink
 **Brawler** (up close and in the crowd, Grease Fire). "Burns its own fever." It starts as a spill and ends as a block party. Every kill is the next one's fuse. This one runs Thermite Slurry and is built around the Forge-Heart Altar.
@@ -1340,14 +1340,14 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Grease Fire pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smokehouse Outskirts. **Lab:** threat 26.2 at T4, 28.1 at T5.
+**Set:** 5 Grease Fire pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smokehouse Outskirts. **Lab:** threat 27.8 at T4, 32.2 at T5.
 
-**The exotic:** Forge-Heart Altar (the exotic Thermite Slurry tank chassis III, in the tank chassis slot). HEAT SINK: Above half heat Thermite burns the gun's heat instead of fuel, and hits +50%. Lab: +1.2 threat.
+**The exotic:** Forge-Heart Altar (the exotic Thermite Slurry tank chassis III, in the tank chassis slot). HEAT SINK: Above half heat Thermite burns the gun's heat instead of fuel, and hits +50%. Lab: +3.7 threat.
 
 ### Oven Mitts Greased Feed
 **Brawler** (up close and in the crowd, Oven Mitts). "It coughs. Stand clear." Lets you handle the hot ones. Recommended for close company. This one runs Rendered Lard and is built around the Schmaltz Altar.
 
-- Oven Mitts set, five pieces: The pig heals 1 HP each time the threat level rises; COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you; SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck.
+- Oven Mitts set, five pieces: The pig heals 1 HP each time the threat level rises; COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you, at most one every 3 s. A boss carrying them misses three bites in five; SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck.
 - Feeding Frenzy keystone (nozzle): A kill streak: every kill adds +10% to all your stacks (an elite counts five), up to +250%. A wide nozzle: cone +80%. After 2 s without a kill the streak drains, four kills' worth a second.
 - Schmaltz Altar, the exotic (chassis): GREASED FEED. Every 4 s the feed coughs grease over the cone: 12 Lard stacks, a 0.25 s stun and a 60% slow for 3 s.
 - Rendered Lard runs cool and sticks to flesh. With it, Thermite Slurry. Home: the Rust Flats.
@@ -1363,14 +1363,14 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Oven Mitts pieces. **Fuels:** Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Rust Flats. **Lab:** threat 28.0 at T4, 30.3 at T5.
+**Set:** 5 Oven Mitts pieces. **Fuels:** Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Rust Flats. **Lab:** threat 28.5 at T4, 29.7 at T5.
 
-**The exotic:** Schmaltz Altar (the exotic Rendered Lard tank chassis III, in the tank chassis slot). GREASED FEED: Every 4 s the feed coughs grease over the cone: 12 Lard stacks, a 0.25 s stun and a 60% slow for 3 s. Lab: +1.0 threat.
+**The exotic:** Schmaltz Altar (the exotic Rendered Lard tank chassis III, in the tank chassis slot). GREASED FEED: Every 4 s the feed coughs grease over the cone: 12 Lard stacks, a 0.25 s stun and a 60% slow for 3 s. Lab: +1.1 threat.
 
 ### Oven Mitts Radiation Sickness
 **Brawler** (up close and in the crowd, Oven Mitts). "They slow down. You don't." Lets you handle the hot ones. Recommended for close company. This one runs Rad Syrup and is built around the Half-Life Altar.
 
-- Oven Mitts set, five pieces: The pig heals 1 HP each time the threat level rises; COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you; SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck.
+- Oven Mitts set, five pieces: The pig heals 1 HP each time the threat level rises; COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you, at most one every 3 s. A boss carrying them misses three bites in five; SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck.
 - Feeding Frenzy keystone (nozzle): A kill streak: every kill adds +10% to all your stacks (an elite counts five), up to +250%. A wide nozzle: cone +80%. After 2 s without a kill the streak drains, four kills' worth a second.
 - Half-Life Altar, the exotic (chassis): RADIATION SICKNESS. From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%.
 - Rad Syrup hits harder the longer it clings. With it, Thermite Slurry. Home: the Rust Flats.
@@ -1386,9 +1386,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Oven Mitts pieces. **Fuels:** Rad Syrup, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Rust Flats. **Lab:** threat 27.5 at T4, 30.5 at T5.
+**Set:** 5 Oven Mitts pieces. **Fuels:** Rad Syrup, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Rust Flats. **Lab:** threat 25.1 at T4, 28.9 at T5.
 
-**The exotic:** Half-Life Altar (the exotic Rad Syrup tank chassis III, in the tank chassis slot). RADIATION SICKNESS: From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%. Lab: +1.1 threat.
+**The exotic:** Half-Life Altar (the exotic Rad Syrup tank chassis III, in the tank chassis slot). RADIATION SICKNESS: From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%. Lab: +3.9 threat.
 
 ### Whole Hog Ferment
 **Brawler** (up close and in the crowd, Whole Hog). "Aged in the tank. Bites through plating." Uses every part of the mutant, and then the next mutant. This one runs Swamp Napalm and is built around the Swamp-King Altar.
@@ -1409,9 +1409,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Whole Hog pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.2 at T4, 32.8 at T5.
+**Set:** 5 Whole Hog pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 32.3 at T4, 33.8 at T5.
 
-**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +4.0 threat.
+**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +2.0 threat.
 
 ### Whole Hog Cracked Open
 **Brawler** (up close and in the crowd, Whole Hog). "Opens with a bang." Uses every part of the mutant, and then the next mutant. This one runs Thermite Slurry and is built around the Crucible Sieve.
@@ -1432,14 +1432,14 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Vent Cowl |
 
-**Set:** 5 Whole Hog pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.6 at T4, 32.1 at T5.
+**Set:** 5 Whole Hog pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** The Flesh Farms. **Lab:** threat 28.6 at T4, 31.9 at T5.
 
-**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +5.1 threat.
+**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +1.1 threat.
 
 ### Meltdown Kick
 **Lancer** (long reach, one target at a time, Meltdown). "Mind the recoil. They won't." Long barrel, short temper. Two fuels meet on one mutant and the argument is loud. This one runs Rocket Hooch and is built around the Rocket Altar.
 
-- Meltdown set, five pieces: Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px; Elites and bosses take +25% more from every fuel; CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn. Five pieces: LONG SHOT.
+- Meltdown set, five pieces: Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px; Elites and bosses take +25% more from every fuel, and every stack the gun lands on them hits twice as hard; CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn. Five pieces: LONG SHOT.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Toxic and Hellmouth do nothing (burn duration still counts: a longer burn lands more).
 - Rocket Altar, the exotic (chassis): KICK. Every 50 units of Hooch the tank kicks: everything in the cone takes 36 extra stacks and a 0.4 s stun.
 - Rocket Hooch burns hot, short and against everything. With it, Ion Gel. Home: the Reactor Row.
@@ -1455,16 +1455,16 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Meltdown pieces. **Fuels:** Rocket Hooch, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Reactor Row. **Lab:** threat 25.3 at T4, 28.9 at T5.
+**Set:** 5 Meltdown pieces. **Fuels:** Rocket Hooch, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Reactor Row. **Lab:** threat 26.9 at T4, 31.5 at T5.
 
-**The exotic:** Rocket Altar (the exotic Rocket Hooch tank chassis III, in the tank chassis slot). KICK: Every 50 units of Hooch the tank kicks: everything in the cone takes 36 extra stacks and a 0.4 s stun. Lab: +1.7 threat.
+**The exotic:** Rocket Altar (the exotic Rocket Hooch tank chassis III, in the tank chassis slot). KICK: Every 50 units of Hooch the tank kicks: everything in the cone takes 36 extra stacks and a 0.4 s stun. Lab: +3.2 threat.
 
-### Meltdown Overload
-**Lancer** (long reach, one target at a time, Meltdown). "One shield goes and nobody moves." Long barrel, short temper. Two fuels meet on one mutant and the argument is loud. This one runs Ion Gel and is built around the Capacitor Sieve.
+### Meltdown Pulse
+**Lancer** (long reach, one target at a time, Meltdown). "Hold. Hold. Now." Long barrel, short temper. Two fuels meet on one mutant and the argument is loud. This one runs Ion Gel and is built around the Capacitor Bellows.
 
-- Meltdown set, five pieces: Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px; Elites and bosses take +25% more from every fuel; CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn. Five pieces: LONG SHOT.
+- Meltdown set, five pieces: Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px; Elites and bosses take +25% more from every fuel, and every stack the gun lands on them hits twice as hard; CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn. Five pieces: LONG SHOT.
 - Can Opener keystone (fuel line): Shields, armor and health all take your fuel's best multiplier, and 30% more: whatever the fuel is good against, it is good against everything. It takes the fuel line's slot: no line lane's benefit.
-- Capacitor Sieve, the exotic (filter): OVERLOAD. A shield Ion Gel pops stuns everything within 110 px for 1 s, and that mutant takes +100% from everything for 4 s.
+- Capacitor Bellows, the exotic (pump): PULSE. Ion Gel charges for 2 s and fires it all at once in a double cone at +150%, with a half-second stun.
 - Ion Gel pops shields. With it, Rocket Hooch. Home: the Reactor Row.
 - The pieces sit on: Lance nozzle (Range x1.2, +40% burn duration, and +110% on what stands beyond the long-range line (450 px)), Saddle Tank chassis (One mount with +200% capacity and +200% regen), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Stoker igniter (Each stack on a mutant past its 10th adds +0.8% to all its stacks (up to +20%)), Distiller filter (Stack damage x1.5), Heatsink shroud (Cooling x1.6).
 
@@ -1478,9 +1478,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Meltdown pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Reactor Row. **Lab:** threat 26.7 at T4, 30.9 at T5.
+**Set:** 5 Meltdown pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Reactor Row. **Lab:** threat 29.7 at T4, 31.8 at T5.
 
-**The exotic:** Capacitor Sieve (the exotic Ion Gel filter II, in the filter slot). OVERLOAD: A shield Ion Gel pops stuns everything within 110 px for 1 s, and that mutant takes +100% from everything for 4 s. Lab: +2.6 threat.
+**The exotic:** Capacitor Bellows (the exotic Ion Gel pump II, in the pump slot). PULSE: Ion Gel charges for 2 s and fires it all at once in a double cone at +150%, with a half-second stun. Lab: +2.2 threat.
 
 ### Nutcracker Static Field
 **Lancer** (long reach, one target at a time, Nutcracker). "Keep your distance. It insists." For the customer whose problems wear plating. This one runs Ion Gel and is built around the Static Mitt.
@@ -1501,9 +1501,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Nutcracker pieces. **Fuels:** Ion Gel, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Tank Graveyard. **Lab:** threat 25.8 at T4, 28.5 at T5.
+**Set:** 5 Nutcracker pieces. **Fuels:** Ion Gel, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Tank Graveyard. **Lab:** threat 23.1 at T4, 29.6 at T5.
 
-**The exotic:** Static Mitt (the exotic Ion Gel shroud & grip I, in the shroud & grip slot). STATIC FIELD: Every 2.5 s, 35 Ion stacks and a 1.5 s stun on everything within 300 px of the pig. Lab: +1.2 threat.
+**The exotic:** Static Mitt (the exotic Ion Gel shroud & grip I, in the shroud & grip slot). STATIC FIELD: Every 2.5 s, 35 Ion stacks and a 1.5 s stun on everything within 300 px of the pig. Lab: +1.4 threat.
 
 ### Nutcracker Lance
 **Lancer** (long reach, one target at a time, Nutcracker). "Thin, long and straight through." For the customer whose problems wear plating. This one runs Thermite Slurry and is built around the Forge-Heart Throat.
@@ -1524,16 +1524,16 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Nutcracker pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Tank Graveyard. **Lab:** threat 27.4 at T4, 29.0 at T5.
+**Set:** 5 Nutcracker pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Tank Graveyard. **Lab:** threat 22.8 at T4, 32.7 at T5.
 
-**The exotic:** Forge-Heart Throat (the exotic Thermite Slurry nozzle III, in the nozzle slot). LANCE: The cone narrows to 67% of its width and reaches 40% further; everything in the line takes +60%, and its armor x3.5. Lab: +0.9 threat.
+**The exotic:** Forge-Heart Throat (the exotic Thermite Slurry nozzle III, in the nozzle slot). LANCE: The cone narrows to 67% of its width and reaches 40% further; everything in the line takes +60%, and its armor x3.5. Lab: +4.1 threat.
 
-### Coilworks Fireball
-**Lancer** (long reach, one target at a time, Tesla Coilworks). "Goes up. Takes the neighbours." Stand well back. It prefers to work from across the yard. This one runs Rocket Hooch and is built around the Rocket Throat.
+### Coilworks Kick
+**Lancer** (long reach, one target at a time, Tesla Coilworks). "Mind the recoil. They won't." Stand well back. It prefers to work from across the yard. This one runs Rocket Hooch and is built around the Rocket Altar.
 
-- Tesla Coilworks set, five pieces: +30% vs shields; Breaking a shield stuns for 1 s; ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. Five pieces: LONG SHOT.
+- Tesla Coilworks set, five pieces: +30% vs shields; Breaking a shield stuns for 1 s; ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. A link with no mutant to jump to arcs back onto the one that was hit, at half strength. Five pieces: LONG SHOT.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Toxic and Hellmouth do nothing (burn duration still counts: a longer burn lands more).
-- Rocket Throat, the exotic (nozzle): FIREBALL. A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px.
+- Rocket Altar, the exotic (chassis): KICK. Every 50 units of Hooch the tank kicks: everything in the cone takes 36 extra stacks and a 0.4 s stun.
 - Rocket Hooch burns hot, short and against everything. With it, Ion Gel. Home: the Glow Crater.
 - The pieces sit on: Capillary fuel line (+35% stack damage, -20% heat), Lance nozzle (Range x1.2, +40% burn duration, and +110% on what stands beyond the long-range line (450 px)), Saddle Tank chassis (One mount with +200% capacity and +200% regen), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Distiller filter (Stack damage x1.5), Heatsink shroud (Cooling x1.6).
 
@@ -1547,14 +1547,14 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Tesla Coilworks pieces. **Fuels:** Rocket Hooch, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Glow Crater. **Lab:** threat 25.3 at T4, 28.7 at T5.
+**Set:** 5 Tesla Coilworks pieces. **Fuels:** Rocket Hooch, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Glow Crater. **Lab:** threat 26.9 at T4, 32.2 at T5.
 
-**The exotic:** Rocket Throat (the exotic Rocket Hooch nozzle III, in the nozzle slot). FIREBALL: A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px. Lab: +0.7 threat.
+**The exotic:** Rocket Altar (the exotic Rocket Hooch tank chassis III, in the tank chassis slot). KICK: Every 50 units of Hooch the tank kicks: everything in the cone takes 36 extra stacks and a 0.4 s stun. Lab: +3.5 threat.
 
 ### Coilworks EMP
 **Lancer** (long reach, one target at a time, Tesla Coilworks). "Pop one bubble, pop the room." Stand well back. It prefers to work from across the yard. This one runs Ion Gel and is built around the Storm Crown.
 
-- Tesla Coilworks set, five pieces: +30% vs shields; Breaking a shield stuns for 1 s; ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. Five pieces: LONG SHOT.
+- Tesla Coilworks set, five pieces: +30% vs shields; Breaking a shield stuns for 1 s; ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. A link with no mutant to jump to arcs back onto the one that was hit, at half strength. Five pieces: LONG SHOT.
 - Can Opener keystone (fuel line): Shields, armor and health all take your fuel's best multiplier, and 30% more: whatever the fuel is good against, it is good against everything. It takes the fuel line's slot: no line lane's benefit.
 - Storm Crown, the exotic (igniter): EMP. A shield Ion Gel pops deals 40% of what it held to everything within 150 px, shields first.
 - Ion Gel pops shields. With it, Rocket Hooch. Home: the Glow Crater.
@@ -1570,9 +1570,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Tesla Coilworks pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Glow Crater. **Lab:** threat 28.6 at T4, 31.7 at T5.
+**Set:** 5 Tesla Coilworks pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Glow Crater. **Lab:** threat 29.4 at T4, 31.9 at T5.
 
-**The exotic:** Storm Crown (the exotic Ion Gel igniter III, in the igniter slot; the fuel becomes EMP Gel). EMP: A shield Ion Gel pops deals 40% of what it held to everything within 150 px, shields first. Lab: +3.1 threat.
+**The exotic:** Storm Crown (the exotic Ion Gel igniter III, in the igniter slot; the fuel becomes EMP Gel). EMP: A shield Ion Gel pops deals 40% of what it held to everything within 150 px, shields first. Lab: +0.9 threat.
 
 ### Boiler Room Fireball
 **Furnace** (runs hot and holds the trigger, Boiler Room). "Goes up. Takes the neighbours." Runs at a temperature the warranty calls 'ambitious' and likes it there. This one runs Rocket Hooch and is built around the Rocket Throat.
@@ -1593,9 +1593,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Fever Grip (keystone) |
 
-**Set:** 5 Boiler Room pieces. **Fuels:** Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 25.0 at T4, 27.2 at T5.
+**Set:** 5 Boiler Room pieces. **Fuels:** Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 23.4 at T4, 29.7 at T5.
 
-**The exotic:** Rocket Throat (the exotic Rocket Hooch nozzle III, in the nozzle slot). FIREBALL: A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px. Lab: +1.3 threat.
+**The exotic:** Rocket Throat (the exotic Rocket Hooch nozzle III, in the nozzle slot). FIREBALL: A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px. Lab: +1.0 threat.
 
 ### Boiler Room Rendering
 **Furnace** (runs hot and holds the trigger, Boiler Room). "Nothing goes to waste, least of all them." Runs at a temperature the warranty calls 'ambitious' and likes it there. This one runs Rendered Lard and is built around the Schmaltz Aorta.
@@ -1616,9 +1616,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Fever Grip (keystone) |
 
-**Set:** 5 Boiler Room pieces. **Fuels:** Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 25.3 at T4, 27.8 at T5.
+**Set:** 5 Boiler Room pieces. **Fuels:** Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 28.1 at T4, 31.1 at T5.
 
-**The exotic:** Schmaltz Aorta (the exotic Rendered Lard fuel line III, in the fuel line slot). RENDERING: Lard bites armor at x2 and shields at x1. A mutant that dies with Lard on it puts fuel back in the tank, more from a big one. Lab: +6.0 threat.
+**The exotic:** Schmaltz Aorta (the exotic Rendered Lard fuel line III, in the fuel line slot). RENDERING: Lard bites armor at x2 and shields at x1. A mutant that dies with Lard on it puts fuel back in the tank, more from a big one. Lab: +8.6 threat.
 
 ### Hellmouth Fireball
 **Furnace** (runs hot and holds the trigger, Hellmouth). "Goes up. Takes the neighbours." Found, not made. It wants the trigger held and it does not explain itself. This one runs Rocket Hooch and is built around the Rocket Throat.
@@ -1639,9 +1639,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Fever Grip (keystone) |
 
-**Set:** 5 Hellmouth pieces. **Fuels:** Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Junk Bazaar. **Lab:** threat 29.4 at T4, 35.6 at T5.
+**Set:** 5 Hellmouth pieces. **Fuels:** Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Junk Bazaar. **Lab:** threat 29.1 at T4, 35.0 at T5.
 
-**The exotic:** Rocket Throat (the exotic Rocket Hooch nozzle III, in the nozzle slot). FIREBALL: A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px. Lab: +5.5 threat.
+**The exotic:** Rocket Throat (the exotic Rocket Hooch nozzle III, in the nozzle slot). FIREBALL: A mutant that dies with Hooch on it goes up: x0.75 of what its Hooch had left lands on everything within 90 px. Lab: +2.6 threat.
 
 ### Hellmouth Tar Pit
 **Furnace** (runs hot and holds the trigger, Hellmouth). "They check in. They don't check out." Found, not made. It wants the trigger held and it does not explain itself. This one runs Swamp Napalm and is built around the Bog Mitt.
@@ -1662,9 +1662,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Double Distill (keystone) |
 | Shroud & Grip | Insulated |
 
-**Set:** 5 Hellmouth pieces. **Fuels:** Swamp Napalm, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** The Junk Bazaar. **Lab:** threat 26.4 at T4, 26.5 at T5.
+**Set:** 5 Hellmouth pieces. **Fuels:** Swamp Napalm, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** The Junk Bazaar. **Lab:** threat 28.4 at T4, 30.9 at T5.
 
-**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +3.5 threat.
+**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +8.3 threat.
 
 ### Hot Plate Seeps Through
 **Furnace** (runs hot and holds the trigger, Hot Plate). "Shells are a suggestion." A little heat under everything, all the time. This one runs Swamp Napalm and is built around the Jelly Sieve.
@@ -1685,16 +1685,16 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Fever Grip (keystone) |
 
-**Set:** 5 Hot Plate pieces. **Fuels:** Swamp Napalm, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 30.5 at T4, 34.4 at T5.
+**Set:** 5 Hot Plate pieces. **Fuels:** Swamp Napalm, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 32.8 at T4, 33.3 at T5.
 
-**The exotic:** Jelly Sieve (the exotic Swamp Napalm filter II, in the filter slot). SEEPS THROUGH: Under a shield or armor, Napalm burns the health beneath at x1.5. On bare health it hits +80%. Lab: +10.8 threat.
+**The exotic:** Jelly Sieve (the exotic Swamp Napalm filter II, in the filter slot). SEEPS THROUGH: Under a shield or armor, Napalm burns the health beneath at x1.5. On bare health it hits +80%. Lab: +10.1 threat.
 
-### Hot Plate Cracked Open
-**Furnace** (runs hot and holds the trigger, Hot Plate). "Opens with a bang." A little heat under everything, all the time. This one runs Thermite Slurry and is built around the Crucible Sieve.
+### Hot Plate Lance
+**Furnace** (runs hot and holds the trigger, Hot Plate). "Thin, long and straight through." A little heat under everything, all the time. This one runs Thermite Slurry and is built around the Forge-Heart Throat.
 
 - Hot Plate set, five pieces: The far end of your flame leaves a burning patch (4 s): 32 stacks a second on mutants in it; The patch burns 64 stacks a second and slows mutants on it 30%; FIREBREAK: 96 stacks a second, and patches that touch last as long as any one is fed.
 - Fever Grip keystone (shroud): +25% stack damage per 5% heat, and heat cap +40%. A lockout at 100% heat lasts twice as long.
-- Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s.
+- Forge-Heart Throat, the exotic (nozzle): LANCE. The cone narrows to 67% of its width and reaches 40% further; everything in the line takes +60%, and its armor x3.5.
 - Thermite Slurry runs hot and eats armor. With it, Rocket Hooch. Home: the Smelter Pits.
 - The pieces sit on: Spool-Up Coil fuel line (Flow climbs from x0.6 to x1.6 over 3 s of held fire), Bloom nozzle (Cone x2, +220% stack damage within 280 px, -20% heat), Saddle Tank chassis (One mount with +200% capacity and +200% regen), Booster pump (Pressure x1.5, +10% range), Smoulder igniter (Burn duration x1.6), Distiller filter (Stack damage x1.5).
 
@@ -1708,9 +1708,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Distiller |
 | Shroud & Grip | Fever Grip (keystone) |
 
-**Set:** 5 Hot Plate pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 26.0 at T4, 28.2 at T5.
+**Set:** 5 Hot Plate pieces. **Fuels:** Thermite Slurry, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Smelter Pits. **Lab:** threat 28.6 at T4, 30.7 at T5.
 
-**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +1.9 threat.
+**The exotic:** Forge-Heart Throat (the exotic Thermite Slurry nozzle III, in the nozzle slot). LANCE: The cone narrows to 67% of its width and reaches 40% further; everything in the line takes +60%, and its armor x3.5. Lab: +1.7 threat.
 
 ### Walk-In Freezer Static Field
 **Miser** (cheap fuel, long burns, cool head, Walk-In Freezer). "Keep your distance. It insists." Everything in the yard, kept at a brisk standstill. This one runs Ion Gel and is built around the Static Mitt.
@@ -1731,9 +1731,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Walk-In Freezer pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Static Fields. **Lab:** threat 29.3 at T4, 37.0 at T5.
+**Set:** 5 Walk-In Freezer pieces. **Fuels:** Ion Gel, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Static Fields. **Lab:** threat 33.1 at T4, 35.4 at T5.
 
-**The exotic:** Static Mitt (the exotic Ion Gel shroud & grip I, in the shroud & grip slot). STATIC FIELD: Every 2.5 s, 35 Ion stacks and a 1.5 s stun on everything within 300 px of the pig. Lab: +5.9 threat.
+**The exotic:** Static Mitt (the exotic Ion Gel shroud & grip I, in the shroud & grip slot). STATIC FIELD: Every 2.5 s, 35 Ion stacks and a 1.5 s stun on everything within 300 px of the pig. Lab: +3.7 threat.
 
 ### Walk-In Freezer Tar Pit
 **Miser** (cheap fuel, long burns, cool head, Walk-In Freezer). "They check in. They don't check out." Everything in the yard, kept at a brisk standstill. This one runs Swamp Napalm and is built around the Bog Mitt.
@@ -1754,9 +1754,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Walk-In Freezer pieces. **Fuels:** Swamp Napalm, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Static Fields. **Lab:** threat 29.6 at T4, 36.2 at T5.
+**Set:** 5 Walk-In Freezer pieces. **Fuels:** Swamp Napalm, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Static Fields. **Lab:** threat 31.8 at T4, 36.9 at T5.
 
-**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +4.8 threat.
+**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +5.6 threat.
 
 ### Glacier Works Ferment
 **Miser** (cheap fuel, long burns, cool head, Glacier Works). "Aged in the tank. Bites through plating." A cool head, a full tank and all the time in the world. This one runs Swamp Napalm and is built around the Swamp-King Altar.
@@ -1777,16 +1777,16 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Glacier Works pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Sewer Delta. **Lab:** threat 26.6 at T4, 29.2 at T5.
+**Set:** 5 Glacier Works pieces. **Fuels:** Swamp Napalm, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Sewer Delta. **Lab:** threat 25.8 at T4, 32.7 at T5.
 
-**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +1.8 threat.
+**The exotic:** Swamp-King Altar (the exotic Swamp Napalm tank chassis III, in the tank chassis slot). FERMENT: Napalm ferments in the tank into acid: it bites shields and armor at x1.3. Lab: +1.4 threat.
 
-### Glacier Works Cracked Open
-**Miser** (cheap fuel, long burns, cool head, Glacier Works). "Opens with a bang." A cool head, a full tank and all the time in the world. This one runs Thermite Slurry and is built around the Crucible Sieve.
+### Glacier Works Tempered
+**Miser** (cheap fuel, long burns, cool head, Glacier Works). "Every plate it melts sharpens the next shot." A cool head, a full tank and all the time in the world. This one runs Thermite Slurry and is built around the Slag Mitt.
 
 - Glacier Works set, five pieces: The gun cools 50% faster; Burning mutants slow 30%; COLD START: Pent-Up without the behavior (+60% a second idle, up to +200%), twice as fast with it; +40% stack damage. Five pieces: SECOND HELPING.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Toxic and Hellmouth do nothing (burn duration still counts: a longer burn lands more).
-- Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s.
+- Slag Mitt, the exotic (shroud): TEMPERED. Each armor Thermite breaks makes the next 160 units of any fuel hit +220%.
 - Thermite Slurry runs hot and eats armor. With it, Rendered Lard. Home: the Sewer Delta.
 - The pieces sit on: Capillary fuel line (+35% stack damage, -20% heat), Fan nozzle (Cone x1.5, and +90% on every stack (a plain bonus, outside the stack damage cap)), Saddle Tank chassis (One mount with +200% capacity and +200% regen), Siphon pump (The active tank refills at its full idle rate while firing; +10% range), Coarse Mesh filter (20% of units cost no fuel), Heatsink shroud (Cooling x1.6).
 
@@ -1800,9 +1800,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Glacier Works pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Sewer Delta. **Lab:** threat 26.5 at T4, 30.2 at T5.
+**Set:** 5 Glacier Works pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Sewer Delta. **Lab:** threat 26.0 at T4, 32.4 at T5.
 
-**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +3.7 threat.
+**The exotic:** Slag Mitt (the exotic Thermite Slurry shroud & grip I, in the shroud & grip slot). TEMPERED: Each armor Thermite breaks makes the next 160 units of any fuel hit +220%. Lab: +6.6 threat.
 
 ### Slow Cooker Slick
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Everything it touches loses its footing." Set it, forget it, come back to dinner. Nothing here is in a hurry. This one runs Rendered Lard and is built around the Tallow Mitt.
@@ -1823,9 +1823,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Slow Cooker pieces. **Fuels:** Rendered Lard, Fryer Oil. **Affixes:** Potent, Recycling, Sticky. **Home:** Fungal Bog. **Lab:** threat 26.8 at T4, 30.4 at T5.
+**Set:** 5 Slow Cooker pieces. **Fuels:** Rendered Lard, Fryer Oil. **Affixes:** Potent, Recycling, Sticky. **Home:** Fungal Bog. **Lab:** threat 30.3 at T4, 33.2 at T5.
 
-**The exotic:** Tallow Mitt (the exotic Rendered Lard shroud & grip I, in the shroud & grip slot). SLICK: Whatever the gun hits, with any fuel, is slick for 2 s: slowed 50%, and it takes +30% from everything. Lab: +3.4 threat.
+**The exotic:** Tallow Mitt (the exotic Rendered Lard shroud & grip I, in the shroud & grip slot). SLICK: Whatever the gun hits, with any fuel, is slick for 2 s: slowed 50%, and it takes +30% from everything. Lab: +1.3 threat.
 
 ### Slow Cooker Heat Sink
 **Miser** (cheap fuel, long burns, cool head, Slow Cooker). "Burns its own fever." Set it, forget it, come back to dinner. Nothing here is in a hurry. This one runs Thermite Slurry and is built around the Forge-Heart Altar.
@@ -1846,9 +1846,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Coarse Mesh |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Slow Cooker pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Fungal Bog. **Lab:** threat 26.8 at T4, 31.1 at T5.
+**Set:** 5 Slow Cooker pieces. **Fuels:** Thermite Slurry, Rendered Lard. **Affixes:** Potent, Recycling, Sticky. **Home:** Fungal Bog. **Lab:** threat 26.6 at T4, 32.6 at T5.
 
-**The exotic:** Forge-Heart Altar (the exotic Thermite Slurry tank chassis III, in the tank chassis slot). HEAT SINK: Above half heat Thermite burns the gun's heat instead of fuel, and hits +50%. Lab: +4.3 threat.
+**The exotic:** Forge-Heart Altar (the exotic Thermite Slurry tank chassis III, in the tank chassis slot). HEAT SINK: Above half heat Thermite burns the gun's heat instead of fuel, and hits +50%. Lab: +4.4 threat.
 
 ### Bandolier Tar Pit
 **Juggler** (many tanks, many swaps, Bandolier). "They check in. They don't check out." Why choose a fuel? Wear all of them and let the mutants sort it out. This one runs Swamp Napalm and is built around the Bog Mitt.
@@ -1869,17 +1869,17 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Bandolier pieces. **Fuels:** Swamp Napalm, Thermite Slurry, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Scrap Mountain. **Lab:** threat 23.3 at T4, 27.2 at T5.
+**Set:** 5 Bandolier pieces. **Fuels:** Swamp Napalm, Thermite Slurry, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Scrap Mountain. **Lab:** threat 23.3 at T4, 33.3 at T5.
 
-**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +2.5 threat.
+**The exotic:** Bog Mitt (the exotic Swamp Napalm shroud & grip I, in the shroud & grip slot). TAR PIT: Napalm slows 6% a stack, up to 55%. A mutant at the cap is stuck: every other hit it throws at the pig does nothing. Lab: +10.5 threat.
 
-### Bandolier Cracked Open
-**Juggler** (many tanks, many swaps, Bandolier). "Opens with a bang." Why choose a fuel? Wear all of them and let the mutants sort it out. This one runs Thermite Slurry and is built around the Crucible Sieve.
+### Bandolier Spray
+**Juggler** (many tanks, many swaps, Bandolier). "One tin can opens the rest." Why choose a fuel? Wear all of them and let the mutants sort it out. This one runs Thermite Slurry and is built around the Forge-Heart Crown.
 
 - Bandolier set, five pieces: +1 tank mount on any chassis (up to 4); Swapping tanks gives +50% stack damage for 3 s; QUICK DRAW: a swap within 1 s of the last costs no swap time. Five pieces: FRESH TANK.
 - Gatling Drum keystone (chassis): Each unit fires from every mounted tank at once, each applying its own fuel's stack, and every tank refills like an idle one. Drains every tank together, each unit makes double heat, and every stack lands at 60%.
-- Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s.
-- Thermite Slurry runs hot and eats armor. With it, Rocket Hooch and Ion Gel. Home: the Scrap Mountain.
+- Forge-Heart Crown, the exotic (igniter): SPRAY. Armor Thermite breaks sprays 150% of its weight onto the armor of everything within 130 px.
+- Thermite Slurry runs hot and eats armor. With it, Swamp Napalm and Rocket Hooch. Home: the Scrap Mountain.
 - The pieces sit on: Gusher fuel line (Flow x1.35), Fan nozzle (Cone x1.5, and +90% on every stack (a plain bonus, outside the stack damage cap)), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Flash igniter (+55% on every stack (a plain bonus, outside the stack damage cap)), Catalyst filter (+35% vs shields and armor), Heatsink shroud (Cooling x1.6).
 
 | Slot | Part |
@@ -1892,9 +1892,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Bandolier pieces. **Fuels:** Thermite Slurry, Rocket Hooch, Ion Gel. **Affixes:** Potent, Recycling, Sticky. **Home:** Scrap Mountain. **Lab:** threat 23.0 at T4, 26.0 at T5.
+**Set:** 5 Bandolier pieces. **Fuels:** Thermite Slurry, Swamp Napalm, Rocket Hooch. **Affixes:** Potent, Recycling, Sticky. **Home:** Scrap Mountain. **Lab:** threat 22.4 at T4, 29.4 at T5.
 
-**The exotic:** Crucible Sieve (the exotic Thermite Slurry filter II, in the filter slot). CRACKED OPEN: Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant takes +200% from everything for 6 s. Lab: +1.2 threat.
+**The exotic:** Forge-Heart Crown (the exotic Thermite Slurry igniter III, in the igniter slot; the fuel becomes Molten Slag). SPRAY: Armor Thermite breaks sprays 150% of its weight onto the armor of everything within 130 px. Lab: +4.6 threat.
 
 ### Last Call Fried Stiff
 **Juggler** (many tanks, many swaps, Last Call). "Golden brown and going nowhere." The bottom of the tank is where it does its best work. This one runs Fryer Oil and is built around the Batter Mitt.
@@ -1915,9 +1915,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Last Call pieces. **Fuels:** Fryer Oil, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 25.0 at T4, 28.7 at T5.
+**Set:** 5 Last Call pieces. **Fuels:** Fryer Oil, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 23.5 at T4, 30.7 at T5.
 
-**The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +3.1 threat.
+**The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +4.6 threat.
 
 ### Last Call Critical Mass
 **Juggler** (many tanks, many swaps, Last Call). "Sixty stacks and counting down." The bottom of the tank is where it does its best work. This one runs Rad Syrup and is built around the Half-Life Crown.
@@ -1938,9 +1938,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Last Call pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 23.8 at T4, 26.1 at T5.
+**Set:** 5 Last Call pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 20.6 at T4, 26.0 at T5.
 
-**The exotic:** Half-Life Crown (the exotic Rad Syrup igniter III, in the igniter slot; the fuel becomes Critical Mass). CRITICAL MASS: At 60 Rad stacks a mutant goes critical, once: 100% of what its Rad had left hits everything within 120 px, and each gets 15 stacks. Lab: +0.5 threat.
+**The exotic:** Half-Life Crown (the exotic Rad Syrup igniter III, in the igniter slot; the fuel becomes Critical Mass). CRITICAL MASS: At 60 Rad stacks a mutant goes critical, once: 100% of what its Rad had left hits everything within 120 px, and each gets 15 stacks. Lab: -0.1 threat.
 
 ### Moonshine Run Slick
 **Juggler** (many tanks, many swaps, Moonshine Run). "Everything it touches loses its footing." A fresh tank is a fresh start, and this one starts fresh every two seconds. This one runs Rendered Lard and is built around the Tallow Mitt.
@@ -1961,9 +1961,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Moonshine Run pieces. **Fuels:** Rendered Lard, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 26.2 at T4, 29.0 at T5.
+**Set:** 5 Moonshine Run pieces. **Fuels:** Rendered Lard, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 23.6 at T4, 33.4 at T5.
 
-**The exotic:** Tallow Mitt (the exotic Rendered Lard shroud & grip I, in the shroud & grip slot). SLICK: Whatever the gun hits, with any fuel, is slick for 2 s: slowed 50%, and it takes +30% from everything. Lab: +1.6 threat.
+**The exotic:** Tallow Mitt (the exotic Rendered Lard shroud & grip I, in the shroud & grip slot). SLICK: Whatever the gun hits, with any fuel, is slick for 2 s: slowed 50%, and it takes +30% from everything. Lab: +3.8 threat.
 
 ### Moonshine Run Radiation Sickness
 **Juggler** (many tanks, many swaps, Moonshine Run). "They slow down. You don't." A fresh tank is a fresh start, and this one starts fresh every two seconds. This one runs Rad Syrup and is built around the Half-Life Altar.
@@ -1984,9 +1984,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Moonshine Run pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 24.8 at T4, 28.1 at T5.
+**Set:** 5 Moonshine Run pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Dead Drive-In. **Lab:** threat 22.5 at T4, 31.1 at T5.
 
-**The exotic:** Half-Life Altar (the exotic Rad Syrup tank chassis III, in the tank chassis slot). RADIATION SICKNESS: From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%. Lab: +1.4 threat.
+**The exotic:** Half-Life Altar (the exotic Rad Syrup tank chassis III, in the tank chassis slot). RADIATION SICKNESS: From its first dose a mutant sickens every 2 s: 12% slower and +48% from everything each time, down to half speed and +200%. Lab: +2.4 threat.
 
 ### Potluck Fried Stiff
 **Juggler** (many tanks, many swaps, Potluck). "Golden brown and going nowhere." Everyone brings a fuel. Nobody leaves hungry. This one runs Fryer Oil and is built around the Batter Mitt.
@@ -2007,17 +2007,17 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Potluck pieces. **Fuels:** Fryer Oil, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Bloat Marsh. **Lab:** threat 28.1 at T4, 33.7 at T5.
+**Set:** 5 Potluck pieces. **Fuels:** Fryer Oil, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Bloat Marsh. **Lab:** threat 25.7 at T4, 30.3 at T5.
 
 **The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +5.7 threat.
 
-### Potluck Redline
-**Juggler** (many tanks, many swaps, Potluck). "The needle belongs in the red." Everyone brings a fuel. Nobody leaves hungry. This one runs Rocket Hooch and is built around the Moonshine Bellows.
+### Potluck Rocket Vent
+**Juggler** (many tanks, many swaps, Potluck). "Overheating is a feature now." Everyone brings a fuel. Nobody leaves hungry. This one runs Rocket Hooch and is built around the Mash Mitt.
 
 - Potluck set, five pieces: A burning mutant passes 5 stacks a second to each mutant touching it; 10 stacks a second, to mutants within 40 px; PATIENT ZERO: the mutant carrying the most stacks shares half of them each second with everything within 150 px (a shared stack isn't shared again).
 - Gatling Drum keystone (chassis): Each unit fires from every mounted tank at once, each applying its own fuel's stack, and every tank refills like an idle one. Drains every tank together, each unit makes double heat, and every stack lands at 60%.
-- Moonshine Bellows, the exotic (pump): REDLINE. Past half heat Hooch hits harder the hotter the gun: +300% at full heat. It heats the gun 25% faster.
-- Rocket Hooch burns hot, short and against everything. With it, Rendered Lard and Thermite Slurry. Home: the Bloat Marsh.
+- Mash Mitt, the exotic (shroud): ROCKET VENT. An overheat with Hooch loaded doesn't hurt: it is dumped forward as 160 stacks and a 2 s stun on everything in front, and heat drops to 30% (every 5 s).
+- Rocket Hooch burns hot, short and against everything. With it, Swamp Napalm and Thermite Slurry. Home: the Bloat Marsh.
 - The pieces sit on: Gusher fuel line (Flow x1.35), Fan nozzle (Cone x1.5, and +90% on every stack (a plain bonus, outside the stack damage cap)), Accumulator pump (Stores pressure while idle; the first 3 s of a burst fire up to +125% flow), Flash igniter (+55% on every stack (a plain bonus, outside the stack damage cap)), Catalyst filter (+35% vs shields and armor), Heatsink shroud (Cooling x1.6).
 
 | Slot | Part |
@@ -2030,9 +2030,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Potluck pieces. **Fuels:** Rocket Hooch, Rendered Lard, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Bloat Marsh. **Lab:** threat 25.8 at T4, 29.1 at T5.
+**Set:** 5 Potluck pieces. **Fuels:** Rocket Hooch, Swamp Napalm, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** Bloat Marsh. **Lab:** threat 28.2 at T4, 28.5 at T5.
 
-**The exotic:** Moonshine Bellows (the exotic Rocket Hooch pump II, in the pump slot). REDLINE: Past half heat Hooch hits harder the hotter the gun: +300% at full heat. It heats the gun 25% faster. Lab: +2.0 threat.
+**The exotic:** Mash Mitt (the exotic Rocket Hooch shroud & grip I, in the shroud & grip slot). ROCKET VENT: An overheat with Hooch loaded doesn't hurt: it is dumped forward as 160 stacks and a 2 s stun on everything in front, and heat drops to 30% (every 5 s). Lab: +0.3 threat.
 
 ### Test Kitchen Fried Stiff
 **Juggler** (many tanks, many swaps, Test Kitchen). "Golden brown and going nowhere." Two fuels walk into a mutant. The results are peer-reviewed. This one runs Fryer Oil and is built around the Batter Mitt.
@@ -2053,9 +2053,9 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Test Kitchen pieces. **Fuels:** Fryer Oil, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Food Court. **Lab:** threat 28.4 at T4, 33.1 at T5.
+**Set:** 5 Test Kitchen pieces. **Fuels:** Fryer Oil, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Food Court. **Lab:** threat 26.6 at T4, 33.6 at T5.
 
-**The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +4.6 threat.
+**The exotic:** Batter Mitt (the exotic Fryer Oil shroud & grip I, in the shroud & grip slot). FRIED STIFF: A mutant Fryer Oil touched in the last 3 s is slowed 60%. Lab: +3.4 threat.
 
 ### Test Kitchen Dirty Bomb
 **Juggler** (many tanks, many swaps, Test Kitchen). "Shares generously on the way out." Two fuels walk into a mutant. The results are peer-reviewed. This one runs Rad Syrup and is built around the Half-Life Throat.
@@ -2076,11 +2076,11 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 | Filter | Catalyst |
 | Shroud & Grip | Heatsink |
 
-**Set:** 5 Test Kitchen pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Food Court. **Lab:** threat 27.1 at T4, 30.5 at T5.
+**Set:** 5 Test Kitchen pieces. **Fuels:** Rad Syrup, Rocket Hooch, Thermite Slurry. **Affixes:** Potent, Recycling, Sticky. **Home:** The Food Court. **Lab:** threat 23.8 at T4, 31.1 at T5.
 
-**The exotic:** Half-Life Throat (the exotic Rad Syrup nozzle III, in the nozzle slot). DIRTY BOMB: A mutant that dies with Rad Syrup on it throws 34% of its stacks, at their age, and 110 fresh ones onto each of 3 mutants nearby. Lab: +2.0 threat.
+**The exotic:** Half-Life Throat (the exotic Rad Syrup nozzle III, in the nozzle slot). DIRTY BOMB: A mutant that dies with Rad Syrup on it throws 34% of its stacks, at their age, and 110 fresh ones onto each of 3 mutants nearby. Lab: +0.6 threat.
 
-*Lab results: a robot pig wearing five set pieces, the keystone and the exotic, every part at T4 (and T5 for the T5 column) Malevolent with near-perfect rolls, starting at threat 20 at the build's home map, bosses, fuel reactions and all. Your results may vary. Not a toy. Do not refuel near open flame. Do not taste the Lard. Mutants were harmed in the making of this advertisement.
+*Lab results: a robot pig wearing five set pieces, the keystone and the exotic, every part at T4 (and T5 for the T5 column) Malevolent with near-perfect rolls, starting at threat 16 at the build's home map, bosses, fuel reactions and all. Your results may vary. Not a toy. Do not refuel near open flame. Do not taste the Lard. Mutants were harmed in the making of this advertisement.
 
 ## Saves, settings and logs
 
