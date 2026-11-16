@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.70: the wiki
+# Malevolent Meat Master v0.9.71: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -2097,6 +2097,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 - Every version keeps its own saves, so updating never breaks your game. **IMPORT** brings the newest older version's save into a slot (that save itself isn't changed); the main menu also offers it while the slot in use has no progress.
 - The game saves after every change, keeping the save before as a backup. Settings has the volume, the **MUSIC** level (v0.9.18: the ambient score, two long loops: the wastes in the Smokehouse and the menu, the burn in a run, cross-fading between them; 0 turns it off), the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
 - **The small HUD** (v0.9.22): **[H]** in a run folds the stat window to icons and bars (the hearts, the shields, each tank's fuel icon and bar with the active one bright, the heat bar) and back to the full panel with its numbers and words; the choice is remembered.
+- **The damage meter** (v0.9.71): under the loot readout in a run. One bar a damage channel, the biggest on top, the top five and the rest as OTHER; each channel keeps its colour. A bar is that channel's share of the whole fight; the number beside it and the figure at the top are damage a second over the last 5 s. The thin white line in a bar is that channel's share of what bosses took. **[N]** flips between all damage and what bosses took, **[V]** between channels and fuels, **[M]** hides it and shows it, and the game remembers. The result screen shows two meters, the whole run and what bosses took, with the total and the run's average damage a second; the career log keeps each run's meter.
 - **Sounds and the score** (v0.9.18): starting the truck is an engine start (the key, the starter labouring, two coughs, the catch, the idle), and the score is synthesized from the game's own generator (tools/audio/make_audio.py), so it can be regenerated. The chef cat in the truck's serving window bobs, turns and pads back and forth behind the counter during a run.
 
 ### The BALANCE menu
