@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.75: the wiki
+# Malevolent Meat Master v0.9.76: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -1130,7 +1130,7 @@ Every automation setting is on the **8-BALL** tab. Hands are still hired where t
 - **THE HANDS** row (v0.9.18, top of 8-BALL): every hand's hire and switch in one place: the 8-Ball (hire, on / off), the chef (hire), the Overseer (hire, on / off), the High-Five Machine (once built at the cat counter; its stops are set there) and HIRE A CAT (the next in the counter's line). The Map line, the Kitchen's CHEF panel, the eye and the counter still work as shortcuts.
 
 ### Runs
-- **Where its runs start** (v0.9.11): as high as the map's START THREAT dial may go, your best there minus 3, whatever it farms. A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
+- **Where its runs start** (v0.9.76): where the build you wear lasts. The Shoggoth remembers, build by build and place by place, the threat it was last forced home at (the pig died, was hurt, or met a boss it could not stop), and the next run starts three minutes of threat under that, so a run lasts about that long. A build it has not flown there starts at what the sheet says the kit holds. Never past the map's START THREAT dial, your best there minus 3 (which is where every run started before, whatever you wore). An instruction's own start stands: a number, COMFORT, or HIGH (the dial's top, whatever you wear). A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
 - **The Shoggoth's settings** (your runs and the 8-Ball's): see Shoggoth Remote Control.
 - With a build to farm it buys that place's **targeted-loot pick** (60 favor with the place's faction) for the slot the build needs most, unless that's already today's featured slot there (PICKS). v0.9.38: the pick is for the build the run is for, and it buys none from a faction whose favor a goal on the list still has to pay (a build's exotic or set blueprints, an exotic goal's blueprint).
 - **THE WEEKLY GAUNTLET** (off at first): its first run each week is this week's Gauntlet, once you can enter it. A Gauntlet death doesn't count against it.
