@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.84: the wiki
+# Malevolent Meat Master v0.9.85: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -960,6 +960,7 @@ Reputation levels 1 to 4 need 20, 60, 150, 400 points. Three things earn it:
 ### Smoking
 - The smoker holds 40 cuts, +40 per Smoker level. In a run it cooks (time survived / 90 s) of its load; if you die, the load comes out overcooked (×0.6).
 - Between runs (and with the game closed) it smokes at 50% that speed, a batch at a time, loading itself from your sauced meat (the cuts worth most to the faction you sell to first: v0.9.18, one sell-to, the faction whose turf the truck is parked on; the MEAT panel's **SELL TO** buttons park it, and the smoker's own target picker is gone).
+- **What the smoker gets through** (v0.9.85): one load a run, however long the run lasts (the load is done after 90 s), and one load every 180 s between runs. The pots sauce far more than that once runs go deep, so sauced meat piles up; it keeps (only raw meat spoils), and the smoker always takes the cuts worth most first. Sauced cuts of the same meat share one lot now: a long career's pile had come apart into thousands of small lots, and every load of the smoker sorted them all.
 
 ### Faction contracts (v0.8.2)
 - Every faction whose turf is open and whose reputation with you is level 1 or more posts one order at a time (Kitchen, **DEALS**): its favourite cut, sauced or smoked (not overcooked) with its strongest taste at its ideal minus one or more, some of one common ingredient, and a fee. Sizes grow with your best threat T (up to 30): 30 + 4 × T cuts, 10 + 2 × T of the ingredient (no more than your Pantry holds), ◆200 × T^1.5.
