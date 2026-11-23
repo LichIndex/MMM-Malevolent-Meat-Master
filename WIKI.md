@@ -1,11 +1,11 @@
-# Malevolent Meat Master v0.9.88: the wiki
+# Malevolent Meat Master v0.9.89: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
 - [Start here](#start-here)
 - [Runs, threat and drops](#runs-threat-and-drops)
 - [The flamethrower](#the-flamethrower)
-- [Parts and loot lanes](#parts-and-loot-lanes)
+- [Parts and lanes](#parts-and-lanes)
 - [Sets](#sets)
 - [Exotic parts](#exotic-parts)
 - [Fuels and stills](#fuels-and-stills)
@@ -56,16 +56,16 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Mutant Bits | Mutants with only health; the Salvage Yard | Fuel lines, nozzles, the kitchen |
 | Chemicals | Mutants with shields; the Salvage Yard | Igniters, filters, stills |
 | Sauce ingredients | Mutants (12% a kill), cats, faction shops | Sauces |
-| Favor (a faction's) | Fighting on its turf; its contracts; its map's boss; breaking down its set's pieces; Siamese and Blue cats | Its exotic blueprints, its set's blueprints, its map's featured slot, affix and behavior re-rolls while parked there |
+| Favor (a faction's) | Fighting on its turf; its contracts; its map's boss; breaking down its set's pieces; Siamese and Blue cats | Its exotic blueprints, its set's blueprints, affix and behavior re-rolls while parked there |
 | Harry Berries | Selling the truck (a New Truck) | The Needless Complexity Emporium |
 
-**Three currencies** (v0.9.26): Energy Sprinkles, favor and Harry Berries. Blueprint Shards, Mutagen and Flux are gone: what paid Shards (set blueprints, the featured-slot pick, the third re-roll rung) costs favor with the place's or the set's faction, and what paid them (set pieces broken down, cats) pays that favor; Mutagen is **Chemicals** (10 a Mutagen: elites past threat 15 drop them, scrapping Mutated and Malevolent parts gives them, behaviors and tempers cost them); a contract's or a boss's Flux is **favor** (20 a Flux). An old save's Shards, Mutagen and Flux turn into favor and Chemicals as it loads.
+**Three currencies** (v0.9.26): Energy Sprinkles, favor and Harry Berries. Blueprint Shards, Mutagen and Flux are gone: what paid Shards (set blueprints, the third re-roll rung) costs favor with the place's or the set's faction, and what paid them (set pieces broken down, cats) pays that favor; Mutagen is **Chemicals** (10 a Mutagen: elites past threat 15 drop them, scrapping Mutated and Malevolent parts gives them, behaviors and tempers cost them); a contract's or a boss's Flux is **favor** (20 a Flux). An old save's Shards, Mutagen and Flux turn into favor and Chemicals as it loads.
 
 ### A first hour
-- **The tabs open in order with what you've done** (v0.9.20): LOADOUT and MAP from the start; **CRAFT** at your first salvage; **PRODUCTION** at your first raw meat; **REFINE** at your first Mutated part; **CREW** at your first hire; the **SHOWROOM** at threat 6; **8-BALL** when you hire the Magic 8-Ball (the Map tab's line). A line beside the tabs says what opens the next, with the note below it in its tooltip. A tab once open stays open, a link into a tab opens it, and a game with 12 runs or best threat 8 has them all (an older save loses nothing).
+- **The tabs open in order with what you've done** (v0.9.20): LOADOUT and MAP from the start; **CRAFT** at your first run that gets out (v0.9.89: it waited for a salvaged part, and since v0.9.88 nothing drops one, so a new game's CRAFT tab stayed shut until run 12 or threat 8); **PRODUCTION** at your first raw meat; **REFINE** at best threat 6, where tier 2 opens, or at your first Mutated part; **CREW** at your first hire; the **SHOWROOM** at threat 6; **8-BALL** when you hire the Magic 8-Ball (the Map tab's line). A line beside the tabs says what opens the next, with the note below it in its tooltip. A tab once open stays open, a link into a tab opens it, and a game with 12 runs or best threat 8 has them all (an older save loses nothing).
 - Fight at the **Smokehouse Outskirts**, start the truck while you're still comfortable, and bring the meat home. A short run that gets out beats a long one that doesn't.
 - Brew **Basic Rub** or **Backyard Glaze** with whatever ingredients you have, sauce the meat, and let the smoker and counter turn it into ◆.
-- Spend ◆ in the **Craft** tab on better parts, and on **armor** in the Loadout tab. Scrap the salvage you won't wear: it teaches you new lanes.
+- Build better parts in the **Craft** tab, from ◆ and what the mutants drop, and buy **armor** in the Loadout tab. Scrap a part you have outgrown: half of what went into it comes back.
 - Reach threat 3 anywhere to open the **Rust Flats**; threat 6 opens tier 2 parts.
 - Watch the heat bar. At 100% you have a choice (v0.9.25): hold on and the gun **redlines**, firing at half flow while the heat burns the pig (1 armor a second, then HP), or let go and it locks out for 2 s while it vents. A hold from cold lasts about 15 s.
 
@@ -80,7 +80,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 - Your best threat anywhere opens part tiers: T2 at 6, T3 at 12, T4 at 16, and T5 (crafted only; v0.9.28) at 24.
 
 ### Materials and recipes (v0.9.88)
-**Parts are built, materials are hunted.** No part drops any more, from anything: not from mutants, elites or bosses, not from a cat's trip, not from a stray at the counter. A run brings home **named materials**, and the Workbench builds every part from them. Where a page of this guide still talks of salvage, crates, dropped parts, the loot filter or learning a lane by scrapping, this section is the rule: the loot filter, ONLY UPGRADES, the drop queue, the stash cap and a place's featured slot are still in the menus with nothing left to do, and go in the next release.
+**Parts are built, materials are hunted.** No part drops any more, from anything: not from mutants, elites or bosses, not from a cat's trip, not from a stray at the counter. A run brings home **named materials**, and the Workbench builds every part from them. The loot filter, ONLY UPGRADES, the drop queue, the stash cap, a place's featured slot and its pick went with dropped parts (v0.9.89: out of the menus and the rules).
 
 | Material | Drops from |
 |---|---|
@@ -126,8 +126,9 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 - **Scrapping** a part gives back half of the named materials that went into it, every step to its tier.
 - **Every lane can be built from the first day.**
 
-- **A build's bill of materials.** A Showroom ad or MY BUILD on the 8-Ball's list knows what it still lacks and where each thing drops. Its plan lists the materials, the scarcest first, and the 8-Ball flies where the first one drops; when the materials are in it builds the piece (CRAFT FOR THE ORDERS, or CRAFT WHAT I CAN). The Map's place panel shows what a place drops, what you hold of it, and what your builds need from there.
-- **A keystone by name:** the 8-Ball's **A KEYSTONE** instruction (8-BALL > INSTRUCTIONS) flies for what that keystone's recipe lacks, the scarcest first, and builds it when the materials are in. **A PART HUNT** has nothing to hunt any more and says so.
+- **A build's bill of materials.** A Showroom ad or a build on the 8-Ball's list knows what it still lacks and where each thing drops. Its plan lists the materials, the scarcest first, and the 8-Ball flies where the first one drops; when the materials are in, the hands build the piece (before and after every run, or CRAFT WHAT I CAN).
+- **Where to look** (v0.9.89). **The line under the FIGHT button** says where the 8-Ball flies next and what for, as RUST FLATS · 12 BARON'S RIVET FOR THE OVEN MITTS FUEL LINE (with the 8-Ball off: where it would fly). **The Map** puts a green number on every place where something MY BUILD still lacks drops (a place's own material and trophy, and a theme's mix at every place of the theme; a mutant's material drops anywhere, so it marks none), with the list in the pin's tooltip; a place's panel shows what it drops, what you hold of it and what your builds need from there. **CRAFT > MATERIALS** lists every material: how many the truck holds, where it drops, and which builds on the list ask for it (ONLY WHAT MY BUILDS LACK shortens it). **CRAFT > KEYSTONES** lists every keystone with its recipe, what you hold toward it, and BUILD. **The result screen** says how far a run's materials bring MY BUILD.
+- **A keystone by name:** the 8-Ball's **A KEYSTONE** instruction (8-BALL > INSTRUCTIONS) flies for what that keystone's recipe lacks, the scarcest first, and builds it when the materials are in. Or build one by hand on CRAFT > KEYSTONES.
 - **The cats bring materials too:** a trip brings the place's material and its mutants' by the hour (The crew), and a stray's gift can be a material (The cat counter).
 
 ### What mutants drop
@@ -144,7 +145,7 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 | Still blueprint | Reach the threat shown on the Map at that destination, then get out | A new fuel (see Fuels). |
 
 - Since mutants come fewer and tougher, each ordinary one's chances above count for the crowd it stands in for, so a minute at a threat level pays what it did before v0.9.63's waves (×3.9 at threat 0, ×4.7 at threat 6, ×19.9 from threat 12). At most 40% of a wave are elites; past that each elite carries the loot of the ones that could not come.
-- **No part drops** (v0.9.88). Crates, the 6 parts a kill, salvage tiers and qualities, gear thinning out deeper and the slot a place features each day were all about dropped parts, and are out of the game's rules. Meat, Scrap, Bits, Chemicals, ingredients and exotic materials drop as they did.
+- **No part drops** (v0.9.88): every part is built (Starting out > Materials and recipes). Meat, Scrap, Bits, Chemicals, ingredients and exotic materials drop as they did.
 
 ### Elites
 - 1% chance a spawn, +0.2% a threat level. They have ×3 the pools and an ELITE tag.
@@ -158,8 +159,8 @@ You're a pig with a flamethrower. You fight mutants for their meat, get out aliv
 ### Getting out, and dying
 - **E** starts the truck under you. Its engine takes 30 s to catch; the fight (and the threat) goes on until it does, then it drives you home. Survive and everything comes home.
 - **The horn** (v0.9.25): 10 s before the truck comes it sounds, calling a dense wave (×3 a wave's worth), and until the truck arrives every kill pays **×3 meat**: the last seconds of a run are all in. Press **E again** before the horn for a **quiet exit**: no horn, no wave, plain meat. The Shoggoth's runs are loud, except a truck it starts for a hurt pig, which goes quietly.
-- The result screen sums the run up (salvage as a count by tier). **Enter**, **Space** or **E** goes back to the Smokehouse.
-- **If you die** (or abandon the run): the raw meat, fried cuts, salvage and any blueprint are lost, and you lose 10% + 5% per threat level (up to 75%) of the run's materials, ingredients and elite Chemicals. The smoker's load comes out overcooked (worth ×0.6).
+- The result screen sums the run up: the meat, the materials by name, and under them **how far they bring MY BUILD** (v0.9.89): a line for each material its recipes ask for that the run brought, as BARON'S RIVET +9 (21 OF 98), and how many pieces can be built or raised now. **Enter**, **Space** or **E** goes back to the Smokehouse.
+- **If you die** (or abandon the run): the raw meat, fried cuts and any blueprint are lost, and you lose 10% + 5% per threat level (up to 75%) of the run's materials (the named ones too), ingredients and elite Chemicals. The smoker's load comes out overcooked (worth ×0.6).
 
 ### Health and armor
 - The pig has **10 HP**. A mutant that reaches you does 1 damage and is gone.
@@ -246,12 +247,12 @@ These are the tier baselines (Scavenged quality, ×1, before the lane). Quality 
 | Close-range damage | Extra stack damage on mutants within 220 px of the muzzle. | one fuel or all |
 | Cooler | Less heat per unit, and more heat shed per second (the same share of each). | all fuels only |
 
-## Parts and loot lanes
+## Parts and lanes
 
 ### Tiers
 - Parts come in **T0** (the starter parts) to **T5**. Their names are coloured by tier: T1 white, T2 green, T3 purple, T4 gold, T5 gold-red; set pieces teal. Pips show the tier too.
 - You can craft (and find) a tier once your best threat reaches it: T2 at 6, T3 at 12, T4 at 16.
-- **T5** (v0.9.28). A fifth tier opens at best threat 24. v0.9.32 made it a full tier step (the lab: +1.0 threat over T4, as T3 to T4 is +0.8): a T5 line flows 60 a second to a T4's 40; a T5 shroud holds 260 heat to a T4's 200; pump, igniter and filter add +55%, +60% and +52%, and a T5 chassis carries ×2.4 tank capacity. It is **crafted only**: salvage never rolls past T4, and every T5 part is a lane part or a set piece from the Workbench, at ◆36,000 and 180 of its slot's material. Keystones and exotics stay T4. From best threat 24 the 8-Ball builds orders at T5: it crafts their lane parts and set pieces at T5 (within THE HANDS KEEP), an order and a TOP TIER budget are done at T5, and the Showroom prints each ad's T5 lab number.
+- **T5** (v0.9.28). A fifth tier opens at best threat 24. v0.9.32 made it a full tier step (the lab: +1.0 threat over T4, as T3 to T4 is +0.8): a T5 line flows 60 a second to a T4's 40; a T5 shroud holds 260 heat to a T4's 200; pump, igniter and filter add +55%, +60% and +52%, and a T5 chassis carries ×2.4 tank capacity. It is **built**, as every part is: a lane part or a set piece raised from T4 (Refine > BUILD THE NEXT TIER) for the tier's ◆ (36,000 for a fuel line) and 180 of its slot's common material, with the named materials its step asks for (Starting out > Materials and recipes). Keystones and exotics stay T4. From best threat 24 the 8-Ball builds orders at T5: it crafts their lane parts and set pieces at T5 (within THE HANDS KEEP), an order and a TOP TIER budget are done at T5, and the Showroom prints each ad's T5 lab number.
 - **A five-piece bonus for every set** (v0.9.41; v0.9.42: all eighteen sets, each sized by the lab to about two threat levels). Wear five pieces of a set and each T5 piece among the five adds a chance; one roll a volley while the effect's condition holds; a volley that takes it hits harder on the mutants the effect is about, and takes its perk. Pieces below T5 add nothing. The run's HUD and the flamethrower's status show your chance.
   - **Flare-up** (the Brawler sets), 6.6% a piece: a volley landing on something close (the six nearest mutants, or within 220 px) hits x2 and costs no fuel.
   - **Long Shot** (Meltdown, Tesla Coilworks): Each T5 piece of the five adds 10.8%. A volley that takes it hits x2 and reaches 25% further.
@@ -267,11 +268,11 @@ These are the tier baselines (Scavenged quality, ×1, before the lane). Quality 
   - **Prime Cut** (Whole Hog): Each T5 piece of the five adds 10.8%. A volley that takes it hits x2 on elites and bosses.
   - **One More Round** (Last Call): Each T5 piece of the five adds 20%. For 15 s after the threat level rises, a volley that takes it hits x2 and makes no heat.
 - **Close and long range** (v0.9.34). **Close** is the six mutants nearest the muzzle, or anything within the old distance (220 px; Bloom's 280). **Long range** starts at 450 px (it was 300, which four fifths of your fuel met). After a run the summary says what share of your fuel met each: close, long range, on elites, fired hot; the flamethrower's status keeps the last run's.
-- **Greater rolls** (v0.9.34). 5% of salvaged parts with an affix carry one **greater roll**: that affix sits at x1.5 of its top roll, marked on the card. Only a drop has one: the Workbench can't make it, Optimize can't reach it, and rerolling that affix loses it (the part's other affixes are yours to work on). Never on a keystone or an exotic. From threat 24, 10% of a crate's parts are T5.
+- **Greater rolls** (v0.9.34). One affix on a part can be a **greater roll**: it sits at x1.5 of its top roll, marked on the card. v0.9.88: Refine sets one for 1 Black Ichor (a dropped part carried one, while parts dropped); a part holds one, and setting another moves it. Optimize can't reach it, and rerolling that affix loses it. Never on a keystone or an exotic.
 - **BUILD THE NEXT TIER** (v0.9.88, Refine; it was FORGE UP). A lane part or a set piece goes up one tier and keeps everything done to it: affixes, mutation, the half-step, Temper and its boss's mark. It costs that step of the recipe (Materials and recipes, in Starting out). **A greater roll** is set into one affix with 1 Black Ichor (Refine); no drop carries one any more.
 - **FORGE UP** (v0.9.34, Refine). A lane part or a set piece goes up one tier and keeps everything done to it: affixes, behavior, the half-step, Temper. It costs 90% of crafting the part fresh at the new tier, up to your top craft tier. Keystones and exotics stay T4.
 - **Sets and affixes, re-weighed** (v0.9.34). Potent, Pressurized, Recycling, Sticky and Catalytic roll half what they did (parts you own were halved to match); Bulging, Cooled and Searing kept their size. A set's stat lines now scale with its pieces' tier, and from 2 pieces each of your four best adds a plain bonus to every stack by its tier (each set's card gives its numbers). A set piece can be **re-forged to any lane**: the bonus counts the piece, the lane is yours. Every exotic adds +0% to its own fuel's stacks, outside the cap. In the lab a T5 build's affixes, keystone and set are now each worth two to three threat levels (they were 3.1, 1.6 and 1.0).
-- **The half-step** (v0.9.24). A part's power is its tier, and a tier has two rungs: T3 and **T3+**, the "+" worth half the step to the next tier on the main stat and the lane's benefit lines (××1.24 on a fuel line, less where a tier's step is smaller; a "+" after the pips, and in the name). Salvage rolls it from 3 levels past the tier's unlock (certain 6 levels past); the Workbench rolls it by its level (25% at level 0, 85% at 8); Refine's **FORGE TO T+** adds it to a part for a craft and a half. A T3+ sits between T3 and T4; a plain T4 always beats it.
+- **The half-step** (v0.9.24). A part's power is its tier, and a tier has two rungs: T3 and **T3+**, the "+" worth half the step to the next tier on the main stat and the lane's benefit lines (××1.24 on a fuel line, less where a tier's step is smaller; a "+" after the pips, and in the name). The Workbench rolls it by its level (25% at level 0, 85% at 8); Refine's **FORGE TO T+** adds it to a part for a craft and a half. A T3+ sits between T3 and T4; a plain T4 always beats it.
 
 ### Qualities
 
@@ -287,7 +288,7 @@ v0.9.24: **rarity is the affix count**, nothing else. A Scavenged part has no af
 
 Every part has one **behavior** slot: a Mutated or Malevolent part rolls one 30% of the time, and Refine > BEHAVIOR rolls or changes one on any part for Chemicals (v0.9.24: one layer; they were mutations too).
 
-### Loot lanes
+### Lanes
 Every slot has three **lanes**: three ways to build that part, each with a benefit (▲) and a drawback (▼). A lane exists at every tier. **Every lane can be built from the first day** (v0.9.88; a lane was learned by scrapping a dropped part of it), and a part can be **re-forged** into another lane of its slot.
 
 #### Fuel Line
@@ -407,7 +408,7 @@ T4 parts that break one rule, at a cost. **They are built** (v0.9.88; they only 
 - **v0.9.34 (the itemization build):** every keystone was run on every build. Three had stayed worth less than a plain lane part whatever their numbers (Afterburner, Blood Line, Backdraft Ring) and were **replaced**, slot for slot, by keystones that scale off things nothing else did: **Feeding Frenzy** (a kill streak), **Reaction Chamber** (fuel reactions) and **Can Opener** (every pool takes your fuel's best multiplier). One you owned became its replacement. Gatling Drum's stacks land at 60%, Flashpoint lands x1.4 and x2.8 more on anything close, Fever Grip gives +25% a 5% of heat (was 7%); Double Distill (x2.0 on every stack) is as it was. With those the lab's forty builds split across six keystones, the largest on about a third (it was half).
 
 ### Malevolent parts
-The top quality. Salvage only rolls it in Infested runs (past threat 21), each level past that adding 2 quality steps; until then it tops out at Mutated. You can still craft one, or upgrade a part's quality at the Workbench (the last step, Mutated to Malevolent, costs ×0.4).
+The top quality. The Workbench can roll it once your best threat is past 21; until then a craft tops out at Mutated. Or upgrade a part's quality at the Workbench (the last step, Mutated to Malevolent, costs ×0.4).
 
 ## Sets
 
@@ -415,11 +416,11 @@ The top quality. Salvage only rolls it in Infested runs (past threat 21), each l
 - **Three of them need something burning** (v0.9.39): Oven Mitts' Cooked, Potluck and Test Kitchen count stacks on a mutant or fuel reactions, so they do nothing under the Flashpoint igniter, which lands a stack's whole burn at once. Hot Plate, Nutcracker and the Freezer work with it (Nutcracker best of all).
 - **Ten sets for the five styles** (v0.9.24; fifteen from v0.6.10: Pit Boss, Steeple Works, Foundry Rig, Thrift Shop and Cocktail Hour are retired, each into the other set of its style, which took its best line; their pieces, blueprints and ads in an old save become the survivor's, and their homes are the survivors' second homes). Every set has a piece for each of the seven slots. Wearing **2, 3 and 4 pieces** turns on its three bonuses and **5** its five-piece effect, and every bonus works on **every fuel** (since v0.7.8). A piece is a normal part of its tier and slot with affixes of its own, and **its lane is fixed** (v0.9.24; it rolled a random lane before, which left a build's set and its lanes at odds): the Showroom's builds wear their set pieces on the lanes the pieces are.
 - **The 4-piece mechanics carry the set** (v0.9.24). The lab found a set worth about 0.6 threat levels and its stat lines no lever at all (doubling them moved a build 0.1), so the mechanics were raised instead: Grease Fire's kills explode for 6 stacks in a 120 px blast, Battered is +8% a stack up to +300% (and +150% close), Arc chains to 6 and chained stacks hit double, Critical Mass needs 30 stacks, Cold Start charges +60% a second to +200% and its chill is 30%, Still Hot is every other unit, and a Bandolier swap is +50% for 3 s. Mind that **Flashpoint** lands a stack's whole burn at once, so anything that counts the stacks *on* a mutant (Battered, Critical Mass, Hellmouth's endless burn, stacks outside the cone) does nothing with it; the Showroom says so on the ads it applies to.
-- **Where they drop:** set pieces come from salvage crates (5% of them) and elites (40%). A set piece found at a destination comes 70% of the time from a set that drops there; the rest from any common set, and 5% from a rare one.
-- **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality favor with the set's faction (Blueprint Shards before v0.9.26), times (1 - 0.75 × the share of set blueprints you own; v0.8.2), so ×0.25 once you own them all. A set's blueprint costs 30 favor with its faction (Workbench > SETS), then you craft its pieces for ◆ and materials. Faction reputation gives some blueprints too, and Hellmouth's needs one found Hellmouth piece first (or the Glow Cult's top reputation).
+- **Where they come from** (v0.9.88): a set's pieces are **built**, never found. A piece's blueprint is bought with its faction's favor; the piece is built at T1 from its home's elite material and raised a tier at a time (Starting out > Materials and recipes).
+- **Blueprints:** breaking a piece down (Loadout > Stash) gives 10 + 2 × its quality favor with the set's faction (Blueprint Shards before v0.9.26), times (1 - 0.75 × the share of set blueprints you own; v0.8.2), so ×0.25 once you own them all. A set's blueprint costs 30 favor with its faction (Workbench > SETS), then you build its pieces. Faction reputation gives some blueprints too. Hellmouth's come only that way, with the Glow Cult's top reputation: buying them needs a Hellmouth piece in the stash, and nothing drops one now (an old save that holds a piece can still buy them).
 
 ### Deep Fryer
-Brawler build · all fuels · drops at the The Flesh Farms
+Brawler build · all fuels · built with Rancher's Brand, from the The Flesh Farms
 - **2 pieces:** Kills drop +25% raw meat; +40% stack damage
 - **3 pieces:** +150% stack damage within 220 px
 - **4 pieces:** BATTERED: mutants within 220 px take +8% per stack on them (up to +300%)
@@ -427,14 +428,14 @@ Brawler build · all fuels · drops at the The Flesh Farms
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 0.9% / 1.5% / 2.4% / 3.3% / 4.2%.
 
 ### Grease Fire
-Brawler build · all fuels · drops at the Smokehouse Outskirts
+Brawler build · all fuels · built with Smokehouse Ash, from the Smokehouse Outskirts
 - **2 pieces:** Stacks +60% damage
 - **3 pieces:** Kills splash 2 stacks nearby
 - **4 pieces:** GREASE FIRE: kills explode for 6 stacks in a wide blast; +60% stack damage
 - **Five pieces:** Flare-up. Each T5 piece of the five adds 6.6%. A volley landing on something close (the six nearest mutants, or within 220 px) that flares hits x2 and costs no fuel.
 
 ### Meltdown
-Lancer build · all fuels · drops at the Reactor Row
+Lancer build · all fuels · built with Reactor Rod, from the Reactor Row
 - **2 pieces:** Aging fuels (Rad Syrup) age 25% faster, +20% vs elites and bosses, and +20% stack damage beyond 300 px
 - **3 pieces:** Elites and bosses take +25% more from every fuel, and every stack the gun lands on them hits twice as hard
 - **4 pieces:** CRITICAL MASS: a mutant carrying 30+ stacks of one fuel takes +50% from every burn
@@ -442,7 +443,7 @@ Lancer build · all fuels · drops at the Reactor Row
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3.6% / 6% / 9.6% / 13.2% / 16.8%.
 
 ### Tesla Coilworks
-Lancer build · all fuels · drops at the Glow Crater
+Lancer build · all fuels · built with Crater Glass, from the Glow Crater
 - **2 pieces:** +30% vs shields
 - **3 pieces:** Breaking a shield stuns for 1 s
 - **4 pieces:** ARC: every hit chains to 6 nearby mutants, and chained stacks deal +100%. A link with no mutant to jump to arcs back onto the one that was hit, at half strength
@@ -450,7 +451,7 @@ Lancer build · all fuels · drops at the Glow Crater
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 6% / 10% / 16% / 22% / 28%.
 
 ### Boiler Room
-Furnace build · all fuels · drops at the Smelter Pits
+Furnace build · all fuels · built with Pit Clinker, from the Smelter Pits
 - **2 pieces:** Heat cap +25%, +35% stack damage
 - **3 pieces:** Stacks +1.2% for every 1% of heat (up to +120% at full heat)
 - **4 pieces:** PRESSURE COOKER: reaching 100% heat starts 3 s without a lockout and +50% flow, then the gun locks out and vents to 0 (once per 45 s); +60% stack damage
@@ -458,14 +459,14 @@ Furnace build · all fuels · drops at the Smelter Pits
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 4.8% / 8% / 12.8% / 17.6% / 22.4%.
 
 ### Hellmouth (rare)
-Furnace build · all fuels · drops anywhere
+Furnace build · all fuels · built with Neon Tube, from the The Neon Strip
 - **2 pieces:** All fuels +220% stack damage
 - **3 pieces:** All fuels +20% burn duration and +30% stack damage
 - **4 pieces:** HELLMOUTH: stacks stop expiring while the mutant stays in the cone
 - **Five pieces:** Blowoff. Each T5 piece of the five adds 20%. At 50% heat or more, a volley that takes it hits x2 and stuns what it hits for 0.3 s.
 
 ### Glacier Works
-Miser build · all fuels · drops at the Sewer Delta
+Miser build · all fuels · built with Sewer Pearl, from the Sewer Delta
 - **2 pieces:** The gun cools 50% faster
 - **3 pieces:** Burning mutants slow 30%
 - **4 pieces:** COLD START: Pent-Up without the behavior (+60% a second idle, up to +200%), twice as fast with it; +40% stack damage
@@ -473,7 +474,7 @@ Miser build · all fuels · drops at the Sewer Delta
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3.6% / 6% / 9.6% / 13.2% / 16.8%.
 
 ### Slow Cooker
-Miser build · all fuels · drops at the Fungal Bog
+Miser build · all fuels · built with Bog Cap, from the Fungal Bog
 - **2 pieces:** +25% burn duration; tanks regen +1.5 units/s while you aren't firing
 - **3 pieces:** Stacks on mutants outside the cone deal +45% damage
 - **4 pieces:** SIMMER: every 10th unit applies 2 stacks, and stacks outside the cone deal +25% more; all fuels +57% stack damage
@@ -481,7 +482,7 @@ Miser build · all fuels · drops at the Fungal Bog
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 4.2% / 7% / 11.2% / 15.4% / 19.6%.
 
 ### Bandolier
-Juggler build · all fuels · drops at the Scrap Mountain
+Juggler build · all fuels · built with Prayer Gear, from the Scrap Mountain
 - **2 pieces:** +1 tank mount on any chassis (up to 4)
 - **3 pieces:** Swapping tanks gives +50% stack damage for 3 s
 - **4 pieces:** QUICK DRAW: a swap within 1 s of the last costs no swap time
@@ -489,7 +490,7 @@ Juggler build · all fuels · drops at the Scrap Mountain
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3.6% / 6% / 9.6% / 13.2% / 16.8%.
 
 ### Moonshine Run
-Juggler build · all fuels · drops at the Dead Drive-In
+Juggler build · all fuels · built with Scorched Reel, from the Dead Drive-In
 - **2 pieces:** Tanks +25% capacity, swap time -25%
 - **3 pieces:** Swapping tanks fires +25% flow for 2 s
 - **4 pieces:** STILL HOT: every other unit also applies a stack of the fuel fired before it; +30% stack damage
@@ -497,14 +498,14 @@ Juggler build · all fuels · drops at the Dead Drive-In
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 0.9% / 1.5% / 2.4% / 3.3% / 4.2%.
 
 ### Walk-In Freezer
-Any build · all fuels · drops at the Static Fields
+Any build · all fuels · built with Fulgurite, from the Static Fields
 - **2 pieces:** Burning mutants slow by 6% a second, up to 40%
 - **3 pieces:** At full chill a mutant freezes for 2 s, once every 6 s (a boss 1 s)
 - **4 pieces:** SHATTER: a frozen mutant that dies bursts for 25% of its health onto mutants within 100 px; a frozen mutant under 15% health breaks
 - **Five pieces:** Cold Snap. Each T5 piece of the five adds 9.6%. A volley that takes it hits x2 on every mutant that is slowed, stunned or frozen and stuns them for 0.02 s.
 
 ### Hot Plate
-Any build · all fuels · drops at the Smelter Pits
+Any build · all fuels · built with Pit Clinker, from the Smelter Pits
 - **2 pieces:** The far end of your flame leaves a burning patch (4 s): 32 stacks a second on mutants in it
 - **3 pieces:** The patch burns 64 stacks a second and slows mutants on it 30%
 - **4 pieces:** FIREBREAK: 96 stacks a second, and patches that touch last as long as any one is fed
@@ -512,7 +513,7 @@ Any build · all fuels · drops at the Smelter Pits
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
 
 ### Last Call
-Any build · all fuels · drops at the Dead Drive-In
+Any build · all fuels · built with Scorched Reel, from the Dead Drive-In
 - **2 pieces:** The horn sounds 15 s before the truck (not 10), and kills in its window pay x4 (not x3)
 - **3 pieces:** The gun makes no heat while the truck is starting
 - **4 pieces:** ENCORE: when the truck arrives the horn sounds once more: another wave, another window, another 30 s
@@ -520,7 +521,7 @@ Any build · all fuels · drops at the Dead Drive-In
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
 
 ### Nutcracker
-Any build · all fuels · drops at the Tank Graveyard
+Any build · all fuels · built with Tread Link, from the Tank Graveyard
 - **2 pieces:** A broken shield drops Chemicals and broken armor drops Scrap; +40% vs shields and armor
 - **3 pieces:** A shell that breaks bursts: 60% of it comes off the same shell of mutants within 120 px
 - **4 pieces:** CRACK: the burst is 120%, and a shell a burst breaks bursts too
@@ -528,31 +529,31 @@ Any build · all fuels · drops at the Tank Graveyard
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 1.5% / 2.5% / 4% / 5.5% / 7%.
 
 ### Oven Mitts
-Any build · all fuels · drops at the Rust Flats
+Any build · all fuels · built with Baron's Rivet, from the Rust Flats
 - **2 pieces:** The pig heals 1 HP each time the threat level rises
 - **3 pieces:** COOKED: a mutant carrying 30 or more stacks does no damage when it reaches you, at most one every 3 s. A boss carrying them misses three bites in five
 - **4 pieces:** SECOND WIND: once a run, a hit that would kill you leaves you at 3 HP with full armor and lights everything near the truck
 - **Five pieces:** Hot Handle. Each T5 piece of the five adds 20%. A volley that takes it hits x2 on everything close (the six nearest mutants, or within 220 px) and stuns them for 0.3 s.
 
 ### Potluck
-Any build · all fuels · drops at the Bloat Marsh
+Any build · all fuels · built with Bloat Bladder, from the Bloat Marsh
 - **2 pieces:** A burning mutant passes 5 stacks a second to each mutant touching it
 - **3 pieces:** 10 stacks a second, to mutants within 40 px
 - **4 pieces:** PATIENT ZERO: the mutant carrying the most stacks shares half of them each second with everything within 150 px (a shared stack isn't shared again)
 - **Five pieces:** Heaped Plate. Each T5 piece of the five adds 7.2%. A volley that takes it hits x2 on every mutant already carrying 20 stacks or more and makes no heat.
 
 ### Test Kitchen
-Any build · all fuels · drops at the The Food Court
+Any build · all fuels · built with Mall Token, from the The Food Court
 - **2 pieces:** A fuel reaction lands 5% of everything burning on the mutant at once
 - **3 pieces:** 14%; reactions wait half as long, and each pair of fuels has its own wait (never Spatter)
 - **4 pieces:** CHAIN REACTION: 23%, and a reaction goes off on the 2 nearest burning mutants too (never Spatter)
 - **Five pieces:** Eureka. Each T5 piece of the five adds 6%. A volley that takes it hits x2 on every mutant a reaction went off on in the last 3 s and makes no heat.
 
 ### Whole Hog
-Any build · all fuels · drops at the The Flesh Farms
+Any build · all fuels · built with Rancher's Brand, from the The Flesh Farms
 - **2 pieces:** Every kill drops its materials
 - **3 pieces:** Elites and bosses drop their hoard twice (not the meat)
-- **4 pieces:** NOSE TO TAIL: a run that gets out brings one more crate for every boss killed, at a better quality
+- **4 pieces:** NOSE TO TAIL: a run that gets out brings one more of the place's trophy for every boss killed
 - **Five pieces:** Prime Cut. Each T5 piece of the five adds 10.8%. A volley that takes it hits x2 on elites and bosses.
 - **Every piece:** From 2 pieces, each of your four best adds to every stack by its tier (T1 to T5): 3% / 5% / 8% / 11% / 14%.
 
@@ -673,7 +674,7 @@ Each fuel comes from its own **still** in the Production yard. Rendered Lard's s
 | Fuel | Still | Blueprint | Damage | vs health / shields / armor | Burn | Heat | Rule |  |
 |---|---|---|---|---|---|---|---|---|
 | Rendered Lard | Rendering Kettle | from the start | 1 | ×1.2 / ×0.25 / ×0.25 | ×1 | ×0.6 | - | Rendered from... best not to ask. Sticks to flesh, slides off metal. |
-| Swamp Napalm | Bog-Gas Fermenter | Sewer Delta, threat 4 | 1 | ×1.35 / ×0.25 / ×0.25 | ×1.6 | ×0.8 | - | Gelled bog-gas. Burns forever, mostly on meat. |
+| Swamp Napalm | Bog-Gas Fermenter | Sewer Delta, threat 3 | 1 | ×1.35 / ×0.25 / ×0.25 | ×1.6 | ×0.8 | - | Gelled bog-gas. Burns forever, mostly on meat. |
 | Thermite Slurry | Crucible Furnace | Rust Flats, threat 4 | 1 | ×0.85 / ×0.25 / ×2 | ×0.8 | ×1.2 | - | Eats through scrap plating like it owes money. |
 | Ion Gel | Capacitor Stack | Glow Crater, threat 4 | 1 | ×0.7 / ×2.2 / ×0.25 | ×0.9 | ×1 | - | Crackling blue goop. Pops rad-shields like soap bubbles. |
 | Rocket Hooch | Copper Moonshine Still | The Junk Bazaar, threat 8 | 1.4 | ×1.1 / ×1.1 / ×1.1 | ×0.6 | ×1.5 | - | Triple-distilled. Do not drink. Okay, maybe a sip. |
@@ -769,7 +770,7 @@ v0.9.3. A run brings the map's boss: one of its mutants grown huge (1.9x the siz
 
 - **How they look** (v0.9.40). Every mutant is a different creature on each map theme: mutated flesh wearing the junk that lies around that kind of place. Each theme has its own boss body (The Furnace on Balanced maps, The Stack on Armor, The Twin Dynamo on Shield, The Skullsquid on Health; The Stack and The Skullsquid have a second body that every other one of their maps wears), and each map's boss wears its own piece on its head. An elite carries a radiation sign over its bars; a boss carries a burning skull. Its size to hit is as before.
 - **Its pools follow the map's theme.** Health maps: 90% health. Armor maps: 72% armor. Shield maps: 72% shields. Balanced maps: a third each. Bring the fuel that answers the theme.
-- **Its hoard:** 4 of the map's exotic material, +1 every 4 threat levels (at a place with none of its own, one of its theme-mates'), from any threat, and a 50% chance of a keystone, on top of an elite's drops.
+- **Its hoard:** 4 of the map's exotic material, +1 every 4 threat levels (at a place with none of its own, one of its theme-mates'), from any threat, its **trophy** (v0.9.88; a keystone half the time, before) and now and then **Black Ichor**, on top of an elite's drops.
 - The BALANCE menu's **Boss chance** (0 turns them off) and **Boss toughness** change both.
 
 | Place | Boss |  | Theme | Drops |
@@ -891,7 +892,7 @@ Sewer Kings turf. Meat-heavy mutants grow huge.
 - **Unlock:** needs Rust Barons reputation 1. **Market:** Sewer Kings turf.
 - **Theme:** Health. **Growth a level:** health ×1.24, armor ×1.14, shields ×1.13.
 - **Common mutants:** Behemoth, Creeper. **Extra drops:** Mutant Bits ×2.
-- **Sets:** Glacier Works. **Still blueprints:** Bog-Gas Fermenter (threat 4). **Exotic material:** none.
+- **Sets:** Glacier Works. **Still blueprints:** Bog-Gas Fermenter (threat 3). **Exotic material:** none.
 
 #### The Flesh Farms
 Meat Ranchers turf. Pens of mutant cattle that got loose; the behemoths are the bulls.
@@ -1042,7 +1043,7 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
   - **What it is.** The sheet's power (peak DPS, the share of the time it can fire, fuel, the fuel mix, reach) times what the sheet cannot see: a set's mechanics, the keystone, the exotic, the mutations. Each of those counts for what the lab found it worth on finished Showroom builds (five set pieces, the keystone and the exotic at T5, Malevolent, the half-step, temper +10): 2,880 flights, fitted 2026-11-22. It is an estimate: the fit's spread is about 2.84 threat levels on the Showroom's finished builds and about 3.68 on a build the lab has not flown (one standard deviation). A mutation's, a keystone's and an exotic's worths are read inside a build: the same kit with it and without. A set's worth also carries the strength of the builds it was flown on (a build is its set), so it tells a Showroom build's level better than it tells what one more piece adds.
   - **The scale.** The line from power to threat is the one the game has had since v0.7.0, so a kit with no set, keystone, exotic or mutation reads as it always did (a starter gun: about 6). Deep, the number is where the Shoggoth is forced home, not where the pig would die: the two part ways from threat 18 and are 6.4 levels apart from 28 on (the lab's finished kits, flown both ways).
   - **Your truck moves it.** The lab's pig has no legacy hit points and no feast, and it flew each build at its set's home. Every time the Shoggoth is forced home, the place's figure moves a third of the way to what that mark says (all the way the first time, never more than 15 levels), and a place with no mark of its own takes the others' middle. So the number settles on what your builds do on your truck; a part's +0.4 does not change with it.
-  - **What goes by it:** the numbers on the list's rows; EQUIP BEST when no build is marked MINE; the loot filter's MY KIT IS STRONGER WITH IT and BEATS WHAT I WEAR; the stash trim (of the lowest parts by tier, quality and temper, the ones that would do the least for the kit you wear go first); IMPROVE AND SWAP (of two copies of a piece at the same level, the better is the one the kit holds more with; and a piece behind in level goes on as it is when the kit holds more with it, a set's next bonus say); the truck's AUTO call; and where the 8-Ball starts a build the Shoggoth has not flown (three minutes of threat under the number). MOST POWER and BEST FOR THE PLACE are gone (the picker went in v0.9.81).
+  - **What goes by it:** the numbers on the list's rows; EQUIP BEST when no build is marked MINE; the stash list's MY KIT IS STRONGER WITH IT; IMPROVE AND SWAP (of two copies of a piece at the same level, the better is the one the kit holds more with; and a piece behind in level goes on as it is when the kit holds more with it, a set's next bonus say); the truck's AUTO call; and where the 8-Ball starts a build the Shoggoth has not flown (three minutes of threat under the number). MOST POWER and BEST FOR THE PLACE are gone (the picker went in v0.9.81).
   - **What it does not know:** how you play. The lab's pilot fires in short bursts and never overheats, so anything that pays for running hot or bleeding reads low. A mutation's worth is its average over thirty-six builds, not its worth on yours, and one that measured under nothing counts as nothing (two flights a build is not enough to call a mutation harmful). Anvil was flown alone, without the Fixated it needs. Where the pig dies moves in steps: bosses come every five levels and most kits die at one.
 
   What the lab measured, in threat levels: the same finished kit flown with the thing and without it, averaged over the Showroom builds that carry it (the number in brackets). Bosses come every five levels, so one build's figure moves in steps; the averages are steadier. The score's own weights are fitted to all the flights together and differ from these.
@@ -1055,12 +1056,12 @@ The hub between runs. Tabs: **Loadout**, **Craft**, **Refine**, **Production**, 
 | Exotics (the ones on Showroom builds) | Jelly Sieve +16.4 (1), Bog Mitt +7.1 (3), Schmaltz Aorta +5.6 (2), Batter Mitt +5.6 (4), Swamp-King Altar +3.7 (3), Rocket Altar +3.1 (2), Static Mitt +2.9 (2), Half-Life Altar +2.8 (3), Tallow Mitt +2.7 (2), Mash Mitt +2.6 (1), Capacitor Bellows +2.5 (1), Schmaltz Altar +2.4 (1), Forge-Heart Throat +2.3 (2), Slag Mitt +1.8 (1), Forge-Heart Altar +1.6 (2), Crucible Sieve +1.2 (1), Storm Crown +1.0 (1), Forge-Heart Crown +0.6 (1), Rocket Throat +0.5 (2), Half-Life Throat +0.1 (1) |
 
 - **Loadouts:** save the gun under a name and put it back on later; copy or import a build code to share one; **ORDER THIS BUILD** makes a custom order from one (v0.9.18). Every 8-Ball order for you keeps one of its own, **ORDER: <NAME>**, kept up to date with the best you own for it (v0.8.8; orders for a cat keep none since v0.9.12).
-- **Stash:** filter by worn, unworn, locked, unlocked, exotics, keystones, what fails the loot filter, what no order wants, tier or quality (one or a range), slot or lane, one more test from a list (a behavior, an affix, a set, tempered, marked, in a saved loadout, an order wants it, beats what you wear, a spare, found not crafted) and words typed into FIND (v0.9.55); the list sorts by slot, strongest, newest, most tempered or most affixes. **Lock** a part to protect it (**Space** locks or unlocks the selected part, here and in the Refine tab). **Scrap** a part (or **SCRAP SHOWN** for everything the filters show: the one bulk scrap since v0.9.17, with FAILS LOOT FILTER and NO ORDER WANTS among the filters) for materials; a set piece is broken down for its faction's favor instead. Parts you or a cat wear, locked parts and parts in a saved loadout are never scrapped. SCRAP SHOWN takes keystones the list shows too (v0.9.12; lock one to keep it), but not exotics; the loot filter and the 8-Ball never scrap a keystone. **LOCK SHOWN** and **UNLOCK SHOWN** (v0.9.84), under SCRAP SHOWN, put your lock on everything the filters show or take it off, each with its count; a lock an order holds is left alone both ways.
+- **Stash:** filter by worn, unworn, locked, unlocked, exotics, keystones, tier or quality (one or a range), slot or lane, one more test from a list (a behavior, an affix, a set, tempered, in a saved loadout, an order wants it, beats what you wear, a spare) and words typed into FIND (v0.9.55); the list sorts by slot, strongest, newest, most tempered or most affixes. **Lock** a part to protect it (**Space** locks or unlocks the selected part, here and in the Refine tab). **Scrap** a part (or **SCRAP SHOWN** for everything the filters show: the one bulk scrap since v0.9.17) for half of what went into it; a set piece is broken down for its faction's favor instead. Parts you wear, locked parts and parts in a saved loadout are never scrapped. SCRAP SHOWN takes keystones the list shows too (v0.9.12; lock one to keep it), but not exotics. **LOCK SHOWN** and **UNLOCK SHOWN** (v0.9.84), under SCRAP SHOWN, put your lock on everything the filters show or take it off, each with its count; a lock an order holds is left alone both ways.
 - **Scrapping** returns 50% of the part's crafting materials (by quality) plus 1 + 2 per tier Scrap Metal, gives back half of the named materials that went into it (v0.9.88, every step to its tier) and gives Chemicals for Mutated (1) and Malevolent (5) parts.
 - **EQUIP BEST** (top left of the Loadout tab): with the Magic 8-Ball holding an order, the best you have for that ad (its keystone, its lanes highest tier first, 4 of its set's pieces, its exotic upgrade and its fuels); otherwise the parts that give the kit the most **power** (the estimate the crew and the Shoggoth use), keeping a keystone you wear and any set bonus you've reached, leaving your fuels alone. It never takes a part off a cat. It is the one dressing button (v0.9.17): a Showroom ad's **EQUIP BEST: THIS BUILD** is it for that ad and whoever the ad is for, the Crew tab's **EQUIP BEST: ITS ORDER** and **EQUIP BEST: FREE PARTS** are it for a cat. They say which of the build's parts someone else is wearing (v0.9.7).
 - **A blocked change says why** (v0.9.7): a fuel with no still, a mount the chassis doesn't have (v0.9.29: cats wear no parts, so none of a cat's). A red message names it.
-- **The stash list's filters** (v0.9.55). Above the list: what it shows, TIER (to T5, or a range), slot or SET PIECES, lane, **QUALITY**, and **MORE**, one more test from a list: a behavior (any, none, an empty slot, or one by name), an affix by name, a top-quarter roll, a set, a + part, tempered, a mark, in a saved loadout or in none, wanted by an order, better than what you wear, a spare, found or crafted. The **FIND box** takes any words on a part (name, slot, lane, T5, quality, affix, behavior, set, mark). **SORT** orders the list by slot, strongest, newest, most tempered or most affixes. The corner says how many parts are shown, CLEAR goes back to all of them, and SCRAP SHOWN scraps what the filters leave.
-- **Loot filter** (the LOOT FILTER row on the Loadout tab; rebuilt in v0.9.46). A filter is a list of **rules**; the first rule a part matches decides: KEEP, SCRAP, KEEP AND LOCK, KEEP AND MARK (a coloured tag) or KEEP THE BEST N (the worst one it holds is scrapped to make room). A rule's conditions all have to hold, any can be turned round with NOT, and a condition with several values holds for any of them. Conditions: tier, quality, slot, lane, a + part, a set piece (any, or named sets), a keystone, an exotic, its fuel, **named affixes** (at least 1, 2 or 3 of the ones you list, rolled anywhere, in the top half or the top quarter of their range), an affix for a loaded fuel, a **named behavior**, temper, a mark, and comparisons: beats what you wear on its lane, beats the best you own on its lane, you already own N as good, a saved loadout would take it, an order wants it, your kit is stronger with it. Better means tier, then quality, then +, then how many of the rule's affixes it has. **The rules are all there is** (v0.9.56): nothing is kept or scrapped behind them, a part no rule matches is kept, and a filter that should scrap what is left ends with a rule that scraps anything (no conditions, THEN: SCRAP). A new rule goes at the bottom of the list; UP and DOWN move it, and a rule under one that takes everything says it is never reached. MY FILTER and every named filter work the same way, and your runs, the 8-Ball's runs, the crew's trips and parts from cats each use the one you pick. Ready-made: STARTER, LIGHT, TIER, UPGRADES, NO ORDER WANTS (what SCRAP WHAT NO ORDER WANTS did), ENDGAME, and one written from any order; each starts by keeping what an order wants, keystones, exotics and T5 parts, as rules you can move or remove. A save from before v0.9.56 has its old switches, its always-kept parts and its setting for the rest written out as rules, so it filters as it did.
+- **The stash list's filters** (v0.9.55). Above the list: what it shows, TIER (to T5, or a range), slot or SET PIECES, lane, **QUALITY**, and **MORE**, one more test from a list: a behavior (any, none, an empty slot, or one by name), an affix by name, a top-quarter roll, an affix for a loaded fuel, a set, a + part, tempered or not, in a saved loadout or in none, wanted by an order, better than what you wear, a spare. The **FIND box** takes any words on a part (name, slot, lane, T5, quality, affix, behavior, set). **SORT** orders the list by slot, strongest, newest, most tempered or most affixes. The corner says how many parts are shown, CLEAR goes back to all of them, and SCRAP SHOWN scraps what the filters leave.
+- **The loot filter is gone** (v0.9.89). Nothing drops a part since v0.9.88, so there was nothing left for it to filter. With it went its rules and ready-made filters, the 8-BALL tab's LOOT FILTERS page, the stash's condition search and saved views (they were built with the filter's rule editor), the coloured marks, FAILS LOOT FILTER, NO ORDER WANTS and FOUND, NOT CRAFTED among the stash's filters, the stash limit and its stops, SCRAP WHAT NO ORDER WANTS, the targeted-loot pick and A PART HUNT. An old save's filters, saved searches and marks are dropped as it loads, with a note; every part stays.
 
 ### Craft and Refine (the Workbench)
 - **CRAFT tab, PARTS:** pick a slot and a tier, then a lane. A part costs ◆ plus its slot's material (6, 15, 35, 80, 180 for T1 to T5), and from T3 the slot's mutant material (v0.9.88: Materials and recipes, in Starting out). Workbench levels raise the odds of a better quality.
@@ -1179,8 +1180,8 @@ Every automation setting is on the **8-BALL** tab. Hands are still hired where t
 
 ### The Magic 8-Ball
 - Hire it (no fee) and switch it on with its switch or **B** anywhere. 8 s after you're back in the Smokehouse (with no menu open) it starts a run, with the Shoggoth driving (its truck setting applies; the Shoggoth's fee too). The result screen goes back by itself after 6 s and it goes again. B in a run switches it for the runs after this one.
-- **The wait and the stops** (v0.9.38, RUNS). The wait before a run is 3, 8, 15 or 30 s. It also waits while you type (a custom order's name, a loadout's) or have a drop-down list open; **HOLD 8-BALL** (top of the screen) holds it until you resume, and while it counts down **FIGHT is GO NOW**. A run you start yourself (8-Ball off, held, or FIGHT with the Gauntlet armed) is **your run**: you drive unless SHOGGOTH REMOTE CONTROL is on, and the result screen waits for you. It can **stop itself**: STOP AFTER THE NEXT RUN, after 5, 10, 25 or 50 runs, or when the stash passes 300, 500, 1,000 or 2,000 parts (or, instead of stopping, scrap the weakest unlocked parts down to that limit: lowest tier, then quality, then temper; never a worn part, one on a cat, in a loadout, locked, a keystone or an exotic). When it stops, pauses a goal or finishes one there is a meow, and the message stays on the FIGHT button until you click it.
-- **While you were away** (v0.9.38): the 8-BALL tab shows what the hands did since you last clicked or pressed a key in the Smokehouse: runs and deaths, parts kept, scrapped and crafted, Energy Sprinkles in and out, what the Overseer bought, goals finished and what is waiting on you. GOT IT clears it. It isn't saved.
+- **The wait and the stops** (v0.9.38, RUNS). The wait before a run is 3, 8, 15 or 30 s. It also waits while you type (a custom order's name, a loadout's) or have a drop-down list open; **HOLD 8-BALL** (top of the screen) holds it until you resume, and while it counts down **FIGHT is GO NOW**. A run you start yourself (8-Ball off, held, or FIGHT with the Gauntlet armed) is **your run**: you drive unless SHOGGOTH REMOTE CONTROL is on, and the result screen waits for you. It can **stop itself**: STOP AFTER THE NEXT RUN, or after 5, 10, 25 or 50 runs (v0.9.89: the stash limit and its stop went with dropped parts). When it stops, pauses a goal or finishes one there is a meow, and the message stays on the FIGHT button until you click it.
+- **While you were away** (v0.9.38): the 8-BALL tab shows what the hands did since you last clicked or pressed a key in the Smokehouse: runs and deaths, materials won and parts built, Energy Sprinkles in and out, what the Overseer bought, goals finished and what is waiting on you. GOT IT clears it. It isn't saved.
 - It works **its list of goals**: with one goal it can work, that one; with two or more, **round in turn, a goal a run** (v0.9.24; top first before), so an order waiting on part luck doesn't hold the list, and an order farming parts never pauses on luck. A goal that can't move now (waiting on a fee, a full Shed, an offer) is skipped and says why. Each goal shows what it does next, a progress bar and its **budget**. Six kinds of goal to add (v0.9.24): a build, a reputation level, a map, a best threat, one of every exotic, Sprinkles; the rest (favor, a still, materials, Shards, one exotic, a blueprint, contracts) are steps the planner takes on the way.
 
 ### Two lists
@@ -1198,44 +1199,42 @@ Every automation setting is on the **8-BALL** tab. Hands are still hired where t
 - **THE HANDS** row (v0.9.18, top of 8-BALL): every hand's hire and switch in one place: the 8-Ball (hire, on / off), the chef (hire), the Overseer (hire, on / off), the High-Five Machine (once built at the cat counter; its stops are set there) and HIRE A CAT (the next in the counter's line). The Map line, the Kitchen's CHEF panel, the eye and the counter still work as shortcuts.
 
 ### Runs
-- **Where its runs start** (v0.9.76): where the build you wear lasts. The Shoggoth remembers, build by build and place by place, the threat it was last forced home at (the pig died, was hurt, or met a boss it could not stop), and the next run starts three minutes of threat under that, so a run lasts about that long. A build it has not flown there starts three minutes under what the score says the kit holds (v0.9.86; before, at the sheet's own figure, which read low enough to be its own margin), or three minutes under the mark of the build it flew there last, whichever is lower (v0.9.77). Never past the map's START THREAT dial, your best there minus 3 (which is where every run started before, whatever you wore). An instruction's own start stands: a number, COMFORT, or HIGH (the dial's top, whatever you wear). An order out for parts that drop past a threat (Malevolent parts: 21) starts a level under it when the build lasts at least a level past it (v0.9.80); when the build stops short, the run line says so. A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
-- **MY BUILD** (v0.9.81): one build on the 8-Ball's list is yours, marked **MINE** on its goal (or MY BUILD in the Showroom). The first build you order is marked for you. The 8-Ball's runs go for it, the hands raise and dress you by it, and EQUIP BEST on the Loadout tab puts it on. The other builds on the list are a **wish list**: their pieces are kept when they drop, and no runs go for them. (The mark was WEAR. The five-way EQUIP BEST picker, EQUIP BEST AFTER EACH RUN and the saved loadout kept for every order are gone.)
+- **Where its runs start** (v0.9.76): where the build you wear lasts. The Shoggoth remembers, build by build and place by place, the threat it was last forced home at (the pig died, was hurt, or met a boss it could not stop), and the next run starts three minutes of threat under that, so a run lasts about that long. A build it has not flown there starts three minutes under what the score says the kit holds (v0.9.86; before, at the sheet's own figure, which read low enough to be its own margin), or three minutes under the mark of the build it flew there last, whichever is lower (v0.9.77). Never past the map's START THREAT dial, your best there minus 3 (which is where every run started before, whatever you wore). An instruction's own start stands: a number, COMFORT, or HIGH (the dial's top, whatever you wear). A best-threat goal starts the truck at its target, or at what the kit holds there if that's lower (AUTO stops 2 under what the kit holds); when the kit holds no more than your best, the goal waits for more power.
+- **MY BUILD** (v0.9.81): one build on the 8-Ball's list is yours, marked **MINE** on its goal (or MY BUILD in the Showroom). The first build you order is marked for you. The 8-Ball's runs go for it, the hands raise and dress you by it, and EQUIP BEST on the Loadout tab puts it on. The other builds on the list **wait their turn** (v0.9.89): when MY BUILD is finished (every piece in, and nothing left for the hands to raise, roll or buy) the 8-Ball's runs go for the next build down the list and the hands build its pieces; when that one is whole it leaves the list and the one below takes its place. Until MY BUILD is finished no runs go for them. (The mark was WEAR. The five-way EQUIP BEST picker, EQUIP BEST AFTER EACH RUN and the saved loadout kept for every order are gone.)
 - **The hands and your kit** (v0.9.81; one switch, on the Loadout tab and here): **OFF**, nothing automatic touches what you wear. **IMPROVE IN PLACE**, before and after its runs the 8-Ball raises the parts you wear, the weakest first, a step at a time, with what is over THE HANDS KEEP: a tier, the half-step, a quality, an affix's roll, temper; with MY BUILD marked also a re-forge to the lane the build names, a reroll toward an affix it asks for and the behaviors it seeks. It never changes which part is in a slot. **IMPROVE AND SWAP**, that, and it puts on MY BUILD's pieces: a better copy of a piece you wear, a piece of the build where you wear none, the build's part where yours is off its lane. A piece of the build is never traded for a different part. A new truck starts on IMPROVE AND SWAP; a save from before starts OFF.
 - **UNDO** (v0.9.81): the hands' last change to the kit is one line (THE 8-BALL: ...), and UNDO THE 8-BALL on the Loadout tab puts the kit back as it was and gives back what it cost.
 - **BRING TO TOP** (v0.9.81): on a part in Refine, and BRING KIT TO TOP on the Loadout tab, with the cost shown first. Top is your Workbench's top tier, Malevolent, the half-step and temper +10. It does what you can pay for.
 - **When every piece is in** (v0.9.81): MY BUILD's runs farm where meat pays, for the Sprinkles and materials raising it takes. (It farmed better rolls at the build's home; a roll is bought now.) The run line names the next step and what it costs (v0.9.84: the weakest part you wear, and what is done to it next). When nothing more can be raised and the kit has all the build asks, the 8-Ball says **MY BUILD IS FINISHED** once and goes on farming where it pays best; MY BUILD stays on the list. If the kit still lacks something the hands cannot buy, the line says what.
 - **A piece goes on only if it is as good** (v0.9.84). IMPROVE AND SWAP puts a piece of MY BUILD on over a part you wear only when the piece is at least as far along (tier, the half-step, quality, temper), or when the hands can pay to raise it to match: then they raise it first and put it on after. A piece they cannot bring level stays in the stash. Marking a build that would change your kit shows which parts would go on and asks again before it does. The hands change nothing while a run is on. **MY BUILD: NONE** is a choice and is kept when the game is started again. Exotics are raised like any other part.
-- **Rolls are bought, for every build** (v0.9.84): no run goes looking for better rolls. MY BUILD's are raised where you wear them. For any other build on the list, with CRAFT FOR THE ORDERS on, the hands buy what it asks of its own parts in the stash before a run: its lane, your top tier, the half-step and the quality if it asks for them, an affix it must have (a reroll), a must's roll. The part furthest behind first, a few steps a go, never under THE HANDS KEEP.
-- **One copy of each piece** (v0.9.84): the 8-Ball keeps the best copy of each piece a build on the list names, and nothing else. A worse copy it had locked is let go and scrapped when a better one arrives, unless the loot filter its runs use would keep that part for a reason of its own. (Let go and left lying, these were what the stash-full rule scrapped later, thousands in a night.) The parts of a build that leaves the list are let go and left where they are.
+- **Rolls are bought, for every build** (v0.9.84): no run goes looking for better rolls. MY BUILD's are raised where you wear them. For any other build on the list the hands buy what it asks of its own parts in the stash before a run: its lane, your top tier, the half-step and the quality if it asks for them, an affix it must have (a reroll), a must's roll. The part furthest behind first, a few steps a go, never under THE HANDS KEEP.
+- **One copy of each piece** (v0.9.84): the 8-Ball keeps its lock on the best copy of each piece a build on the list names, and on nothing else. A worse copy it had locked is let go when a better one is built: unlocked and left in the stash (v0.9.89; while parts dropped it was scrapped). The parts of a build that leaves the list are let go and left where they are.
 - **A place no build has flown** (v0.9.84): the 8-Ball's run starts 10 under the lowest threat your kit has lasted to anywhere else. (It started at 0: the START THREAT dial has no room at a place you have never been.) The first run there sets the mark the next ones go by.
 - **Armor first** (v0.9.77): before a run the 8-Ball buys the next armor up from the best you own, as soon as you have its price, and puts on the best armor you own. THE HANDS KEEP does not hold armor back (v0.9.79: it is 5,000 on a new truck, which kept a pig bare for hours), nor does a list step that is saving up. A step at a time: Bottlecap Poncho 180, Hubcap Vest 420, Tire-Rubber Plate 950, Fridge-Door Cuirass 2200.
 - **A map an order needs** (v0.9.80): when a step of an order drops at a map that is not open, opening it is the order's next job (the reputation, best threat or truck engine it takes), after any still or exotic the build lacks. It farmed "better rolls" before.
 - **Two orders, one set** (v0.9.80): a set piece that another order on the list wants on the lane it has now is not re-forged.
 - **After a death** the Shoggoth leaves 1.5 levels under where the pig died, there and with that build: for 2 runs, and for twice as many each time it dies there again (v0.9.79; up to 16), until an ordinary run comes home from as deep.
 - **The Shoggoth's settings** (your runs and the 8-Ball's): see Shoggoth Remote Control.
-- With a build to farm it buys that place's **targeted-loot pick** (60 favor with the place's faction) for the slot the build needs most, unless that's already today's featured slot there (PICKS). v0.9.38: the pick is for the build the run is for, and it buys none from a faction whose favor a goal on the list still has to pay (a build's exotic or set blueprints, an exotic goal's blueprint).
 - **THE WEEKLY GAUNTLET** (off at first): its first run each week is this week's Gauntlet, once you can enter it. A Gauntlet death doesn't count against it.
 
 ### Builds
-- **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball farms for that build (it's hired for free if it wasn't). Each run it goes where the next missing piece drops, in this order: a missing fuel's still blueprint (where it drops), 5 set pieces (at the set's home), lane parts below your top tier and the keystone (at the build's home), then the exotic upgrade's faction favor (at that faction's turf) and material (where it drops). With everything in, it farms the build's home for better rolls; a place that isn't open yet is skipped. Building stills stays yours: the ad's plan marks it YOU.
+- **Orders.** Press **ORDER IT** on a Showroom ad and the 8-Ball works for that build (it's hired for free if it wasn't). A run goes for the first thing the build lacks that a run can get: a missing fuel's still blueprint (where it is found), then the named materials its recipes still ask for, the scarcest first and each where it drops (the set's home for its pieces, the places of the keystone's theme for the keystone), then the exotic's faction favor (at that faction's turf) and material (where it drops). The hands build each piece the moment its materials are in. With everything a run can bring in, what is left is bought, and the runs go where the meat pays.
 - **Custom orders** (v0.8.8). **+ CUSTOM ORDER** on the Showroom tab starts a build of your own from the kit you wear; **CUSTOMIZE** on an ad starts one from that ad. Pick its set (or none) and how many pieces of it, 2 to 5 (v0.9.72: the list stopped at 4), keystone (or none), a lane for every slot, up to 3 affixes, up to 4 fuels (the first is the signature) and one exotic for any gun slot (its home map is its set's, or where you fight when it has none; v0.9.15), then **ORDER IT**: the 8-Ball farms, crafts and puts it on like any ad. **DELETE** throws it away with its orders. **ORDER THIS BUILD** on a saved loadout (Loadout tab) starts one from that loadout's parts and fuels (v0.9.18). Every list shows what each choice does, and the long ones filter as you type (v0.9.7); **WHAT YOUR PICKS DO** sums up the keystone, the set bonuses, the exotic and the mutations.
 - **What an order asks of a part** (v0.9.47). In the custom builder each of a build's affixes is **NICE TO HAVE** (it breaks ties, as before) or **A MUST**: a slot only counts as filled by a part that has every MUST. MUST ROLL asks for any roll, the top half or the top quarter of the affix's range; QUALITY asks for a floor of Tuned, Mutated or Malevolent; + PARTS asks for the half-step; TEMPER TO has the 8-Ball temper the build's parts up to a level; and any slot can have **its own MUSTs** in place of the build's. The plan gains a step, PARTS WITH THE ROLLS IT ASKS FOR, farmed at the build's home; the 8-Ball never crafts for a roll (a crafted part's affixes are luck), it farms. A part that has what its slot asks ranks above a better quality without it, below a higher tier. An ad from the Showroom asks for nothing until you CUSTOMIZE it.
-- **The 8-Ball's instructions** (v0.9.48). Besides goals it plans by itself, the list takes three you direct: **FARM A MAP** (runs there until you take it off, or for a number of runs), **A PART HUNT** (runs your deepest map until a number of kept parts match a rule from one of your loot filters) and **A KEYSTONE** by name. Every instruction on the 8-Ball's list has its own **START** (PLAN, HIGH, COMFORT or a threat), **TRUCK** call (SAME as the Shoggoth's, AUTO, WHEN HURT or a threat), **KIT** (a saved loadout worn for its runs; what you wore goes back on after) and **LOOT** filter, a **weight** (turns in a row when the list goes IN TURN) and an **ONLY WHEN** condition (Sprinkles or the stash under or over an amount, kit power a quarter above today's, or the instruction above it finished). RUNS sets the order of work (IN TURN or TOP FIRST), more stops (after so many minutes, when any instruction finishes, when a keystone, an exotic or a marked part comes home), the numbers for runs that go wrong (runs before a pause, minutes paused, deaths before the threat drops and how far), shows **the next five runs**, and saves the whole list as a **program** you can load back or copy and paste as text. **MAKE IT THE STANDING INSTRUCTION** in the add form sets what the 8-Ball does when the list is empty or every instruction waits.
-- **The 8-BALL tab** (v0.9.51; it was AUTOMATION) has three pages. **INSTRUCTIONS**: the lists and the hands. **ORDERS**: every build on order with its settings, what it still lacks, and the switches for what the 8-Ball crafts for orders. **LOOT FILTERS**: the filter editor, beside every filter and which source of loot uses it. On an instruction, **KIT: AUTO** wears the strongest kit you own and loads the fuels that do most to what grows fastest on the map (armor, shields or health), **FEAST** cooks a feast before each of its runs when you have what it takes, and **PICK** buys the targeted-loot pick where it fights. **ONLY WHEN** also takes a material under or over an amount.
+- **The 8-Ball's instructions** (v0.9.48). Besides goals it plans by itself, the list takes two you direct: **FARM A MAP** (runs there until you take it off, or for a number of runs) and **A KEYSTONE** by name (it flies for what the recipe lacks, the scarcest first, and builds it). A PART HUNT went in v0.9.89: nothing drops a part to hunt. Every instruction on the 8-Ball's list has its own **START** (PLAN, HIGH, COMFORT or a threat), **TRUCK** call (SAME as the Shoggoth's, AUTO, WHEN HURT or a threat), and **KIT** (a saved loadout worn for its runs; what you wore goes back on after), a **weight** (turns in a row when the list goes IN TURN) and an **ONLY WHEN** condition (Sprinkles or the stash under or over an amount, kit power a quarter above today's, or the instruction above it finished). RUNS sets the order of work (IN TURN or TOP FIRST), more stops (after so many minutes, when any instruction finishes), the numbers for runs that go wrong (runs before a pause, minutes paused, deaths before the threat drops and how far), shows **the next five runs**, and saves the whole list as a **program** you can load back or copy and paste as text. **MAKE IT THE STANDING INSTRUCTION** in the add form sets what the 8-Ball does when the list is empty or every instruction waits.
+- **The 8-BALL tab** (v0.9.51; it was AUTOMATION) has two pages (v0.9.89: LOOT FILTERS went with the loot filter). **INSTRUCTIONS**: the lists and the hands. **ORDERS**: every build on order with its settings, what it still lacks, and the switches for what the 8-Ball builds for them. On an instruction, **KIT: AUTO** wears the strongest kit you own and loads the fuels that do most to what grows fastest on the map (armor, shields or health), and **FEAST** cooks a feast before each of its runs when you have what it takes. **ONLY WHEN** also takes a material under or over an amount.
 - **The crew's one list** (v0.9.51). The cats share one list of goals. A goal says **ANY CAT WORKS IT**, or is **pinned** to one cat (press it to go round the crew): a pinned goal is worked by that cat only. Letting a cat go unpins what was its.
-- **An order for one part** (v0.9.47). ORDER A BETTER ONE OF THESE on a stash part orders that one slot: its lane at your top tier, with the affixes it has as wants. It wants loot for that slot only, and it is met by one part.
+- **An order for one part** (v0.9.47). ORDER A BETTER ONE OF THESE on a stash part orders that one slot: its lane at your top tier, with the affixes it has as wants. The hands build and raise that one part, and it is met by one part.
 - **STOPS WHEN MET or KEEPS IMPROVING** (v0.9.47, on the order's goal). A met order leaves the list, or stays and trades up. **LIMIT** is the order's budget in Sprinkles for the 8-Ball's crafting (none, 10,000, 50,000, 250,000 or 1,000,000); used up, the order only farms. The Workshop has a switch for each kind of work: craft set pieces, buy blueprints, craft lane parts, re-forge lanes, roll behaviors, craft the exotic, temper to the order's level.
 - **CRAFT WHAT I CAN** (v0.9.7), on an ad and on an order card in 8-BALL: one click crafts everything the build still lacks that you can make and afford now (set pieces and their blueprints, lane parts at your top tier, re-forges onto its lanes, the exotic upgrade, the mutations it seeks). It spends freely and locks what it makes.
 - **Mix and match sets** (v0.9.2). A custom build picks how many pieces of its set to wear (2, 3 or 4: each turns on one more bonus) and can add a **second set** with its own count, say 4 Grease Fire + 2 Glacier Works, or 2 + 2. Both counts together fit in the slots the keystone leaves (when they don't, the second set's count gives way first). The 8-Ball farms, crafts, re-forges and puts on pieces of both, never taking a slot from one set for the other.
 - **Behaviors to seek** (v0.9.2 as mutations; v0.9.24: one layer, one word). An order can seek up to 7 behaviors (v0.9.18: one a slot) (Anvil, Backfire, Chilling, Culling, Deadeye, Dregs, Fixated, Marked, Opportunist, Overkill, Pent-Up, Primed, Spreading, Steady Aim, Toxic, Volatile). One part of the build with each is all a kit uses (they don't stack). Every part has one behavior slot: Mutated and Malevolent parts roll one 30% of the time, and Refine > **BEHAVIOR** rolls or changes one on any part for Chemicals (v0.9.54: on an exotic too). The order's plan adds a step for each, PUT IT ON swaps in a part of the build that carries one, an order isn't done until they're worn, and with **CRAFT FOR THE ORDER** on, the 8-Ball rolls a part of the build one roll at a time until it has the one sought (v0.9.55: the keystone and the exotic first, since they are never traded up). Every ad seeks the behavior that helped its build most in the lab.
 - **Order loadouts** (v0.8.8). Every order keeps a saved loadout (v0.9.29: every order is yours), **ORDER: <NAME>** on the Loadout tab: the best kit you own for it right now (what the 8-Ball would put on), kept up to date as parts come in, are crafted or go. You can rename it. When the order is matched its loadout stays, as an ordinary one; cancel the order and its loadout goes too, unless you renamed it. Delete it while the order is on and that order keeps none. Like every saved loadout, its parts are never scrapped.
 - **The order list**: every build you order is yours and goes on the 8-Ball's list (cats wear no parts since v0.9.29). X on the goal takes it off and removes its saved loadout, as CANCEL ORDER in the Showroom does.
-- **Its loot and your kit** (v0.9.38). New salvage an order wants (its keystone, its exotic, its set's pieces and parts on its lanes, from one tier below your top) is **locked** on the way home, kept whatever your loot filter says, and kept in the order's saved loadout (Loadout tab). The 8-Ball puts parts on you for **one build only: the one marked WEAR** (on the build's goal, or WEAR IT in the Showroom); its best kit goes on before and after the 8-Ball's runs. With no build marked it **never touches your kit**. An order is **done when you own its whole kit**, worn or not: it leaves the list and its loadout stays for you to put on. (EQUIP BEST AFTER EACH RUN is gone: off, it still put new parts on.) **SCRAP WHAT NO ORDER WANTS** spares a part that beats what you wear in its slot on the lane you wear (a higher tier, or the same tier and a better quality).
+- **Its parts and your kit.** What the hands build for a build on the list is **locked** (the best copy of each piece). The 8-Ball dresses you for **one build only: MY BUILD** (above); with none marked it **never touches your kit**. A build that is not MY BUILD is **done when you own its whole kit**: it leaves the list and its parts stay in the stash.
 
 ### Workshop
-- **Crafting for the order** (CRAFT FOR THE ORDERS, off at first): Before and after each 8-Ball run it crafts what **the build that run is for** still lacks (v0.9.38; the first build on the list before, and still on a run for another kind of goal): set pieces up to the count the order asks for, 5 for an ad (buying a piece's blueprint with the set's faction's favor first), a lane part at your top tier for every slot below it (lanes whose blueprint you know), and the exotic upgrade (its blueprint with favor, then the craft). What it makes is locked. It makes at most 6 things a go, and with EQUIP BEST AFTER EACH RUN on puts them on.
+- **Building for its builds** (v0.9.89: always; CRAFT FOR THE ORDERS was a switch, off at first). Before and after each 8-Ball run the hands build what **the build that run is for** still lacks and can pay for (on a run for another kind of goal: MY BUILD, or the next build once it is finished): set pieces up to the count the build asks for (buying a piece's blueprint with the set's faction's favor first), a lane part for every slot, the keystone, the next tier of a part it owns (a tier a go), the exotic (its blueprint with favor, then the craft) and the mutations it names. What they make is locked. At most 6 things a go. On the ORDERS page a switch turns each kind of work off, and SPRINKLES LIMIT caps what the builds may spend.
 - **TEMPER WORN PARTS** (off at first): before each 8-Ball run it tempers the Malevolent T4 and T5 parts you wear, the least tempered first.
-- **NO ORDER WANTS** (v0.9.46: a ready-made loot filter, not a switch; the Workshop's LOOT FILTER line puts every source on it or back on MY FILTER). While an order is on the list, loot no order wants is scrapped on the way home, except an upgrade on the lane you wear (its first rules keep keystones, exotics and T5 parts). **SHOW THE n IN THE STASH** shows what it would take on the Loadout tab (NO ORDER WANTS), where SCRAP SHOWN takes them (v0.9.17; never parts that are worn, locked, on a cat, in a saved loadout, or exotics).
 - **The stash** has no limit, but past 500 parts the Smokehouse's lists slow down: you're warned when it goes over.
 
 ### One reserve
@@ -1251,8 +1250,8 @@ Every automation setting is on the **8-BALL** tab. Hands are still hired where t
 
 ### Infested runs
 Past threat **21** a run turns Infested:
-- (v0.9.88: no part drops, so nothing about salvage changes here; from threat 30 every named material drops in twos, from 40 in threes);
-- every level adds a **mutator** (below), and each one raises salvage quality and elite Chemicals. A run that starts past threat 21 gets one for every level it skipped. There are five, so the same mutator lands again, **three times at the most** (v0.9.88: when every one has landed three times, at threat 36, no more land; before there was no limit, and Armored Season's fourth landing made armor at an Armor place 190 times itself by threat 40). Elite Pack adds each time (3 times, then 5, 7: v0.9.84, it multiplied before), the others multiply (two Heat Waves: the gun cools at 49% of its speed; two Swarms: 2.25 times the mutants at 49% of the health);
+- from threat 30 every named material drops in twos, from 40 in threes (v0.9.88; while parts dropped, their quality rose here);
+- every level adds a **mutator** (below), and each one raises elite Chemicals. A run that starts past threat 21 gets one for every level it skipped. There are five, so the same mutator lands again, **three times at the most** (v0.9.88: when every one has landed three times, at threat 36, no more land; before there was no limit, and Armored Season's fourth landing made armor at an Armor place 190 times itself by threat 40). Elite Pack adds each time (3 times, then 5, 7: v0.9.84, it multiplied before), the others multiply (two Heat Waves: the gun cools at 49% of its speed; two Swarms: 2.25 times the mutants at 49% of the health);
 - elites past threat 15 drop Chemicals, more with every mutator.
 
 | Mutator | What it does |
@@ -1269,7 +1268,7 @@ Past threat **21** a run turns Infested:
 
 ### Chemicals from elites, favor from sets
 - **Elite Chemicals** (v0.9.26; Mutagen before): elites past threat 15 (12%) drop 10 Chemicals, scrapping a Mutated part gives 10 and a Malevolent 50 (Veined cats bring Chemicals too). Behaviors and tempers cost Chemicals.
-- **Set favor** (v0.9.26; Blueprint Shards before): breaking down a set piece pays favor with the set's faction (its home map's), Siamese and Blue cats pay the parked faction. Set blueprints cost 30 favor with the set's faction; a destination's featured-slot pick 60 with its faction.
+- **Set favor** (v0.9.26; Blueprint Shards before): breaking down a set piece pays favor with the set's faction (its home map's), Siamese and Blue cats pay the parked faction. Set blueprints cost 30 favor with the set's faction.
 
 ### Where to push
 - Compare destinations by their growth: the Rust Flats piles on armor, the Glow Crater shields, the Sewer Delta health. Bring fuels and parts that answer the pool that grows fastest there.
@@ -1283,7 +1282,7 @@ v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping
 - **Esc > NEW TRUCK**, offered from best threat 20 (and not during a run). The sheet lists exactly what goes and what stays, with counts, and the Berries it pays; you type SELL to confirm. There's no undo (the slot's backup is the save before).
 - **The first truck comes early** (v0.9.29). Your first new truck is offered from best threat 15, with a smaller purse while you're below 20: 1 Berry per 2 levels past 5 at your best map (5 at 15, 7 at 19) and nothing from the other maps, so the first reset is a decision an hour or two in and the Emporium's first lines get tried. From best threat 20 the first truck pays the full price like any other.
 - **It pays** 1 Berry a threat level past 10 at your best map, 1 per 2 levels past 10 at every other map, and this week's Gauntlet score's levels past 20. A 26 / 18 / 14 career pays 22. The same career pays the same every time: the Emporium's rising prices are the brake.
-- **What stays:** your recipes, the lane blueprints you've learned, your still blueprints (the stills themselves are rebuilt), the first 5 saved loadouts **as custom orders** (their lanes, set, keystone, affixes, behaviors and fuels; no parts cross: a new truck starts from an empty stash), your custom orders, the cats (their names and coats), every setting (the loot filter, THE HANDS KEEP, the idle modes, the Shoggoth's truck setting, the every-run feast, the High-Five Machine's coats; the 8-Ball's settings come back when it's hired again), the journal, the milestones, the Gauntlet board and the tabs you had open.
+- **What stays:** your recipes, the lane blueprints you've learned, your still blueprints (the stills themselves are rebuilt), the first 5 saved loadouts **as custom orders** (their lanes, set, keystone, affixes, behaviors and fuels; no parts cross: a new truck starts from an empty stash), your custom orders, the cats (their names and coats), every setting (THE HANDS KEEP, the idle modes, the Shoggoth's truck setting, the every-run feast, the High-Five Machine's coats; the 8-Ball's settings come back when it's hired again), the journal, the milestones, the Gauntlet board and the tabs you had open.
 - **What goes:** every part, Sprinkles, favor, reputation, best threat and map unlocks, set and exotic blueprints, the buildings and plots, the stills, the meat, the goal lists, and the 8-Ball, the chef and the Overseer (hired again, free).
 
 ### The Needless Complexity Emporium
@@ -1298,7 +1297,7 @@ v0.9.21. A **New Truck** sells the truck and starts the Smokehouse over, keeping
 
 ## The Showroom (tested builds)
 
-The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's 36 finished builds, two for every set, all tested under the same balance (v0.9.41: rebuilt from scratch as five set pieces, a keystone and an exotic). It stocks 10 at a time, 2 of each style, with **new stock after every run**: it shows every ad of a style before it shows one again, so a new game and five runs show all of them; an ad on order stays listed until the order is done, and the guide below has them all. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then farms for it: where to fight and which targeted-loot pick to buy; with an order already in hand, **ADD TO THE LIST**), **FOR:** (you or a cat on the crew, v0.8.2), **PUT IT ON** (equips the best you have for it) and **LOOT FILTER FOR THIS BUILD** (keeps the build's lanes). **CUSTOMIZE** (v0.8.8) starts a custom order from the ad, and **+ CUSTOM ORDER** one from the kit you wear: your own build, ordered like an ad.
+The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the builds are real: the balance lab's 36 finished builds, two for every set, all tested under the same balance (v0.9.41: rebuilt from scratch as five set pieces, a keystone and an exotic). It stocks 10 at a time, 2 of each style, with **new stock after every run**: it shows every ad of a style before it shows one again, so a new game and five runs show all of them; an ad on order stays listed until the order is done, and the guide below has them all. In the game each ad also checks its parts list against your stash, links to the set blueprints and the fuel's exotics, and has **ORDER NOW!**: the Magic 8-Ball's plan for the build, what you wear of it, **ORDER IT** (the 8-Ball then works for it: it flies for the materials the build lacks and builds its pieces; with an order already in hand, **ADD TO THE LIST**), **MY BUILD** (marks it as the one build that is yours), **EQUIP BEST: THIS BUILD** (puts on the best you have for it) and **CRAFT WHAT I CAN** (builds what you can pay for now). **CUSTOMIZE** (v0.8.8) starts a custom order from the ad, and **+ CUSTOM ORDER** one from the kit you wear: your own build, ordered like an ad.
 
 **Reading an ad** (v0.9.41: rebuilt from scratch). A finished build is **5 pieces of one set, one keystone and one exotic**: a lane for every slot (the set pieces sit on the build's lanes), a keystone (the Miser builds borrow one), the exotic in the slot the ad names, its fuels (the first is the signature) and three affixes worth hunting on every part. **Lab** is the threat a robot pig held at the build's home map, starting at threat 16, with every part Malevolent and near-perfect rolls (2 seeds), at T4 and at T5. **The exotic** line says what the build's exotic does and what the lab measured it adding, against the same build with a plain part in that slot.
 
@@ -1482,7 +1481,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 ### Whole Hog Ferment
 **Brawler** (up close and in the crowd, Whole Hog). "Aged in the tank until it eats plating." Every kill drops its materials and every boss pays twice. It fights for the haul. This one runs Swamp Napalm and is built around the Swamp-King Altar.
 
-- Whole Hog set, five pieces: Every kill drops its materials; Elites and bosses drop their hoard twice (not the meat); NOSE TO TAIL: a run that gets out brings one more crate for every boss killed, at a better quality.
+- Whole Hog set, five pieces: Every kill drops its materials; Elites and bosses drop their hoard twice (not the meat); NOSE TO TAIL: a run that gets out brings one more of the place's trophy for every boss killed.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Chilling, Opportunist, Culling and Hellmouth do nothing (burn duration still counts: a longer burn lands more). A kill still sets off Toxic, Volatile and Overkill.
 - Swamp-King Altar, the exotic (chassis): FERMENT. Napalm ferments in the tank into acid: it bites shields and armor at x1.3.
 - Swamp Napalm sticks, spreads and burns the longest. With it, Rendered Lard. Home: the The Flesh Farms.
@@ -1505,7 +1504,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 ### Whole Hog Cracked Open
 **Brawler** (up close and in the crowd, Whole Hog). "One plate goes and the rest follow." Every kill drops its materials and every boss pays twice. It fights for the haul. This one runs Thermite Slurry and is built around the Crucible Sieve.
 
-- Whole Hog set, five pieces: Every kill drops its materials; Elites and bosses drop their hoard twice (not the meat); NOSE TO TAIL: a run that gets out brings one more crate for every boss killed, at a better quality.
+- Whole Hog set, five pieces: Every kill drops its materials; Elites and bosses drop their hoard twice (not the meat); NOSE TO TAIL: a run that gets out brings one more of the place's trophy for every boss killed.
 - Flashpoint keystone (igniter): A stack's whole burn lands the instant it is applied, at 1.4 times its total, and at 2.8 times that on anything close (the six nearest mutants, or within 220 px). Nothing lingers: Spreading, Chilling, Opportunist, Culling and Hellmouth do nothing (burn duration still counts: a longer burn lands more). A kill still sets off Toxic, Volatile and Overkill.
 - Crucible Sieve, the exotic (filter): CRACKED OPEN. Armor Thermite breaks stuns everything within 160 px for 2 s, and that mutant is cracked open for good: it takes 200% more from everything, after every other bonus. A boss is cracked open as soon as Thermite has its armor under 50%. The break jumps: the weakest armor within reach breaks the same way, up to 4 in a row (a boss's armor loses 15% instead, and stops it).
 - Thermite Slurry runs hot and eats armor. With it, Rendered Lard. Home: the The Flesh Farms.
@@ -2179,7 +2178,7 @@ The Smokehouse's **SHOWROOM** tab sells flamethrowers. The ads are jokes; the bu
 - Every version keeps its own saves, so updating never breaks your game. **IMPORT** brings the newest older version's save into a slot (that save itself isn't changed); the main menu also offers it while the slot in use has no progress.
 - The game saves after every change, keeping the save before as a backup. Settings has the volume, the **MUSIC** level (v0.9.18: the ambient score, two long loops: the wastes in the Smokehouse and the menu, the burn in a run, cross-fading between them; 0 turns it off), the window size, fullscreen, fire effects, an FPS counter, VSync and a frame limit.
 - **The small HUD** (v0.9.22): **[H]** in a run folds the stat window to icons and bars (the hearts, the shields, each tank's fuel icon and bar with the active one bright, the heat bar) and back to the full panel with its numbers and words; the choice is remembered.
-- **The damage meter** (v0.9.71): under the loot readout in a run. One bar a damage channel, the biggest on top, the top five and the rest as OTHER; each channel keeps its colour. A bar is that channel's share of the whole fight; the number beside it and the figure at the top are damage a second over the last 5 s. The thin white line in a bar is that channel's share of what bosses took. **[N]** flips between all damage and what bosses took, **[V]** between channels and fuels, **[M]** hides it and shows it, and the game remembers. The result screen shows two meters, the whole run and what bosses took, with the total and the run's average damage a second; the career log keeps each run's meter.
+- **The damage meter** (v0.9.71): under the materials readout in a run. One bar a damage channel, the biggest on top, the top five and the rest as OTHER; each channel keeps its colour. A bar is that channel's share of the whole fight; the number beside it and the figure at the top are damage a second over the last 5 s. The thin white line in a bar is that channel's share of what bosses took. **[N]** flips between all damage and what bosses took, **[V]** between channels and fuels, **[M]** hides it and shows it, and the game remembers. The result screen shows two meters, the whole run and what bosses took, with the total and the run's average damage a second; the career log keeps each run's meter.
 - **Sounds and the score** (v0.9.18): starting the truck is an engine start (the key, the starter labouring, two coughs, the catch, the idle), and the score is synthesized from the game's own generator (tools/audio/make_audio.py), so it can be regenerated. The chef cat in the truck's serving window bobs, turns and pads back and forth behind the counter during a run.
 
 ### The BALANCE menu
