@@ -1,4 +1,4 @@
-# Malevolent Meat Master v0.9.96: the wiki
+# Malevolent Meat Master v0.9.97: the wiki
 
 Everything in the game, from the game's own data (written by the build you can download, so the numbers match it). The same pages are in the game: press **F1**, or **GUIDE** in the Smokehouse or the Esc menu. [Download the game](https://github.com/LichIndex/MMM-Malevolent-Meat-Master#readme).
 
@@ -1248,6 +1248,8 @@ Every automation setting is on the **8-BALL** tab. Hands are still hired where t
 
 ### One reserve
 - **THE HANDS KEEP** ◆0, ◆1,000, ◆5,000 (the default), ◆25,000, ◆100,000 or ◆500,000 of your Energy Sprinkles (v0.9.24: an amount; it was a share of your cash, which made every hand's budget a fraction of a moving number): the 8-Ball (crafting, blueprints, the truck engine, tempering), the Overseer and the chef's contracts (v0.9.16) never spend into it. A step that saves up for a cost saves the cost plus this.
+- **The hands spend before the Overseer** (v0.9.97). A run's meat is paid for when it is banked. The Overseer buys every four seconds down to THE HANDS KEEP, and used to get to that money first: the 8-Ball's hands, at work every five seconds, found nothing over the floor and flew another run for Sprinkles. When a run is banked the hands take their turn first (MY BUILD's next step, if what is over the floor pays for it), then the Overseer starts its four seconds. THE HANDS KEEP is a floor both of them leave alone, not money set aside for the hands: a step dearer than one run brings over the floor still waits until the Overseer has nothing left it wants.
+- **The Overseer and the stills** (v0.9.97). While MY BUILD is not finished the Overseer spends only on the stills of the fuels it burns (levels, tanks, attachments, and building one); the other fuels' stills wait, and it goes back to all of them when the build is finished or when no build is yours. It fits a Drip Feeder into a still's empty **fuel regen** slots itself (the first two slots) and raises it. The two **tuning** slots are yours to choose; it raises what you fitted there and never fits one.
 
 ### The crew, the kitchen and the yard
 - **CREW FARMS TOO** (CREW): the 8-Ball sends every idle, rested cat out by itself: each goes where its own list says, at the highest threat they're safe at, for the trip length you pick (15 minutes to 8 hours). Cats are only sent while the game runs.
